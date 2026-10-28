@@ -1,0 +1,89 @@
+{
+ "repo": "/repositories/5",
+ "resource": "/repositories/5/resources/704",
+ "series": {
+  "S1": "/repositories/5/archival_objects/33018",
+  "S2": "/repositories/5/archival_objects/33019",
+  "S3": "/repositories/5/archival_objects/33020",
+  "S4": "/repositories/5/archival_objects/33021"
+ },
+ "files": [
+  {
+   "ao": "/repositories/5/archival_objects/33022",
+   "do": "/repositories/5/digital_objects/3",
+   "images": 4
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33023",
+   "do": "/repositories/5/digital_objects/4",
+   "images": 4
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33024",
+   "do": "/repositories/5/digital_objects/5",
+   "images": 4
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33025",
+   "do": null,
+   "images": 0
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33026",
+   "do": "/repositories/5/digital_objects/6",
+   "images": 4
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33027",
+   "do": "/repositories/5/digital_objects/7",
+   "images": 4
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33028",
+   "do": "/repositories/5/digital_objects/8",
+   "images": 4
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33029",
+   "do": null,
+   "images": 0
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33030",
+   "do": null,
+   "images": 0
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33031",
+   "do": null,
+   "images": 0
+  },
+  {
+   "ao": "/repositories/5/archival_objects/33032",
+   "do": null,
+   "images": 0
+  }
+ ],
+ "timing": {
+  "1": {
+   "ao": "/repositories/5/archival_objects/33033",
+   "do": "/repositories/5/digital_objects/9"
+  },
+  "10": {
+   "ao": "/repositories/5/archival_objects/33034",
+   "do": "/repositories/5/digital_objects/10"
+  },
+  "50": {
+   "ao": "/repositories/5/archival_objects/33035",
+   "do": "/repositories/5/digital_objects/11"
+  },
+  "100": {
+   "ao": "/repositories/5/archival_objects/33036",
+   "do": "/repositories/5/digital_objects/12"
+  },
+  "200": {
+   "ao": "/repositories/5/archival_objects/33037",
+   "do": "/repositories/5/digital_objects/13"
+  }
+ }
+}

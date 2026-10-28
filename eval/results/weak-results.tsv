@@ -1,0 +1,37 @@
+setting	query	category	relevant	retrieved	tp	recall	precision	false_hits	missed
+default	写	single	7	6	6	0.857	1.0		W0005
+default	図	single	5	4	4	0.8	1.0		W0010
+default	橋	single	4	4	4	1.0	1.0		
+default	寺	single	4	4	4	1.0	1.0		
+default	駅	single	5	4	4	0.8	1.0		W0023
+default	港	single	4	4	4	1.0	1.0		
+default	北海道	scatter3	2	4	2	1.0	0.5	W0030 W0031	
+default	東京都	scatter3	2	4	2	1.0	0.5	W0034 W0035	
+default	日本史	scatter3	2	4	2	1.0	0.5	W0038 W0039	
+default	中学校	scatter3	2	4	2	1.0	0.5	W0042 W0043	
+default	大学院	scatter3	2	4	2	1.0	0.5	W0046 W0047	
+default	京都大学	scatter3	2	4	2	1.0	0.5	W0050 W0051	
+itaiji	写	single	7	7	7	1.0	1.0		
+itaiji	図	single	5	5	5	1.0	1.0		
+itaiji	橋	single	4	4	4	1.0	1.0		
+itaiji	寺	single	4	4	4	1.0	1.0		
+itaiji	駅	single	5	5	5	1.0	1.0		
+itaiji	港	single	4	4	4	1.0	1.0		
+itaiji	北海道	scatter3	2	4	2	1.0	0.5	W0030 W0031	
+itaiji	東京都	scatter3	2	4	2	1.0	0.5	W0034 W0035	
+itaiji	日本史	scatter3	2	4	2	1.0	0.5	W0038 W0039	
+itaiji	中学校	scatter3	2	4	2	1.0	0.5	W0042 W0043	
+itaiji	大学院	scatter3	2	4	2	1.0	0.5	W0046 W0047	
+itaiji	京都大学	scatter3	2	4	2	1.0	0.5	W0050 W0051	
+bigram	写	single	7	1	1	0.143	1.0		W0001 W0002 W0003 W0005 W0012 W0019
+bigram	図	single	5	1	1	0.2	1.0		W0006 W0007 W0008 W0010
+bigram	橋	single	4	1	1	0.25	1.0		W0011 W0012 W0013
+bigram	寺	single	4	1	1	0.25	1.0		W0015 W0016 W0017
+bigram	駅	single	5	1	1	0.2	1.0		W0019 W0020 W0021 W0023
+bigram	港	single	4	1	1	0.25	1.0		W0024 W0025 W0026
+bigram	北海道	scatter3	2	4	2	1.0	0.5	W0030 W0031	
+bigram	東京都	scatter3	2	4	2	1.0	0.5	W0034 W0035	
+bigram	日本史	scatter3	2	4	2	1.0	0.5	W0038 W0039	
+bigram	中学校	scatter3	2	4	2	1.0	0.5	W0042 W0043	
+bigram	大学院	scatter3	2	4	2	1.0	0.5	W0046 W0047	
+bigram	京都大学	scatter3	2	4	2	1.0	0.5	W0050 W0051	

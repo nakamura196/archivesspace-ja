@@ -1,0 +1,103 @@
+query	category	relevant	retrieved	tp	recall	precision	ms	false_hits	missed
+写真	itaiji-new	7	7	7	1.0	1.0	243.4		
+寫眞	itaiji-old	7	7	7	1.0	1.0	675.4		
+学会	itaiji-new	7	7	7	1.0	1.0	52.3		
+學會	itaiji-old	7	7	7	1.0	1.0	58.6		
+旧蔵	itaiji-new	7	7	7	1.0	1.0	64.6		
+舊藏	itaiji-old	7	7	7	1.0	1.0	59.4		
+会議	itaiji-new	6	6	6	1.0	1.0	54.8		
+會議	itaiji-old	6	6	6	1.0	1.0	49.9		
+図書	itaiji-new	6	6	6	1.0	1.0	53.6		
+圖書	itaiji-old	6	6	6	1.0	1.0	62.7		
+台湾	itaiji-new	7	7	7	1.0	1.0	60.3		
+臺灣	itaiji-old	7	7	7	1.0	1.0	65.1		
+鉄道	itaiji-new	6	6	6	1.0	1.0	64.5		
+鐵道	itaiji-old	6	6	6	1.0	1.0	65.2		
+横浜	itaiji-new	7	7	7	1.0	1.0	56.9		
+橫濱	itaiji-old	7	7	7	1.0	1.0	71.6		
+広島	itaiji-new	6	6	6	1.0	1.0	60.0		
+廣島	itaiji-old	6	6	6	1.0	1.0	64.7		
+沢田	itaiji-new	6	6	6	1.0	1.0	61.6		
+澤田	itaiji-old	6	6	6	1.0	1.0	64.0		
+国語	itaiji-new	6	6	6	1.0	1.0	56.5		
+國語	itaiji-old	6	6	6	1.0	1.0	63.3		
+戦争	itaiji-new	7	7	7	1.0	1.0	61.1		
+戰爭	itaiji-old	7	7	7	1.0	1.0	58.1		
+来訪	itaiji-new	6	6	6	1.0	1.0	73.4		
+來訪	itaiji-old	6	6	6	1.0	1.0	75.5		
+号外	itaiji-new	6	6	6	1.0	1.0	93.8		
+號外	itaiji-old	6	6	6	1.0	1.0	76.7		
+区役所	itaiji-new	6	6	6	1.0	1.0	71.5		
+區役所	itaiji-old	6	6	6	1.0	1.0	66.1		
+県庁	itaiji-new	7	7	7	1.0	1.0	70.2		
+縣廳	itaiji-old	7	7	7	1.0	1.0	79.1		
+気象	itaiji-new	6	6	6	1.0	1.0	71.9		
+氣象	itaiji-old	6	6	6	1.0	1.0	74.3		
+発電所	itaiji-new	6	6	6	1.0	1.0	65.6		
+發電所	itaiji-old	6	6	6	1.0	1.0	59.1		
+芸術	itaiji-new	6	6	6	1.0	1.0	68.6		
+藝術	itaiji-old	6	6	6	1.0	1.0	85.5		
+体育	itaiji-new	6	6	6	1.0	1.0	113.0		
+體育	itaiji-old	6	6	6	1.0	1.0	64.0		
+医学	itaiji-new	7	7	7	1.0	1.0	47.5		
+醫學	itaiji-old	7	7	7	1.0	1.0	47.0		
+薬品	itaiji-new	6	6	6	1.0	1.0	144.7		
+藥品	itaiji-old	6	6	6	1.0	1.0	60.3		
+桜井	itaiji-new	6	6	6	1.0	1.0	51.2		
+櫻井	itaiji-old	6	6	6	1.0	1.0	59.2		
+竜宮	itaiji-new	6	6	6	1.0	1.0	61.3		
+龍宮	itaiji-old	6	6	6	1.0	1.0	49.7		
+亀山	itaiji-new	6	6	6	1.0	1.0	46.7		
+龜山	itaiji-old	6	6	6	1.0	1.0	52.4		
+恵比寿	itaiji-new	7	7	7	1.0	1.0	56.0		
+惠比壽	itaiji-old	7	7	7	1.0	1.0	56.6		
+絵画	itaiji-new	7	7	7	1.0	1.0	68.9		
+繪畫	itaiji-old	7	7	7	1.0	1.0	80.0		
+楽団	itaiji-new	7	7	7	1.0	1.0	79.4		
+樂團	itaiji-old	7	7	7	1.0	1.0	62.6		
+書状	itaiji-new	6	6	6	1.0	1.0	60.4		
+書狀	itaiji-old	6	6	6	1.0	1.0	64.3		
+神社	itaiji-new	7	7	7	1.0	1.0	55.1		
+神社	itaiji-old	7	7	7	1.0	1.0	51.2		
+ガラス	katakana	5	2	2	0.4	1.0	49.1		E0193 E0194 E0195
+カード	katakana	5	2	2	0.4	1.0	46.4		E0198 E0199 E0200
+フィルム	katakana	5	2	2	0.4	1.0	51.6		E0203 E0204 E0205
+スクラップ	katakana	5	2	2	0.4	1.0	57.4		E0208 E0209 E0210
+レコード	katakana	5	2	2	0.4	1.0	47.9		E0213 E0214 E0215
+カメラ	katakana	5	2	2	0.4	1.0	46.8		E0218 E0219 E0220
+ドラマ	katakana	5	2	2	0.4	1.0	48.1		E0223 E0224 E0225
+ニュース	katakana	5	2	2	0.4	1.0	63.0		E0228 E0229 E0230
+パンフ	katakana	5	2	2	0.4	1.0	46.1		E0233 E0234 E0235
+ポスター	katakana	5	2	2	0.4	1.0	42.7		E0238 E0239 E0240
+田中	order	3	6	3	1.0	0.5	56.7	E0246 E0247 E0248	
+中田	order	3	6	3	1.0	0.5	62.5	E0243 E0244 E0245	
+山下	order	3	6	3	1.0	0.5	59.8	E0252 E0253 E0254	
+下山	order	3	6	3	1.0	0.5	44.7	E0249 E0250 E0251	
+山本	order	3	6	3	1.0	0.5	58.2	E0258 E0259 E0260	
+本山	order	3	6	3	1.0	0.5	51.0	E0255 E0256 E0257	
+上野	order	3	6	3	1.0	0.5	51.5	E0264 E0265 E0266	
+野上	order	3	6	3	1.0	0.5	47.8	E0261 E0262 E0263	
+会社	order	3	6	3	1.0	0.5	47.0	E0270 E0271 E0272	
+社会	order	3	6	3	1.0	0.5	44.1	E0267 E0268 E0269	
+日本	order	3	6	3	1.0	0.5	53.7	E0276 E0277 E0278	
+本日	order	3	6	3	1.0	0.5	55.4	E0273 E0274 E0275	
+中山	order	3	6	3	1.0	0.5	66.3	E0282 E0283 E0284	
+山中	order	3	6	3	1.0	0.5	68.9	E0279 E0280 E0281	
+川上	order	3	6	3	1.0	0.5	43.0	E0288 E0289 E0290	
+上川	order	3	6	3	1.0	0.5	44.6	E0285 E0286 E0287	
+科学	order	3	6	3	1.0	0.5	60.8	E0294 E0295 E0296	
+学科	order	3	6	3	1.0	0.5	62.7	E0291 E0292 E0293	
+市長	order	3	6	3	1.0	0.5	65.9	E0300 E0301 E0302	
+長市	order	3	6	3	1.0	0.5	59.8	E0297 E0298 E0299	
+東京	scatter	2	4	2	1.0	0.5	87.7	E0311 E0312	
+京都	scatter	2	4	2	1.0	0.5	59.1	E0313 E0314	
+大阪	scatter	2	4	2	1.0	0.5	48.3	E0315 E0316	
+北海道	scatter	2	4	2	1.0	0.5	51.2	E0317 E0318	
+書簡	control	3	3	3	1.0	1.0	47.3		
+日記	control	3	3	3	1.0	1.0	45.7		
+名簿	control	3	3	3	1.0	1.0	45.5		
+地図	control	3	3	3	1.0	1.0	49.5		
+新聞	control	3	3	3	1.0	1.0	47.9		
+手紙	control	3	3	3	1.0	1.0	59.7		
+葉書	control	3	3	3	1.0	1.0	48.4		
+大学	control	3	3	3	1.0	1.0	46.5		

@@ -1,0 +1,3 @@
+setting	core	docs	sent	seconds	index_bytes
+default	eval_full_default	102532	102532	22.8	131589187
+bigram	eval_full_bigram	102532	102532	31.4	134820421

@@ -1,0 +1,13 @@
+query	category	n_relevant
+写	single	7
+図	single	5
+橋	single	4
+寺	single	4
+駅	single	5
+港	single	4
+北海道	scatter3	2
+東京都	scatter3	2
+日本史	scatter3	2
+中学校	scatter3	2
+大学院	scatter3	2
+京都大学	scatter3	2

@@ -1,0 +1,103 @@
+query	category	relevant	retrieved	tp	recall	precision	ms	false_hits	missed
+写真	itaiji-new	7	7	7	1.0	1.0	29.1		
+寫眞	itaiji-old	7	7	7	1.0	1.0	12.6		
+学会	itaiji-new	7	7	7	1.0	1.0	11.2		
+學會	itaiji-old	7	7	7	1.0	1.0	12.1		
+旧蔵	itaiji-new	7	7	7	1.0	1.0	11.0		
+舊藏	itaiji-old	7	7	7	1.0	1.0	9.1		
+会議	itaiji-new	6	6	6	1.0	1.0	10.0		
+會議	itaiji-old	6	6	6	1.0	1.0	13.3		
+図書	itaiji-new	6	6	6	1.0	1.0	11.2		
+圖書	itaiji-old	6	6	6	1.0	1.0	10.0		
+台湾	itaiji-new	7	7	7	1.0	1.0	10.8		
+臺灣	itaiji-old	7	7	7	1.0	1.0	11.6		
+鉄道	itaiji-new	6	6	6	1.0	1.0	12.8		
+鐵道	itaiji-old	6	6	6	1.0	1.0	11.2		
+横浜	itaiji-new	7	7	7	1.0	1.0	9.5		
+橫濱	itaiji-old	7	7	7	1.0	1.0	9.5		
+広島	itaiji-new	6	6	6	1.0	1.0	9.5		
+廣島	itaiji-old	6	6	6	1.0	1.0	10.4		
+沢田	itaiji-new	6	6	6	1.0	1.0	11.7		
+澤田	itaiji-old	6	6	6	1.0	1.0	8.6		
+国語	itaiji-new	6	6	6	1.0	1.0	11.0		
+國語	itaiji-old	6	6	6	1.0	1.0	9.8		
+戦争	itaiji-new	7	7	7	1.0	1.0	9.9		
+戰爭	itaiji-old	7	7	7	1.0	1.0	9.0		
+来訪	itaiji-new	6	6	6	1.0	1.0	9.7		
+來訪	itaiji-old	6	6	6	1.0	1.0	9.1		
+号外	itaiji-new	6	6	6	1.0	1.0	7.7		
+號外	itaiji-old	6	6	6	1.0	1.0	9.5		
+区役所	itaiji-new	6	6	6	1.0	1.0	10.0		
+區役所	itaiji-old	6	6	6	1.0	1.0	8.9		
+県庁	itaiji-new	7	7	7	1.0	1.0	8.6		
+縣廳	itaiji-old	7	7	7	1.0	1.0	7.9		
+気象	itaiji-new	6	6	6	1.0	1.0	9.0		
+氣象	itaiji-old	6	6	6	1.0	1.0	8.2		
+発電所	itaiji-new	6	6	6	1.0	1.0	8.6		
+發電所	itaiji-old	6	6	6	1.0	1.0	8.0		
+芸術	itaiji-new	6	6	6	1.0	1.0	7.9		
+藝術	itaiji-old	6	6	6	1.0	1.0	7.5		
+体育	itaiji-new	6	6	6	1.0	1.0	8.9		
+體育	itaiji-old	6	6	6	1.0	1.0	8.1		
+医学	itaiji-new	7	7	7	1.0	1.0	9.7		
+醫學	itaiji-old	7	7	7	1.0	1.0	7.8		
+薬品	itaiji-new	6	6	6	1.0	1.0	9.0		
+藥品	itaiji-old	6	6	6	1.0	1.0	8.9		
+桜井	itaiji-new	6	6	6	1.0	1.0	8.8		
+櫻井	itaiji-old	6	6	6	1.0	1.0	8.8		
+竜宮	itaiji-new	6	6	6	1.0	1.0	9.6		
+龍宮	itaiji-old	6	6	6	1.0	1.0	7.7		
+亀山	itaiji-new	6	6	6	1.0	1.0	7.5		
+龜山	itaiji-old	6	6	6	1.0	1.0	7.8		
+恵比寿	itaiji-new	7	7	7	1.0	1.0	8.1		
+惠比壽	itaiji-old	7	7	7	1.0	1.0	7.7		
+絵画	itaiji-new	7	7	7	1.0	1.0	8.1		
+繪畫	itaiji-old	7	7	7	1.0	1.0	9.4		
+楽団	itaiji-new	7	7	7	1.0	1.0	7.6		
+樂團	itaiji-old	7	7	7	1.0	1.0	7.2		
+書状	itaiji-new	6	6	6	1.0	1.0	9.4		
+書狀	itaiji-old	6	6	6	1.0	1.0	10.5		
+神社	itaiji-new	7	7	7	1.0	1.0	10.5		
+神社	itaiji-old	7	7	7	1.0	1.0	10.0		
+ガラス	katakana	5	2	2	0.4	1.0	9.5		E0193 E0194 E0195
+カード	katakana	5	2	2	0.4	1.0	8.8		E0198 E0199 E0200
+フィルム	katakana	5	2	2	0.4	1.0	8.8		E0203 E0204 E0205
+スクラップ	katakana	5	2	2	0.4	1.0	8.4		E0208 E0209 E0210
+レコード	katakana	5	2	2	0.4	1.0	9.8		E0213 E0214 E0215
+カメラ	katakana	5	2	2	0.4	1.0	10.3		E0218 E0219 E0220
+ドラマ	katakana	5	2	2	0.4	1.0	8.5		E0223 E0224 E0225
+ニュース	katakana	5	2	2	0.4	1.0	9.3		E0228 E0229 E0230
+パンフ	katakana	5	2	2	0.4	1.0	9.6		E0233 E0234 E0235
+ポスター	katakana	5	2	2	0.4	1.0	9.2		E0238 E0239 E0240
+田中	order	3	6	3	1.0	0.5	11.2	E0246 E0247 E0248	
+中田	order	3	6	3	1.0	0.5	11.8	E0243 E0244 E0245	
+山下	order	3	6	3	1.0	0.5	9.0	E0252 E0253 E0254	
+下山	order	3	6	3	1.0	0.5	8.8	E0249 E0250 E0251	
+山本	order	3	6	3	1.0	0.5	8.5	E0258 E0259 E0260	
+本山	order	3	6	3	1.0	0.5	7.8	E0255 E0256 E0257	
+上野	order	3	6	3	1.0	0.5	8.9	E0264 E0265 E0266	
+野上	order	3	6	3	1.0	0.5	7.2	E0261 E0262 E0263	
+会社	order	3	6	3	1.0	0.5	10.2	E0270 E0271 E0272	
+社会	order	3	6	3	1.0	0.5	9.1	E0267 E0268 E0269	
+日本	order	3	6	3	1.0	0.5	8.3	E0276 E0277 E0278	
+本日	order	3	6	3	1.0	0.5	9.7	E0273 E0274 E0275	
+中山	order	3	6	3	1.0	0.5	8.3	E0282 E0283 E0284	
+山中	order	3	6	3	1.0	0.5	9.1	E0279 E0280 E0281	
+川上	order	3	6	3	1.0	0.5	7.7	E0288 E0289 E0290	
+上川	order	3	6	3	1.0	0.5	8.2	E0285 E0286 E0287	
+科学	order	3	6	3	1.0	0.5	8.0	E0294 E0295 E0296	
+学科	order	3	6	3	1.0	0.5	8.1	E0291 E0292 E0293	
+市長	order	3	6	3	1.0	0.5	7.6	E0300 E0301 E0302	
+長市	order	3	6	3	1.0	0.5	8.2	E0297 E0298 E0299	
+東京	scatter	2	4	2	1.0	0.5	7.7	E0311 E0312	
+京都	scatter	2	4	2	1.0	0.5	9.1	E0313 E0314	
+大阪	scatter	2	4	2	1.0	0.5	8.1	E0315 E0316	
+北海道	scatter	2	4	2	1.0	0.5	9.1	E0317 E0318	
+書簡	control	3	3	3	1.0	1.0	9.5		
+日記	control	3	3	3	1.0	1.0	7.9		
+名簿	control	3	3	3	1.0	1.0	7.8		
+地図	control	3	3	3	1.0	1.0	8.5		
+新聞	control	3	3	3	1.0	1.0	8.5		
+手紙	control	3	3	3	1.0	1.0	8.2		
+葉書	control	3	3	3	1.0	1.0	8.8		
+大学	control	3	3	3	1.0	1.0	8.2		

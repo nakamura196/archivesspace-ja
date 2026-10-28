@@ -25,6 +25,7 @@ No changes to the ArchivesSpace core code are needed.
 | `scripts/solr-itaiji.zsh` | 旧字体の同義語を Solr に入れる |
 | `scripts/solr-bigram.zsh` | Solr を文字バイグラムの設定に替える |
 | `scripts/make_itaiji_mapping.py` | 対応表から文字バイグラム用の置き換え表を作る |
+| `eval/` | 論文の評価の道具と結果（`eval/README.md`） |
 | `translation-ja/` | 同梱の日本語訳の点検結果と、それを作る道具（修正案は AI の下訳を人が確かめたもの） |
 | `config/config.rb.example` | `config.rb` に足す行の例 |
 

@@ -1,0 +1,25 @@
+kind	path	status	schema_errors	canvases	size_mismatch	items
+manifest	/repositories/5/resources/704/manifest.json	200	0	0	0	
+collection	/repositories/5/resources/704/collection.json	200	0	0	0	Collection:/repositories/5/archival_objects/33018/collection.json Collection:/repositories/5/archival_objects/33019/collection.json Collection:/repositories/5/archival_objects/33021/collection.json
+collection	/repositories/5/archival_objects/33018/collection.json	200	0	0	0	Manifest:/repositories/5/archival_objects/33022/manifest.json Manifest:/repositories/5/archival_objects/33023/manifest.json Manifest:/repositories/5/archival_objects/33024/manifest.json
+collection	/repositories/5/archival_objects/33019/collection.json	200	0	0	0	Manifest:/repositories/5/archival_objects/33026/manifest.json Manifest:/repositories/5/archival_objects/33027/manifest.json Manifest:/repositories/5/archival_objects/33028/manifest.json
+collection	/repositories/5/archival_objects/33020/collection.json	200	0	0	0	
+collection	/repositories/5/archival_objects/33021/collection.json	200	0	0	0	Manifest:/repositories/5/archival_objects/33033/manifest.json Manifest:/repositories/5/archival_objects/33034/manifest.json Manifest:/repositories/5/archival_objects/33035/manifest.json Manifest:/repositories/5/archival_objects/33036/manifest.json Manifest:/repositories/5/archival_objects/33037/manifest.json
+manifest	/repositories/5/archival_objects/33022/manifest.json	200	0	4	0	
+manifest	/repositories/5/digital_objects/3/manifest.json	200	0	4	0	
+manifest	/repositories/5/archival_objects/33023/manifest.json	200	0	4	0	
+manifest	/repositories/5/digital_objects/4/manifest.json	200	0	4	0	
+manifest	/repositories/5/archival_objects/33024/manifest.json	200	0	4	0	
+manifest	/repositories/5/digital_objects/5/manifest.json	200	0	4	0	
+manifest	/repositories/5/archival_objects/33026/manifest.json	200	0	4	0	
+manifest	/repositories/5/digital_objects/6/manifest.json	200	0	4	0	
+manifest	/repositories/5/archival_objects/33027/manifest.json	200	0	4	0	
+manifest	/repositories/5/digital_objects/7/manifest.json	200	0	4	0	
+manifest	/repositories/5/archival_objects/33028/manifest.json	200	0	4	0	
+manifest	/repositories/5/digital_objects/8/manifest.json	200	0	4	0	
+manifest	/repositories/5/digital_objects/9/manifest.json	200	0	1	0	
+manifest	/repositories/5/digital_objects/10/manifest.json	200	0	10	0	
+manifest	/repositories/5/digital_objects/11/manifest.json	200	0	50	0	
+manifest	/repositories/5/digital_objects/12/manifest.json	200	0	100	0	
+manifest	/repositories/5/digital_objects/13/manifest.json	200	0	200	0	
+discovery	/iiif/discovery/activity/all-changes	200	0	26		totalItems=26

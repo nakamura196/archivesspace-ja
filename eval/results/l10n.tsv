@@ -1,0 +1,5 @@
+state	screen	keys	missing	placeholder	fixes	fixes_applied	high	high_applied
+before	frontend	8125	319	22	2157	0	209	0
+after	frontend	8125	12	0	2157	2156	209	209
+before	public	6107	173	4	1797	2	185	0
+after	public	6107	2	0	1797	1797	185	185
