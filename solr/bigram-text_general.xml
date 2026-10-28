@@ -1,5 +1,5 @@
     <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
-      <!-- 旧字を今の字に置き換え（索引・検索の両方）、全角半角をそろえ、漢字・かなを 2 字ずつに切る（論文 5.3 節の設定） -->
+      <!-- 旧字を今の字に置き換え（索引・検索の両方）、全角半角をそろえ、漢字・かなを 2 字ずつに切る。索引には 1 字単位も入れ、1 字の検索語も見つかるようにする（論文の設定 (d)） -->
       <analyzer type="index">
         <charFilter class="solr.HTMLStripCharFilterFactory" />
         <charFilter class="solr.MappingCharFilterFactory" mapping="itaiji-mapping.txt" />
@@ -8,7 +8,7 @@
         <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
         <filter class="solr.LowerCaseFilterFactory" />
         <filter class="solr.ASCIIFoldingFilterFactory" />
-        <filter class="solr.CJKBigramFilterFactory" />
+        <filter class="solr.CJKBigramFilterFactory" outputUnigrams="true" />
       </analyzer>
       <analyzer type="query">
         <charFilter class="solr.MappingCharFilterFactory" mapping="itaiji-mapping.txt" />

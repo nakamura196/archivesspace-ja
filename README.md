@@ -58,7 +58,7 @@ zsh <このリポジトリ>/scripts/solr-bigram.zsh setup
 
 そのあと、公式の手順（https://docs.archivesspace.org/administration/indexes/ ）で全件の索引を作り直す。
 ArchivesSpace を止め、`data/indexer_state/` と `data/indexer_pui_state/` を消し、Solr の文書をすべて消してから、再起動する。
-1 字だけの検索語は見つかりにくくなる。
+索引には 1 字単位も入れるので、1 字の検索語も見つかる。索引の大きさは約 1.3 倍になる（論文の測定）。
 
 ## ライセンス
 
