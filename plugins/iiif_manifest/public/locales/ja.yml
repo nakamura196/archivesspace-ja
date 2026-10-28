@@ -1,0 +1,8 @@
+ja:
+  iiif_manifest:
+    identifier: 識別子
+    dates: 年代
+    collection: 資料群
+    repository: 所蔵機関
+    heading: 画像
+    manifest_link: IIIF マニフェスト

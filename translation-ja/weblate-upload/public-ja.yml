@@ -1,0 +1,29 @@
+---
+ja:
+  accession:
+    _plural: 未整理資料
+    _public:
+      related_accessions:
+        accessions: 関連する未整理資料
+  actions:
+    hierarch: コレクションの編成
+    staff_link: スタッフ専用
+  cont_arr: コレクションの編成
+  inherit:
+    fonds: フォンド
+  pdf_reports:
+    finding_aid_date_prefix: この目録は ArchivesSpace を使用して作成されました。作成日：
+    finding_aid_written_in: 目録の記述言語：
+    your_finding_aid_is_attached: ご依頼の目録を添付します。
+  related_accessions: 関連する未整理資料
+  resource:
+    _public:
+      finding_aid:
+        head: 検索手段と管理情報
+      physdesc: 形態的記述
+  search_results:
+    highlighting:
+      finding_aid_title: 検索手段のタイトル
+    notes_contain: "<strong>ノート</strong>に <span class='searchterm'>%{kw}</span> を含む"
+    subjects_text_contain: "<strong>件名</strong>に <span class='searchterm'>%{kw}</span> を含む"
+  contains: "%{count} 件の%{type}を含む"

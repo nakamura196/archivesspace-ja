@@ -1,0 +1,18 @@
+<%
+  title = t("japanese.search_title", default: "Search").dup
+  if params.has_key?(:q) and not params[:q].blank?
+    title = t("japanese.search_title_for", q: params[:q], default: "Search for \"%{q}\"").dup
+  end
+
+  if params.has_key?(:type) and not params[:type].blank?
+    if params[:type].kind_of? String
+      title << t("japanese.search_in", types: t("#{params[:type]}._plural"), default: " in %{types}")
+    else # an array
+      title << t("japanese.search_in", types: params[:type].map{|ty| t("#{ty}._plural")}.join(","), default: " in %{types}")
+    end
+  end
+%>
+
+<%= setup_context :title => title %>
+
+<%= render_aspace_partial :partial => "results" %>

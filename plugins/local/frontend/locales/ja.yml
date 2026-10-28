@@ -1,0 +1,20 @@
+# v4.2.1 の同梱の ja.yml に無い項目を補う（英語の en.yml にある項目）。
+ja:
+  navbar:
+    global_settings: 全体の設定
+    repository_settings: リポジトリの設定
+  footer:
+    keyboard_shortcuts: キーボードショートカット
+    public_interface_html: <a href="%{public_url}">閲覧者向け画面</a>を開く
+    archivesspace_home_html: <a href='http://archivesspace.org'>ArchivesSpace.org</a>
+    feedback_html: <a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>ご意見・不具合の報告</a>
+  login:
+    username_placeholder: ユーザー名
+    password_placeholder: パスワード
+    username_aria_label: ユーザー名
+    password_aria_label: パスワード
+  resource:
+    new_title: 新しい資料群
+  plugins:
+    lcnaf:
+      label: LCNAF から取り込む

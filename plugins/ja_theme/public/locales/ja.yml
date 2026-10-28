@@ -1,0 +1,14 @@
+ja:
+  ja_theme:
+    search:
+      more: 詳しい条件
+    welcome:
+      heading: 入口から探す
+      desc:
+        repository: 所蔵機関ごとに、持っている資料を見る
+        resource: 目録を、全体から細目へ階層でたどる
+        digital_object: 画像などのデジタル化された資料だけを見る
+        accession: 受け入れたが、まだ整理していない資料を見る
+        subject: 主題や地名から探す
+        pui_agent: 作成者や関係する人物・団体から探す
+        classification: 分類の体系から資料群をたどる

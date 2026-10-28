@@ -1,0 +1,607 @@
+file	key	en	current_ja	proposed_ja	category	severity	reason
+frontend/config/locales/ja.yml	actions.continue	Continue	持続する	続行	不自然	中	「持続する」は Continue の意味（続行）に合わない。
+frontend/config/locales/ja.yml	actions.date_picker	Open Date Picker	オープン日付ピッカー	日付ピッカーを開く	不自然	低	Open を形容詞的に訳している。
+frontend/config/locales/ja.yml	actions.duplicate_resource	Duplicate Resource	重複したリソース	リソースを複製	誤訳	中	動詞の Duplicate を「重複した」と訳している。
+frontend/config/locales/ja.yml	actions.duplicate_resource_confirm_message	A job is going to be created to duplicate this resource with all its archival objects. This may take a while according to the amount of records.	このリソースとそのすべてのアーカイブ オブジェクトを複製するジョブが作成されます。 レコードの量によっては時間がかかる場合があります。	このリソースとそのすべてのアーカイバルオブジェクトを複製するジョブが作成されます。 レコードの量によっては時間がかかる場合があります。	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	actions.export	Export	輸出する	エクスポート	誤訳	中	データ書き出しの Export を「輸出」と訳している。
+frontend/config/locales/ja.yml	actions.view	View	ビュー	表示	不自然	低	ボタン名としては動詞の「表示」が自然。
+frontend/config/locales/ja.yml	actions.spawn	Spawn	スポーン	派生レコードを作成	不自然	低	「スポーン」は意味が通じない（受入からリソース等を生成する機能）。
+frontend/config/locales/ja.yml	actions.more	More	もっと	その他	不自然	低	メニュー名として「もっと」は不自然。
+frontend/config/locales/ja.yml	actions.merge_container_profile_confirm_message	The container profile '%{merge_destination}' will have the selected records merged into it. All selected records will be deleted and any linked records will be re-linked to this resource.	The container profile '%{merge_destination}' will have the selected records merged into it. All selected records will be deleted and any linked records will be re-linked to this resource.	コンテナプロファイル '%{merge_destination}' に、選択したレコードがマージされます。選択したレコードはすべて削除され、リンクされたレコードはすべてこのレコードに再リンクされます。	未訳	中	英語のまま。
+frontend/config/locales/ja.yml	actions.batch_merge	Select the record into which all of the other listed record(s) will merge. Any linked records will be re-linked to this record and all information for the other record(s) will be deleted.	Select the record into which all of the other listed record(s) will merge. Any linked records will be re-linked to this record and all information for the other record(s) will be deleted.	ほかのレコードをマージする先のレコードを選択してください。リンクされたレコードはこのレコードに再リンクされ、ほかのレコードの情報はすべて削除されます。	未訳	中	英語のまま。
+frontend/config/locales/ja.yml	actions.merge_n_records	Merge %{n} records	Merge %{n} records	%{n} 件のレコードをマージ	未訳	中	英語のまま。
+frontend/config/locales/ja.yml	actions.move_up_a_level	Up a Level	レベルアップ	1つ上の階層へ	誤訳	中	「レベルアップ」は階層を上がる操作の意味にならない。
+frontend/config/locales/ja.yml	actions.move_up	Up	アップ	上へ	不自然	低	「アップ」はカタカナ語で不自然。
+frontend/config/locales/ja.yml	actions.move_down	Down	ダウン	下へ	不自然	低	「ダウン」はカタカナ語で不自然。
+frontend/config/locales/ja.yml	actions.move_down_into	Down Into...	ダウンして...	下の階層へ...	不自然	中	「ダウンして...」は意味が通じない。
+frontend/config/locales/ja.yml	actions.new_prefix	New	新しい	新規	不自然	低	接頭のラベルとして「新規」が自然。
+frontend/config/locales/ja.yml	actions.save_prefix	Save	セーブ	保存	不自然	中	ゲーム用語的な「セーブ」。他の箇所は「保存」。
+frontend/config/locales/ja.yml	actions.suppress	Suppress	抑止	非表示にする	不統一	中	Suppress の訳語を「非表示」に統一。
+frontend/config/locales/ja.yml	actions.suppress_confirm_title	Suppress this Record?	このレコードを抑止しますか？	このレコードを非表示にしますか？	不統一	中	Suppress の訳語を「非表示」に統一。
+frontend/config/locales/ja.yml	actions.suppress_confirm_message	While a suppressed record will remain in the database, it will become hidden to most users and unavailable to most functions.	抑制されたレコードはデータベースに残っていますが、ほとんどのユーザーには表示されなくなり、ほとんどの機能では使用できなくなります。	非表示にしたレコードはデータベースに残りますが、ほとんどのユーザーには見えなくなり、ほとんどの機能で使用できなくなります。	不統一	低	「抑制」を「非表示」に統一し、文末も整える。
+frontend/config/locales/ja.yml	actions.transfer_failed_barcodes_in_use	The following top containers use barcodes that are used in the target repository, and cannot be transferred until those conflicts are fixed	次の上位のコンテナは、ターゲットリポジトリで使用されているバーコードを使用しており、これらの競合が修正されるまで転送できません。	次の最上位コンテナは、ターゲットリポジトリで使用されているバーコードを使用しており、これらの競合が修正されるまで転送できません。	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	actions.unsuppress	Unsuppress	抑止力	非表示を解除	誤訳	高	「抑止力」は意味が逆・別物（非表示の解除）。
+frontend/config/locales/ja.yml	actions.unsuppress_confirm_title	Unsuppress this Record?	この記録を抑止しますか？	このレコードの非表示を解除しますか？	誤訳	高	解除の確認なのに「抑止しますか」と逆の操作を尋ねている。
+frontend/config/locales/ja.yml	actions.unsuppress_confirm_message	false	偽	非表示を解除すると、このレコードは再びユーザーに表示され、各機能で使用できるようになります。	誤訳	中	英語原文が値 false のままで「偽」と直訳され確認文として意味をなさない（英語側も要修正）。
+frontend/config/locales/ja.yml	actions.move_ordering_problem_message	Record Move Ordering Issue	レコード移動発注の問題	レコード移動時の並び順の問題	誤訳	中	ordering を「発注」と訳している。
+frontend/config/locales/ja.yml	actions.edit_multiple_confirm_title	Edit Records?	レコードを編集する？	レコードを編集しますか？	不自然	低	確認ダイアログの文体が不自然。
+frontend/config/locales/ja.yml	actions.merge	Merge	行きます	マージ	誤訳	高	Merge が「行きます」になっている。
+frontend/config/locales/ja.yml	actions.view_published	View Published	ビューの公開	公開画面で表示	誤訳	中	「ビューの公開」は公開操作と誤解させる。
+frontend/config/locales/ja.yml	actions.download_report	Download Report	ダウンロードレポート	レポートをダウンロード	不自然	低	語順が不自然。
+frontend/config/locales/ja.yml	actions.reorder_active	Disable Reorder Mode	リオーダーモードを無効にする	並べ替えモードを無効にする	不統一	低	enable_reorder は「並べ替え」。
+frontend/config/locales/ja.yml	export_options.include_unpublished	Include unpublished	未発表を含める	非公開のものを含める	不自然	中	unpublished は出版物ではなく「非公開」。
+frontend/config/locales/ja.yml	pagination.summary_prefix	Showing	見せる	表示中	不自然	中	「見せる」は件数表示の文脈に合わない。
+frontend/config/locales/ja.yml	search_results.title	Search Results	の検索結果	検索結果	不自然	中	先頭に余計な「の」が付いている。
+frontend/config/locales/ja.yml	search_results.context	Found in	見つかった	収録先	不自然	低	「見つかった」は列見出しとして不自然。
+frontend/config/locales/ja.yml	search_results.selected	Selected?	選択しましたか？	選択	不自然	低	列見出しが疑問文になっている。
+frontend/config/locales/ja.yml	search_results.result_identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+frontend/config/locales/ja.yml	search_results.filtered_by	Filtered By	フィルタリングされた	絞り込み条件	不自然	低	見出しとして不自然。
+frontend/config/locales/ja.yml	search_results.created	Created by	によって作成された	作成者	不自然	中	「によって作成された」は見出しとして不自然。
+frontend/config/locales/ja.yml	search_results.actions	Actions	行動	操作	誤訳	中	Actions（操作）を「行動」と訳している。
+frontend/config/locales/ja.yml	search_sorting.and	and:	そして：	次に：	不自然	低	第2ソートキーの接続語として「そして」は不自然。
+frontend/config/locales/ja.yml	search_sorting.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search_sorting.select	Select	Seleccione	選択	未訳	中	スペイン語（Seleccione）が残っている。
+frontend/config/locales/ja.yml	search.accession.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.accession.identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+frontend/config/locales/ja.yml	search.accession.acquisition_type	Acquisition Type	獲得タイプ	受入方法	不自然	低	「獲得タイプ」は不自然。
+frontend/config/locales/ja.yml	search.accession.accession_date	Accession Date	受付日	受入日	不統一	低	Accession は「受入」に統一。
+frontend/config/locales/ja.yml	search.accession.creators	Creator	クリエイター	作成者	不自然	低	Creator は記録の「作成者」。
+frontend/config/locales/ja.yml	search.accession.accession_date_year	Accession Date	受付日	受入日	不統一	低	Accession は「受入」に統一。
+frontend/config/locales/ja.yml	search.accession.extents	Extent	エクステント	数量	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	search.accession.processors	Processors	プロセッサー	整理担当者	誤訳	中	資料を整理する人であり CPU 等の意味ではない。
+frontend/config/locales/ja.yml	search.accession.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.accession.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.accession.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.resource.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.resource.identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+frontend/config/locales/ja.yml	search.resource.langcode	Language of Materials	材料の言語	資料の言語	誤訳	中	Materials は「資料」。
+frontend/config/locales/ja.yml	search.resource.finding_aid_status	Finding Aid Status	援助の状況を見つける	検索手段のステータス	誤訳	高	Finding Aid（目録）を「援助を見つける」と直訳している。
+frontend/config/locales/ja.yml	search.resource.extents	Extent	エクステント	数量	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	search.resource.processors	Processors	プロセッサー	整理担当者	誤訳	中	資料を整理する人であり CPU 等の意味ではない。
+frontend/config/locales/ja.yml	search.resource.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.resource.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.resource.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.archival_object.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.archival_object.context	Parent Resource	見つかった	親リソース	誤訳	中	Parent Resource が「見つかった」になっている。
+frontend/config/locales/ja.yml	search.archival_object.identifier	Component ID	識別	コンポーネントID	誤訳	中	Component ID が「識別」になっている。
+frontend/config/locales/ja.yml	search.archival_object.langcode	Language of Materials	材料の言語	資料の言語	誤訳	中	Materials は「資料」。
+frontend/config/locales/ja.yml	search.archival_object.extents	Extent	エクステント	数量	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	search.archival_object.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.archival_object.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.archival_object.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.subject.first_term_type	Term Type (First)	期間型（First)	用語タイプ（先頭）	誤訳	高	Term（用語）を「期間」と訳している。
+frontend/config/locales/ja.yml	search.subject.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.subject.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.subject.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.subject.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.digital_object.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.digital_object.langcode	Language of Materials	材料の言語	資料の言語	誤訳	中	Materials は「資料」。
+frontend/config/locales/ja.yml	search.digital_object.extents	Extent	エクステント	数量	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	search.digital_object.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.digital_object.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.digital_object.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.digital_object_component.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.digital_object_component.context	Found in	見つかった	収録先	不自然	低	「見つかった」は列見出しとして不自然。
+frontend/config/locales/ja.yml	search.digital_object_component.langcode	Language of Materials	材料の言語	資料の言語	誤訳	中	Materials は「資料」。
+frontend/config/locales/ja.yml	search.digital_object_component.extents	Extent	エクステント	数量	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	search.digital_object_component.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.digital_object_component.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.digital_object_component.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.agent.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.agent.is_user	Is User?	Is User?	ユーザーか	未訳	中	英語のまま。
+frontend/config/locales/ja.yml	search.agent.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.agent.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.agent.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.location.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.location.floor	Floor	床	階	誤訳	中	建物の Floor は「階」であって「床」ではない。
+frontend/config/locales/ja.yml	search.location.room	Room	ルーム	部屋	不自然	低	「ルーム」はカタカナ語で不自然。
+frontend/config/locales/ja.yml	search.location.location_holdings	Holdings for Current Repository	ホールディングス	現在のリポジトリでの所蔵	不自然	低	「ホールディングス」は意味が通じにくい。
+frontend/config/locales/ja.yml	search.location.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.location.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.location.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.event.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.event.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.event.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.collection_management.processing_status	Processing Status	状態	整理状況	不自然	低	Processing Status が単に「状態」になっている。
+frontend/config/locales/ja.yml	search.collection_management.processors	Processors	プロセッサー	整理担当者	誤訳	中	資料を整理する人であり CPU 等の意味ではない。
+frontend/config/locales/ja.yml	search.collection_management.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.collection_management.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.collection_management.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.classification.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.classification.identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+frontend/config/locales/ja.yml	search.classification.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.classification.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.classification.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.assessment.assessment_sensitive_material	Sensitive Material	センシティブマテリアル	取扱注意資料	不自然	低	カタカナ直訳で分かりにくい。
+frontend/config/locales/ja.yml	search.assessment.assessment_collections	Collection	リソース/アクセス権	コレクション	誤訳	中	Collection が「リソース/アクセス権」になっている。
+frontend/config/locales/ja.yml	search.assessment.assessment_completed	Assessment Completed	完了しました	評価完了	不自然	低	列見出しが「完了しました」になっている。
+frontend/config/locales/ja.yml	search.assessment.assessment_formats	Formats	材料の種類/フォーマット	形式	誤訳	低	Formats を「材料の種類/フォーマット」としている。
+frontend/config/locales/ja.yml	search.assessment.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.assessment.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.assessment.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.repositories.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.repositories.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.repositories.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.repositories.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.top_container.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.top_container.indicator	Indicator	インジケータ	番号	不自然	低	コンテナの Indicator は番号の意味。
+frontend/config/locales/ja.yml	search.top_container.context	Resource/Accession	リソース/アクセス権	リソース/受入	誤訳	高	Accession を「アクセス権」と訳している。
+frontend/config/locales/ja.yml	search.top_container.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.top_container.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.top_container.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.container_profile.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.container_profile.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.container_profile.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.container_profile.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.location_profile.publish	Published	発行済み	公開済み	不統一	中	Publish は「公開」に統一（発行は誤解を招く）。
+frontend/config/locales/ja.yml	search.location_profile.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.location_profile.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.location_profile.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.job.time_started	Time Started	時間の開始	開始日時	誤訳	中	「時間の開始」は意味が通らない。
+frontend/config/locales/ja.yml	search.job.time_finished	Time Completed	完了した時間	完了日時	不自然	低	列見出しとして不自然。
+frontend/config/locales/ja.yml	search.job.time_submitted	Time Submitted	提出された時間	送信日時	不自然	低	列見出しとして不自然。
+frontend/config/locales/ja.yml	search.job.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.job.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.job.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	search.multi.creators	Creator	クリエイター	作成者	不自然	低	Creator は記録の「作成者」。
+frontend/config/locales/ja.yml	search.multi.context	Found in	見つかった	収録先	不自然	低	「見つかった」は列見出しとして不自然。
+frontend/config/locales/ja.yml	search.multi.identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+frontend/config/locales/ja.yml	search.multi.user_mtime	Modified	更新しました	更新日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.multi.create_time	Created	作成した	作成日時	不自然	中	列見出しが動詞の過去形になっている。
+frontend/config/locales/ja.yml	search.multi.extents	Extent	エクステント	数量	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	search.multi.langcode	Language of Materials	材料の言語	資料の言語	誤訳	中	Materials は「資料」。
+frontend/config/locales/ja.yml	search.multi.asc	Ascending	上昇	昇順	誤訳	中	Ascending（並び順）は「昇順」。
+frontend/config/locales/ja.yml	advanced_search.operator.operator	Operator	オペレーター	演算子	不自然	低	検索の Operator は「演算子」。
+frontend/config/locales/ja.yml	advanced_search.date_operator.comparator	Comparator	コンパレータ	比較条件	不自然	低	「コンパレータ」は分かりにくい。
+frontend/config/locales/ja.yml	advanced_search.date_operator.empty	unassigned	割り当てられていない	未設定	不自然	低	unassigned は「未設定」が自然。
+frontend/config/locales/ja.yml	advanced_search.boolean_field.true_value	True	真	はい	不自然	中	真偽値を「真」と表示するのは不自然。
+frontend/config/locales/ja.yml	advanced_search.boolean_field.false_value	False	偽	いいえ	不自然	中	真偽値を「偽」と表示するのは不自然。
+frontend/config/locales/ja.yml	advanced_search.button_text	Search	サーチ	検索	不自然	中	「サーチ」は他の箇所の「検索」と不統一。
+frontend/config/locales/ja.yml	advanced_search.nav_switcher.show	Show Advanced	高度な表示	詳細検索を表示	不自然	中	「高度な表示」は意味が通らない。
+frontend/config/locales/ja.yml	advanced_search.nav_switcher.hide	Hide Advanced	上級者を隠す	詳細検索を隠す	誤訳	中	Advanced を「上級者」と訳している。
+frontend/config/locales/ja.yml	advanced_search.text_operator.comparator	Comparator	コンパレータ	比較条件	不自然	低	「コンパレータ」は分かりにくい。
+frontend/config/locales/ja.yml	advanced_search.enum_field.empty	unassigned	割り当てられていない	未設定	不自然	低	unassigned は「未設定」が自然。
+frontend/config/locales/ja.yml	advanced_search.search_date	Date	日にち	日付	不自然	低	「日にち」は口語的。
+frontend/config/locales/ja.yml	navbar.brand	ArchivesSpace	アーカイブススペース	ArchivesSpace	不自然	低	製品名はカタカナにしない（他の箇所は ArchivesSpace）。
+frontend/config/locales/ja.yml	navbar.import_marcxml_subjects_and_agents	MARCXML (Subjects and Agents only)	MARCXML（被験者とエージェントのみ）	MARCXML（件名とエージェントのみ）	誤訳	高	Subjects を「被験者」と訳している。
+frontend/config/locales/ja.yml	navbar.import_accession_csv	Accession CSV	加盟CSV	受入CSV	誤訳	高	Accession を「加盟」と訳している。
+frontend/config/locales/ja.yml	navbar.manage_top_containers	Manage Top Containers	トップコンテナを管理する	最上位コンテナを管理する	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	navbar.view_top_containers	View Top Containers	トップコンテナを表示する	最上位コンテナを表示する	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	navbar.top_containers_for	Top Containers for %{record_title}	%{record_title}のトップコンテナ	%{record_title}の最上位コンテナ	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	navbar.no_top_containers	No linked top containers	リンクされたトップコンテナがありません	リンクされた最上位コンテナがありません	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	navbar.edit_top_container	Edit Top Container	トップコンテナを編集する	最上位コンテナを編集する	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	navbar.view_top_container	View Top Container	トップコンテナ	最上位コンテナを表示	不自然	低	View の訳が抜けている。
+frontend/config/locales/ja.yml	navbar.manage_enumerations	Manage Controlled Value Lists	管理された値リストの管理	統制値リストの管理	不自然	低	「管理された値リストの管理」は重複して不自然。
+frontend/config/locales/ja.yml	navbar.repo_preferences	Default Repository Preferences	リポジトリの設定	リポジトリの既定設定	誤訳	低	Default が訳されておず、user_repo_preferences と区別しにくい。
+frontend/config/locales/ja.yml	navbar.register_prefix	Need an account?	アカウントが必要です？	アカウントをお持ちでない方は	不自然	低	「アカウントが必要です？」は不自然。
+frontend/config/locales/ja.yml	navbar.system_info	System Information	システムインフォメーション	システム情報	不自然	低	カタカナ語より「システム情報」が自然。
+frontend/config/locales/ja.yml	navbar.unpublished	Unpublished	未発表	非公開	不自然	中	Unpublished は出版物ではなく「非公開」。
+frontend/config/locales/ja.yml	navbar.manage_assessment_attributes	Manage Assessment Attributes	アセスメント属性の管理	評価属性の管理	不統一	低	Assessment は他で「評価」。
+frontend/config/locales/ja.yml	navbar.toggle_navigation	Toggle Navigation	Toggle Navigation	ナビゲーションの切り替え	未訳	低	英語のまま。
+frontend/config/locales/ja.yml	header.staff_interface	ArchivesSpace Staff Interface	ArchivesSpace Staff Interface	ArchivesSpace スタッフ用画面	未訳	中	英語のまま。
+frontend/config/locales/ja.yml	session.inline_login_title	Session Expired	セッションの有効期限が切れ	セッションの有効期限が切れました	不自然	低	文が途中で切れている。
+frontend/config/locales/ja.yml	batch_delete.subjects.success	Subjects deleted	削除された科目	件名を削除しました	誤訳	中	Subjects を「科目」と訳している。
+frontend/config/locales/ja.yml	login.login_expired_link	Please <a href ='%{link}'>sign in again</a>.	サインインしてください。	もう一度<a href ='%{link}'>サインイン</a>してください。	プレースホルダ	中	%{link} とリンクが欠落し再サインインへのリンクが表示されない。
+frontend/config/locales/ja.yml	save_changes_modal.body	You have some outstanding changes. Please save or dismiss these changes to continue.	あなたには顕著な変化があります。続行するには、これらの変更を保存または却下してください。	保存されていない変更があります。続行するには、変更を保存するか破棄してください。	誤訳	高	outstanding changes を「顕著な変化」と誤訳している。
+frontend/config/locales/ja.yml	save_changes_modal.dismiss	Dismiss Changes	変更を閉じる	変更を破棄	誤訳	中	Dismiss Changes は変更の破棄であり「閉じる」ではない。
+frontend/config/locales/ja.yml	linker.link	Link	リンク先	リンク	不自然	低	ボタン名として「リンク先」は不自然。
+frontend/config/locales/ja.yml	mixed_content.help	Mixed Content Enabled&#160;&#160;--&#160;&#160;Type '<' for elements or highlight text to wrap	混在コンテンツを有効にする - 要素を'<'と入力するか、折り返すテキストをハイライト表示します	混在コンテンツ有効 -- 要素は「<」を入力するか、囲むテキストを選択してください	誤訳	低	「有効にする」と操作のように訳している。
+frontend/config/locales/ja.yml	import.marcxml_title	Import a MARCXML file	MARCXMLファイルにインポートする	MARCXMLファイルをインポートする	誤訳	低	「ファイルに」インポートでは方向が逆。
+frontend/config/locales/ja.yml	import.marcxml_subjects_and_agents_title	Import Subjects and Agents from a MARCXML file	MARCXMLファイルからサブジェクトとエージェントをインポートする	MARCXMLファイルから件名とエージェントをインポートする	不統一	低	Subject は「件名」に統一。
+frontend/config/locales/ja.yml	import.accession_csv_title	Import Accession Records from a CSV File	CSVファイルからアクセッションレコードをインポートする	CSVファイルから受入レコードをインポートする	不統一	中	Accession は「受入」に統一。
+frontend/config/locales/ja.yml	import.import_report	Import Report	レポートのインポート	インポートレポート	誤訳	中	「レポートのインポート」は別の操作の意味になる。
+frontend/config/locales/ja.yml	default_values.form_title.accession	Accession Record Defaults	アクセッションレコードのデフォルト	受入レコードのデフォルト	不統一	中	Accession は「受入」に統一。
+frontend/config/locales/ja.yml	default_values.messages.defaults_updated	Defaults Updated	更新されたデフォルト	デフォルトを更新しました	不自然	低	通知文として不自然。
+frontend/config/locales/ja.yml	required_fields.form_title.agent_person	Agent Record Required Fields (Person)	エージェントレコードの必須フィールド（Person）	エージェントレコードの必須フィールド（人物）	未訳	低	Person が英語のまま。
+frontend/config/locales/ja.yml	required_fields.messages.required_fields_updated	Required Fields Updated	更新された必須フィールド	必須フィールドを更新しました	不自然	低	通知文として不自然。
+frontend/config/locales/ja.yml	tree.drag_and_drop_actions.as_child	Add Items as Children	子供としてアイテムを追加する	子として項目を追加	不自然	低	「子供」は階層の子要素として不自然。
+frontend/config/locales/ja.yml	errors.error_404	Record Not Found	記録が見当たりませんでした	レコードが見つかりません	不自然	低	Record の訳語を「レコード」に統一。
+frontend/config/locales/ja.yml	errors.merge_too_many_merge_candidates	Only one agent may be selected for this merge.	詳細なマージのために選択できるエージェントは1つだけです.	このマージで選択できるエージェントは1つだけです。	誤訳	低	原文にない「詳細な」が入っている。
+frontend/config/locales/ja.yml	errors.merge_different_types	Agents selected for this merge must be of the same type.	詳細なマージのために選択されたエージェントは、同じタイプでなければなりません.	このマージで選択するエージェントは同じタイプでなければなりません。	誤訳	低	原文にない「詳細な」が入っている。
+frontend/config/locales/ja.yml	accession._frontend.messages.created	Accession <strong>%{accession_display_string}</strong> created	アクセッション<strong>%{accession_display_string}</strong>作成されました	受入 <strong>%{accession_display_string}</strong> を作成しました	不統一	中	Accession は「受入」に統一。
+frontend/config/locales/ja.yml	accession._frontend.messages.unsuppressed	Accession <strong>%{accession_display_string}</strong> unsuppressed	アクセシビリティ<strong>%{accession_display_string}</strong>抑制されていません	受入 <strong>%{accession_display_string}</strong> の非表示を解除しました	誤訳	高	Accession を「アクセシビリティ」と訳している。
+frontend/config/locales/ja.yml	accession._frontend.messages.updated	Accession <strong>%{accession_display_string}</strong> updated	アクセス権<strong>%{accession_display_string}</strong>更新されました	受入 <strong>%{accession_display_string}</strong> を更新しました	誤訳	高	Accession を「アクセス権」と訳している。
+frontend/config/locales/ja.yml	accession._frontend.messages.suppressed	Accession <strong>%{accession_display_string}</strong> suppressed	アクセシビリティ<strong>%{accession_display_string}</strong>抑制されました	受入 <strong>%{accession_display_string}</strong> を非表示にしました	誤訳	高	Accession を「アクセシビリティ」と訳している。
+frontend/config/locales/ja.yml	accession._frontend.messages.suppressed_info	Accession is suppressed and cannot be edited	アクセッションは抑制され、編集できません	この受入は非表示のため編集できません	不統一	中	Accession は「受入」、Suppressed は「非表示」に統一。
+frontend/config/locales/ja.yml	accession._frontend.messages.deleted	Accession <strong>%{accession_display_string}</strong> deleted	アクセッション<strong>%{accession_display_string}</strong>削除されました	受入 <strong>%{accession_display_string}</strong> を削除しました	不統一	中	Accession は「受入」に統一。
+frontend/config/locales/ja.yml	accession._frontend.messages.transfer_description	Transfer this accession to...	このアクセス権を以下に転送します...	この受入を次の場所へ転送...	誤訳	高	Accession を「アクセス権」と訳している。
+frontend/config/locales/ja.yml	accession._frontend.messages.transfer_target	Select a repository to transfer into	移行するリポジトリを選択する	転送先のリポジトリを選択	不自然	低	Transfer を「移行」と訳し不統一。
+frontend/config/locales/ja.yml	accession._frontend.messages.spawned	This Accession has been spawned from Accession <strong>%{accession_display_string}</strong>. This record is unsaved. You must click Save for the record to be created in the system.	このアクセッションはAccession <strong>%{accession_display_string}</strong>から生成されました<strong>%{accession_display_string}</strong>	この受入は受入 <strong>%{accession_display_string}</strong> から生成されました。このレコードは未保存です。システムにレコードを作成するには「保存」をクリックしてください。	プレースホルダ	高	後半の文が欠落し %{} が重複、英語 Accession も残っている。
+frontend/config/locales/ja.yml	accession._frontend.messages.delete_conflict	Accession could not be deleted: <pre>%{error}</pre>	アクセッションを削除できませんでした： <pre> %{error} </pre>	受入を削除できませんでした： <pre>%{error}</pre>	不統一	低	Accession は「受入」に統一。
+frontend/config/locales/ja.yml	accession._frontend.action.create	Create Accession	登録を作成する	受入を作成	不統一	中	Accession を「登録」と訳し不統一。
+frontend/config/locales/ja.yml	accession._frontend.action.save	Save Accession	登録を保存	受入を保存	不統一	中	Accession を「登録」と訳し不統一。
+frontend/config/locales/ja.yml	agent._frontend.messages.published	The Agent <strong>%{agent_title}</strong>, its subrecords and components have been published	「エージェント<strong>%{agent_title}</strong>、そのサブレコードとコンポーネントが公開されました」	エージェント <strong>%{agent_title}</strong>、そのサブレコードとコンポーネントを公開しました	不自然	低	不要なかぎ括弧が付いている。
+frontend/config/locales/ja.yml	agent._frontend.messages.merged	Agent(s) Merged	エージェントが結合されました	エージェントをマージしました	不統一	低	Merge は他で「マージ」。
+frontend/config/locales/ja.yml	agent._frontend.section.date_of_existence	Date of Existence	存在日	存続期間	不自然	低	「存在日」は不自然。
+frontend/config/locales/ja.yml	agent._frontend.section.dates_of_existence	Dates of Existence	存在の日付	存続期間	不自然	低	「存在の日付」は不自然。
+frontend/config/locales/ja.yml	agent_contact._frontend.action.make_representative	Make preferred contact	優先連絡先を作る	優先連絡先にする	不自然	低	「作る」は設定操作として不自然。
+frontend/config/locales/ja.yml	agent_family._frontend.action.save	Save Family	家族を救う	家族を保存	誤訳	高	Save を「救う」と訳している。
+frontend/config/locales/ja.yml	archival_object.external_ark_url	External ARK URL	External ARK URL	外部 ARK URL	未訳	低	英語のまま。
+frontend/config/locales/ja.yml	archival_object.external_ark_url_tooltip	External ARK URL Tooltip	External ARK URL Tooltip	外部 ARK URL のツールチップ	未訳	低	英語のまま。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.created	Archival Object <strong>%{archival_object_display_string}</strong> on Resource <strong>%{resource_title}</strong> created	リソース<strong>%{resource_title}</strong>アーカイブオブジェクト<strong>%{archival_object_display_string}</strong>が作成されました	リソース<strong>%{resource_title}</strong>アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>が作成されました	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.duplicated	Archival Object duplicated from <strong>%{archival_object_display_string}</strong>	アーカイブ オブジェクトが <strong>%{archival_object_display_string}</strong> から複製されました	アーカイバルオブジェクトが <strong>%{archival_object_display_string}</strong> から複製されました	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.created_with_parent	Archival Object <strong>%{archival_object_display_string}</strong> created as child of <strong>%{parent_display_string}</strong> on Resource <strong>%{resource_title}</strong>	リソース<strong>%{resource_title}</strong>上の<strong>%{parent_display_string}</strong>子として作成されたアーカイブオブジェクト<strong>%{archival_object_display_string}</strong> <strong>%{resource_title}</strong>	リソース <strong>%{resource_title}</strong> の <strong>%{parent_display_string}</strong> の子として、アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を作成しました	プレースホルダ	中	%{resource_title} が重複し文が崩れている。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.updated	Archival Object <strong>%{archival_object_display_string}</strong> updated	アーカイブオブジェクト<strong>%{archival_object_display_string}</strong>更新されました	アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>更新されました	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.updated_with_parent	Archival Object <strong>%{archival_object_display_string}</strong> updated	アーカイブオブジェクト<strong>%{archival_object_display_string}</strong>更新されました	アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>更新されました	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.transfer_success	Successfully transferred Archival Object <strong>%{archival_object_display_string}</strong> to Resource <strong>%{resource_title}</strong>	アーカイブオブジェクト<strong>%{archival_object_display_string}</strong>をリソース<strong>%{resource_title}</strong>転送しました<strong>%{resource_title}</strong>	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> をリソース <strong>%{resource_title}</strong> に転送しました	プレースホルダ	中	%{resource_title} が重複している。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.transfer_error	Unable to transfer Archival Object due to an error or conflict: <pre>%{exception}</pre>	エラーまたは競合のためアーカイブオブジェクトを転送できません： <pre> %{exception} </pre>	エラーまたは競合のためアーカイバルオブジェクトを転送できません： <pre> %{exception} </pre>	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.deleted	Archival Object <strong>%{archival_object_display_string}</strong> deleted	アーカイブオブジェクト<strong>%{archival_object_display_string}</strong>削除されました	アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>削除されました	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.published	The Archival Object <strong>%{archival_object_title}</strong>, its children, subrecords and components have been published	アーカイブオブジェクト<strong>%{archival_object.title}</strong> 、そのサブレコードとコンポーネントが公開されました	アーカイバルオブジェクト <strong>%{archival_object_title}</strong>、その子、サブレコード、コンポーネントを公開しました	プレースホルダ	高	変数名が %{archival_object.title} に変わっており正しく差し込まれない。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.unpublished	The Archival Object <strong>%{archival_object_title}</strong>, its children, subrecords and components have been unpublished	アーカイブオブジェクト<strong>%{archival_object.title}</strong> 、そのサブレコードとコンポーネントが非公開されました	アーカイバルオブジェクト <strong>%{archival_object_title}</strong>、その子、サブレコード、コンポーネントを非公開にしました	プレースホルダ	高	変数名が %{archival_object.title} に変わっており正しく差し込まれない。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.unsuppressed	Archival Object <strong>%{archival_object_title}</strong> unsuppressed	アーカイブオブジェクト<strong>%{archival_object.title}</strong>抑制されていません	アーカイバルオブジェクト <strong>%{archival_object_title}</strong> の非表示を解除しました	プレースホルダ	高	変数名が誤っており、「抑制されていません」も操作結果として不正確。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.suppressed	Archival Object <strong>%{archival_object_title}</strong> suppressed	アーカイブオブジェクト<strong>%{archival_object.title}</strong>され<strong>%{archival_object.title}</strong>	アーカイバルオブジェクト <strong>%{archival_object_title}</strong> を非表示にしました	プレースホルダ	高	変数名が誤り・重複し、文が崩れている。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.suppressed_info	Archival Object is suppressed and cannot be edited	アーカイブオブジェクトは抑制されており、編集できません	アーカイバルオブジェクトは非表示のため編集できません	不統一	低	Suppressed は「非表示」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.has_unpublished_ancestor	Please be aware this record has an ancestor that is unpublished.	このレコードには未発表の祖先があることにご注意ください。	このレコードには非公開の上位レコードがあることにご注意ください。	不自然	中	「未発表の祖先」は意味が伝わりにくい。
+frontend/config/locales/ja.yml	archival_object._frontend.messages.delete_conflict	Archival Object could not be deleted: <pre>%{error}</pre>	アーカイブオブジェクトを削除できませんでした： <pre> %{error} </pre>	アーカイバルオブジェクトを削除できませんでした： <pre> %{error} </pre>	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.action.add_sibling	Add Sibling	兄弟を追加	同じ階層に追加	不自然	低	「兄弟」は UI 表現として不自然。
+frontend/config/locales/ja.yml	archival_object._frontend.action.add_duplicate	Add Duplicate	重複を追加	複製を追加	誤訳	低	Duplicate は「複製」。
+frontend/config/locales/ja.yml	archival_object._frontend.action.save	Save Archival Object	アーカイブオブジェクトを保存する	アーカイバルオブジェクトを保存する	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.action.bulk_import	Load via Spreadsheet	スプレッドシートを介して負荷	スプレッドシートで読み込む	誤訳	中	Load を「負荷」と訳している。
+frontend/config/locales/ja.yml	archival_object._frontend.tree.new_record_title	New Archival Object	新しいアーカイブオブジェクト	新しいアーカイバルオブジェクト	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	archival_object._frontend.tree.duplicated_record_title	Create Duplicate Archival Object	重複したアーカイブ オブジェクトの作成	アーカイバルオブジェクトの複製を作成	誤訳	低	「重複した」は Duplicate（複製）の誤訳。
+frontend/config/locales/ja.yml	classification_term._frontend.messages.created	Classification Term <strong>%{classification_term_title}</strong> created	分類用語<strong>%{classification_term.title}</strong>作成されました	分類用語 <strong>%{classification_term_title}</strong> を作成しました	プレースホルダ	高	変数名が %{classification_term.title} に変わっており正しく差し込まれない。
+frontend/config/locales/ja.yml	classification_term._frontend.messages.created_with_parent	Classification Term <strong>%{classification_term_title}</strong> created	分類用語<strong>%{classification_term.title}</strong>作成されました	分類用語 <strong>%{classification_term_title}</strong> を作成しました	プレースホルダ	高	変数名が %{classification_term.title} に変わっており正しく差し込まれない。
+frontend/config/locales/ja.yml	classification_term._frontend.messages.updated	Classification Term <strong>%{classification_term_title}</strong> updated	分類用語<strong>%{classification_term.title}</strong>更新されました	分類用語 <strong>%{classification_term_title}</strong> を更新しました	プレースホルダ	高	変数名が %{classification_term.title} に変わっており正しく差し込まれない。
+frontend/config/locales/ja.yml	classification_term._frontend.messages.updated_with_parent	Classification Term <strong>%{classification_term_title}</strong> updated	分類用語<strong>%{classification_term.title}</strong>更新されました	分類用語 <strong>%{classification_term_title}</strong> を更新しました	プレースホルダ	高	変数名が %{classification_term.title} に変わっており正しく差し込まれない。
+frontend/config/locales/ja.yml	classification_term._frontend.messages.deleted	Classification Term <strong>%{classification_term_title}</strong> deleted	分類用語<strong>%{classification_term.title}</strong>削除されました	分類用語 <strong>%{classification_term_title}</strong> を削除しました	プレースホルダ	高	変数名が %{classification_term.title} に変わっており正しく差し込まれない。
+frontend/config/locales/ja.yml	classification_term._frontend.action.add_sibling	Add Sibling	兄弟を追加	同じ階層に追加	不自然	低	「兄弟」は UI 表現として不自然。
+frontend/config/locales/ja.yml	classification_term._frontend.action.save	Save Classification Term	分類分類を保存する	分類用語を保存	誤訳	中	「分類分類」と重複し Term が抜けている。
+frontend/config/locales/ja.yml	classification_term._frontend.tree.new_record_title	New Classification Term	新しい分類期間	新しい分類用語	誤訳	中	Term を「期間」と訳している。
+frontend/config/locales/ja.yml	collection_management._frontend.title_prefix	Processing	処理	整理	不統一	低	Processing は「整理」。
+frontend/config/locales/ja.yml	dates_of_existence._singular	Date of Existence	存在日	存続期間	不自然	低	「存在日」は不自然。
+frontend/config/locales/ja.yml	dates_of_existence._plural	Dates of Existence	存在日	存続期間	不自然	低	「存在日」は不自然。
+frontend/config/locales/ja.yml	deaccession._frontend.action.add	Add Deaccession	デアクセスを追加	除籍を追加	不自然	中	「デアクセス」は意味が通じない（Deaccession=除籍）。
+frontend/config/locales/ja.yml	structured_date_label_common_fields.date_certainty	Certainty	確実	確実性	不自然	低	項目名として名詞形が自然。
+frontend/config/locales/ja.yml	structured_date_single_fields.date_expression	Date Expression	日付式	日付表現	不自然	低	「日付式」は数式のように読める。
+frontend/config/locales/ja.yml	structured_date_range_fields.begin_date_expression	Begin Date Expression	開始日式	開始日の表現	不自然	低	「開始日式」は数式のように読める。
+frontend/config/locales/ja.yml	structured_date_range_fields.begin_date_standardized	Begin Standardized Date	標準化された日付を開始	標準化された開始日	誤訳	中	「日付を開始」と動詞的に訳している。
+frontend/config/locales/ja.yml	structured_date_range_fields.begin_date_standardized_type	Begin Standardized Date Type	標準化された日付タイプの開始	標準化された開始日のタイプ	誤訳	中	「日付タイプの開始」と誤って係っている。
+frontend/config/locales/ja.yml	structured_date_range_fields.end_date_expression	End Date Expression	終了日の式	終了日の表現	不自然	低	「終了日の式」は数式のように読める。
+frontend/config/locales/ja.yml	structured_date_range_fields.end_date_standardized	End Standardized Date	標準化された日付の終了	標準化された終了日	誤訳	中	「日付の終了」と誤って係っている。
+frontend/config/locales/ja.yml	structured_date_range_fields.end_date_standardized_type	End Standardized Date Type	標準化された日付タイプの終了	標準化された終了日のタイプ	誤訳	中	「日付タイプの終了」と誤って係っている。
+frontend/config/locales/ja.yml	date_type_structured.single	Single	シングル	単一	不自然	低	「シングル」はカタカナ語で不自然（range は「範囲」）。
+frontend/config/locales/ja.yml	digital_object._frontend.messages.transfer_target	Select a repository to transfer into	移行するリポジトリを選択する	転送先のリポジトリを選択	不統一	低	Transfer は他で「転送」。
+frontend/config/locales/ja.yml	digital_object._frontend.messages.unsuppressed	Digital Object <strong>%{digital_object_title}</strong> unsuppressed	デジタルオブジェクト<strong>%{digital_object_title}</strong>抑制されていません	デジタルオブジェクト <strong>%{digital_object_title}</strong> の非表示を解除しました	誤訳	中	「抑制されていません」は操作結果として不正確。
+frontend/config/locales/ja.yml	digital_object._frontend.messages.suppressed	Digital Object <strong>%{digital_object_title}</strong> suppressed	デジタルオブジェクト<strong>%{digital_object_title}</strong>され<strong>%{digital_object_title}</strong>	デジタルオブジェクト <strong>%{digital_object_title}</strong> を非表示にしました	プレースホルダ	高	%{digital_object_title} が重複し動詞も欠けている。
+frontend/config/locales/ja.yml	digital_object._frontend.messages.suppressed_info	Digital Object is suppressed and cannot be edited	デジタルオブジェクトが抑制され、編集できない	デジタルオブジェクトは非表示のため編集できません	不統一	低	Suppressed は「非表示」に統一。
+frontend/config/locales/ja.yml	digital_object_component._frontend.messages.created_with_parent	Digital Object Component <strong>%{digital_object_component_display_string}</strong> created as child of <strong>%{parent_display_string}</strong> on Digital Object <strong>%{digital_object_title}</strong>	デジタルオブジェクト<strong>%{digital_object_component_display_string}</strong>の<strong>%{parent.display_string}</strong>子として作成されたデジタルオブジェクトコンポーネント<strong>%{digital_object_title}</strong>	デジタルオブジェクト <strong>%{digital_object_title}</strong> の <strong>%{parent_display_string}</strong> の子として、デジタルオブジェクトコンポーネント <strong>%{digital_object_component_display_string}</strong> を作成しました	プレースホルダ	高	変数名が %{parent.display_string} に変わり、語順も誤っている。
+frontend/config/locales/ja.yml	digital_object_component._frontend.messages.created	Digital Object Component <strong>%{digital_object_component_display_string}</strong> created on Digital Object <strong>%{digital_object_title}</strong>	デジタルオブジェクト<strong>%{digital_object_component_display_string}</strong>作成されたデジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong> <strong>%{digital_object_title}</strong>	デジタルオブジェクト <strong>%{digital_object_title}</strong> にデジタルオブジェクトコンポーネント <strong>%{digital_object_component_display_string}</strong> を作成しました	プレースホルダ	中	変数が重複し語順も崩れている。
+frontend/config/locales/ja.yml	digital_object_component._frontend.messages.unsuppressed	Digital Object Component <strong>%{digital_object_component_display_string}</strong> unsuppressed	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>抑制されていません	デジタルオブジェクトコンポーネント <strong>%{digital_object_component_display_string}</strong> の非表示を解除しました	誤訳	中	「抑制されていません」は操作結果として不正確。
+frontend/config/locales/ja.yml	digital_object_component._frontend.messages.suppressed	Digital Object Component <strong>%{digital_object_component_display_string}</strong> suppressed	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>抑制されました	デジタルオブジェクトコンポーネント <strong>%{digital_object_component_display_string}</strong> を非表示にしました	不統一	低	Suppressed は「非表示」に統一。
+frontend/config/locales/ja.yml	digital_object_component._frontend.messages.has_unpublished_ancestor	Please be aware this record has an ancestor that is unpublished.	このレコードには未発表の祖先があることにご注意ください。	このレコードには非公開の上位レコードがあることにご注意ください。	不自然	中	「未発表の祖先」は意味が伝わりにくい。
+frontend/config/locales/ja.yml	digital_object_component._frontend.action.add_sibling	Add Sibling	兄弟を追加	同じ階層に追加	不自然	低	「兄弟」は UI 表現として不自然。
+frontend/config/locales/ja.yml	enumeration._frontend.messages.default_set	Default Value Set	デフォルト値セット	デフォルト値を設定しました	誤訳	低	「デフォルト値セット」は名詞に読める。
+frontend/config/locales/ja.yml	enumeration._frontend.messages.merged	Value Merged	バリュー・マージド	値をマージしました	未訳	中	英語をカタカナにしただけ（バリュー・マージド）。
+frontend/config/locales/ja.yml	enumeration._frontend.messages.merge_tip	This Value may be merged with another	この値は、別の値とマージされてもよい	この値は別の値とマージできます	不自然	低	「マージされてもよい」は機械翻訳調。
+frontend/config/locales/ja.yml	enumeration._frontend.messages.no_selection	Please select a Controlled Value List	管理された値リストを選択してください	統制値リストを選択してください	不自然	低	Controlled Value List の直訳で不自然。
+frontend/config/locales/ja.yml	enumeration._frontend.action.merge_value	Merge Value	マージ値	値をマージ	不自然	低	「マージ値」は名詞に読める。
+frontend/config/locales/ja.yml	event._frontend.messages.suppressed_info	Event is suppressed and cannot be edited	イベントは抑止され、編集できません	イベントは非表示のため編集できません	不統一	低	Suppressed は「非表示」に統一。
+frontend/config/locales/ja.yml	extent._frontend.action.add	Add Extent	エクステントを追加	数量を追加	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	file_version._frontend.action.make_representative	Make Representative	代表者にする	代表ファイルにする	誤訳	中	人を指す「代表者」になっている。
+frontend/config/locales/ja.yml	location._frontend.action.add_sibling	Add Sibling	兄弟を追加	同じ階層に追加	不自然	低	「兄弟」は UI 表現として不自然。
+frontend/config/locales/ja.yml	location._frontend.action.batch	Create Batch Locations	バッチ場所の作成	場所の一括作成	不自然	低	「バッチ場所」は不自然。
+frontend/config/locales/ja.yml	location._frontend.action.batch_edit	Edit Batch Locations	バッチ場所の編集	場所の一括編集	不自然	低	「バッチ場所」は不自然。
+frontend/config/locales/ja.yml	location._frontend.action.save	Save Location	位置を保存	場所を保存	不統一	低	Location は他で「場所」。
+frontend/config/locales/ja.yml	location_batch._frontend.section.location	Base Location	基地の場所	基準となる場所	誤訳	中	Base を「基地」と訳している。
+frontend/config/locales/ja.yml	location_batch._frontend.messages.created	<strong>%{number_created} Locations</strong> Created	<strong>%{number_created}</strong>作成された<strong>場所</strong>	<strong>%{number_created} 件の場所</strong>を作成しました	不自然	低	strong タグが分断され文も不自然。
+frontend/config/locales/ja.yml	location_batch._frontend.action.update	Update Locations	アップデートの場所	場所を更新	誤訳	中	「アップデートの場所」は意味が異なる。
+frontend/config/locales/ja.yml	location_batch._frontend.action.preview	Preview Locations	プレビューの場所	場所をプレビュー	不自然	低	「プレビューの場所」は意味が異なる。
+frontend/config/locales/ja.yml	name._frontend.action.make_authorized	Make Authorized Name	権限のある名前を作る	典拠形の名前にする	誤訳	中	Authorized Name（典拠形）を「権限のある名前」と訳している。
+frontend/config/locales/ja.yml	name._frontend.action.make_display_name	Make Display Name	表示名を作る	表示名にする	不自然	低	「作る」は設定操作として不自然。
+frontend/config/locales/ja.yml	note._frontend.preview.parsed_title	How the note will be rendered in the Public application	パブリックアプリケーションでノートをレンダリングする方法	公開画面でのノートの表示	不自然	低	直訳調で分かりにくい。
+frontend/config/locales/ja.yml	note._frontend.action.collapse	Collapse	崩壊	折りたたむ	誤訳	中	Collapse を「崩壊」と訳している。
+frontend/config/locales/ja.yml	note._frontend.action.apply_note_order	Apply Standard Note Order	スタンダードノートオーダーを適用する	標準のノート順序を適用	不自然	中	カタカナ直訳で分かりにくい。
+frontend/config/locales/ja.yml	related_accession._frontend.action.add	Add Related Accession	関連するアクセス権を追加する	関連する受入を追加	誤訳	高	Accession を「アクセス権」と訳している。
+frontend/config/locales/ja.yml	repository._frontend.messages.transfer_target	Select a repository to transfer into	移行するリポジトリを選択する	転送先のリポジトリを選択	不統一	低	Transfer は他で「転送」。
+frontend/config/locales/ja.yml	repository._frontend.section.oai_fields	OAI Harvest Settings	OAI収穫設定	OAIハーベスト設定	不自然	低	Harvest を農業の「収穫」と訳している。
+frontend/config/locales/ja.yml	repository._frontend.section.transfer	Transfer Repository	転送リポジトリ	リポジトリを転送	誤訳	低	「転送リポジトリ」は別の意味に読める。
+frontend/config/locales/ja.yml	repository._sidebar.oai_settings._plural	OAI Harvest Settings	OAI収穫設定	OAIハーベスト設定	不自然	低	Harvest を農業の「収穫」と訳している。
+frontend/config/locales/ja.yml	resource._frontend.messages.spawned	A new Resource has been spawned from Accession <strong>%{accession_display_string}</strong>. This record is unsaved. You must click Save for the record to be created in the system.	アクセシビリティ<strong>%{accession_display_string}</strong>から新しいリソースが生成されました<strong>%{accession_display_string}</strong>	受入 <strong>%{accession_display_string}</strong> から新しいリソースを生成しました。このレコードは未保存です。システムにレコードを作成するには「保存」をクリックしてください。	プレースホルダ	高	Accession を「アクセシビリティ」と誤訳し、後半が欠落し %{} が重複している。
+frontend/config/locales/ja.yml	resource._frontend.messages.transfer_target	Select a repository to transfer into	移行するリポジトリを選択する	転送先のリポジトリを選択	不統一	低	Transfer は他で「転送」。
+frontend/config/locales/ja.yml	resource._frontend.messages.unsuppressed	Resource <strong>%{resource_title}</strong> unsuppressed	リソース<strong>%{resource_title}</strong>抑制されていません	リソース <strong>%{resource_title}</strong> の非表示を解除しました	誤訳	中	「抑制されていません」は操作結果として不正確。
+frontend/config/locales/ja.yml	resource._frontend.messages.suppressed	Resource <strong>%{resource_title}</strong> suppressed	リソース<strong>%{resource_title}</strong>されません	リソース <strong>%{resource_title}</strong> を非表示にしました	誤訳	高	「されません」と逆の意味になっている。
+frontend/config/locales/ja.yml	resource._frontend.messages.suppressed_info	Resource is suppressed and cannot be edited	リソースは抑制され、編集できません	リソースは非表示のため編集できません	不統一	低	Suppressed は「非表示」に統一。
+frontend/config/locales/ja.yml	resource._frontend.section.finding_aid	Finding Aid Data	援助データの検索	検索手段データ	誤訳	高	Finding Aid（目録）を「援助データの検索」と訳している。
+frontend/config/locales/ja.yml	resource._frontend.action.load_bulk	Load via Spreadsheet	スプレッドシートを介して負荷	スプレッドシートで読み込む	誤訳	中	Load を「負荷」と訳している。
+frontend/config/locales/ja.yml	resource.external_ark_url	External ARK URL	External ARK URL	外部 ARK URL	未訳	低	英語のまま。
+frontend/config/locales/ja.yml	resource.external_ark_url_tooltip	Archival Resource Key (ARK) persistent identifier generated outside of ArchivesSpace. If this field has a value it takes precedence over an ARK generated within ArchivesSpace.	Archival Resource Key (ARK) persistent identifier generated outside of ArchivesSpace. If this field has a value it takes precedence over an ARK generated within ArchivesSpace.	ArchivesSpace の外部で生成された ARK（Archival Resource Key）永続識別子。値がある場合は、ArchivesSpace 内で生成された ARK より優先されます。	未訳	低	英語のまま。
+frontend/config/locales/ja.yml	preference._frontend.messages.updated	Preferences updated	プリファレンスの更新	設定を更新しました	不自然	低	「プリファレンスの更新」は他の「設定」と不統一。
+frontend/config/locales/ja.yml	preference._frontend.messages.no_access_to_preferences	You must create at least one repository before managing preferences	少なくとも1つのリポジトリを作成する前に、プリファレンスを管理できません	設定を管理する前に、リポジトリを少なくとも1つ作成する必要があります	誤訳	中	「作成する前に管理できません」と論理が逆になっている。
+frontend/config/locales/ja.yml	term._frontend.messages.preview_pending	Subject Preview	主題のプレビュー	件名のプレビュー	不統一	低	Subject は「件名」に統一。
+frontend/config/locales/ja.yml	term._frontend.action.add	Add Term/Subdivision	期間/サブディビジョンを追加	用語/細分を追加	誤訳	高	Term を「期間」と訳している。
+frontend/config/locales/ja.yml	subject._frontend.messages.created	Subject Created	作成された科目	件名を作成しました	誤訳	中	Subject を「科目」と訳している。
+frontend/config/locales/ja.yml	subject._frontend.messages.updated	Subject Saved	サブジェクトが保存されました	件名が保存されました	不統一	低	Subject は「件名」に統一。
+frontend/config/locales/ja.yml	subject._frontend.messages.merged	Subject(s) Merged	結合された主題	件名をマージしました	不統一	低	Subject は「件名」に統一。
+frontend/config/locales/ja.yml	subject._frontend.messages.merge_description	Select subjects below to merge into	次のサブジェクトを選択してマージする	次の件名を選択してマージする	不統一	低	Subject は「件名」に統一。
+frontend/config/locales/ja.yml	user.is_active_user	Active	アクティブユーザー	有効	不自然	低	列見出しとして「アクティブユーザー」は不自然。
+frontend/config/locales/ja.yml	user.active	true	true	有効	未訳	中	英語の true がそのまま表示される。
+frontend/config/locales/ja.yml	user.inactive	false	偽	無効	不自然	中	ユーザーの状態を「偽」と表示している。
+frontend/config/locales/ja.yml	user._frontend.messages.error_update	User not saved	ユーザーは保存されません	ユーザーを保存できませんでした	不自然	低	失敗通知として不自然。
+frontend/config/locales/ja.yml	user._frontend.messages.error_create	User not created	ユーザーは作成されません	ユーザーを作成できませんでした	不自然	低	失敗通知として不自然。
+frontend/config/locales/ja.yml	user._frontend.messages.activated	User activated	アクティベートされたユーザー	ユーザーを有効化しました	不自然	低	名詞句になっており通知として不自然。
+frontend/config/locales/ja.yml	user._frontend.messages.error_activate	User not activated	アクティブ化されていないユーザー	ユーザーを有効化できませんでした	不自然	低	名詞句になっており通知として不自然。
+frontend/config/locales/ja.yml	user._frontend.messages.error_deactivate	User not deactivated	ユーザーは非アクティブ化されていません	ユーザーを無効化できませんでした	不自然	低	失敗通知として不自然。
+frontend/config/locales/ja.yml	user._frontend.action.activate_user	Activate	アクティベート	有効化	不統一	低	deactivate は「無効化」なので対にする。
+frontend/config/locales/ja.yml	user._frontend.action.activate_user_confirm	Are you sure you want to activate this user?	このユーザーをアクティベートしてもよろしいですか？	このユーザーを有効化してもよろしいですか？	不統一	低	deactivate は「無効化」なので対にする。
+frontend/config/locales/ja.yml	rde.sections.extent	Extent	エクステント	数量	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	rde.actions.showhide_suffix	visible	目に見える	表示中	不自然	低	「目に見える」は UI 表現として不自然。
+frontend/config/locales/ja.yml	rde.actions.showhide_none	All Columns Filtered	すべての列がフィルタリングされる	すべての列が非表示です	不自然	低	意味が伝わりにくい。
+frontend/config/locales/ja.yml	rde.fill_column.sequence	Sequence	シーケンス	連番	不自然	低	「シーケンス」は分かりにくい。
+frontend/config/locales/ja.yml	rde.fill_column.apply_sequence_fill	Apply Sequence	適用順序	連番を適用	誤訳	中	「適用順序」は意味が異なる。
+frontend/config/locales/ja.yml	rde.fill_column.sequence_from_required	From is required	〜が必要です	開始値は必須です	誤訳	中	From（開始値）が訳されず意味不明。
+frontend/config/locales/ja.yml	rde.fill_column.sequence_to_required	To is required	には必須です	終了値は必須です	誤訳	中	To（終了値）が訳されず意味不明。
+frontend/config/locales/ja.yml	rde.messages.success	<div class='alert alert-success'>Children Created. Refreshing page...</div>	<div class='alert alert-success'>作成された子供。ページを更新中... </div>	<div class='alert alert-success'>子レコードを作成しました。ページを更新しています...</div>	不自然	中	「作成された子供」は不自然。
+frontend/config/locales/ja.yml	job._frontend.actions.save	Start Job	仕事を始める	ジョブを開始	不統一	中	Job は他で「ジョブ」（「仕事」は不自然）。
+frontend/config/locales/ja.yml	job._frontend.actions.follow_log	Follow Log	ログに従う	ログを追跡	誤訳	低	「ログに従う」は意味が異なる。
+frontend/config/locales/ja.yml	job._frontend.section.status	Job Status	仕事の状況	ジョブの状態	不統一	低	Job は他で「ジョブ」。
+frontend/config/locales/ja.yml	job._frontend.messages.uploading	Uploading job...	仕事をアップロードしています...	ジョブをアップロードしています...	不統一	低	Job は他で「ジョブ」。
+frontend/config/locales/ja.yml	job._frontend.messages.queue_position_next	This job is next in the queue.	このジョブは次のキューにあります。	このジョブはキューの次の順番です	誤訳	低	「次のキューにある」は別のキューの意味になる。
+frontend/config/locales/ja.yml	job._frontend.messages.queue_position	This job is %{position} in the queue.	このジョブはキュー内の%{position}です。	このジョブはキューの %{position} 番目です	不自然	低	順番であることが伝わらない。
+frontend/config/locales/ja.yml	job._frontend.messages.report_instructions	Choose a report to run by using the <b>Select</b> button.	選択ボタンを使用して実行するレポートを<b>選択し</b>ます。	<b>選択</b>ボタンを使用して、実行するレポートを選択してください。	不自然	低	強調の位置がずれている。
+frontend/config/locales/ja.yml	job._frontend.messages.slug_lost_warning	<b>WARNING! </b> All auto-generated slugs will be regenerated! This job applies to all records across all repositories.	<b>警告！ </b>自動生成されたスラグはすべて再生されます。このジョブは、すべてのリポジトリにまたがるすべてのレコードに適用されます。	<b>警告！ </b>自動生成されたスラッグはすべて再生成されます。このジョブはすべてのリポジトリのすべてのレコードに適用されます。	誤訳	中	「再生」は再生成の意味にならず、「スラグ」も表記揺れ。
+frontend/config/locales/ja.yml	job._frontend.messages.slug_generation	This job will generate slugs for all <b>Resources</b>, <b>Archival Objects</b>, <b>Digital Objects</b>, <b>Digital Object Components</b>, <b>Accessions</b>, <b>Classifications</b>, <b>Agents</b>, <b>Subjects</b>, and <b>Repositories</b> that do not already have a manually added slug. <br /><br /><em	このジョブはスラッグを生成し、すべての<b>リソース</b>、<b>アーカイブオブジェクト</b>、<b>デジタルオブジェクト</b>、<b>デジタルオブジェクトコンポーネントのスラッグ自動生成ボックスをオンにします。 </b>、<b>登録</b>、<b>分類</b>、<b>エージェント</b>、<b>サブジェクト</b>、<b> <b>リポジトリ</b> それはまだナメクジを持っていません。 <br /> <em>手動で追加されたスラグは、自動生成ボックスをオンにして置き換える必要があることをそれらのレコードに示さない限り、変更されません。	このジョブは、手動で追加されたスラッグをまだ持たないすべての<b>リソース</b>、<b>アーカイバルオブジェクト</b>、<b>デジタルオブジェクト</b>、<b>デジタルオブジェクトコンポーネント</b>、<b>受入</b>、<b>分類</b>、<b>エージェント</b>、<b>件名</b>、<b>リポジトリ</b>のスラッグを生成します。<br /><br /><em>手動で追加されたスラッグは、各レコードで自動生成ボックスをオンにして置き換えを指定しない限り変更されません。</em>	誤訳	高	slug を「ナメクジ」と訳し、文の構造とタグが崩れている。
+frontend/config/locales/ja.yml	job._frontend.messages.slug_config_cuid	Slugs for <b>Archival Objects</b> will be generated using the Component Unique ID where appropriate.	<b>アーカイブオブジェクト</b>のスラッグは、必要に応じてコンポーネントの固有IDを使用して生成されます。	<b>アーカイバルオブジェクト</b>のスラッグは、必要に応じてコンポーネントの固有IDを使用して生成されます。	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	job._frontend.messages.ark_generation	This job will generate ARKs for all <b>Resources</b> and <b>Archival Objects</b> that do not already have an ARK. <br /><br /><em>External ARKs will not be changed.</em>	このジョブは、ARKをまだ持っていないすべての<b>リソース</b>および<b>アーカイブオブジェクト</b>のARKを生成します。 <br/> <br/> <em>外部ARKは変更されません。</em>	このジョブは、ARKをまだ持っていないすべての<b>リソース</b>および<b>アーカイバルオブジェクト</b>のARKを生成します。 <br/> <br/> <em>外部ARKは変更されません。</em>	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	sub_container.top_container	Top Container	トップコンテナ	最上位コンテナ	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	sub_container.top_container_tooltip	<p>REQUIRED FIELD. The highest level container in which the described material is housed.</p> <p>May be selected from an existing list of top containers using the type ahead or Browse functions or created using the Create function.</p> 	<p>必要なフィールド。記載された材料が収容されている最高レベルの容器。 </p><p>先行タイプまたは参照機能を使用して既存のトップコンテナのリストから選択するか、または作成機能を使用して作成することができます。 </p>	<p>必須フィールド。記述対象の資料が収納されている最上位のコンテナ。</p><p>入力補完または参照機能で既存の最上位コンテナの一覧から選択するか、作成機能で作成できます。</p>	不自然	中	「必要なフィールド」「材料」「先行タイプ」など機械翻訳調。
+frontend/config/locales/ja.yml	sub_container.type_2	Child Type	子供のタイプ	子コンテナのタイプ	不自然	低	「子供のタイプ」は不自然。
+frontend/config/locales/ja.yml	sub_container.type_2_tooltip	<p>The type of the second-level container in which the described material is housed.</p> <p>Values in this Controlled Value List may be modified.</p> 	<p>記載された材料が格納されている第2レベルコンテナのタイプ。 </p><p>この管理された値リストの値は変更することができます。 </p>	<p>記述対象の資料が格納されている第2レベルコンテナのタイプ。 </p><p>この統制値リストの値は変更することができます。 </p>	誤訳	低	archival material は「資料」であり「材料」ではない。Controlled Value List の直訳で不自然。
+frontend/config/locales/ja.yml	sub_container.indicator_2	Child Indicator	子指標	子コンテナの番号	不自然	低	「子指標」は意味が伝わりにくい。
+frontend/config/locales/ja.yml	sub_container.barcode_2	Child Container Barcode	子供コンテナバーコード	子コンテナのバーコード	不自然	低	「子供コンテナ」は不自然。
+frontend/config/locales/ja.yml	sub_container.barcode_2_tooltip	<p>A barcode to identify the second-level container in which the described material is housed.</p> 	"<p>説明材料が収容された第二のレベルのコンテナを識別するためのバーコード</p>" 	<p>記述対象の資料が収納されている第2レベルのコンテナを識別するバーコード。</p>	不自然	低	余計な引用符が付き、「説明材料」は誤訳。
+frontend/config/locales/ja.yml	sub_container.type_3	Grandchild Type	孫型	孫コンテナのタイプ	不自然	低	「孫型」は意味が伝わらない。
+frontend/config/locales/ja.yml	sub_container.type_3_tooltip	<p>The type of the third-level container in which the described material is housed.</p> <p>Values in this Controlled Value List may be modified.</p> 	<p>記載された材料が格納されている第3レベルコンテナのタイプ。 </p><p>この管理された値リストの値は変更することができます。 </p>	<p>記述対象の資料が格納されている第3レベルコンテナのタイプ。 </p><p>この統制値リストの値は変更することができます。 </p>	誤訳	低	archival material は「資料」であり「材料」ではない。Controlled Value List の直訳で不自然。
+frontend/config/locales/ja.yml	sub_container.indicator_3	Grandchild Indicator	孫のインジケータ	孫コンテナの番号	不自然	低	「孫のインジケータ」は不自然。
+frontend/config/locales/ja.yml	top_container.container_profile_tooltip	<p>A description of various characteristics of a particular kind of container, including dimensions.</p> 	<p>次元を含む特定の種類のコンテナのさまざまな特性の説明。 </p>	<p>寸法を含む、特定の種類のコンテナのさまざまな特性の説明。</p>	誤訳	低	dimensions を「次元」と訳している。
+frontend/config/locales/ja.yml	top_container.indicator_tooltip	<p>REQUIRED FIELD. An alphanumeric expression for indicating the place of the highest level container, which may also be the position of the container in a sequence of containers.</p> 	<p>必要なフィールド。最高レベルのコンテナの場所を示す英数字式。コンテナのシーケンス内のコンテナの位置でもあります。 </p>	<p>必須フィールド。最高レベルのコンテナの場所を示す英数字式。コンテナのシーケンス内のコンテナの位置でもあります。 </p>	不自然	低	REQUIRED FIELD は「必須フィールド」。
+frontend/config/locales/ja.yml	top_container.type_tooltip	<p>The type of the highest level container.</p> <p>Values in this Controlled Value List may be modified.</p> 	<p>最高レベルのコンテナのタイプ。</p><p>この管理された値リストの値は変更することができます。 </p>	<p>最高レベルのコンテナのタイプ。</p><p>この統制値リストの値は変更することができます。 </p>	不自然	低	Controlled Value List の直訳で不自然。
+frontend/config/locales/ja.yml	top_container.managed_container_2_type_tooltip	<p>The type of the second-level container in which the described material is housed.</p> <p>Values in this Controlled Value List may be modified.</p> 	<p>記載された材料が格納されている第2レベルコンテナのタイプ。 </p><p>この管理された値リストの値は変更することができます。 </p>	<p>記述対象の資料が格納されている第2レベルコンテナのタイプ。 </p><p>この統制値リストの値は変更することができます。 </p>	誤訳	低	archival material は「資料」であり「材料」ではない。Controlled Value List の直訳で不自然。
+frontend/config/locales/ja.yml	top_container.managed_container_3_type	Grandchild Container Type	お孫さんコンテナタイプ	孫コンテナのタイプ	不自然	中	「お孫さん」は口語・敬称で不適切。
+frontend/config/locales/ja.yml	top_container.managed_container_3_type_tooltip	<p>The type of the third-level container in which the described material is housed.</p> <p>Values in this Controlled Value List may be modified.</p> 	<p>記載された材料が格納されている第3レベルコンテナのタイプ。 </p><p>この管理された値リストの値は変更することができます。 </p>	<p>記述対象の資料が格納されている第3レベルコンテナのタイプ。 </p><p>この統制値リストの値は変更することができます。 </p>	誤訳	低	archival material は「資料」であり「材料」ではない。Controlled Value List の直訳で不自然。
+frontend/config/locales/ja.yml	top_container.batch_delete.success	Top Containers successfully deleted	上位コンテナが正常に削除されました	最上位コンテナが正常に削除されました	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container.batch_delete.error	There was a problem deleting Top Containers	トップコンテナを削除する際に問題が発生しました	最上位コンテナを削除する際に問題が発生しました	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._singular	Top Container	トップコンテナ	最上位コンテナ	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._plural	Top Containers	トップコンテナ	最上位コンテナ	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.action.add	Add Top Container	トップコンテナを追加	最上位コンテナを追加	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.action.create	Create a Top Container	一番上のコンテナを作成する	最上位コンテナを作成する	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.action.save	Save Top Container	一番上のコンテナを保存	最上位コンテナを保存	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.messages.created	Top Container Created	作成されたトップコンテナ	作成された最上位コンテナ	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.messages.updated	Top Container Updated	更新されたトップコンテナ	更新された最上位コンテナ	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.messages.filter_required	Please provide a filter	フィルタを用意してください	絞り込み条件を指定してください	不自然	低	「用意してください」は不自然。
+frontend/config/locales/ja.yml	top_container._frontend.messages.max_results_limit_details	Showing <strong>%{visible}</strong> of <strong>%{num_found}</strong> matching results	<strong>%{num_found}</strong>一致する結果の<strong>%{visible}</strong>を<strong>%{visible}</strong>ます	一致する <strong>%{num_found}</strong> 件中 <strong>%{visible}</strong> 件を表示しています	プレースホルダ	中	%{visible} が重複し文が崩れている。
+frontend/config/locales/ja.yml	top_container._frontend.messages.merged	Top Container(s) Merged	結合された上位コンテナ	結合された最上位コンテナ	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.messages.bulk_action_success	Top Containers successfully updated	上位のコンテナが正常に更新されました	最上位コンテナが正常に更新されました	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.title	Bulk Operations	バルク操作	一括操作	不自然	低	「バルク操作」は分かりにくい。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_singular	Resource/Accession	リソース/アクセス権	リソース/受入	誤訳	高	Accession を「アクセス権」と訳している。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_plural	Resources/Accessions	リソース/アクセス	リソース/受入	誤訳	中	Accessions を「アクセス」と訳している。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_accession_singular	Accession	受託	受入	誤訳	中	Accession は「受入」（受託は委託を受ける意味）。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_accession_plural	Accessions	受託	受入	誤訳	中	Accession は「受入」（受託は委託を受ける意味）。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.search	Search	サーチ	検索	不統一	低	「サーチ」は他の「検索」と不統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.update_ils_holding_ids_help	Enter a value for ILS Holding ID for all selected containers. Leave this blank to remove the current value without replacing it with another value.	選択したすべてのコンテナのILS保留IDの値を入力します。 現在の値を別の値に置き換えずに削除するには、このフィールドを空白のままにします。	選択したすべてのコンテナの ILS 所蔵 ID の値を入力します。現在の値を別の値に置き換えずに削除するには、このフィールドを空白のままにします。	誤訳	低	Holding を「保留」と訳している。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.update_locations_singular	Update Locations: Single Location	更新場所：単一の場所	場所の更新：単一の場所	誤訳	低	「更新場所」は語順が逆。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.update_locations_multiple	Update Locations: Multiple Locations	更新場所：複数の場所	場所の更新：複数の場所	誤訳	低	「更新場所」は語順が逆。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.batch_merge	Merge Top Containers	上位コンテナのマージ	最上位コンテナのマージ	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.batch_merge_instructions	Select the top container into which all of the other listed top container(s) will merge. Linked accessions, resources, resource components, and events will be re-linked to this container. Container profiles will be moved to this container only when it does not already have one. Locations and all oth	リストされている他のすべてのトップコンテナーをマージするトップコンテナーを選択します。 リンクされたアクセッション、リソース、リソースコンポーネント、およびイベントは、このコンテナに再リンクされます。 コンテナープロファイルは、まだ持っていない場合にのみ、このコンテナーに移動されます。 他の上位コンテナの場所とその他のすべての情報が削除されます。	リストされている他のすべての最上位コンテナーをマージする最上位コンテナーを選択します。 リンクされた受入、リソース、リソースコンポーネント、およびイベントは、このコンテナに再リンクされます。 コンテナープロファイルは、まだ持っていない場合にのみ、このコンテナーに移動されます。 他の最上位コンテナの場所とその他のすべての情報が削除されます。	不統一	中	Top Container は「最上位コンテナ」に統一。Accession は「受入」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.batch_merge_confirm	Confirm Merge Top Containers	上位コンテナのマージの確認	最上位コンテナのマージの確認	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.batch_merge_container_profile_too_many_warning	These top containers have different container profiles. None of these container profiles will merge into the merge destination container.	これらのトップコンテナが別のコンテナプロファイルを有します。これらのコンテナプロファイルはいずれも、ターゲットコンテナにマージしません。	これらの最上位コンテナが別のコンテナプロファイルを有します。これらのコンテナプロファイルはいずれも、ターゲットコンテナにマージしません。	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.batch_merge_container_profile_mismatch_warning	These top containers have a different container profile than the merge destination top container. The container profile will not merge into the merge destination container.	これらのトップコンテナは、ターゲットトップ容器とは異なるコンテナプロファイルを持っています。コンテナプロファイルは、ターゲットコンテナにマージしません。	これらの最上位コンテナは、ターゲットトップ容器とは異なるコンテナプロファイルを持っています。コンテナプロファイルは、ターゲットコンテナにマージしません。	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.batch_merge_confirm_merge_candidates	Merge the following top container(s):	次の上位コンテナをマージします:	次の最上位コンテナをマージします:	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.batch_merge_confirm_merge_destination	Into this top container:	この一番上のコンテナに:	この最上位コンテナに:	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.batch_delete	Delete Top Containers	トップコンテナの削除	最上位コンテナの削除	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.merge_n_records	Merge %{n} records	%{n} 件記録	%{n} 件のレコードをマージ	誤訳	中	Merge が訳されていない。
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.has_location_false	No	番号	いいえ	誤訳	高	No を「番号」と訳している。
+frontend/config/locales/ja.yml	container_profile._frontend.messages.merged	Container Profiles(s) Merged	Container Profiles(s) Merged	コンテナプロファイルをマージしました	未訳	中	英語のまま。
+frontend/config/locales/ja.yml	container_profile._frontend.bulk_operations.confirm_merge	Confirm Merge Container Profiles	マージコンテナプロファイルの確認	コンテナプロファイルのマージの確認	不自然	低	語順が不自然。
+frontend/config/locales/ja.yml	container_profile.name	Name	名	名前	不自然	低	「名」は姓名の名と紛らわしい。
+frontend/config/locales/ja.yml	container_profile.name_tooltip	<p>REQUIRED FIELD. The name of the container profile. May be generic or specific.</p> <p>Examples:</p> <ul> <li>document box</li> <li>Paige 15</li> <li>small card file box</li> </ul> 	<p>必要なフィールド。コンテナプロファイルの名前。ジェネリックまたは特定のものがあります。 </p><p>例： </p><ul><li>ドキュメントボックス</li><li>ページ15 </li><li>小さなカードのファイルボックス</li></ul>	<p>必須フィールド。コンテナプロファイルの名前。一般的な名前でも具体的な名前でもかまいません。</p><p>例：</p><ul><li>文書箱</li><li>Paige 15</li><li>小型カードファイルボックス</li></ul>	誤訳	低	製品名 Paige 15 を「ページ15」と訳している。
+frontend/config/locales/ja.yml	container_profile.dimension_units_tooltip	<p>Unit of measurement for dimensions.</p> <p>Values in this Controlled Value List may be modified.</p> 	<p>寸法の測定単位。 </p><p>この管理された値リストの値は変更することができます。 </p>	<p>寸法の測定単位。 </p><p>この統制値リストの値は変更することができます。 </p>	不自然	低	Controlled Value List の直訳で不自然。
+frontend/config/locales/ja.yml	container_profile.extent_dimension	Extent Dimension	エクステントディメンション	数量計算に用いる寸法	不統一	低	Extent は「数量」に統一し、「ディメンション」も分かりにくい。
+frontend/config/locales/ja.yml	container_profile.extent_dimension_tooltip	<p>The dimension used for calculating and stating the extent dimension of the materials in the container. This helps determine which dimension will be measured by the extent calculator.</p> 	<p>コンテナ内のマテリアルのエクステント次元を計算および記述するために使用されるディメンション。これは、エクステント計算機によって測定される次元を決定するのに役立ちます。 </p>	<p>コンテナ内のマテリアルの数量次元を計算および記述するために使用されるディメンション。これは、数量計算機によって測定される次元を決定するのに役立ちます。 </p>	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	container_profile.stacking_limit	Stacking Limit	スタッキング限界	積み重ね上限	不自然	低	「スタッキング限界」は不自然。
+frontend/config/locales/ja.yml	container_profile.stacking_limit_tooltip	<p>The number of these containers that can be stacked on top of one another. Leave blank if there is no limit. Must be a positive integer or zero.</p> 	<p>互いに積み重ねられるこれらの容器の数。制限がない場合は空白のままにします。正の整数でなければなりませんまたはゼロ。 </p>	<p>積み重ねられるこのコンテナの数。制限がない場合は空白のままにします。正の整数または0を指定してください。</p>	不自然	低	文末が崩れている。
+frontend/config/locales/ja.yml	rights_restriction.local_access_restriction_type_tooltip	<p>For restrictions that are not time-bound, an indication of the reason for the restriction.</p> <p>Values in this Controlled Value List may be modified.</p> 	<p>時間制限のない制限については、制限の理由を示します。 </p><p>この管理された値リストの値は変更することができます。 </p>	<p>時間制限のない制限については、制限の理由を示します。 </p><p>この統制値リストの値は変更することができます。 </p>	不自然	低	Controlled Value List の直訳で不自然。
+frontend/config/locales/ja.yml	extent_calculator.no_object_message	Please specify an object to run the extent calculator on.	エクステント計算を実行するオブジェクトを指定してください。	数量計算を実行するオブジェクトを指定してください。	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	extent_calculator.report_title	Calculated Extent Report	計算されたエクステントレポート	計算された数量レポート	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	extent_calculator.extent_header	Extent	エクステント	数量	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	extent_calculator.no_profile	<span class="text-error">NO PROFILE</span>	<span class="text-error">プロフィールなし</span>	<span class="text-error">プロファイルなし</span>	不統一	低	Profile は他で「プロファイル」。
+frontend/config/locales/ja.yml	extent_calculator.timestamp_label	Report generated at	生成されたレポート	レポート生成日時	誤訳	低	「生成されたレポート」では日時ラベルにならない。
+frontend/config/locales/ja.yml	extent_calculator.extent_record_header	Extent Record	エクステントレコード	数量レコード	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	extent_calculator.create_extent	Create Extent	エクステントの作成	数量の作成	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	extent_calculator.calculate_extent	Calculate Extent	エクステントの計算	数量の計算	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	extent_calculator.create_extent_record_message	Run the Extent Calculator in edit mode to have the option of creating an extent record based on the report.	エクステント電卓を編集モードで実行すると、レポートに基づいてエクステント・レコードを作成するオプションがあります。	数量計算機を編集モードで実行すると、レポートに基づいて数量レコードを作成できます。	不統一	低	Extent は「数量」に統一し、「電卓」も不自然。
+frontend/config/locales/ja.yml	extent_calculator.waiting_for_report_message	Calculating extent ...	エクステントの計算...	数量の計算...	不統一	中	Extent は「数量」に統一。
+frontend/config/locales/ja.yml	location_profile.name	Name	名	名前	不自然	低	「名」は姓名の名と紛らわしい。
+frontend/config/locales/ja.yml	space_calculator.reason.container_is_bigger	Container is bigger than the location in at least one dimension	コンテナは、少なくとも1つの次元の場所よりも大きい	コンテナが少なくとも1つの寸法で場所より大きい	不自然	低	機械翻訳調。
+frontend/config/locales/ja.yml	date_calculator.no_object_message	Record not found	記録が見当たりませんでした	レコードが見つかりません	不自然	低	Record の訳語を「レコード」に統一。
+frontend/config/locales/ja.yml	date_calculator.create_success	Date Created Successfully. Refreshing page...	作成された日付。ページを更新中...	日付を作成しました。ページを更新しています...	不自然	低	「作成された日付」は通知として不自然。
+frontend/config/locales/ja.yml	act._frontend.action.add	Add Act	法を追加する	行為を追加	誤訳	中	権利記述の Act（行為）を「法」と訳している。
+frontend/config/locales/ja.yml	bulk_archival_object_update_spreadsheet.title	Generate Bulk Archival Object Spreadsheet	一括アーカイブオブジェクトスプレッドシートを生成する	一括アーカイバルオブジェクトスプレッドシートを生成する	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	bulk_archival_object_update_spreadsheet.description	Use the form below to select the Archival Objects you wish to bulk update.	以下のフォームを使用して、一括更新するアーカイブ オブジェクトを選択します。	以下のフォームを使用して、一括更新するアーカイバルオブジェクトを選択します。	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	bulk_archival_object_update_spreadsheet.minimum_notes	Minimum Notes	最低限の注意	最小ノート数	誤訳	中	Notes を「注意」と訳している。
+frontend/config/locales/ja.yml	bulk_archival_object_update_spreadsheet.too_many_rows_warning	Warning: The number of rows that will be generated in this spreadsheet exceeds the number of rows that can be updated via the Bulk Archival Object Updater background job. If you plan to run the Bulk Archival Object Updater job using this spreadsheet, you will need to reduce the number of rows in thi	警告: このスプレッドシートで生成される行数は、更新できる行数を超えています Bulk Archival Object Updater バックグラウンド ジョブ経由。を使用して一括アーカイブ オブジェクト アップデーター ジョブを実行する予定の場合は、 このスプレッドシートでは、このシートの行数を以下に減らす必要があります。 取り込む前に <strong>%{max_row_count} 行</strong>。今すぐ、より小さなスプレッドシートを生成することを検討してください。 このデータを使用して一括アーカイブ オブジェクト アップデーター ジョブを実行する予定がない場合、この警告は無視して	警告: このスプレッドシートで生成される行数は、バックグラウンドジョブ「アーカイバルオブジェクト一括更新」で更新できる行数を超えています。このスプレッドシートでこのジョブを実行する場合は、取り込む前に行数を <strong>%{max_row_count} 行</strong>未満に減らす必要があります。今すぐ小さなスプレッドシートを生成することを検討してください。このデータでこのジョブを実行しない場合は、この警告を無視してかまいません。	不自然	中	語順が崩れ英語も残っており読み取れない。
+frontend/config/locales/ja.yml	assessment._frontend.formats	Material Types / Formats	材料の種類/フォーマット	資料の種類/形式	誤訳	低	Material は「資料」。
+frontend/config/locales/ja.yml	assessment._frontend.action.create	Create Assessment	アセスメントの作成	評価の作成	不統一	低	Assessment は他で「評価」。
+frontend/config/locales/ja.yml	assessment._frontend.action.create_for_record	Create Assessment	アセスメントの作成	評価の作成	不統一	低	Assessment は他で「評価」。
+frontend/config/locales/ja.yml	assessment._frontend.section.rating_attributes	Assessment Information	アセスメント情報	評価情報	不統一	低	Assessment は他で「評価」。
+frontend/config/locales/ja.yml	assessment._frontend.section.conservation_issue_attributes_empty	No conservation issues entered	保全の問題はない	保存上の問題は入力されていません	誤訳	低	「問題はない」と状態を断定している。
+frontend/config/locales/ja.yml	assessment._frontend.messages.attributes_hint	Please contact your administrator to add additional %{attribute_type}	%{attribute_type}を追加するには管理者に連絡してください%{attribute_type}	追加の %{attribute_type} が必要な場合は、管理者に連絡してください	プレースホルダ	中	%{attribute_type} が重複している。
+frontend/config/locales/ja.yml	assessment._frontend.linked_records.linked_via_assessment_records	Assessments	アセスメント	評価	不統一	低	Assessment は他で「評価」。
+frontend/config/locales/ja.yml	assessment._frontend.linked_records.identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+frontend/config/locales/ja.yml	assessment._frontend.ratings_list.note	Note	注意	ノート	誤訳	中	Note を「注意（caution）」と訳している。
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.title	Assessment Attributes	評価アトリビュート	評価属性	不統一	低	Attribute は他で「属性」。
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.section.formats	Material Types / Formats	材料の種類/フォーマット	資料の種類/形式	誤訳	低	Material は「資料」。
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.action.save	Save Assessment Attributes	アセスメント属性を保存する	評価属性を保存する	不統一	低	Assessment は他で「評価」。
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.action.add_type	Add %{type}	追加 %{type}	%{type} を追加	不自然	低	語順が不自然。
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.action.remove_issue	Remove %{issue_type} conservation issue	%{issue_type} 保護の問題を削除します	%{issue_type} の保存上の問題を削除	誤訳	低	conservation を「保護」と訳し不統一。
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.messages.updated	Assessment Attributes updated	評価アトリビュートが更新されました	評価属性が更新されました	不統一	低	Attribute は他で「属性」。
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.messages.error	Error updating Assessment Attributes	アセスメント属性の更新中にエラーが発生しました	評価属性の更新中にエラーが発生しました	不統一	低	Assessment は他で「評価」。
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.messages.conflict	Error updating Assessment Attributes. The following labels conflict with existing entries: %{conflicts}	アセスメント属性の更新中にエラーが発生しました。次のラベルは既存のエントリと衝突します： %{conflicts}	評価属性の更新中にエラーが発生しました。次のラベルは既存のエントリと衝突します： %{conflicts}	不統一	低	Assessment は他で「評価」。
+frontend/config/locales/ja.yml	oai_config.oai_repository_name	OAI Repository Name	OOAIリポジトリ名	OAIリポジトリ名	不自然	低	「OOAI」と誤字がある。
+frontend/config/locales/ja.yml	oai_config.oai_leave_repo_form	These options affect OAI-PMH for this repository only. Click below to view/edit global OAI options. This will leave current form without saving changes.	これらのオプションは、このリポジトリに対してのみOAI-PMHに影響します。 グローバルOAIオプションを表示/編集するには、下をクリックしてください。 変更を保存せずに現在のフォームをそのままにします。	これらのオプションは、このリポジトリの OAI-PMH にのみ影響します。グローバルな OAI オプションを表示・編集するには、下をクリックしてください。変更を保存せずに現在のフォームを離れます。	誤訳	中	leave（離れる）を「そのままにする」と訳している。
+frontend/config/locales/ja.yml	agent_record_control.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持ステータス	誤訳	中	「制御保守ステータスの記録」と係り方が誤っている。
+frontend/config/locales/ja.yml	agent_record_control.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	誤訳	中	官庁名のような「整備庁」になっている。
+frontend/config/locales/ja.yml	agent_record_control.agency_name	Agency Name	代理店名	機関名	誤訳	中	Agency を「代理店」と訳している。
+frontend/config/locales/ja.yml	agent_record_control.maintenance_agency_note	Maintenance Agency Note	メンテナンスエージェンシーノート	維持管理機関のノート	不自然	低	カタカナ直訳。
+frontend/config/locales/ja.yml	agent_record_control.script	Script	脚本	文字体系	誤訳	中	Script（文字の種類）を「脚本」と訳している。
+frontend/config/locales/ja.yml	agent_gender.note	Note	注意	ノート	誤訳	中	Note を「注意（caution）」と訳している。
+frontend/config/locales/ja.yml	used_language.script	Script	脚本	文字体系	誤訳	中	Script（文字の種類）を「脚本」と訳している。
+frontend/config/locales/ja.yml	agent_place.text_note	Note	注意	ノート	誤訳	中	Note を「注意（caution）」と訳している。
+frontend/config/locales/ja.yml	agent_occupation.text_note	Note	注意	ノート	誤訳	中	Note を「注意（caution）」と訳している。
+frontend/config/locales/ja.yml	agent_function._singular	Function	関数	機能	誤訳	中	Function を数学の「関数」と訳している（複数形は「機能」）。
+frontend/config/locales/ja.yml	agent_function.text_note	Note	注意	ノート	誤訳	中	Note を「注意（caution）」と訳している。
+frontend/config/locales/ja.yml	agent_topic.text_note	Note	注意	ノート	誤訳	中	Note を「注意（caution）」と訳している。
+frontend/config/locales/ja.yml	agent_alternate_set.set_component	Set Component	コンポーネントの設定	セットの構成要素	誤訳	中	Set を動詞「設定」と訳している。
+frontend/config/locales/ja.yml	agent_alternate_set.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。
+frontend/config/locales/ja.yml	agent_conventions_declaration._plural	Convention Declarations	条約宣言	準拠規則の宣言	誤訳	中	記述規則の Convention を「条約」と訳している。
+frontend/config/locales/ja.yml	agent_conventions_declaration._singular	Convention Declaration	条約宣言	準拠規則の宣言	誤訳	中	記述規則の Convention を「条約」と訳している。
+frontend/config/locales/ja.yml	agent_conventions_declaration._frontend.action.add	Add Convention Declaration	条約宣言を追加する	準拠規則の宣言を追加	誤訳	中	記述規則の Convention を「条約」と訳している。
+frontend/config/locales/ja.yml	agent_conventions_declaration.name_rule	Convention	コンベンション	規則	不自然	低	「コンベンション」は会議の意味に読める。
+frontend/config/locales/ja.yml	agent_conventions_declaration.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。
+frontend/config/locales/ja.yml	agent_other_agency_code._frontend.action.add	Add Agency Code	代理店コードを追加	機関コードを追加	誤訳	中	Agency を「代理店」と訳している。
+frontend/config/locales/ja.yml	agent_other_agency_code.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	誤訳	中	官庁名のような「整備庁」になっている。
+frontend/config/locales/ja.yml	agent_maintenance_history.event_date	Event Date	開催日	イベントの日付	誤訳	低	「開催日」は催事の意味になる。
+frontend/config/locales/ja.yml	agent_record_identifier.primary_identifier	Is Primary Identifier?	一次識別子はありますか？	主識別子か	誤訳	中	「一次識別子はありますか」と問いの対象が異なる。
+frontend/config/locales/ja.yml	agent_source.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。
+frontend/config/locales/ja.yml	agent_resource.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。
+frontend/config/locales/ja.yml	bulk_import._frontend.actions.add_archival_objects	Import Archival Objects	インポートアーカイブオブジェクト	アーカイバルオブジェクトをインポート	不自然	低	語順が不自然。
+frontend/config/locales/ja.yml	bulk_import._frontend.actions.add_digital_objects	Add Digital Objects to Archival Objects	アーカイブオブジェクトにデジタルオブジェクトを追加します。	アーカイバルオブジェクトにデジタルオブジェクトを追加します。	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	bulk_import._frontend.actions.drag_drop	Drag and drop file here	ここにドラッグ＆ドロップファイル	ここにファイルをドラッグ＆ドロップ	不自然	低	語順が不自然。
+frontend/config/locales/ja.yml	bulk_import._frontend.actions.link_top_containers	Link Top Containers	トップコンテナをリンクする	最上位コンテナをリンクする	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	bulk_import._frontend.messages.missing_file	You have not added a file	あなたは、ファイルを追加していません	ファイルが追加されていません	不自然	低	「あなたは」は不自然。
+frontend/config/locales/ja.yml	bulk_import._frontend.messages.processed	The file has been processed	ファイルが処理されています	ファイルを処理しました	誤訳	低	完了を進行中のように訳している。
+frontend/config/locales/ja.yml	bulk_import._frontend.messages.error	ERROR: Error(s) detected: 	ERROR：エラー（複数可）が検出されました：	エラー：エラーが検出されました：	未訳	低	ERROR が英語のまま。
+frontend/config/locales/ja.yml	bulk_import._frontend.messages.submitted	<p>Job had been submitted to Background Jobs. <br/> Click 'Close' to refresh this screen.</p>	<p>ジョブはバックグラウンドジョブに送信されていました。<br/> この画面を更新するには、[閉じる]をクリックします。</p>	<p>ジョブをバックグラウンドジョブに送信しました。<br/>［閉じる］をクリックするとこの画面が更新されます。</p>	不自然	低	「送信されていました」は時制が不自然。
+frontend/config/locales/ja.yml	bulk_import_job.format	Download File Format	ファイル形式のダウンロード	ダウンロードするファイル形式	誤訳	低	「ファイル形式のダウンロード」は操作名に読める。
+frontend/config/locales/ja.yml	bulk_archival_object_updater_job._singular	Spreadsheet Bulk Archival Object Updater Job	スプレッドシートの一括アーカイブ オブジェクト更新ジョブ	スプレッドシートの一括アーカイバルオブジェクト更新ジョブ	不統一	低	Archival Object は「アーカイバルオブジェクト」に統一。
+frontend/config/locales/ja.yml	bulk_archival_object_updater_job.create_missing_top_containers	Create Missing Top Containers	不足しているトップコンテナを作成する	不足している最上位コンテナを作成する	不統一	低	Top Container は「最上位コンテナ」に統一。
+frontend/config/locales/ja.yml	metadata_rights_declaration.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。
+frontend/config/locales/ja.yml	metadata_rights_declarations.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。
+frontend/config/locales/ja.yml	metadata_rights_declaration_required.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。
+frontend/config/locales/ja.yml	metadata_rights_declaration_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。
+frontend/config/locales/ja.yml	metadata_rights_declaration_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。
+frontend/config/locales/ja.yml	bulk_import_templates.aspace_accession_import_template_csv	Create Accession records plus Extents, External Documents, Subjects, Agents, and Instances with Top Containers. The download includes one _1 group for each of those. Link an existing Subject with subject_1_record_id, giving either a numeric ID such as 197 or a full URI such as /subjects/197. Link an	アクセッションレコードに加えて、数量、外部文書、主題、エージェント、およびトップコンテナ付きのインスタンスを作成します。ダウンロードには、それぞれについて _1 グループが 1 つ含まれます。既存の主題をリンクするには、subject_1_record_id に 197 のような数値 ID、または /subjects/197 のような完全な URI を指定します。既存のエージェントも同じ方法で agent_1_record_id を使ってリンクします。agent_1_agent_type は、数値 ID を指定する場合は必須で、/agents/people/5 のような URI を指定する場合	受入レコードに加えて、数量、外部文書、件名、エージェント、および最上位コンテナ付きのインスタンスを作成します。ダウンロードには、それぞれについて _1 グループが 1 つ含まれます。既存の件名をリンクするには、subject_1_record_id に 197 のような数値 ID、または /subjects/197 のような完全な URI を指定します。既存のエージェントも同じ方法で agent_1_record_id を使ってリンクします。agent_1_agent_type は、数値 ID を指定する場合は必須で、/agents/people/5 のような URI を指定する場合	不統一	中	Top Container は「最上位コンテナ」に統一。Accession は「受入」に統一。Subject は「件名」に統一。
+public/config/locales/ja.yml	actions.search	Search	サーチ	検索	不統一	中	「サーチ」は他の「検索」と不統一。
+public/config/locales/ja.yml	actions.search_in	Search %{type}	検索%{type}	%{type}を検索	不自然	低	語順が不自然。
+public/config/locales/ja.yml	actions.print-generating	Generating	生成	生成中	不自然	低	進行中の表示として不自然。
+public/config/locales/ja.yml	actions.hierarch	Collection Organization	収集組織	コレクションの編成	誤訳	高	Collection Organization（資料の編成）を「収集組織」と訳している。
+public/config/locales/ja.yml	actions.numeric	Container Inventory	コンテナインベントリ	コンテナ目録	不自然	中	「インベントリ」は分かりにくい（Inventory=目録）。
+public/config/locales/ja.yml	actions.staff_link	Staff Only	関係者以外立ち入り禁止	スタッフ専用	誤訳	高	「関係者以外立ち入り禁止」は掲示の文言でリンク名として不適切。
+public/config/locales/ja.yml	request.user_name	Your name	あなたの名前	お名前	不自然	低	利用者向けの表現として「あなたの名前」は不自然。
+public/config/locales/ja.yml	request.note	Note to the staff	スタッフへの注意	スタッフへの連絡事項	誤訳	中	Note を「注意」と訳している。
+public/config/locales/ja.yml	request.visit	Submit a request to visit %{repo_name} to view <strong>%{archival_object}</strong>	訪問するリクエストを送信%{repo_name}表示するには<strong>%{archival_object}</strong>	%{repo_name} を訪問して <strong>%{archival_object}</strong> を閲覧するためのリクエストを送信	不自然	中	語順が崩れ意味が取りにくい。
+public/config/locales/ja.yml	request.submitted	Thank you, your request has been submitted. You will soon receive an email with a copy of your request.	ありがとう、あなたの要求が提出されました。間もなくあなたのリクエストのコピーが入った電子メールが届きます。	ありがとうございます。リクエストを送信しました。まもなくリクエスト内容の控えがメールで届きます。	不自然	中	「ありがとう、あなたの要求が提出されました」は利用者向けとして不自然。
+public/config/locales/ja.yml	request.errors.name	Please enter your name	あなたの名前を入力してください	お名前を入力してください	不自然	低	利用者向けの表現として「あなたの名前」は不自然。
+public/config/locales/ja.yml	search-button.label	Search	サーチ	検索	不統一	中	「サーチ」は他の「検索」と不統一。
+public/config/locales/ja.yml	search-limit	Limit to %{limit}	%{limit}	%{limit} に限定	誤訳	中	「Limit to」が訳されず変数だけになっている。
+public/config/locales/ja.yml	search-limiting	limited to %{limit}	%{limit}	%{limit} に限定	誤訳	中	「limited to」が訳されず変数だけになっている。
+public/config/locales/ja.yml	search-limits.subject	subject	主題	件名	不統一	低	Subject は「件名」に統一。
+public/config/locales/ja.yml	search-limits.agent	content creator	コンテンツクリエータ	作成者	不自然	低	content creator は記録の作成者を指す。
+public/config/locales/ja.yml	search-limits.agents	content creators	コンテンツ制作者	作成者	不自然	低	content creator は記録の作成者を指す。
+public/config/locales/ja.yml	searched-field	searching %{field}	検索%{field}	%{field} を検索	不自然	低	語順が不自然。
+public/config/locales/ja.yml	search_results.highlighting.subjects_text	Subjects	科目	件名	誤訳	中	Subjects を「科目」と訳している。
+public/config/locales/ja.yml	search_results.highlighting.creators_text	Creators	クリエイター	作成者	不自然	低	Creator は記録の「作成者」。
+public/config/locales/ja.yml	search_results.highlighting.finding_aid_title	Finding Aid Title	援助のタイトルを見つける	検索手段のタイトル	誤訳	高	Finding Aid（目録）を「援助を見つける」と訳している。
+public/config/locales/ja.yml	search_results.highlighting.acquisition_type	Acquisition Type	獲得タイプ	受入方法	不自然	低	Acquisition Type の直訳で不自然。
+public/config/locales/ja.yml	search_results.page_title	Found %{count} Results	見つかった%{count}結果	%{count} 件の結果が見つかりました	不自然	中	「見つかった%{count}結果」は語順が不自然。
+public/config/locales/ja.yml	search_results.results_head	Showing %{type}: %{start} - %{end} of %{total}	%{type} ： %{start} - %{end}の%{total}	%{type}を表示中：%{total} 件中 %{start} - %{end} 件	誤訳	中	「%{end}の%{total}」と件数の関係が逆に読める。
+public/config/locales/ja.yml	search_results.search_for	Search %{type} where %{conditions}	検索%{type}ここで%{conditions}	%{conditions} で %{type} を検索	誤訳	中	where を「ここで」と訳している。
+public/config/locales/ja.yml	search_results.title_contain	the <strong>title</strong> contains <span class='searchterm'>%{kw}</span>	<strong>タイトルに</strong>は<span class='searchterm'>%{kw}</span>	<strong>タイトル</strong>に <span class='searchterm'>%{kw}</span> を含む	不自然	中	「含む」が抜け文が完結していない。
+public/config/locales/ja.yml	search_results.notes_contain	the <strong>note</strong> contains <span class='searchterm'>%{kw}</span>	<strong>音符に</strong>は<span class='searchterm'>%{kw}</span>	<strong>ノート</strong>に <span class='searchterm'>%{kw}</span> を含む	誤訳	高	note を「音符」と訳している。
+public/config/locales/ja.yml	search_results.creators_text_contain	the <strong>creator</strong> contains <span class='searchterm'>%{kw}</span>	<strong>作成者</strong>に<span class='searchterm'>%{kw}</span>	<strong>作成者</strong>に <span class='searchterm'>%{kw}</span> を含む	不自然	低	「含む」が抜け文が完結していない。
+public/config/locales/ja.yml	search_results.subjects_text_contain	the <strong>subject</strong> contains <span class='searchterm'>%{kw}</span>	<strong>被写体に</strong>は<span class='searchterm'>%{kw}</span>	<strong>件名</strong>に <span class='searchterm'>%{kw}</span> を含む	誤訳	高	subject を「被写体」と訳している。
+public/config/locales/ja.yml	search_results.identifier_contain	the <strong>identifier</strong> contains <span class='searchterm'>%{kw}</span>	<strong>識別子に</strong>は<span class='searchterm'>%{kw}</span>	<strong>識別子</strong>に <span class='searchterm'>%{kw}</span> を含む	不自然	低	「含む」が抜け文が完結していない。
+public/config/locales/ja.yml	search_results.in_repository	 in <strong>%{name}</strong>	<strong>%{name}</strong>	（<strong>%{name}</strong> 内）	誤訳	低	in（〜内）が訳されていない。
+public/config/locales/ja.yml	search_results.filter_by	Filter By	フィルタリングする	絞り込み	不自然	低	見出しとして不自然。
+public/config/locales/ja.yml	search_results.filtered_by	Filtered By	フィルタリングされた	絞り込み条件	不自然	低	見出しとして不自然。
+public/config/locales/ja.yml	search_results.more_facets	More	もっと	さらに表示	不自然	低	「もっと」はボタン名として不自然。
+public/config/locales/ja.yml	search_results.fewer_facets	Less	もっと少なく	表示を減らす	不自然	低	「もっと少なく」はボタン名として不自然。
+public/config/locales/ja.yml	search_results.filter.show_fewer	Show fewer	表示回数を減らす	表示を減らす	誤訳	中	「表示回数を減らす」は意味が異なる。
+public/config/locales/ja.yml	search_results.filter.show_more	Show more	もっと見せる	さらに表示	不自然	低	「もっと見せる」は不自然。
+public/config/locales/ja.yml	search_results.filter.creators	Creator	クリエイター	作成者	不自然	低	Creator は記録の「作成者」。
+public/config/locales/ja.yml	search_results.filter.creators_text	Creator	クリエイター	作成者	不自然	低	Creator は記録の「作成者」。
+public/config/locales/ja.yml	search_results.filter.identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+public/config/locales/ja.yml	search_results.filter.from_year	From year	年から	開始年	不自然	低	「年から」は入力欄名として不自然。
+public/config/locales/ja.yml	search_results.filter.to_year	To year	年に	終了年	不自然	低	「年に」は入力欄名として不自然。
+public/config/locales/ja.yml	search_results.filter.years_include	Years to include	含まれる年数	対象とする年	誤訳	低	「含まれる年数」は年数（期間の長さ）の意味になる。
+public/config/locales/ja.yml	search_sorting.asc	(ascending)	（上昇）	（昇順）	誤訳	中	Ascending は「昇順」。
+public/config/locales/ja.yml	search_sorting.identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+public/config/locales/ja.yml	search_sorting.classification_identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+public/config/locales/ja.yml	inherit.fonds	Fonds	資金	フォンド	誤訳	高	Fonds（フォンド）を「資金」と訳している。
+public/config/locales/ja.yml	inherit.subfonds	Sub-Fonds	サブフォンズ	サブフォンド	不統一	低	Fonds は「フォンド」に統一。
+public/config/locales/ja.yml	navbar.toggle_navigation	Toggle Navigation	Toggle Navigation	ナビゲーションの切り替え	未訳	低	英語のまま。
+public/config/locales/ja.yml	advanced_search.limit_label	Limit by record type	レコードタイプによる制限	レコードタイプで絞り込む	不自然	低	「制限」は意味が伝わりにくい。
+public/config/locales/ja.yml	contains	Contains %{count} %{type}	%{count} %{type}含みます%{type}	%{count} 件の%{type}を含む	プレースホルダ	中	%{type} が重複している。
+public/config/locales/ja.yml	found	Found in %{count} %{type}	%{count} %{type}見つかりました	%{count} 件の%{type}に含まれる	誤訳	低	Found in を「見つかりました」と訳している。
+public/config/locales/ja.yml	scope_note	Scope Note	スコープノート	範囲注記	不自然	低	「スコープノート」はカタカナ直訳。
+public/config/locales/ja.yml	cont_arr	Collection organization	収集組織	コレクションの編成	誤訳	高	Collection organization（資料の編成）を「収集組織」と訳している。
+public/config/locales/ja.yml	dig_cont_arr	Digital object organization	デジタルオブジェクトの組織	デジタルオブジェクトの編成	誤訳	中	organization（編成）を「組織」と訳している。
+public/config/locales/ja.yml	accessed	Accessed	アクセスされた	アクセス日	不自然	低	ラベルとして「アクセスされた」は不自然。
+public/config/locales/ja.yml	containers	Physical Storage Information	物理ストレージ情報	保管場所の情報	不自然	中	「物理ストレージ」はコンピュータの記憶装置に読める。
+public/config/locales/ja.yml	related_accessions	Related Unprocessed Material	関連する未加工材料	関連する未整理資料	誤訳	高	Unprocessed Material を「未加工材料」と訳している。
+public/config/locales/ja.yml	linked_digital_objects	Digital Material	デジタル素材	デジタル資料	不統一	低	他の箇所は「デジタル資料」。
+public/config/locales/ja.yml	context	Found in	見つかった	収録先	不自然	低	「見つかった」は見出しとして不自然。
+public/config/locales/ja.yml	bulk._singular	Majority of material found in %{dates}	%{dates}にあるマテリアルの大半	資料の大半は %{dates} のもの	誤訳	中	「%{dates}にあるマテリアル」は意味が通らない（bulk dates）。
+public/config/locales/ja.yml	bulk._plural	Majority of material found within %{dates}	%{dates}以内に見つかったマテリアルの大半	資料の大半は %{dates} の範囲のもの	誤訳	中	「%{dates}以内に見つかった」は意味が通らない（bulk dates）。
+public/config/locales/ja.yml	accession._singular	Unprocessed Material	未処理	未整理資料	不自然	中	「未処理」だけでは何を指すか分からない。
+public/config/locales/ja.yml	accession._plural	Unprocessed Materials	未加工材料	未整理資料	誤訳	高	Unprocessed Materials を「未加工材料」と訳している。
+public/config/locales/ja.yml	accession._public.section.acquisition_type	Acquisition Type	獲得タイプ	受入方法	不自然	低	Acquisition Type の直訳で不自然。
+public/config/locales/ja.yml	accession._public.section.provenance	Provenance	出所	来歴	不自然	低	アーカイブズの Provenance は「来歴」が一般的。
+public/config/locales/ja.yml	accession._public.section.language	Language of Description	説明の言語	記述の言語	誤訳	低	Description（記述）を「説明」と訳している。
+public/config/locales/ja.yml	accession._public.section.script	Script of Description	説明のスクリプト	記述の文字体系	誤訳	低	Script を「スクリプト」と訳している。
+public/config/locales/ja.yml	accession._public.section.access_restrictions_apply	Access Restrictions Apply	アクセス制限の適用	アクセス制限あり	不自然	低	状態表示として「制限の適用」は不自然。
+public/config/locales/ja.yml	accession._public.section.use_restrictions_apply	Use Restrictions Apply	制限を適用する	利用制限あり	誤訳	中	「制限を適用する」と操作の意味になっている。
+public/config/locales/ja.yml	accession._public.related_accessions.accessions	Related Unprocessed Material	関連する未加工材料	関連する未整理資料	誤訳	高	Unprocessed Material を「未加工材料」と訳している。
+public/config/locales/ja.yml	accession._public.related_accessions.deaccessions	Deaccessioned Material	Deaccessionedマテリアル	除籍された資料	未訳	中	Deaccessioned が英語のまま。
+public/config/locales/ja.yml	accession._public.related_accessions.forms_part_of	Part Relationship	部品の関係	部分関係	誤訳	低	「部品」は機械部品の意味になる。
+public/config/locales/ja.yml	resource._public.identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+public/config/locales/ja.yml	resource._public.extent	Extent	エクステント	数量	不統一	中	Extent は「数量」に統一。
+public/config/locales/ja.yml	resource._public.extent_full	Full Extent	完全なエクステント	完全な数量	不統一	中	Extent は「数量」に統一。
+public/config/locales/ja.yml	resource._public.extent_partial	Partial Extent	部分的なエクステント	部分的な数量	不統一	中	Extent は「数量」に統一。
+public/config/locales/ja.yml	resource._public.lang	Language of Materials	材料の言語	資料の言語	誤訳	中	Materials は「資料」。
+public/config/locales/ja.yml	resource._public.script	Script	スクリプト	文字体系	不自然	低	Script を「スクリプト」と訳している。
+public/config/locales/ja.yml	resource._public.physdesc	Physical Description	身体的特徴	形態的記述	誤訳	高	Physical Description を人の「身体的特徴」と訳している。
+public/config/locales/ja.yml	resource._public.finding_aid.head	Finding Aid & Administrative Information	援助と行政情報の検索	検索手段と管理情報	誤訳	高	Finding Aid を「援助の検索」、Administrative を「行政」と訳している。
+public/config/locales/ja.yml	resource._public.finding_aid.subtitle	Subtitle	字幕	副題	誤訳	中	Subtitle を映像の「字幕」と訳している。
+public/config/locales/ja.yml	resource._public.finding_aid.description_rules	Description rules	説明ルール	記述規則	不自然	低	Description を「説明」と訳している。
+public/config/locales/ja.yml	resource._public.finding_aid.identifier	Identifier	識別	識別子	誤訳	中	Identifier は「識別子」。
+public/config/locales/ja.yml	resource._public.finding_aid.language	Language of description	説明の言語	記述の言語	誤訳	低	Description（記述）を「説明」と訳している。
+public/config/locales/ja.yml	resource._public.finding_aid.script	Script of description	説明のスクリプト	記述の文字体系	誤訳	低	Script を「スクリプト」と訳している。
+public/config/locales/ja.yml	resource._public.finding_aid.language_note	Language of description note	説明文の言語	記述の言語に関する注記	誤訳	低	note が訳されていない。
+public/config/locales/ja.yml	resource._public.finding_aid.series_statement	Series statement	シリーズ声明	シリーズ表示	誤訳	低	statement を「声明」と訳している。
+public/config/locales/ja.yml	resource._public.finding_aid.note	Note	注意	ノート	誤訳	中	Note を「注意（caution）」と訳している。
+public/config/locales/ja.yml	resource._public.related_accessions.accessions	Accession Records	受付記録	受入レコード	不統一	低	Accession は「受入」に統一。
+public/config/locales/ja.yml	resource._public.related_accessions.deaccessions	Deaccession Records	デアクセスレコード	除籍レコード	不自然	低	「デアクセス」は意味が通じない。
+public/config/locales/ja.yml	digital_object._plural	Digital Materials	デジタル素材	デジタル資料	不統一	低	他の箇所は「デジタル資料」。
+public/config/locales/ja.yml	digital_object._public.browse_number_digital_objects_in_collection.other	Browse %{num} digital objects in collection	コレクションの%{num}つのディジタルオブジェクトを閲覧する	コレクション内の %{num} 件のデジタルオブジェクトを閲覧	不統一	低	「ディジタル」と表記が揺れている。
+public/config/locales/ja.yml	subject._plural	Subjects	科目	件名	誤訳	中	Subjects を「科目」と訳している。
+public/config/locales/ja.yml	classification.creator	Creator	クリエイター	作成者	不自然	低	Creator は記録の「作成者」。
+public/config/locales/ja.yml	classification.identifier_separator	.	。	.	誤訳	中	区切り記号「.」が句点「。」に変えられている。
+public/config/locales/ja.yml	classification_term._singular	Record Group Term	レコードグループ期間	レコードグループの用語	誤訳	中	Term を「期間」と訳している。
+public/config/locales/ja.yml	classification_term._plural	Record Group Terms	レコードグループ規約	レコードグループの用語	誤訳	中	Terms を「規約」と訳している。
+public/config/locales/ja.yml	an_agent	Name	名	名前	不自然	低	「名」は姓名の名と紛らわしい（複数形は「名前」）。
+public/config/locales/ja.yml	pui_agent._singular	Name	名	名前	不自然	低	「名」は姓名の名と紛らわしい（複数形は「名前」）。
+public/config/locales/ja.yml	agent._singular	Name	名	名前	不自然	低	「名」は姓名の名と紛らわしい（複数形は「名前」）。
+public/config/locales/ja.yml	agent_function._singular	Function	関数	機能	誤訳	中	Function を数学の「関数」と訳している。
+public/config/locales/ja.yml	description	About	約	概要	誤訳	中	About を「約」（およそ）と訳している。
+public/config/locales/ja.yml	contact	Contact	接触	連絡先	誤訳	中	Contact を「接触」と訳している。
+public/config/locales/ja.yml	pdf_reports.administrative_information	Administrative Information	行政情報	管理情報	誤訳	中	Administrative を「行政」と訳している。
+public/config/locales/ja.yml	pdf_reports.collection_inventory	Collection Inventory	コレクションインベントリ	コレクション目録	不自然	低	「インベントリ」は分かりにくい。
+public/config/locales/ja.yml	pdf_reports.publication_statement	Publication Statement	出版物	出版表示	誤訳	低	Statement が「出版物」になっている。
+public/config/locales/ja.yml	pdf_reports.controlled_access_headings	Controlled Access Headings	制御されたアクセス見出し	統制アクセス見出し	不自然	低	「制御された」は直訳調。
+public/config/locales/ja.yml	pdf_reports.finding_aid_date_prefix	This finding aid was produced using ArchivesSpace on	この発見支援は、ArchivesSpace on	この目録は ArchivesSpace を使用して作成されました。作成日：	誤訳	高	finding aid を「発見支援」と訳し、英語も残っている。
+public/config/locales/ja.yml	pdf_reports.finding_aid_written_in	Finding aid written in	書かれた援助を見つける	目録の記述言語：	誤訳	高	finding aid を「援助を見つける」と訳している。
+public/config/locales/ja.yml	pdf_reports.your_finding_aid_pdf	Your finding aid PDF for "%{title}"	&quot; %{title} &quot;の検索援助PDF	「%{title}」の目録PDF	誤訳	中	finding aid を「検索援助」と訳し、&quot; が残っている。
+public/config/locales/ja.yml	pdf_reports.your_finding_aid_is_attached	The finding aid you requested is attached.	あなたが求めた援助が添付されています。	ご依頼の目録を添付します。	誤訳	高	finding aid を「援助」と訳している。
+public/config/locales/ja.yml	readmore.see_less	See less	もっと見る	表示を減らす	誤訳	中	See less（折りたたむ）が「もっと見る」と逆になっている。
+public/config/locales/ja.yml	search_tab	Search %{target}	検索%{target}	%{target}を検索	不自然	低	語順が不自然。
+public/config/locales/ja.yml	agent_record_identifier.primary_identifier	Is Primary Identifier?	一次識別子はありますか？	主識別子か	誤訳	中	「一次識別子はありますか」と問いの対象が異なる。
+public/config/locales/ja.yml	date_label.existence	Existence	存在	存続期間	不自然	低	「存在」だけでは日付の種類と分からない。
+public/config/locales/ja.yml	date_label.usage	Usage	使用法	使用期間	不自然	低	「使用法」は使い方の意味になる。
+public/config/locales/ja.yml	agent_contact.address_1	Address 1	住所（1	住所1	不自然	低	括弧が閉じておらず崩れている。
+public/config/locales/ja.yml	agent_contact.address_2	Address 2	アドレス2	住所2	不統一	低	他は「住所」。
+public/config/locales/ja.yml	telephone.number	Number	数	番号	誤訳	中	電話の Number を「数」と訳している。
+public/config/locales/ja.yml	telephone.ext	Telephone Extension	内線電話	内線番号	不自然	低	「内線電話」は機器を指す。
+public/config/locales/ja.yml	agent_notes._singular	Note	注意	ノート	誤訳	中	Note を「注意（caution）」と訳している。
+public/config/locales/ja.yml	agent_notes.note_mandate	Mandate	委任	職務権限	誤訳	低	「委任」は意味が異なる（ISAAR の Mandate）。
+public/config/locales/ja.yml	agent_notes.note_text	Note	注意	ノート	誤訳	中	Note を「注意（caution）」と訳している。
+public/config/locales/ja.yml	metadata_rights_declaration.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	誤訳	中	属性名 Show を「表示する」操作と訳している。

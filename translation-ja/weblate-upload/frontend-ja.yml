@@ -1,0 +1,88 @@
+---
+ja:
+  accession:
+    _frontend:
+      messages:
+        spawned: この受入は受入 <strong>%{accession_display_string}</strong> から生成されました。このレコードは未保存です。システムにレコードを作成するには「保存」をクリックしてください。
+        suppressed: 受入 <strong>%{accession_display_string}</strong> を非表示にしました
+        transfer_description: この受入を次の場所へ転送...
+        unsuppressed: 受入 <strong>%{accession_display_string}</strong> の非表示を解除しました
+        updated: 受入 <strong>%{accession_display_string}</strong> を更新しました
+  actions:
+    merge: マージ
+    unsuppress: 非表示を解除
+    unsuppress_confirm_title: このレコードの非表示を解除しますか？
+  agent_family:
+    _frontend:
+      action:
+        save: 家族を保存
+  archival_object:
+    _frontend:
+      messages:
+        published: アーカイバルオブジェクト <strong>%{archival_object_title}</strong>、その子、サブレコード、コンポーネントを公開しました
+        suppressed: アーカイバルオブジェクト <strong>%{archival_object_title}</strong> を非表示にしました
+        unpublished: アーカイバルオブジェクト <strong>%{archival_object_title}</strong>、その子、サブレコード、コンポーネントを非公開にしました
+        unsuppressed: アーカイバルオブジェクト <strong>%{archival_object_title}</strong> の非表示を解除しました
+        created_with_parent: リソース <strong>%{resource_title}</strong> の <strong>%{parent_display_string}</strong> の子として、アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を作成しました
+        transfer_success: アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> をリソース <strong>%{resource_title}</strong> に転送しました
+  classification_term:
+    _frontend:
+      messages:
+        created: 分類用語 <strong>%{classification_term_title}</strong> を作成しました
+        created_with_parent: 分類用語 <strong>%{classification_term_title}</strong> を作成しました
+        deleted: 分類用語 <strong>%{classification_term_title}</strong> を削除しました
+        updated: 分類用語 <strong>%{classification_term_title}</strong> を更新しました
+        updated_with_parent: 分類用語 <strong>%{classification_term_title}</strong> を更新しました
+  digital_object:
+    _frontend:
+      messages:
+        suppressed: デジタルオブジェクト <strong>%{digital_object_title}</strong> を非表示にしました
+  digital_object_component:
+    _frontend:
+      messages:
+        created_with_parent: デジタルオブジェクト <strong>%{digital_object_title}</strong> の <strong>%{parent_display_string}</strong> の子として、デジタルオブジェクトコンポーネント <strong>%{digital_object_component_display_string}</strong> を作成しました
+        created: デジタルオブジェクト <strong>%{digital_object_title}</strong> にデジタルオブジェクトコンポーネント <strong>%{digital_object_component_display_string}</strong> を作成しました
+  job:
+    _frontend:
+      messages:
+        slug_generation: このジョブは、手動で追加されたスラッグをまだ持たないすべての<b>リソース</b>、<b>アーカイバルオブジェクト</b>、<b>デジタルオブジェクト</b>、<b>デジタルオブジェクトコンポーネント</b>、<b>受入</b>、<b>分類</b>、<b>エージェント</b>、<b>件名</b>、<b>リポジトリ</b>のスラッグを生成します。<br /><br /><em>手動で追加されたスラッグは、各レコードで自動生成ボックスをオンにして置き換えを指定しない限り変更されません。</em>
+  navbar:
+    import_accession_csv: 受入CSV
+    import_marcxml_subjects_and_agents: MARCXML（件名とエージェントのみ）
+  related_accession:
+    _frontend:
+      action:
+        add: 関連する受入を追加
+  resource:
+    _frontend:
+      messages:
+        spawned: 受入 <strong>%{accession_display_string}</strong> から新しいリソースを生成しました。このレコードは未保存です。システムにレコードを作成するには「保存」をクリックしてください。
+        suppressed: リソース <strong>%{resource_title}</strong> を非表示にしました
+      section:
+        finding_aid: 検索手段データ
+  save_changes_modal:
+    body: 保存されていない変更があります。続行するには、変更を保存するか破棄してください。
+  search:
+    resource:
+      finding_aid_status: 検索手段のステータス
+    subject:
+      first_term_type: 用語タイプ（先頭）
+    top_container:
+      context: リソース/受入
+  term:
+    _frontend:
+      action:
+        add: 用語/細分を追加
+  top_container:
+    _frontend:
+      bulk_operations:
+        collection_singular: リソース/受入
+        has_location_false: いいえ
+      messages:
+        max_results_limit_details: 一致する <strong>%{num_found}</strong> 件中 <strong>%{visible}</strong> 件を表示しています
+  assessment:
+    _frontend:
+      messages:
+        attributes_hint: 追加の %{attribute_type} が必要な場合は、管理者に連絡してください
+  login:
+    login_expired_link: もう一度<a href ='%{link}'>サインイン</a>してください。

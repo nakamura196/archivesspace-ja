@@ -1,0 +1,20 @@
+# PDF（目録）のひな形に直書きされていた英語の訳。ひな形は views/pdf/ に写して t() に置き換えた。
+ja:
+  pdf_reports:
+    ja_title_description: 表題／内容
+    ja_instances: 所在
+    ja_date_format: "%Y年%-m月%-d日"
+    ja_period: 。
+    ja_description_written_in: "記述言語：%{language}。"
+    ja_page_before: "- "
+    ja_page_after: " -"  # ページ下端は Times-Roman で描かれ、仮名が出ないので数字だけにする
+  resource:
+    _public:
+      uri: URI
+  advanced_search:
+    operator:
+      AND: かつ
+      OR: または
+      NOT: 次を含まない
+  japanese:
+    alert_close: 閉じる

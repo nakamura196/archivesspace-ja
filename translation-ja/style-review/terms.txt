@@ -1,0 +1,141 @@
+# レコードの種類
+Accession
+Resource
+Archival Object
+Digital Object
+Digital Object Component
+Agent
+Subject
+Location
+Assessment
+Classification
+Event
+Repository
+Collection
+Container
+Top Container
+Instance
+Series
+Fonds
+Record
+Item
+Finding Aid
+Deaccession
+# 項目
+Extent
+Note
+Date
+Title
+Identifier
+Description
+Creator
+Contributor
+Language
+Level of Description
+Rights
+Access
+Provenance
+Arrangement
+Abstract
+Appraisal
+Accruals
+Custodial History
+Physical Location
+Physical Description
+Scope and Contents
+Condition
+Metadata
+Vocabulary
+Term
+Source
+Authority
+Format
+Keyword
+Status
+Type
+Value
+Name
+# 操作
+Browse
+Search
+Advanced Search
+Edit
+Delete
+Save
+Cancel
+Create
+Add
+Remove
+View
+Close
+Submit
+Reset
+Filter
+Sort
+Import
+Export
+Upload
+Download
+Merge
+Transfer
+Publish
+Published
+Unpublish
+Suppress
+Suppressed
+Link
+Unlink
+Show
+Hide
+Expand
+Collapse
+Next
+Previous
+Back
+Duplicate
+Select
+Apply
+Confirm
+Clear
+Refresh
+Print
+# 画面・管理
+Home
+Dashboard
+Results
+Report
+Job
+Background Job
+User
+Group
+Permission
+Preferences
+Settings
+Help
+Log In
+Log Out
+Username
+Password
+Required
+Optional
+Yes
+No
+True
+False
+None
+All
+Unknown
+Other
+Default
+Error
+Warning
+Success
+Loading
+History
+Revision
+Comment
+Tag
+Image
+File
+Thumbnail
+Version

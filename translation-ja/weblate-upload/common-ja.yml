@@ -1,0 +1,164 @@
+---
+ja:
+  accession:
+    _plural: 受入
+    _singular: 受入
+    access_restrictions_note_tooltip: "<p>受入資料のうちどの資料にアクセスが制限されているか、制限の権限は何か、制限の有効期間は何かを示す声明。追加情報は、権利サブ記録に記録することもできます。</p><p>DACS 4.1-4.3、ISAD(G) 3.4.1、3.4.4を参照 </p><p>例： </p><ul><li>ボックス10の日記は、2030年までドナーによって制限されています。 </li></ul>"
+    accession_date_tooltip: "<p>受入が行われた日付。必ずしもレコード作成時と同じ日付ではありません。 </p>"
+    accession_date_unknown: 不明
+    condition_description_tooltip: "<p>特別な取扱い要件を含む、受入資料の物理的状態に関する記述。 </p><p>例： </p><p>ボックス4の地図は脆く、いくつかはカビに覆われています。処理中に防護マスクを着用してください。 </p>"
+    use_restrictions: 利用制限あり？
+    use_restrictions_tooltip: "<p>受入資料に使用制限があることを示すチェックボックス。</p><p>DACS 4.4、ISAD(G) 3.4.2を参照</p>"
+  accession_linked_agent:
+    relator: 関係指示子
+  accession_parts_relationship:
+    forms_part_of: 一部を構成する
+  act:
+    act_type_tooltip: "<p>この権利表明が許可する行為。 </p>"
+  agent_name:
+    script: 文字体系
+  agent_relationship_identity:
+    _singular: 同一性関係
+  agent_resource:
+    linked_resource_description_tooltip: "<p>書誌情報や関連するコレクションの情報などを記録する自由記述欄。</p>"
+  archival_object_linked_agent:
+    relator: 関係指示子
+  archival_record_date:
+    begin: 開始
+    era: 年代区分
+  assessment:
+    finding_aid_ead: 検索手段（EAD）
+    finding_aid_online: 検索手段（オンライン）
+    finding_aid_paper: 検索手段（紙のみ）
+    finding_aid_spreadsheet: 検索手段（スプレッドシート）
+    finding_aid_word: 検索手段（ワープロ文書）
+  assessment_attribute:
+    conservation_issue:
+      Potential Mold or Mold Damage: カビの疑いまたはカビ被害
+    format:
+      Architectural Materials: 建築資料
+    rating:
+      Housing Quality: 収納の品質
+      Housing Quality_tooltip: "<p>コレクション内の資料の収納全体の質を記述するための1から5までの評価。コレクション内のアイテムまたはマテリアルのグループは、全体的なレーティングよりも優れた、または劣悪な収納になる可能性があります。 </p>"
+      Physical Condition: 物理的状態
+  bulk_import:
+    error:
+      no_uri_or_ref: アーカイバルオブジェクトURIもRef IDも指定されていません
+      no_container_instance: コンテナインスタンス %{number} を作成できません：[%{why}]
+      validation_error: "%{what} を検証できません: %{err}"
+    ref_id_notfound: Ref ID %{refid} が見つかりません
+  classification_term:
+    _plural: 分類項目
+    _singular: 分類項目
+  collection_management:
+    processors: 整理担当者
+  date:
+    begin: 開始
+    era: 年代区分
+  date_fields:
+    begin: 開始
+    era: 年代区分
+  date_label:
+    begin: 開始
+    era: 年代区分
+  date_type_bulk:
+    begin: 開始
+    era: 年代区分
+  date_type_inclusive:
+    begin: 開始
+    era: 年代区分
+  date_type_range:
+    begin: 開始
+    era: 年代区分
+  date_type_single:
+    begin: 開始
+    era: 年代区分
+  deaccession:
+    disposition: 処置
+  defaults:
+    note_order_section: 注記の順序
+    show_suppressed: 非表示のレコードを表示しますか？
+  digital_object:
+    level: VRA Coreレベル
+  digital_object_component:
+    level: VRA Coreレベル
+  digital_object_component_linked_agent:
+    relator: 関係指示子
+  digital_object_linked_agent:
+    relator: 関係指示子
+  enumeration:
+    unsuppress: 非表示を解除
+  event:
+    types:
+      accession: 受入
+      decompression: 解凍（展開）
+      ingestion: 取り込み
+  event_date:
+    begin: 開始
+    era: 年代区分
+  event_linked_agent:
+    ref_tooltip: "<p>必須フィールド。このイベントが表す行為に関わった個人・家・団体またはソフトウェア。</p>"
+    relator: 関係指示子
+    role_tooltip: "<p>必須フィールド。このイベントが表す行為において、エージェントがどのような役割を果たしたかを示します。</p>"
+  existence_date:
+    begin: 開始
+    era: 年代区分
+  import_job:
+    import_type_accession_csv: 受入CSV
+    import_type_marcxml_auth_agent: MarcXML典拠（エージェント）
+  linked_agent:
+    relator: 関係指示子
+  linked_event:
+    types:
+      accession: 受入
+      decompression: 解凍（展開）
+      ingestion: 取り込み
+  name_corporate_entity:
+    script: 文字体系
+  name_family:
+    script: 文字体系
+  name_person:
+    script: 文字体系
+  name_software:
+    script: 文字体系
+  note:
+    note_abstract: 要約
+  note_abstract:
+    option: 要約
+  parallel_name_corporate_entity:
+    script: 文字体系
+  parallel_name_family:
+    script: 文字体系
+  parallel_name_person:
+    script: 文字体系
+  parallel_name_software:
+    script: 文字体系
+  repository:
+    telephone_ext: 内線
+  resource:
+    finding_aid_author: 検索手段の作成者
+    finding_aid_date: 検索手段の日付
+    finding_aid_filing_title: 検索手段の排列用タイトル
+    finding_aid_note: 検索手段の注記
+    finding_aid_note_tooltip: "<p>他の検索手段データ要素によってカバーされていない検索手段に関する追加情報（記述された資源ではない）を記録するため。 </p>"
+    finding_aid_status: 検索手段のステータス
+    finding_aid_subtitle: 検索手段のサブタイトル
+    finding_aid_title: 検索手段のタイトル
+  resource_duplicate_job:
+    archival_object_failure_message: ID %{resource_id} のリソースから ID %{archival_object_id} のアーカイブ オブジェクトを複製できませんでした。 検証エラー %{message}。
+  resource_linked_agent:
+    relator: 関係指示子
+  rights_statement_act:
+    act_type_tooltip: "<p>この権利表明が許可する行為。 </p>"
+  subject:
+    _plural: 件名
+    terms: 用語
+  term:
+    _plural: 用語
+    _singular: 用語
+    term: 用語
+  usage_date:
+    begin: 開始
+    era: 年代区分
+  validation_errors:
+    must_be_a_number_with_no_more_than_nine_digits_and_five_decimal_places: 9桁以内かつ小数点以下5桁以内の数値である必要があります。

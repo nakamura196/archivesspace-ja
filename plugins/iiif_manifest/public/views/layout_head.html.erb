@@ -1,0 +1,66 @@
+<%# 資料・資料群・デジタルオブジェクトのページで、マニフェストに画像があれば Mirador を出す %>
+<% if request.path =~ %r{/repositories/\d+/(digital_objects|archival_objects|resources)/\d+/?\z} %>
+<style>
+  .iiif-viewer-section { margin: 0 0 1.5rem; }
+  .iiif-viewer { position: relative; width: 100%; height: 70vh; min-height: 420px; border: 1px solid #ddd; }
+  .iiif-manifest-link { display: inline-block; margin-top: .4rem; font-size: .9rem; }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var isDigitalObject = <%= ($1 == 'digital_objects').to_json %>;
+  if (!isDigitalObject && !document.querySelector('.available-digital-objects')) return;
+
+  var manifestUrl = location.pathname.replace(/\/+$/, '') + '/manifest.json';
+  fetch(manifestUrl, { credentials: 'same-origin' })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (manifest) {
+      if (!manifest || !manifest.items || manifest.items.length === 0) return;
+
+      var section = document.createElement('section');
+      section.className = 'iiif-viewer-section';
+      section.innerHTML =
+        '<h2 class="h4"><%= j t('iiif_manifest.heading') %></h2>' +
+        '<div id="iiif-viewer" class="iiif-viewer"></div>' +
+        '<a class="iiif-manifest-link" href="' + manifestUrl + '"><%= j t('iiif_manifest.manifest_link') %></a>';
+
+      // 画面側の JS が表示部分を組み直すことがあるので、差し込む直前に探す
+      var placeholder = document.querySelector('.available-digital-objects');
+      var pane = document.querySelector('#main-content .resizable-content-pane');
+      if (placeholder) {
+        placeholder.parentNode.insertBefore(section, placeholder);
+        placeholder.style.display = 'none';
+      } else if (pane) {
+        pane.insertBefore(section, pane.firstChild);
+      } else {
+        return;
+      }
+
+      var script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/mirador@3.3.0/dist/mirador.min.js';
+      script.integrity = 'sha384-k/r5UrI+Ic8F0V9TCYmu63AmAPL2JDdRbBESFligIXgD8gtukEtg6PrEbkbYAO7M';
+      script.crossOrigin = 'anonymous';
+      script.onload = function () {
+        Mirador.viewer({
+          id: 'iiif-viewer',
+          language: '<%= I18n.locale.to_s == 'ja' ? 'ja' : 'en' %>',
+          windows: [{
+            manifestId: new URL(manifestUrl, location.href).href,
+            thumbnailNavigationPosition: manifest.items.length > 1 ? 'far-bottom' : 'off'
+          }],
+          window: {
+            allowClose: false,
+            allowMaximize: false,
+            allowFullscreen: true,
+            sideBarOpenByDefault: false,
+            hideWindowTitle: true
+          },
+          workspaceControlPanel: { enabled: false },
+          workspace: { showZoomControls: true }
+        });
+      };
+      document.head.appendChild(script);
+    })
+    .catch(function (e) { console.warn('[iiif_manifest]', e); });
+});
+</script>
+<% end %>

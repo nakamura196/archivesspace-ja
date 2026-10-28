@@ -1,0 +1,749 @@
+file	key	en	current_ja	proposed_ja	category	severity	reason
+common/locales/enums/ja.yml	enumerations.archival_record_level.fonds	Fonds	資金	フォンド	誤訳	高	「資金」はfunds/fondsの同音取り違えで、記述レベルのフォンドではない
+common/locales/enums/ja.yml	enumerations.archival_record_level.subfonds	Sub-Fonds	サブフォンズ	サブフォンド	不統一	中	fondsの誤綴りに基づく表記
+common/locales/enums/ja.yml	enumerations.archival_record_level.item	Item	項目	アイテム	不統一	中	記述レベルとしては「アイテム」が標準的
+common/locales/enums/ja.yml	enumerations.archival_record_level.recordgrp	Record Group	レコードグループ	記録群	不統一	中	Record Groupの定訳は記録群
+common/locales/enums/ja.yml	enumerations.accession_acquisition_type.deposit	Deposit	保証金	寄託	誤訳	高	「保証金」は金銭の意味で、取得方法の寄託ではない
+common/locales/enums/ja.yml	enumerations.accession_acquisition_type.gift	Gift	贈り物	寄贈	不自然	中	取得方法としては寄贈
+common/locales/enums/ja.yml	enumerations.accession_acquisition_type.transfer	Transfer	転送	移管	誤訳	高	「転送」はデータ転送の意味で、組織間の移管ではない
+common/locales/enums/ja.yml	enumerations.accession_parts_relator.forms_part_of	Forms Part of	フォームの一部	一部を構成する	誤訳	高	「フォームの一部」は入力フォームと誤読される
+common/locales/enums/ja.yml	enumerations.accession_parts_relator.has_part	Has Part	パートがある	構成部分を持つ	不自然	中	機械翻訳調
+common/locales/enums/ja.yml	enumerations.accession_parts_relator_type.part	"Part" relationship	&quot;パート&quot;関係	「部分」関係	不自然	中	HTMLエンティティ&quot;がそのまま表示される
+common/locales/enums/ja.yml	enumerations.accession_sibling_relator.sibling_of	Is Sibling of	兄弟は	兄弟関係にある	不自然	中	「兄弟は」は文として途切れている
+common/locales/enums/ja.yml	enumerations.accession_sibling_relator_type.bound_with	"Bound With" relationship	&quot;結びついた&quot;関係	「合綴」関係	誤訳	中	Bound withは合綴を指す
+common/locales/enums/ja.yml	enumerations.accession_resource_type.papers	Papers	論文	個人文書	誤訳	高	アーカイブズのpapersは個人・家族文書で論文ではない
+common/locales/enums/ja.yml	enumerations.resource_resource_type.papers	Papers	論文	個人文書	誤訳	高	アーカイブズのpapersは個人・家族文書で論文ではない
+common/locales/enums/ja.yml	enumerations.agency_code_type.local	Local	地元	ローカル	不自然	低	「地元」は地域の意味になる
+common/locales/enums/ja.yml	enumerations.identifier_type.local	Local	地元	ローカル	不自然	低	「地元」は地域の意味になる
+common/locales/enums/ja.yml	enumerations.source.local	Local	地元	ローカル	不自然	低	「地元」は地域の意味になる
+common/locales/enums/ja.yml	enumerations.government_agency_type.local	Local	地元	地方	不自然	低	「地元」より地方政府の意味が明確
+common/locales/enums/ja.yml	enumerations.agent_relationship_associative_relator.is_associative_with	Associative with Related	関連する連想	関連あり	不自然	中	「関連する連想」は意味をなさない
+common/locales/enums/ja.yml	enumerations.agent_relationship_earlierlater_relator.is_earlier_form_of	Earlier Form of Related	以前の形式の関連	関連エージェントの前身	不自然	中	前身・後身の関係が読み取れない
+common/locales/enums/ja.yml	enumerations.agent_relationship_earlierlater_relator.is_later_form_of	Later Form of Related	後の形の関連	関連エージェントの後身	不自然	中	前身・後身の関係が読み取れない
+common/locales/enums/ja.yml	enumerations.agent_relationship_family_relator.is_related_with	Agent Relationship Related Relator	エージェント関係関連の関係者	家族関係あり	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.agent_relationship_hierarchical_relator.is_hierarchical_with	Agent Relationship Hierarchical Relator	エージェント関係階層関係	階層関係あり	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.agent_relationship_identity_relator.is_identified_with	Agent Relationship Identified With Relator	リレーターで特定されたエージェントの関係	同一人物・団体	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.agent_relationship_temporal_relator.is_temporal_with	Agent Relationship Temporal Relator	エージェント関係時間的関係者	時間的関係あり	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.agent_relationship_parentchild_relator.is_child_of	Child of Related	関連する子供	関連エージェントの子	不自然	中	親子の向きが曖昧
+common/locales/enums/ja.yml	enumerations.agent_relationship_parentchild_relator.is_parent_of	Parent of Related	関連の親	関連エージェントの親	不自然	中	親子の向きが曖昧
+common/locales/enums/ja.yml	enumerations.agent_relationship_subordinatesuperior_relator.is_subordinate_to	Is Subordinate to Related	関連する従属者	関連エージェントの下位	不自然	中	「従属者」で上下の向きが曖昧
+common/locales/enums/ja.yml	enumerations.agent_relationship_subordinatesuperior_relator.is_superior_of	Is Superior of Related	関連の優れている	関連エージェントの上位	誤訳	高	「優れている」は優劣の意味で上位組織ではない
+common/locales/enums/ja.yml	enumerations.begin_date_standardized_type.not_after	Not After	後ではない	以前（not after）	誤訳	中	「後ではない」は直訳で意味が取りにくい（この日以前の意）
+common/locales/enums/ja.yml	enumerations.begin_date_standardized_type.not_before	Not Before	前ではない	以降（not before）	誤訳	中	「前ではない」は直訳で意味が取りにくい（この日以降の意）
+common/locales/enums/ja.yml	enumerations.date_standardized_type.not_after	Not After	後ではない	以前（not after）	誤訳	中	「後ではない」は直訳で意味が取りにくい
+common/locales/enums/ja.yml	enumerations.date_standardized_type.not_before	Not Before	以前ではない	以降（not before）	誤訳	中	「以前ではない」は直訳で意味が取りにくい
+common/locales/enums/ja.yml	enumerations.end_date_standardized_type.not_after	Not After	後ではない	以前（not after）	誤訳	中	「後ではない」は直訳で意味が取りにくい
+common/locales/enums/ja.yml	enumerations.end_date_standardized_type.not_before	Not Before	前ではない	以降（not before）	誤訳	中	「前ではない」は直訳で意味が取りにくい
+common/locales/enums/ja.yml	enumerations.cataloging_source.unknown	Unknown	道の	不明	誤訳	高	「道の」は「未知の」の誤変換
+common/locales/enums/ja.yml	enumerations.cataloging_source.natc	No attempt to code	コーディングしようとしない	コード化せず	不自然	低	MARCの「No attempt to code」の直訳
+common/locales/enums/ja.yml	enumerations.government_agency_type.natc	No attempt to code	コーディングしようとしない	コード化せず	不自然	低	MARCの「No attempt to code」の直訳
+common/locales/enums/ja.yml	enumerations.level_of_detail.natc	No attempt to code	コーディングしようとしない	コード化せず	不自然	低	MARCの「No attempt to code」の直訳
+common/locales/enums/ja.yml	enumerations.modified_record.natc	No attempt to code	コーディングしようとしない	コード化せず	不自然	低	MARCの「No attempt to code」の直訳
+common/locales/enums/ja.yml	enumerations.name_type.natc	No attempt to code	コーディングしようとしない	コード化せず	不自然	低	MARCの「No attempt to code」の直訳
+common/locales/enums/ja.yml	enumerations.reference_evaluation.natc	No attempt to code	コーディングしようとしない	コード化せず	不自然	低	MARCの「No attempt to code」の直訳
+common/locales/enums/ja.yml	enumerations.cataloging_source.other	Other	その他の	その他	不自然	低	「その他の」で語が途切れている
+common/locales/enums/ja.yml	enumerations.government_agency_type.other	Other	その他の	その他	不自然	低	「その他の」で語が途切れている
+common/locales/enums/ja.yml	enumerations.collection_management_processing_status.completed	Completed	完了しました	完了	不自然	低	選択肢に「しました」は不要
+common/locales/enums/ja.yml	enumerations.resource_finding_aid_status.completed	Completed	完了しました	完了	不自然	低	選択肢に「しました」は不要
+common/locales/enums/ja.yml	enumerations.collection_management_processing_status.new	New	新しい	新規	不自然	低	状態値としては新規
+common/locales/enums/ja.yml	enumerations.maintenance_status.new	New	新しい	新規	不自然	低	状態値としては新規
+common/locales/enums/ja.yml	enumerations.collection_management_processing_priority.high	High	高い	高	不自然	低	優先度の選択肢は高/中/低で揃える
+common/locales/enums/ja.yml	enumerations.collection_management_processing_priority.low	Low	低い	低	不自然	低	優先度の選択肢は高/中/低で揃える
+common/locales/enums/ja.yml	enumerations.container_type.box	Box	ボックス	箱	不統一	中	標準用語は箱
+common/locales/enums/ja.yml	enumerations.container_type.case	Case	場合	ケース	誤訳	高	「場合」はcaseの別義で、容器ではない
+common/locales/enums/ja.yml	enumerations.container_type.volume	Volume	ボリューム	冊	誤訳	中	容器・数量としてのvolumeは冊（音量・容量ではない）
+common/locales/enums/ja.yml	enumerations.extent_extent_type.volumes	Volumes	ボリューム	冊	誤訳	中	数量単位としてのvolumesは冊
+common/locales/enums/ja.yml	enumerations.date_calendar.gregorian	Gregorian	グレゴリアン	グレゴリオ暦	不自然	中	暦法名として不完全
+common/locales/enums/ja.yml	enumerations.date_certainty.approximate	Approximate	近似	おおよそ	不自然	低	年代の確度としては「おおよそ」「頃」が自然
+common/locales/enums/ja.yml	enumerations.date_certainty.inferred	Inferred	推測された	推定	不自然	低	年代の確度としては推定
+common/locales/enums/ja.yml	enumerations.date_era.ce	ce	本	西暦	誤訳	高	「本」はceを誤訳したもので紀年法を示さない
+common/locales/enums/ja.yml	enumerations.date_label.creation	Creation	創造	作成	不自然	中	年代ラベルとしては作成（創造は不適切）
+common/locales/enums/ja.yml	enumerations.date_label.deaccession	Deaccession	デアクセス	除籍	不自然	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.date_label.publication	Publication	出版物	出版	誤訳	中	日付ラベルで「出版物」は物を指してしまう
+common/locales/enums/ja.yml	enumerations.date_label.digitized	Digitized	デジタル化された	デジタル化	不自然	低	ラベルとして簡潔に
+common/locales/enums/ja.yml	enumerations.date_label.issued	Issued	発行済み	発行	不自然	低	ラベルとして簡潔に
+common/locales/enums/ja.yml	enumerations.date_label.modified	Modified	変更された	変更	不自然	低	ラベルとして簡潔に
+common/locales/enums/ja.yml	enumerations.date_label.record_keeping	Record Keeping	記録の保存	記録管理	不自然	低	record keepingは記録管理
+common/locales/enums/ja.yml	enumerations.date_label.usage	Usage	使用法	使用	不自然	低	「使用法」は使い方の意味になる
+common/locales/enums/ja.yml	enumerations.date_role.begin	Begin	ベギン	開始	誤訳	高	「ベギン」は修道女会の名称で開始の意味ではない
+common/locales/enums/ja.yml	enumerations.date_role.end	End	終わり	終了	不自然	低	開始/終了で対にする
+common/locales/enums/ja.yml	enumerations.date_type.bulk	Bulk Dates	バルク日付	主要年代	不統一	中	bulk datesの標準訳は主要年代
+common/locales/enums/ja.yml	enumerations.date_type.inclusive	Inclusive Dates	包括日付	包括年代	不統一	中	inclusive datesの標準訳は包括年代
+common/locales/enums/ja.yml	enumerations.date_type.single	Single	シングル	単一	不自然	中	日付タイプとしては単一
+common/locales/enums/ja.yml	enumerations.date_type_structured.single	Single	シングル	単一	不自然	中	日付タイプとしては単一
+common/locales/enums/ja.yml	enumerations.date_type.expression	Expression	式	表記	誤訳	中	「式」は数式の意味になる（日付の文字表記の意）
+common/locales/enums/ja.yml	enumerations.deaccession_scope.part	Part	部	一部	不自然	低	「部」は組織の部と紛らわしい
+common/locales/enums/ja.yml	enumerations.extent_portion.part	Part	部	一部	不自然	低	「部」は組織の部と紛らわしい
+common/locales/enums/ja.yml	enumerations.digital_object_digital_object_type.cartographic	Cartographic	地図製作	地図資料	不自然	中	資料種別としては地図資料
+common/locales/enums/ja.yml	enumerations.digital_object_digital_object_type.mixed_materials	Mixed Materials	混合材料	混合資料	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.instance_instance_type.mixed_materials	Mixed Materials	混合材料	混合資料	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.digital_object_digital_object_type.notated_music	Notated Music	ノミネート音楽	楽譜	誤訳	高	「ノミネート音楽」はnotatedをnominatedと取り違えている
+common/locales/enums/ja.yml	enumerations.digital_object_digital_object_type.sound_recording_musical	Sound Recording (Musical)	サウンドレコーディング（ミュージカル）	録音（音楽）	誤訳	中	「ミュージカル」は舞台作品の意味になる
+common/locales/enums/ja.yml	enumerations.digital_object_digital_object_type.sound_recording_nonmusical	Sound Recording (Non-musical)	サウンドレコーディング（非音楽的）	録音（音楽以外）	不自然	中	機械翻訳調
+common/locales/enums/ja.yml	enumerations.digital_object_level.work	Work	作業	作品	誤訳	高	「作業」はworkの別義で、作品レベルではない
+common/locales/enums/ja.yml	enumerations.dimension_units.feet	Feet	足	フィート	誤訳	高	「足」は身体の足で単位ではない
+common/locales/enums/ja.yml	enumerations.event_event_type.accession	Accession	受託	受入	不統一	中	Accessionの標準訳は受入
+common/locales/enums/ja.yml	enumerations.instance_instance_type.accession	Accession	受託	受入	不統一	中	Accessionの標準訳は受入
+common/locales/enums/ja.yml	enumerations.event_event_type.acknowledgement	Acknowledgement	了承	受領通知	不自然	低	「了承」は承諾の意味になる
+common/locales/enums/ja.yml	enumerations.event_event_type.acknowledgement_received	Acknowledgement Received	受け取った謝辞	受領通知の受信	誤訳	中	「謝辞」は献辞・感謝の意味になる
+common/locales/enums/ja.yml	enumerations.event_event_type.acknowledgement_sent	Acknowledgement Sent	送信された確認応答	受領通知の送付	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.event_event_type.agreement_received	Agreement Received	受領した契約	契約書の受領	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.event_event_type.agreement_sent	Agreement Sent	契約書が送信されました	契約書の送付	不自然	低	選択肢が文になっている
+common/locales/enums/ja.yml	enumerations.event_event_type.appraisal	Appraisal	審査	評価選別	不統一	中	Appraisalの標準訳は評価選別
+common/locales/enums/ja.yml	enumerations.event_event_type.cataloged	Cataloged	カタログ化された	目録作成	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.event_event_type.component_transfer	Component Transfer	コンポーネント転送	構成要素の移管	不自然	中	「転送」はデータ転送の意味になる
+common/locales/enums/ja.yml	enumerations.event_event_type.custody_transfer	Custody Transfer	保管転送	保管の移管	不自然	中	「転送」はデータ転送の意味になる
+common/locales/enums/ja.yml	enumerations.event_event_type.deaccession	Deaccession	デアクセス	除籍	不自然	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.event_event_type.decompression	Decompression	減圧	解凍	誤訳	高	「減圧」は気圧の意味でファイル展開ではない
+common/locales/enums/ja.yml	enumerations.event_event_type.fixity_check	Fixity Check	適合性チェック	固定性検査	誤訳	中	「適合性」はfixity（ハッシュ値による不変性確認）と別概念
+common/locales/enums/ja.yml	enumerations.event_event_type.ingestion	Ingestion	摂取	取り込み	誤訳	高	「摂取」は飲食の意味になる
+common/locales/enums/ja.yml	enumerations.event_event_type.processed	Processed	処理された	処理済み	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.event_event_type.processing_completed	Processing Completed	処理が完了しました	処理完了	不自然	低	選択肢が文になっている
+common/locales/enums/ja.yml	enumerations.event_event_type.processing_in_progress	Processing in Progress	処理中の処理	処理中	不自然	低	「処理中の処理」は重複
+common/locales/enums/ja.yml	enumerations.event_event_type.processing_new	Processing New	新しい処理	処理（新規）	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.event_event_type.publication	Publication	出版物	公開	誤訳	中	イベント種別として「出版物」は物を指してしまう
+common/locales/enums/ja.yml	enumerations.event_event_type.rights_transferred	Rights Transferred	移転権	権利の移転	誤訳	中	「移転権」は権利の種類の名前になる
+common/locales/enums/ja.yml	enumerations.event_outcome.fail	Fail	失敗します	失敗	不自然	低	選択肢に「します」は不要
+common/locales/enums/ja.yml	enumerations.event_outcome.fulfilled	Fulfilled	完成品	完了	誤訳	中	「完成品」は物を指す
+common/locales/enums/ja.yml	enumerations.event_outcome.pass	Pass	パス	合格	不自然	中	検査結果としては合格
+common/locales/enums/ja.yml	enumerations.event_outcome.partial pass	Partial Pass	パーシャルパス	一部合格	未訳	中	カタカナ化されただけ
+common/locales/enums/ja.yml	enumerations.file_version_use_statement.audio-master-edited	Audio-Master-Edited	オーディオマスター編集	オーディオマスター（編集済み）	不自然	低	「編集」だけでは状態が分からない
+common/locales/enums/ja.yml	enumerations.file_version_use_statement.image-master-edited	Image-Master-Edited	イメージマスター編集	イメージマスター（編集済み）	不自然	低	「編集」だけでは状態が分からない
+common/locales/enums/ja.yml	enumerations.file_version_use_statement.video-master-edited	Video-Master-Edited	ビデオマスター編集	ビデオマスター（編集済み）	不自然	低	「編集」だけでは状態が分からない
+common/locales/enums/ja.yml	enumerations.file_version_use_statement.text-ocr-edited	Text-Ocr-Edited	テキスト-Ocr編集	テキスト-OCR（編集済み）	不自然	低	Ocrの表記と状態が不自然
+common/locales/enums/ja.yml	enumerations.file_version_use_statement.text-ocr-unedited	Text-Ocr-Unedited	テキスト-Ocr-編集なし	テキスト-OCR（未編集）	不自然	低	Ocrの表記が不自然
+common/locales/enums/ja.yml	enumerations.file_version_use_statement.text-tei-transcripted	Text-Tei-Transcripted	テキスト転写されたテキスト	テキスト-TEI翻刻	誤訳	中	TEIが脱落し「テキスト転写されたテキスト」と重複
+common/locales/enums/ja.yml	enumerations.file_version_use_statement.text-tei-translated	Text-Tei-Translated	テキスト - Tei-Translated	テキスト-TEI翻訳	未訳	中	英語が残っている
+common/locales/enums/ja.yml	enumerations.file_version_xlink_show_attribute.new	new	新しい	新規	不自然	低	属性値として簡潔に
+common/locales/enums/ja.yml	enumerations.file_version_xlink_show_attribute.replace	replace	置き換える	置換	不自然	低	属性値として簡潔に
+common/locales/enums/ja.yml	enumerations.government_agency_type.multistate	Multistate	多状態	複数州	誤訳	中	「多状態」はstateを状態と取り違えている
+common/locales/enums/ja.yml	enumerations.government_agency_type.provincial	State, provincial, territorial, dependent, etc.	州、地方、領土、扶養家族など	州・省・準州・属領など	誤訳	中	「扶養家族」はdependent（属領）の取り違え
+common/locales/enums/ja.yml	enumerations.government_agency_type.sac	Autonomous or semi-autonomous component	自律型または半自律型コンポーネント	自治または半自治の構成体	不自然	低	「自律型コンポーネント」は機械翻訳調
+common/locales/enums/ja.yml	enumerations.government_agency_type.unknown	Unknown if heading is government agency	見出しが政府機関の場合は不明	見出しが政府機関かどうか不明	誤訳	中	条件文に誤読されている
+common/locales/enums/ja.yml	enumerations.identifier_type.lac	Library and Archives Canada	図書館および公文書館カナダ	カナダ国立図書館・文書館	不自然	中	機関名の語順が崩れている
+common/locales/enums/ja.yml	enumerations.identifier_type.loc	Library of Congress	議会図書館	米国議会図書館	不自然	低	国名を補う
+common/locales/enums/ja.yml	enumerations.instance_instance_type.moving_images	Moving Images	動画を見る	動画	誤訳	中	「動画を見る」は操作ボタンの意味になる
+common/locales/enums/ja.yml	enumerations.instance_instance_type.realia	Realia	Realia	実物資料	未訳	中	英語のまま
+common/locales/enums/ja.yml	enumerations.instance_instance_type.graphic_materials	Graphic Materials	グラフィックス資料	画像資料	不自然	低	「グラフィックス資料」は不自然
+common/locales/enums/ja.yml	enumerations.level_of_detail.not_applicable	Not applicable	適用できません	該当なし	不自然	低	選択肢としては該当なし
+common/locales/enums/ja.yml	enumerations.name_type.not_applicable	Not applicable	適用できません	該当なし	不自然	低	選択肢としては該当なし
+common/locales/enums/ja.yml	enumerations.reference_evaluation.not_applicable	Not applicable	適用できません	該当なし	不自然	低	選択肢としては該当なし
+common/locales/enums/ja.yml	enumerations.romanization.not_applicable	Not applicable	適用できません	該当なし	不自然	低	選択肢としては該当なし
+common/locales/enums/ja.yml	enumerations.level_of_detail.preliminary	Preliminary	予備の	予備レベル	不自然	低	「予備の」で語が途切れている
+common/locales/enums/ja.yml	enumerations.level_of_detail.fully_established	Fully established	完全に確立された	完全レベル	不自然	低	MARC 008の詳細度の値としては完全レベル
+common/locales/enums/ja.yml	enumerations.linked_agent_event_roles.executing_program	Executing Program	プログラムの実行	実行プログラム	誤訳	中	「プログラムの実行」は動作の意味で役割ではない
+common/locales/enums/ja.yml	enumerations.linked_agent_event_roles.implementer	Implementer	実装者	実施者	不自然	中	「実装者」はソフトウェア開発の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_event_roles.transmitter	Transmitter	トランスミッタ	送付者	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_event_roles.validator	Validator	バリデーター	検証者	不自然	低	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_event_roles.recipient	Recipient	受信者	受領者	不自然	低	「受信者」は通信の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_role.creator	Creator	クリエイター	作成者	不統一	中	アーカイブズの標準訳は作成者
+common/locales/enums/ja.yml	enumerations.linked_agent_role.source	Source	ソース	出所	不統一	中	アーカイブズの標準訳は出所
+common/locales/enums/ja.yml	enumerations.linked_event_archival_record_roles.transfer	Transfer	転送	移管	不自然	中	「転送」はデータ転送の意味になる
+common/locales/enums/ja.yml	enumerations.location_temporary.exhibit	Exhibit	示す	展示	誤訳	高	「示す」は動詞で展示の意味ではない
+common/locales/enums/ja.yml	enumerations.location_temporary.loan	Loan	ローン	貸出	誤訳	高	「ローン」は借金の意味になる
+common/locales/enums/ja.yml	enumerations.location_temporary.reading_room	Reading Room	読書室	閲覧室	不自然	中	アーカイブズでは閲覧室
+common/locales/enums/ja.yml	enumerations.location_temporary.conservation	Conservation	保全	保存修復	不自然	低	資料保存の文脈では保存修復
+common/locales/enums/ja.yml	enumerations.location_function_type.arrivals	Arrivals	到着	受入	不自然	低	「到着」は交通の意味に近い
+common/locales/enums/ja.yml	enumerations.maintenance_event_type.created	Created	作成した	作成	不自然	低	選択肢として簡潔に
+common/locales/enums/ja.yml	enumerations.maintenance_event_type.updated	Updated	更新しました	更新	不自然	低	選択肢として簡潔に
+common/locales/enums/ja.yml	enumerations.maintenance_status.revised_corrected	Revised/Corrected	修正/修正	改訂/訂正	不自然	中	「修正/修正」で区別が消えている
+common/locales/enums/ja.yml	enumerations.maintenance_status.deleted_split	Deleted-Split	削除済み分割	削除（分割）	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.modified_record.missing_characters	Missing characters	行方不明の文字	欠落文字あり	誤訳	中	「行方不明」は人の行方の意味
+common/locales/enums/ja.yml	enumerations.name_person_name_order.direct	Direct	直接	正順	不自然	中	人名の語順としては正順
+common/locales/enums/ja.yml	enumerations.name_person_name_order.inverted	Indirect	間接	倒置	不自然	中	人名の語順としては倒置
+common/locales/enums/ja.yml	enumerations.name_rule.isaar	International Standard Archival Authority Record for Corporate Bodies, Persons, and Families	企業、個人、家族のための国際標準アーカイブ機関の記録	団体・個人・家族に関するアーカイバル・オーソリティ・レコードの国際標準（ISAAR(CPF)）	誤訳	高	「企業」「アーカイブ機関の記録」は誤り（オーソリティ・レコードの標準）
+common/locales/enums/ja.yml	enumerations.name_rule.rad	Rules for Archival Description	アーカイブの説明に関する規則	アーカイブズ記述規則（RAD）	不自然	中	「説明」はdescription（記述）の誤訳
+common/locales/enums/ja.yml	enumerations.resource_finding_aid_description_rules.rad	Rules for Archival Description	アーカイブのルール	アーカイブズ記述規則（RAD）	誤訳	中	「アーカイブのルール」ではdescriptionが脱落
+common/locales/enums/ja.yml	enumerations.name_rule.rda	Resource Description and Access	リソースの説明とアクセス	RDA（資源の記述とアクセス）	不自然	中	「説明」はdescription（記述）の誤訳
+common/locales/enums/ja.yml	enumerations.name_rule.aacr	Anglo-American Cataloging Rules	英米の目録規則	英米目録規則	不自然	低	規則名として一語に
+common/locales/enums/ja.yml	enumerations.name_source.lcnaf	Library of Congress Name Authority File	議会図書館の権限ファイル	米国議会図書館名称典拠ファイル	誤訳	高	authority file（典拠ファイル）を「権限ファイル」と誤訳
+common/locales/enums/ja.yml	enumerations.name_source.naf	NACO Authority File	NACO権限ファイル	NACO典拠ファイル	誤訳	中	authority（典拠）を「権限」と誤訳
+common/locales/enums/ja.yml	enumerations.name_source.nad	NAD / ARK II Name Authority Database	NAD / ARK II名前権限データベース	NAD / ARK II 名称典拠データベース	誤訳	中	authority（典拠）を「権限」と誤訳
+common/locales/enums/ja.yml	enumerations.name_source.cash	Canadian Subject Headings	カナダの科目見出し	カナダ件名標目表	誤訳	中	subject headingを「科目見出し」と誤訳
+common/locales/enums/ja.yml	enumerations.subject_source.cash	Canadian Subject Headings	カナダの科目見出し	カナダ件名標目表	誤訳	中	subject headingを「科目見出し」と誤訳
+common/locales/enums/ja.yml	enumerations.name_source.lcshac	Library of Congress Children's Subject Headings	議会図書館の子供の主題見出し	米国議会図書館児童件名標目表	誤訳	中	subject headingの定訳は件名標目
+common/locales/enums/ja.yml	enumerations.subject_source.lcshac	Library of Congress Children's and Young Adults' Subject Headings	議会図書館の子供の主題見出し	米国議会図書館児童・青少年件名標目表	誤訳	中	subject headingの定訳は件名標目
+common/locales/enums/ja.yml	enumerations.name_source.nal	National Agricultural Library subject headings	国立農業図書館の見出し見出し	米国国立農学図書館件名標目表	誤訳	中	「見出し見出し」と重複
+common/locales/enums/ja.yml	enumerations.subject_source.nal	National Agricultural Library subject authority file	国立農業図書館の見出し見出し	米国国立農学図書館件名典拠ファイル	誤訳	中	「見出し見出し」と重複
+common/locales/enums/ja.yml	enumerations.name_source.ram	Répertoire d'autorités RAMEAU	RAMEAU機関ディレクトリ	RAMEAU典拠レパートリー	誤訳	中	autorités（典拠）を「機関」と誤訳
+common/locales/enums/ja.yml	enumerations.subject_source.ram	Répertoire d'autorités RAMEAU	RAMEAU機関ディレクトリ	RAMEAU典拠レパートリー	誤訳	中	autorités（典拠）を「機関」と誤訳
+common/locales/enums/ja.yml	enumerations.name_source.rvm	Répertoire de vedettes-matière	件名見出しディレクトリ	件名標目レパートリー（RVM）	不自然	低	件名標目の定訳に揃える
+common/locales/enums/ja.yml	enumerations.subject_source.rvm	Répertoire de vedettes-matière	件名見出しディレクトリ	件名標目レパートリー（RVM）	不自然	低	件名標目の定訳に揃える
+common/locales/enums/ja.yml	enumerations.name_source.ulan	Union List of Artist Names	アーティスト名の連合リスト	ゲッティ芸術家名統合リスト（ULAN）	不自然	低	固有名として不自然
+common/locales/enums/ja.yml	enumerations.name_source.ingest	Unspecified ingested source	指定されていないソース	取り込み元未指定	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.subject_source.ingest	Unspecified ingested source	指定されていないソース	取り込み元未指定	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.subject_source.lcgft	Library of Congress Genre/Form Terms	議会図書館のジャンル/フォーム利用規約	米国議会図書館ジャンル/形式用語	誤訳	高	Termsを「利用規約」と誤訳
+common/locales/enums/ja.yml	enumerations.subject_source.lcsh	Library of Congress Subject Headings	議会図書館の見出し見出し	米国議会図書館件名標目表（LCSH）	誤訳	中	「見出し見出し」と重複
+common/locales/enums/ja.yml	enumerations.subject_source.mesh	Medical Subject Headings	医療対象見出し	医学件名標目表（MeSH）	誤訳	中	「医療対象見出し」は誤訳
+common/locales/enums/ja.yml	enumerations.subject_source.tgn	Getty Thesaurus of Geographic Names	Geographic Namesのゲットシソーラス	ゲッティ地名シソーラス（TGN）	不自然	中	語順が崩れている
+common/locales/enums/ja.yml	enumerations.subject_source.aat	Art & Architecture Thesaurus	アート＆アーキテクチャシソーラス	美術・建築シソーラス（AAT）	不自然	低	固有名として不自然
+common/locales/enums/ja.yml	enumerations.subject_source.rbgenr	Genre Terms: A Thesaurus for Use in Rare Book and Special Collections Cataloguing	ジャンル用語：レアブックや特別コレクションのカタログ化に使用するシソーラス	ジャンル用語：稀覯書・特殊コレクション目録用シソーラス	不自然	低	「レアブック」は稀覯書
+common/locales/enums/ja.yml	enumerations.name_type.differentiated	Differentiated	差別化	個別化	誤訳	中	「差別化」は意味が異なる（典拠の個別化名）
+common/locales/enums/ja.yml	enumerations.name_type.undifferentiated	Undifferentiated	未分化	未個別化	誤訳	中	「未分化」は生物学の用語
+common/locales/enums/ja.yml	enumerations.note_index_item_type.corporate_entity	Corporate Entity	コーポレートエンティティ	団体	不自然	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.note_index_item_type.function	Function	関数	機能	誤訳	高	「関数」は数学・プログラミングの意味
+common/locales/enums/ja.yml	enumerations.subject_term_type.function	Function	関数	機能	誤訳	高	「関数」は数学・プログラミングの意味
+common/locales/enums/ja.yml	enumerations.note_index_item_type.genre_form	Genre / Form	ジャンル/フォーム	ジャンル/形式	不自然	低	formは入力フォームではなく形式
+common/locales/enums/ja.yml	enumerations.subject_term_type.genre_form	Genre / Form	ジャンル/フォーム	ジャンル/形式	不自然	低	formは入力フォームではなく形式
+common/locales/enums/ja.yml	enumerations.note_index_item_type.name	Name	名	名称	不自然	低	「名」は下の名前と紛らわしい
+common/locales/enums/ja.yml	enumerations.note_index_item_type.person	Person	人	個人	不自然	低	索引種別としては個人
+common/locales/enums/ja.yml	enumerations.note_rights_statement_act_type.extension	Extension	拡張	延長	誤訳	中	権利の期間延長で「拡張」ではない
+common/locales/enums/ja.yml	enumerations.note_rights_statement_act_type.permissions	Permissions	アクセス許可	許諾	不自然	低	「アクセス許可」はIT用語
+common/locales/enums/ja.yml	enumerations.note_rights_statement_type.materials	Materials	材料	資料	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_rights_statement_type.type_note	Type Note	タイプノート	種別注記	不自然	低	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.place_role.place_of_death	Place of Death	死の場所	死没地	不自然	低	出生地と対にする
+common/locales/enums/ja.yml	enumerations.place_role.residence	Residence	レジデンス	居住地	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.publication_status.in_process	In-process	インプロセス	処理中	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.reference_evaluation.tr_consistent	Tracings consistent with headings	見出しと一致するトレース	参照形が標目と一致	不自然	低	tracingsを「トレース」と直訳
+common/locales/enums/ja.yml	enumerations.reference_evaluation.tr_inconsistent	Tracings inconsistent with headings	見出しと矛盾する追跡	参照形が標目と不一致	誤訳	中	「追跡」はtracingsの誤訳
+common/locales/enums/ja.yml	enumerations.restriction_type.InProcessSpecColl	4 - Restricted in-process	4 - 制限付きインプロセス	4 - 整理中のため制限	不自然	中	「インプロセス」は未訳
+common/locales/enums/ja.yml	enumerations.restriction_type.RestrictedFragileSpecColl	3 - Restricted fragile	3 - 脆弱な制限	3 - 脆弱資料のため制限	誤訳	中	「脆弱な制限」は制限が弱い意味になる
+common/locales/enums/ja.yml	enumerations.restriction_type.RestrictedSpecColl	1 - Donor/university imposed access restriction	1 - ドナー/大学がアクセス制限を課す	1 - 寄贈者/大学による利用制限	不自然	低	ドナーは臓器提供を連想させる
+common/locales/enums/ja.yml	enumerations.restriction_type.RestrictedCurApprSpecColl	2 - Repository imposed access restriction	2 - リポジトリによるアクセス制限の適用	2 - 所蔵機関による利用制限	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.rights_statement_act_type.disseminate	Disseminate	普及	頒布	誤訳	中	「普及」は広める運動の意味
+common/locales/enums/ja.yml	enumerations.rights_statement_act_type.use	Use	つかいます	利用	誤訳	中	「つかいます」は動詞の平仮名で選択肢として不適
+common/locales/enums/ja.yml	enumerations.rights_statement_ip_status.copyrighted	Copyrighted	著作権	著作権あり	不自然	中	状態を表していない
+common/locales/enums/ja.yml	enumerations.rights_statement_ip_status.unknown	Unknown	未知の	不明	不自然	低	「未知の」で語が途切れている
+common/locales/enums/ja.yml	enumerations.rights_statement_other_rights_basis.donor	Donor	ドナー	寄贈者	不自然	中	ドナーは臓器提供を連想させる
+common/locales/enums/ja.yml	enumerations.romanization.conv_rom_cat_agency	Conventional romanization or conventional form of name in language of cataloging agency	目録作成代理店の言語での慣用のローマ字化または慣用名の形式	目録作成機関の言語での慣用ローマ字形または慣用形	誤訳	中	agencyを「代理店」と誤訳
+common/locales/enums/ja.yml	enumerations.romanization.nl_bib_agency_std	National library or bibliographic agency standard	国立図書館または書誌作成会社の規格	国立図書館または書誌作成機関の規格	誤訳	低	agencyを「会社」と誤訳
+common/locales/enums/ja.yml	enumerations.subject_term_type.geographic	Geographic	地理学	地名	誤訳	中	件名の種類としては地名（学問名ではない）
+common/locales/enums/ja.yml	enumerations.subject_term_type.topical	Topical	話題の	主題	不自然	中	「話題の」は形容詞で件名種別にならない
+common/locales/enums/ja.yml	enumerations.subject_term_type.temporal	Temporal	時間的	時代	不自然	中	件名の種類としては時代
+common/locales/enums/ja.yml	enumerations.subject_term_type.style_period	Style / Period	スタイル/期間	様式/時代	誤訳	中	periodは時代で「期間」ではない
+common/locales/enums/ja.yml	enumerations.subject_term_type.technique	Technique	技術	技法	不自然	低	美術資料の文脈では技法
+common/locales/enums/ja.yml	enumeration_names.accession_acquisition_type	Accession Acquisition Type	アクセッション取得タイプ	受入取得タイプ	不自然	低	アクセッションは未訳
+common/locales/enums/ja.yml	enumeration_names.accession_parts_relator	Accession Parts Relator	アクセッションパーツリレー	受入部分関係	不自然	中	「リレー」は意味が通らない
+common/locales/enums/ja.yml	enumeration_names.accession_parts_relator_type	Accession Parts Relator Type	アクセルパーツリレータイプ	受入部分関係タイプ	誤訳	中	「アクセル」は誤記
+common/locales/enums/ja.yml	enumeration_names.accession_resource_type	Accession Resource Type	アクセッションリソースタイプ	受入資料タイプ	不自然	低	アクセッションは未訳
+common/locales/enums/ja.yml	enumeration_names.accession_sibling_relator	Accession Sibling Relator	受託兄弟リレー	受入兄弟関係	不自然	低	「受託」「リレー」は誤り
+common/locales/enums/ja.yml	enumeration_names.accession_sibling_relator_type	Accession Sibling Relator Type	受け入れ兄弟リレータイプ	受入兄弟関係タイプ	不自然	低	「リレー」は意味が通らない
+common/locales/enums/ja.yml	enumeration_names.agent_relationship_earlierlater_relator	Agent Relationship Earlierlater Relator	エージェントの関係	エージェント関係（前身/後身）	誤訳	中	前後関係の語が脱落している
+common/locales/enums/ja.yml	enumeration_names.agent_relationship_associative_relator	Agent Relationship Associative Relator	エージェント関係連想リレー	エージェント関係（関連）	不自然	低	「リレー」は意味が通らない
+common/locales/enums/ja.yml	enumeration_names.agent_relationship_parentchild_relator	Agent Relationship Parentchild Relator	エージェントの関係親子リレー	エージェント関係（親子）	不自然	低	「リレー」は意味が通らない
+common/locales/enums/ja.yml	enumeration_names.agent_relationship_subordinatesuperior_relator	Agent Relationship Subordinatesuperior Relator	エージェントの関係下位関係者	エージェント関係（上位/下位）	誤訳	中	上位の語が脱落している
+common/locales/enums/ja.yml	enumeration_names.archival_record_level	Archival Record Level	アーカイブの記録レベル	記述レベル	不自然	低	アーカイブズ記述の階層レベル
+common/locales/enums/ja.yml	enumeration_names.deaccession_scope	Deaccession Scope	デアクセススコープ	除籍の範囲	未訳	低	デアクセスは未訳
+common/locales/enums/ja.yml	enumeration_names.extent_portion	Extent Portion	範囲	数量の部分	誤訳	低	「範囲」はscopeと紛らわしい
+common/locales/enums/ja.yml	enumeration_names.linked_agent_archival_record_relators	Linked Agent Archival Record Relators	リンクされたエージェントのアーカイブレコードリレー	リンクされたエージェントの関係指示子	不自然	低	「リレー」は意味が通らない
+common/locales/enums/ja.yml	enumeration_names.location_temporary	Location Temporary	場所の一時的な	一時的な所在	不自然	低	語順が崩れている
+common/locales/enums/ja.yml	enumeration_names.note_langmaterial_type	Note Language of Materials Type	品目タイプの注記言語	資料の言語の注記タイプ	誤訳	中	語順が崩れ意味が変わっている
+common/locales/enums/ja.yml	enumeration_names.note_rights_statement_act_type	Note Rights Statement Act Type	注釈ステートメント法タイプ	権利記述の行為タイプ（注記）	誤訳	中	actを「法」と誤訳
+common/locales/enums/ja.yml	enumeration_names.rights_statement_act_restriction	Rights Statement Act Restriction	権利声明法の制限	権利記述の行為の制限	誤訳	中	actを「法」と誤訳
+common/locales/enums/ja.yml	enumeration_names.rights_statement_act_type	Rights Statement Act Type	権利声明法の種類	権利記述の行為タイプ	誤訳	中	actを「法」と誤訳
+common/locales/enums/ja.yml	enumeration_names.resource_finding_aid_description_rules	Resource Finding Aid Description Rules	リソース検索援助記述規則	検索手段の記述規則	誤訳	中	finding aidを「検索援助」と誤訳
+common/locales/enums/ja.yml	enumeration_names.resource_finding_aid_status	Resource Finding Aid Status	資源援助の状況	検索手段のステータス	誤訳	中	finding aidを「資源援助」と誤訳
+common/locales/enums/ja.yml	enumeration_names.romanization	Romanization	ローマ字	ローマ字化	不自然	低	方式名としてはローマ字化
+common/locales/enums/ja.yml	enumeration_names.transliteration	Transliteration	文字変換	翻字	不自然	低	目録用語としては翻字
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.abr	Abridger	Abridger	要約者	未訳	低	英語のまま
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.acp	Art copyist	アートコピーライター	美術品模写者	誤訳	中	「コピーライター」は広告文案家の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.adp	Adapter	アダプタ	翻案者	誤訳	中	「アダプタ」は機器の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.aft	Author of afterword, colophon, etc.	アフターワード、コロフォンなどの作者	あとがき・奥付等の著者	不自然	低	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ape	Appellee	Appellee	被上訴人	未訳	低	英語のまま
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ard	Artistic director	アートディレクター	芸術監督	不自然	低	art director（adi）と同じ訳で区別できない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.arr	Arranger	アレンジャー	編曲者	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ato	Autographer	車グラファ	自筆者	誤訳	高	「車グラファ」はauto（自動車）の取り違え
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.aud	Author of dialog	ダイアログの作成者	台詞の著者	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.aui	Author of introduction, etc.	紹介者など	序論等の著者	誤訳	中	「紹介者」は人を紹介する人の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.bdd	Binding designer	バインディングデザイナー	装丁デザイナー	不自然	低	bindingは装丁・製本
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.blw	Blurb writer	Blurbライター	宣伝文執筆者	未訳	低	英語が残っている
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.bnd	Binder	バインダー	製本者	誤訳	中	「バインダー」は文房具の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cas	Caster	キャスター	鋳造者	誤訳	中	「キャスター」は報道・車輪の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ccp	Conceptor	conceptor	着想者	未訳	低	英語のまま
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cll	Calligrapher	カリグラフィー	書家	誤訳	中	「カリグラフィー」は技法名で人ではない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.clt	Collotyper	Collotyper	コロタイプ製作者	未訳	低	英語のまま
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cmt	Compositor	作曲家	植字工	誤訳	高	Compositorを「作曲家」と誤訳し、cmpと区別できない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cnd	Conductor	導体	指揮者	誤訳	高	「導体」は電気の導体
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cns	Censor	検閲	検閲者	不自然	低	役割名として人を表す
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.coe	Contestant-appellee	コンテスト参加者	異議申立人-被上訴人	誤訳	中	「コンテスト参加者」は競技の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cos	Contestant	コンテスト	異議申立人	誤訳	中	「コンテスト」は競技の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cot	Contestant-appellant	コンテスト控訴人	異議申立人-上訴人	誤訳	中	「コンテスト」は競技の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cte	Contestee-appellee	コンテスト被告人	被異議申立人-被上訴人	誤訳	中	「コンテスト」は競技の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cts	Contestee	Contestee	被異議申立人	未訳	中	英語のまま
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ctt	Contestee-appellant	コンテスト控訴人	被異議申立人-上訴人	誤訳	中	cot（異議申立人-上訴人）と同じ訳で立場が逆
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.col	Collector	コレクタ	収集者	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.com	Compiler	コンパイラ	編纂者	誤訳	高	「コンパイラ」はプログラミングの意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.con	Conservator	保守党	保存修復担当者	誤訳	高	「保守党」は政党の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cor	Collection registrar	コレクションレジストラ	コレクション登録担当者	不自然	低	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cpc	Copyright claimant	著作権者	著作権主張者	誤訳	中	cph（著作権者）と同じ訳で区別できない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cpe	Complainant-appellee	申立人 - 被告人	申立人-被上訴人	誤訳	中	appelleeを「被告人」と誤訳
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.cre	Creator	クリエイター	作成者	不統一	中	アーカイブズの標準訳は作成者
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.crp	Correspondent	特派員	通信者	誤訳	中	書簡の文脈で「特派員」は不適切
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.crr	Corrector	コレクター	訂正者	誤訳	高	Correctorを「コレクター」（収集家）と誤訳
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.crt	Court reporter	裁判所の記者	法廷速記者	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ctb	Contributor	貢献者	寄与者	不自然	低	役割名としては寄与者
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ctg	Cartographer	カートグラファー	地図製作者	未訳	低	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dfe	Defendant-appellee	被告人 - 被告人	被告-被上訴人	誤訳	中	「被告人 - 被告人」と重複
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dgg	Degree grantor	学位取得者	学位授与者	誤訳	高	「学位取得者」は逆の立場
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dgs	Degree supervisor	学位監督	学位論文指導者	不自然	低	「学位監督」は意味が取りにくい
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dis	Dissertant	ディザータン	学位論文執筆者	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dnr	Donor	ドナー	寄贈者	不自然	中	ドナーは臓器提供を連想させる
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dpc	Depicted	描かれた	被描写者	不自然	低	役割名として人を表す
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dpt	Depositor	預金者	寄託者	誤訳	高	「預金者」は銀行の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.drm	Draftsman	下書き	製図者	誤訳	中	「下書き」は草稿の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dte	Dedicatee	Dedicatee	被献呈者	未訳	低	英語のまま
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dto	Dedicator	捧げます	献呈者	誤訳	中	「捧げます」は動詞
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.dub	Dubious author	嫌な著者	著者と疑われる者	誤訳	高	「嫌な著者」はdubiousの誤訳
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.edc	Editor of compilation	編集の編集者	編纂物の編者	不自然	低	「編集の編集者」は重複
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.egr	Engraver	彫版	彫版師	不自然	低	役割名として人を表す
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.elg	Electrician	電気工事	電気技師	不自然	低	役割名として人を表す
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.elt	Electrotyper	Electroperper	電気製版者	未訳	低	英語の誤記が残っている
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.enj	Enacting jurisdiction	管轄裁判所	制定法域	誤訳	中	裁判所ではなく法令を制定した法域
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.fac	Facsimilist	ファクシミリスト	複製製作者	未訳	低	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.fds	Film distributor	フィルムディストリビューター	映画配給者	不自然	低	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.flm	Film editor	フィルムエディタ	映画編集者	不自然	低	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.fmk	Filmmaker	映画監督	映画製作者	不自然	低	fmd（映画監督）と同じ訳で区別できない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.fmo	Former owner	元オーナー	旧蔵者	不統一	中	来歴の文脈では旧蔵者
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.fnd	Funder	ファインダー	資金提供者	誤訳	高	「ファインダー」はfinderの取り違え
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.fpy	First party	最初のパーティ	第一当事者	誤訳	中	「パーティ」は宴会の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.frg	Forger	偽造します	偽造者	誤訳	中	「偽造します」は動詞
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.hnr	Honoree	オノレー	被顕彰者	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ilu	Illuminator	イルミネータ	彩飾者	誤訳	中	写本の彩飾をする人で照明器具ではない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ins	Inscriber	看護師	書き入れ者	誤訳	高	「看護師」は全くの誤訳
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.itr	Instrumentalist	インストゥルメント	器楽奏者	誤訳	中	「インストゥルメント」は楽器そのもの
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ive	Interviewee	面接者	インタビュー対象者	誤訳	高	「面接者」は面接する側で立場が逆
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.jug	Jurisdiction governed	管轄は管轄	管轄法域	誤訳	中	「管轄は管轄」は意味をなさない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.lbt	Librettist	リブレスト	台本作家	誤訳	中	「リブレスト」は誤記
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.led	Lead	鉛	主導者	誤訳	高	「鉛」は金属の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.lee	Libelee-appellee	リベリ - アプスレー	被訴者-被上訴人	誤訳	中	カタカナの誤記
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.lel	Libelee	リヴァーゼ	被訴者	誤訳	中	カタカナの誤記
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.let	Libelee-appellant	リベリ - 上訴人	被訴者-上訴人	誤訳	中	カタカナの誤記
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.lie	Libelant-appellee	ライバル・アプピーリー	訴状提出者-被上訴人	誤訳	中	「ライバル」はrivalの取り違え
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.lil	Libelant	リブラント	訴状提出者	誤訳	中	カタカナの誤記
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.lit	Libelant-appellant	ライバル訴状	訴状提出者-上訴人	誤訳	中	「ライバル訴状」は意味をなさない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.lsa	Landscape architect	風景建築家	ランドスケープアーキテクト	不自然	低	「風景建築家」は直訳
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ltg	Lithographer	リソグラフィー	石版画家	誤訳	中	「リソグラフィー」は技法名で人ではない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.mcp	Music copyist	音楽のコピーライター	写譜者	誤訳	中	「コピーライター」は広告文案家の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.med	Medium	中	霊媒	誤訳	中	「中」はmediumの別義
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.mrb	Marbler	マーブル	マーブル紙製作者	誤訳	中	「マーブル」は模様・大理石の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.mtk	Minute taker	議事録	議事録作成者	誤訳	中	「議事録」は文書で人ではない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.pbd	Publishing director	出版社取締役	出版責任者	誤訳	低	「取締役」は会社役員の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.plt	Platemaker	製版メーカー	製版者	不自然	低	「製版メーカー」は企業の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.pma	Permitting agency	代理店を許可する	許可機関	誤訳	中	「代理店を許可する」は動詞句
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.pop	Printer of plates	プレートのプリンタ	図版印刷者	誤訳	中	機械翻訳調で意味が取りにくい
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ppm	Papermaker	製紙会社	製紙者	不自然	低	「製紙会社」は企業に限定される
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ppt	Puppeteer	人形	人形遣い	誤訳	中	「人形」は物で人ではない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.pra	Praeses	社長	主宰者	誤訳	中	学位論文審査の主宰者で「社長」ではない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.prd	Production personnel	個人生産	制作スタッフ	誤訳	中	「個人生産」は意味が逆
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.prn	Production company	芸能事務所	制作会社	誤訳	中	「芸能事務所」は意味が異なる
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.prp	Production place	生産場所	制作地	不自然	低	「生産場所」は工業的
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.prs	Production designer	生産デザイナー	プロダクションデザイナー	不自然	低	「生産デザイナー」は工業的
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.prt	Printer	プリンタ	印刷者	誤訳	中	「プリンタ」は機器の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.pte	Plaintiff-appellee	原告 - 被告人	原告-被上訴人	誤訳	中	appelleeを「被告人」と誤訳
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.rbr	Rubricator	Rubricator	朱書者	未訳	低	英語のまま
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.rcd	Recordist	記録主義者	録音技師	誤訳	中	「記録主義者」は意味をなさない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.rcp	Recipient	受信者	受取人	不自然	低	「受信者」は通信の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.rse	Respondent-appellee	被告人 - 被告人	被申立人-被上訴人	誤訳	中	「被告人 - 被告人」と重複
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.rsp	Respondent	被告	被申立人	不自然	低	respondentは民事の被申立人
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.rst	Respondent-appellant	被告人 - 上訴人	被申立人-上訴人	不自然	低	respondentは民事の被申立人
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.rsg	Restager	レスタージャー	再演出家	未訳	中	カタカナの誤記
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.rsr	Restorationist	リストラ主義者	修復者	誤訳	高	「リストラ主義者」は意味をなさない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.sce	Scenarist	Scenarist	シナリオ作家	未訳	低	英語のまま
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.sgn	Signer	看板	署名者	誤訳	高	「看板」はsignの別義
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.spk	Speaker	スピーカー	講演者	誤訳	中	「スピーカー」は音響機器の意味もある
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.spy	Second party	第二者	第二当事者	不自然	低	fpyと揃える
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.srv	Surveyor	サーベイ	測量者	誤訳	中	「サーベイ」は行為で人ではない
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.str	Stereotyper	ステレオタイプ	ステロ版製作者	誤訳	中	「ステレオタイプ」は固定観念の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.tcd	Technical director	技術指導者	技術監督	不自然	低	「技術指導者」は意味がずれる
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.ths	Thesis advisor	論文アシスタント	論文指導教員	誤訳	中	「アシスタント」は助手の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.trc	Transcriber	転写器	書き起こし者	誤訳	中	「転写器」は機器の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.tyg	Typographer	Typographer	タイポグラファー	未訳	低	英語のまま
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.wac	Writer of added commentary	追加された解説者の作家	追加注釈の著者	誤訳	中	「追加された解説者の作家」は意味が崩れている
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.wal	Writer of added lyrics	追加された歌詞の作家	追加歌詞の作者	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.wam	Writer of accompanying material	添付資料の作家	付属資料の著者	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.wdc	Woodcutter	木こり	木版画家	誤訳	高	「木こり」はwoodcutterの別義
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.wde	Wood engraver	木彫機	木口木版画家	誤訳	中	「木彫機」は機械の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.win	Writer of introduction	紹介者	序論の著者	誤訳	中	「紹介者」は人を紹介する人の意味
+common/locales/enums/ja.yml	enumerations.linked_agent_archival_record_relators.wst	Writer of supplementary textual content	補足的なテキストコンテンツの作家	補足テキストの著者	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.allmusic	AllMusic	すべての音楽	AllMusic	誤訳	中	サービス名を「すべての音楽」と直訳している
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.allocine	AlloCiné	Screenrush	AlloCiné	誤訳	中	別サービス名（Screenrush）に置き換わっている
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.artsy	Artsy	芸術	Artsy	誤訳	中	サービス名を「芸術」と直訳している
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.discogs	Discogs	ディスコ	Discogs	誤訳	中	サービス名を「ディスコ」と誤訳
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.findagr	Find a Grave	墓を見つける	Find a Grave	誤訳	低	サービス名を直訳している
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.scholaru	Scholar Universe	学者の宇宙	Scholar Universe	誤訳	低	サービス名を直訳している
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.spotify	Spotify	Spotifyは	Spotify	誤訳	低	「は」が混入している
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.theatr	Theatricalia	演劇	Theatricalia	誤訳	中	サービス名を「演劇」と直訳している
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.kinopo	КиноПоиск = KinoPoisk	映画検索= KinoPoisk	KinoPoisk（КиноПоиск）	誤訳	低	サービス名を「映画検索」と直訳している
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.lccn	Library of Congress Control Number	議会管理番号ライブラリ	米国議会図書館管理番号（LCCN）	誤訳	中	語順が崩れ意味が通らない
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.lcmd	Library of Congress Manuscript Division (Washington, DC: Library of Congress)	議会図書館部図書館（ワシントンDC：議会図書館）	米国議会図書館手稿部	誤訳	中	Manuscript Divisionが「部図書館」になっている
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.lcmpt	Library of Congress Medium of Performance Thesaurus for Music (LCMPT) (Washington, DC:Library of Congress)	議会図書館音楽のための演奏シソーラス（LCMPT）（ワシントンDC：議会図書館）	米国議会図書館音楽演奏手段シソーラス（LCMPT）	誤訳	低	Medium of Performanceが脱落
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.issue-number	Sound recording issue number	録音の問題番号	録音資料の発売番号	誤訳	中	issueを「問題」と誤訳
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.iswc	International Standard Musical Work Code	国際標準演奏コード	国際標準音楽作品コード	誤訳	中	Musical Workを「演奏」と誤訳
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.ismn	International Standard Music Number	国際標準曲番号	国際標準楽譜番号	不自然	低	ISMNの定訳は国際標準楽譜番号
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.isbn	International Standard Book Number	国際標準ブック番号	国際標準図書番号	不自然	低	ISBNの定訳は国際標準図書番号
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.isbnre	ISBN (International Standard Book Number) registrant element	ISBN（国際標準書番号）登録者エレメント	ISBN（国際標準図書番号）出版者記号	不自然	低	ISBNの定訳に揃える
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.isbn-a	International Standard Book Number (the actionable ISBN) (International DOI Foundation (IDF))	国際標準書番号（実行可能なISBN）（国際DOI財団（IDF））	国際標準図書番号（アクショナブルISBN）（国際DOI財団（IDF））	不自然	低	「実行可能な」は不自然
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.issn	International Standard Serial Number	国際標準シリアル番号	国際標準逐次刊行物番号	不自然	低	ISSNの定訳は国際標準逐次刊行物番号
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.issn-l	Linking International Standard Serial Number	国際標準シリアル番号のリンク	リンキングISSN	不自然	低	ISSN-Lの定訳はリンキングISSN
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.rbmspe	RBMS Controlled Vocabularies: Provenance Evidence (Rare Books and Manuscripts Section, Association of College & Research Libraries)	RBMS制御語彙：出生率の証拠（レアブックと原稿部、大学図書館協会）	RBMS統制語彙：来歴の証拠（ACRL稀覯書・手稿部会）	誤訳	高	Provenanceを「出生率」と誤訳
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.rbmsrd	RBMS Controlled Vocabularies: Relationship Designators (Rare Books and Manuscripts Section, Association of College & Research Libraries)	RBMS制御語彙：関係設計者（レアブックと原稿部、大学図書館協会）	RBMS統制語彙：関係指示子（ACRL稀覯書・手稿部会）	誤訳	中	Designatorsを「設計者」と誤訳
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.rbmspt	RBMS Controlled Vocabularies: Paper Terms (Rare Books and Manuscripts Section Association of College & Research Libraries)	RBMS制御語彙：論文用語（貴重書と学術図書館協会）	RBMS統制語彙：用紙用語（ACRL稀覯書・手稿部会）	誤訳	中	Paperを「論文」と誤訳
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.gnis	Geographic Names Information System (GNIS) (United States Geological Survey, Board on Geographic Names)	地理情報システム（GNIS）（米国地質調査所、地理的名称に関する委員会）	地名情報システム（GNIS）（米国地質調査所、米国地名委員会）	誤訳	中	Geographic Namesの「名」が脱落
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.gec	Gran enciclopèdia catalana	グレート・カタロニア語百科事典	カタルーニャ大百科事典	不自然	低	固有名の訳として不自然
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.fast	Faceted Application of Subject Terminology (Dublin, Ohio: OCLC)	テーマ用語のファセットアプリケーション（オハイオ州ダブリン：OCLC）	FAST（Faceted Application of Subject Terminology）（オハイオ州ダブリン：OCLC）	不自然	低	固有名の直訳が不自然
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.idref	IdRef: le referentiel des autorites Sudoc (L'agence bibliographique de l'enseignement superieur (ABES))	IdRef：Sudoc当局のリポジトリ（高等教育機関（ABES）の書誌情報機関）	IdRef：Sudoc典拠参照（ABES：高等教育書誌機関）	誤訳	中	autorités（典拠）を「当局」と誤訳
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.cantic	CANTIC (Catàleg d'autoritats de noms i títols de Catalunya) (Biblioteca de Catalunya)	CANTIC（カタルーニャの名前とタイトルの当局のカタログ）（Biblioteca de Catalunya）	CANTIC（カタルーニャ名称・タイトル典拠目録）（カタルーニャ図書館）	誤訳	低	autoritats（典拠）を「当局」と誤訳
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.orcid	Open Researcher and Contributor IDentifier	公開研究者と寄稿者ID	ORCID（Open Researcher and Contributor ID）	不自然	低	固有名の直訳が不自然
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.wikidata	Wikidata (Wikimedia Foundation)	ウィキダータ（ウィキメディア財団）	ウィキデータ（ウィキメディア財団）	誤訳	低	「ウィキダータ」は誤記
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.moma	Museum of Modern Art (New York: Museum of Modern Art)	現代美術館（ニューヨーク：近代美術館）	ニューヨーク近代美術館（MoMA）	誤訳	低	「現代美術館」と括弧内の訳が不一致
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.wndla	Web NDL Authorities (Tokyo: National Diet Library (NDL))	Web NDL Authorities（東京：国会図書館（NDL））	Web NDL Authorities（東京：国立国会図書館（NDL））	誤訳	中	機関名は国立国会図書館
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.sici	Serial Item and Contribution Identifier	シリアルアイテムとコントリビュータ識別子	逐次刊行物アイテム・構成部分識別子（SICI）	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.rights_statement_external_document_identifier_type.natgazfid	U.S. National Gazetteer Feature Name Identifier	米国の全米地名告知機能名識別子	米国地名辞典地物名識別子	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.language_iso639_2.apa	Apache languages	アパッチ語族（英語版）	アパッチ諸語	不自然	中	Wikipediaからの転記で「（英語版）」が残っている
+common/locales/enums/ja.yml	enumerations.language_iso639_2.day	Land Dayak languages	ダヤク語（英語版）	陸ダヤク諸語	不自然	中	Wikipediaからの転記で「（英語版）」が残っている
+common/locales/enums/ja.yml	enumerations.language_iso639_2.him	Himachali languages; Western Pahari languages	ヒマーチャル語（英語版）	ヒマーチャル諸語	不自然	中	Wikipediaからの転記で「（英語版）」が残っている
+common/locales/enums/ja.yml	enumerations.language_iso639_2.kro	Kru languages	クル語（英語版）	クル諸語	不自然	中	Wikipediaからの転記で「（英語版）」が残っている
+common/locales/enums/ja.yml	enumerations.language_iso639_2.mno	Manobo languages	マノボ諸語（英語版）	マノボ諸語	不自然	中	Wikipediaからの転記で「（英語版）」が残っている
+common/locales/enums/ja.yml	enumerations.language_iso639_2.oto	Otomian languages	オトミ語族（英語版）	オトミ語族	不自然	中	Wikipediaからの転記で「（英語版）」が残っている
+common/locales/enums/ja.yml	enumerations.language_iso639_2.son	Songhai languages	ソンガイ語（英語版）	ソンガイ諸語	不自然	中	Wikipediaからの転記で「（英語版）」が残っている
+common/locales/enums/ja.yml	enumerations.language_iso639_2.wak	Wakashan languages	ワカシ語族（英語版）	ワカシ語族	不自然	中	Wikipediaからの転記で「（英語版）」が残っている
+common/locales/enums/ja.yml	enumerations.language_iso639_2.znd	Zande languages	ザンデ諸語（英語版）	ザンデ諸語	不自然	中	Wikipediaからの転記で「（英語版）」が残っている
+common/locales/enums/ja.yml	enumerations.language_iso639_2.zgh	Standard Moroccan Tamazight	標準的なモロッコのTamazight	標準モロッコ・タマジグト語	未訳	中	Tamazightが英語のまま
+common/locales/enums/ja.yml	enumerations.language_iso639_2.cnr	Montenegrin	モンテネグリン	モンテネグロ語	不自然	低	言語名の形になっていない
+common/locales/enums/ja.yml	enumerations.language_iso639_2.zxx	No linguistic content; Not applicable	言語的でない内容	言語的内容なし	不自然	低	「言語的でない内容」は意味が取りにくい
+common/locales/enums/ja.yml	enumerations.metadata_license.no_derivatives	This record is made available under an Attribution-NoDerivatives 4.0 International Creative Commons license.	このレコードは、Attribution-NoDerivatives 4.0 International CreativeCommonsライセンスの下で利用可能になります。	このレコードはクリエイティブ・コモンズ 表示 - 改変禁止 4.0 国際 ライセンスの下で提供されています。	不自然	低	CCライセンス名の公式日本語表記に揃える
+common/locales/enums/ja.yml	enumerations.metadata_license.non_commercial	This record is made available under an Attribution-NonCommercial 4.0 International Creative Commons license.	このレコードは、Attribution-NonCommercial 4.0 International CreativeCommonsライセンスの下で利用可能になります。	このレコードはクリエイティブ・コモンズ 表示 - 非営利 4.0 国際 ライセンスの下で提供されています。	不自然	低	CCライセンス名の公式日本語表記に揃える
+common/locales/enums/ja.yml	enumerations.metadata_license.non_commercial_no_derivatives	This record is made available under an Attribution-NonCommercial-NoDerivatives 4.0 International Creative Commons license.	このレコードは、Attribution-NonCommercial-NoDerivatives 4.0 International CreativeCommonsライセンスの下で利用可能になります。	このレコードはクリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンスの下で提供されています。	不自然	低	CCライセンス名の公式日本語表記に揃える
+common/locales/enums/ja.yml	enumerations.metadata_license.non_commercial_share_a_like	This record is made available under an Attribution-NonCommercial-ShareAlike 4.0 International Creative Commons license.	このレコードは、Attribution-NonCommercial-ShareAlike 4.0 International CreativeCommonsライセンスの下で利用可能になります。	このレコードはクリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンスの下で提供されています。	不自然	低	CCライセンス名の公式日本語表記に揃える
+common/locales/enums/ja.yml	enumerations.metadata_license.public_domain	This record is made available under an Universal 1.0 Public Domain Dedication Creative Commons license.	このレコードは、Universal 1.0 Public Domain Dedication CreativeCommonsライセンスの下で利用可能になります。	このレコードはCC0 1.0 全世界 パブリック・ドメイン提供の下で提供されています。	不自然	低	CC0の公式日本語表記に揃える
+common/locales/enums/ja.yml	enumerations.metadata_license.share_a_like	This record is made available under an Attribution-ShareAlike 4.0 International Creative Commons license.	このレコードは、Attribution-ShareAlike 4.0 International CreativeCommonsライセンスの下で利用可能になります。	このレコードはクリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンスの下で提供されています。	不自然	低	CCライセンス名の公式日本語表記に揃える
+common/locales/enums/ja.yml	enumerations.metadata_license.other	Unspecified or custom license.	不特定またはカスタムライセンス。	未指定または独自のライセンス	不自然	低	「不特定」は意味がずれる
+common/locales/enums/ja.yml	enumerations._note_types.abstract	Abstract	抽象	抄録	誤訳	高	「抽象」はabstractの別義で抄録ではない
+common/locales/enums/ja.yml	enumerations._note_types.accessrestrict	Conditions Governing Access	アクセスを管理する条件	利用条件	不統一	中	標準訳は利用条件
+common/locales/enums/ja.yml	enumerations._note_types.accruals	Accruals	見越額	追加受入	誤訳	高	「見越額」は会計用語で追加受入ではない
+common/locales/enums/ja.yml	enumerations._note_types.acqinfo	Immediate Source of Acquisition	買収の即時出典	直接の入手元	誤訳	高	「買収」は企業買収の意味になる
+common/locales/enums/ja.yml	enumerations._note_types.altformavail	Existence and Location of Copies	コピーの存在と場所	複製の存在と所在	不自然	中	copiesは複製、locationは所在
+common/locales/enums/ja.yml	enumerations._note_types.appraisal	Appraisal	審査	評価選別	不統一	中	標準訳は評価選別
+common/locales/enums/ja.yml	enumerations._note_types.arrangement	Arrangement	配置	編成	不統一	中	標準訳は編成
+common/locales/enums/ja.yml	enumerations._note_types.bioghist	Biographical / Historical	伝記/歴史	経歴/沿革	不自然	中	ISAD(G)の定訳は経歴/沿革
+common/locales/enums/ja.yml	enumerations._note_types.contact_note	Contact Note	お問い合わせ先	連絡先注記	不自然	低	注記種別名として不自然
+common/locales/enums/ja.yml	enumerations._note_types.custodhist	Custodial History	親権史	保管履歴	誤訳	高	「親権史」はcustody（親権）の取り違え
+common/locales/enums/ja.yml	enumerations._note_types.extent	Extent	エクステント	数量	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations._note_types.general_context	General Context	一般的なコンテキスト	全般的背景	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations._note_types.index	Index	インデックス	索引	不自然	低	注記種別としては索引
+common/locales/enums/ja.yml	enumerations._note_types.inscription	Inscription	登録	銘文	誤訳	高	「登録」は意味が異なる（資料上の銘・書き入れ）
+common/locales/enums/ja.yml	enumerations._note_types.langmaterial	Language of Materials	材料の言語	資料の言語	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations._note_types.mandate	Mandate	委任	権限の根拠	不自然	中	ISAARのmandateは権限・根拠法令で「委任」ではない
+common/locales/enums/ja.yml	enumerations._note_types.materialspec	Materials Specific Details	材料固有の詳細	資料固有の詳細	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations._note_types.note	General Note	一般的な注意	一般注記	不自然	中	「一般的な注意」は警告の意味になる
+common/locales/enums/ja.yml	enumerations._note_types.odd	General	一般	一般注記	不自然	低	注記種別として不完全
+common/locales/enums/ja.yml	enumerations._note_types.originalsloc	Existence and Location of Originals	オリジナルの存在と場所	原本の存在と所在	不自然	中	originalsは原本、locationは所在
+common/locales/enums/ja.yml	enumerations._note_types.otherfindaid	Other Finding Aids	その他の助成金	その他の検索手段	誤訳	高	「助成金」はaidの取り違えで検索手段ではない
+common/locales/enums/ja.yml	enumerations._note_types.physdesc	Physical Description	身体的特徴	形態的記述	誤訳	高	「身体的特徴」は人の身体の意味になる
+common/locales/enums/ja.yml	enumerations._note_types.physfacet	Physical Facet	物理ファセット	形態的側面	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations._note_types.physloc	Physical Location	物理的な位置	所在	不統一	中	標準訳は所在
+common/locales/enums/ja.yml	enumerations._note_types.prefercite	Preferred Citation	好ましい引用	推奨引用形式	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations._note_types.processinfo	Processing Information	処理情報	整理情報	不統一	中	標準訳は整理情報
+common/locales/enums/ja.yml	enumerations._note_types.separatedmaterial	Separated Materials	分離された材料	分離資料	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations._note_types.userestrict	Conditions Governing Use	使用を管理する条件	利用規則	不統一	中	標準訳は利用規則/複製条件
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.abstract	Abstract	抽象	抄録	誤訳	高	「抽象」はabstractの別義で抄録ではない
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.accessrestrict	Conditions Governing Access	アクセスを管理する条件	利用条件	不統一	中	標準訳は利用条件
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.accruals	Accruals	見越額	追加受入	誤訳	高	「見越額」は会計用語で追加受入ではない
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.acqinfo	Immediate Source of Acquisition	買収の即時出典	直接の入手元	誤訳	高	「買収」は企業買収の意味になる
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.altformavail	Existence and Location of Copies	コピーの存在と場所	複製の存在と所在	不自然	中	copiesは複製、locationは所在
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.appraisal	Appraisal	審査	評価選別	不統一	中	標準訳は評価選別
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.arrangement	Arrangement	配置	編成	不統一	中	標準訳は編成
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.bioghist	Biographical / Historical	伝記/歴史	経歴/沿革	不自然	中	ISAD(G)の定訳は経歴/沿革
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.contact_note	Contact Note	お問い合わせ先	連絡先注記	不自然	低	注記種別名として不自然
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.custodhist	Custodial History	親権史	保管履歴	誤訳	高	「親権史」はcustody（親権）の取り違え
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.extent	Extent	エクステント	数量	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.general_context	General Context	一般的なコンテキスト	全般的背景	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.index	Index	インデックス	索引	不自然	低	注記種別としては索引
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.inscription	Inscription	登録	銘文	誤訳	高	「登録」は意味が異なる（資料上の銘・書き入れ）
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.langmaterial	Language of Materials	材料の言語	資料の言語	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.mandate	Mandate	委任	権限の根拠	不自然	中	ISAARのmandateは権限・根拠法令で「委任」ではない
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.materialspec	Materials Specific Details	材料固有の詳細	資料固有の詳細	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.note	General Note	一般的な注意	一般注記	不自然	中	「一般的な注意」は警告の意味になる
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.odd	General	一般	一般注記	不自然	低	注記種別として不完全
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.originalsloc	Existence and Location of Originals	オリジナルの存在と場所	原本の存在と所在	不自然	中	originalsは原本、locationは所在
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.otherfindaid	Other Finding Aids	その他の助成金	その他の検索手段	誤訳	高	「助成金」はaidの取り違えで検索手段ではない
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.physdesc	Physical Description	身体的特徴	形態的記述	誤訳	高	「身体的特徴」は人の身体の意味になる
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.physfacet	Physical Facet	物理ファセット	形態的側面	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.physloc	Physical Location	物理的な位置	所在	不統一	中	標準訳は所在
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.prefercite	Preferred Citation	好ましい引用	推奨引用形式	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.processinfo	Processing Information	処理情報	整理情報	不統一	中	標準訳は整理情報
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.separatedmaterial	Separated Materials	分離された材料	分離資料	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_singlepart_type.userestrict	Conditions Governing Use	使用を管理する条件	利用規則	不統一	中	標準訳は利用規則/複製条件
+common/locales/enums/ja.yml	enumerations.note_multipart_type.abstract	Abstract	抽象	抄録	誤訳	高	「抽象」はabstractの別義で抄録ではない
+common/locales/enums/ja.yml	enumerations.note_multipart_type.accessrestrict	Conditions Governing Access	アクセスを管理する条件	利用条件	不統一	中	標準訳は利用条件
+common/locales/enums/ja.yml	enumerations.note_multipart_type.accruals	Accruals	見越額	追加受入	誤訳	高	「見越額」は会計用語で追加受入ではない
+common/locales/enums/ja.yml	enumerations.note_multipart_type.acqinfo	Immediate Source of Acquisition	買収の即時出典	直接の入手元	誤訳	高	「買収」は企業買収の意味になる
+common/locales/enums/ja.yml	enumerations.note_multipart_type.altformavail	Existence and Location of Copies	コピーの存在と場所	複製の存在と所在	不自然	中	copiesは複製、locationは所在
+common/locales/enums/ja.yml	enumerations.note_multipart_type.appraisal	Appraisal	審査	評価選別	不統一	中	標準訳は評価選別
+common/locales/enums/ja.yml	enumerations.note_multipart_type.arrangement	Arrangement	配置	編成	不統一	中	標準訳は編成
+common/locales/enums/ja.yml	enumerations.note_multipart_type.bioghist	Biographical / Historical	伝記/歴史	経歴/沿革	不自然	中	ISAD(G)の定訳は経歴/沿革
+common/locales/enums/ja.yml	enumerations.note_multipart_type.contact_note	Contact Note	お問い合わせ先	連絡先注記	不自然	低	注記種別名として不自然
+common/locales/enums/ja.yml	enumerations.note_multipart_type.custodhist	Custodial History	親権史	保管履歴	誤訳	高	「親権史」はcustody（親権）の取り違え
+common/locales/enums/ja.yml	enumerations.note_multipart_type.extent	Extent	エクステント	数量	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.note_multipart_type.general_context	General Context	一般的なコンテキスト	全般的背景	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_multipart_type.index	Index	インデックス	索引	不自然	低	注記種別としては索引
+common/locales/enums/ja.yml	enumerations.note_multipart_type.inscription	Inscription	登録	銘文	誤訳	高	「登録」は意味が異なる（資料上の銘・書き入れ）
+common/locales/enums/ja.yml	enumerations.note_multipart_type.langmaterial	Language of Materials	材料の言語	資料の言語	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_multipart_type.mandate	Mandate	委任	権限の根拠	不自然	中	ISAARのmandateは権限・根拠法令で「委任」ではない
+common/locales/enums/ja.yml	enumerations.note_multipart_type.materialspec	Materials Specific Details	材料固有の詳細	資料固有の詳細	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_multipart_type.note	General Note	一般的な注意	一般注記	不自然	中	「一般的な注意」は警告の意味になる
+common/locales/enums/ja.yml	enumerations.note_multipart_type.odd	General	一般	一般注記	不自然	低	注記種別として不完全
+common/locales/enums/ja.yml	enumerations.note_multipart_type.originalsloc	Existence and Location of Originals	オリジナルの存在と場所	原本の存在と所在	不自然	中	originalsは原本、locationは所在
+common/locales/enums/ja.yml	enumerations.note_multipart_type.otherfindaid	Other Finding Aids	その他の助成金	その他の検索手段	誤訳	高	「助成金」はaidの取り違えで検索手段ではない
+common/locales/enums/ja.yml	enumerations.note_multipart_type.physdesc	Physical Description	身体的特徴	形態的記述	誤訳	高	「身体的特徴」は人の身体の意味になる
+common/locales/enums/ja.yml	enumerations.note_multipart_type.physfacet	Physical Facet	物理ファセット	形態的側面	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_multipart_type.physloc	Physical Location	物理的な位置	所在	不統一	中	標準訳は所在
+common/locales/enums/ja.yml	enumerations.note_multipart_type.prefercite	Preferred Citation	好ましい引用	推奨引用形式	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_multipart_type.processinfo	Processing Information	処理情報	整理情報	不統一	中	標準訳は整理情報
+common/locales/enums/ja.yml	enumerations.note_multipart_type.separatedmaterial	Separated Materials	分離された材料	分離資料	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_multipart_type.userestrict	Conditions Governing Use	使用を管理する条件	利用規則	不統一	中	標準訳は利用規則/複製条件
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.abstract	Abstract	抽象	抄録	誤訳	高	「抽象」はabstractの別義で抄録ではない
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.accessrestrict	Conditions Governing Access	アクセスを管理する条件	利用条件	不統一	中	標準訳は利用条件
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.accruals	Accruals	見越額	追加受入	誤訳	高	「見越額」は会計用語で追加受入ではない
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.acqinfo	Immediate Source of Acquisition	買収の即時出典	直接の入手元	誤訳	高	「買収」は企業買収の意味になる
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.altformavail	Existence and Location of Copies	コピーの存在と場所	複製の存在と所在	不自然	中	copiesは複製、locationは所在
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.appraisal	Appraisal	審査	評価選別	不統一	中	標準訳は評価選別
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.arrangement	Arrangement	配置	編成	不統一	中	標準訳は編成
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.bioghist	Biographical / Historical	伝記/歴史	経歴/沿革	不自然	中	ISAD(G)の定訳は経歴/沿革
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.contact_note	Contact Note	お問い合わせ先	連絡先注記	不自然	低	注記種別名として不自然
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.custodhist	Custodial History	親権史	保管履歴	誤訳	高	「親権史」はcustody（親権）の取り違え
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.extent	Extent	エクステント	数量	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.general_context	General Context	一般的なコンテキスト	全般的背景	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.index	Index	インデックス	索引	不自然	低	注記種別としては索引
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.inscription	Inscription	登録	銘文	誤訳	高	「登録」は意味が異なる（資料上の銘・書き入れ）
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.langmaterial	Language of Materials	材料の言語	資料の言語	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.mandate	Mandate	委任	権限の根拠	不自然	中	ISAARのmandateは権限・根拠法令で「委任」ではない
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.materialspec	Materials Specific Details	材料固有の詳細	資料固有の詳細	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.note	General Note	一般的な注意	一般注記	不自然	中	「一般的な注意」は警告の意味になる
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.odd	General	一般	一般注記	不自然	低	注記種別として不完全
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.originalsloc	Existence and Location of Originals	オリジナルの存在と場所	原本の存在と所在	不自然	中	originalsは原本、locationは所在
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.otherfindaid	Other Finding Aids	その他の助成金	その他の検索手段	誤訳	高	「助成金」はaidの取り違えで検索手段ではない
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.physdesc	Physical Description	身体的特徴	形態的記述	誤訳	高	「身体的特徴」は人の身体の意味になる
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.physfacet	Physical Facet	物理ファセット	形態的側面	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.physloc	Physical Location	物理的な位置	所在	不統一	中	標準訳は所在
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.prefercite	Preferred Citation	好ましい引用	推奨引用形式	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.processinfo	Processing Information	処理情報	整理情報	不統一	中	標準訳は整理情報
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.separatedmaterial	Separated Materials	分離された材料	分離資料	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_langmaterial_type.userestrict	Conditions Governing Use	使用を管理する条件	利用規則	不統一	中	標準訳は利用規則/複製条件
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.abstract	Abstract	抽象	抄録	誤訳	高	「抽象」はabstractの別義で抄録ではない
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.accessrestrict	Conditions Governing Access	アクセスを管理する条件	利用条件	不統一	中	標準訳は利用条件
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.accruals	Accruals	見越額	追加受入	誤訳	高	「見越額」は会計用語で追加受入ではない
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.acqinfo	Immediate Source of Acquisition	買収の即時出典	直接の入手元	誤訳	高	「買収」は企業買収の意味になる
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.altformavail	Existence and Location of Copies	コピーの存在と場所	複製の存在と所在	不自然	中	copiesは複製、locationは所在
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.appraisal	Appraisal	審査	評価選別	不統一	中	標準訳は評価選別
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.arrangement	Arrangement	配置	編成	不統一	中	標準訳は編成
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.bioghist	Biographical / Historical	伝記/歴史	経歴/沿革	不自然	中	ISAD(G)の定訳は経歴/沿革
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.contact_note	Contact Note	お問い合わせ先	連絡先注記	不自然	低	注記種別名として不自然
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.custodhist	Custodial History	親権史	保管履歴	誤訳	高	「親権史」はcustody（親権）の取り違え
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.extent	Extent	エクステント	数量	未訳	中	カタカナ化された未訳語
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.general_context	General Context	一般的なコンテキスト	全般的背景	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.index	Index	インデックス	索引	不自然	低	注記種別としては索引
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.inscription	Inscription	登録	銘文	誤訳	高	「登録」は意味が異なる（資料上の銘・書き入れ）
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.langmaterial	Language of Materials	材料の言語	資料の言語	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.mandate	Mandate	委任	権限の根拠	不自然	中	ISAARのmandateは権限・根拠法令で「委任」ではない
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.materialspec	Materials Specific Details	材料固有の詳細	資料固有の詳細	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.note	General Note	一般的な注意	一般注記	不自然	中	「一般的な注意」は警告の意味になる
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.odd	General	一般	一般注記	不自然	低	注記種別として不完全
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.originalsloc	Existence and Location of Originals	オリジナルの存在と場所	原本の存在と所在	不自然	中	originalsは原本、locationは所在
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.otherfindaid	Other Finding Aids	その他の助成金	その他の検索手段	誤訳	高	「助成金」はaidの取り違えで検索手段ではない
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.physdesc	Physical Description	身体的特徴	形態的記述	誤訳	高	「身体的特徴」は人の身体の意味になる
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.physfacet	Physical Facet	物理ファセット	形態的側面	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.physloc	Physical Location	物理的な位置	所在	不統一	中	標準訳は所在
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.prefercite	Preferred Citation	好ましい引用	推奨引用形式	不自然	低	機械翻訳調
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.processinfo	Processing Information	処理情報	整理情報	不統一	中	標準訳は整理情報
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.separatedmaterial	Separated Materials	分離された材料	分離資料	誤訳	中	「材料」は物質の意味になる
+common/locales/enums/ja.yml	enumerations.note_digital_object_type.userestrict	Conditions Governing Use	使用を管理する条件	利用規則	不統一	中	標準訳は利用規則/複製条件
+common/locales/enums/ja.yml	enumerations.script_iso15924.Adlm	Adlam	Adlam	アドラム文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Afak	Afaka	Afaka	アファカ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Aghb	Caucasian Albanian	Caucasian Albanian	カフカス・アルバニア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Ahom	Ahom, Tai Ahom	Ahom, Tai Ahom	アーホム文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Arab	Arabic	Arabic	アラビア文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Aran	Arabic (Nastaliq variant)	Arabic (Nastaliq variant)	アラビア文字（ナスタアリーク体）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Armi	Imperial Aramaic	Imperial Aramaic	帝国アラム文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Armn	Armenian	Armenian	アルメニア文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Avst	Avestan	Avestan	アヴェスター文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Bali	Balinese	Balinese	バリ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Bamu	Bamum	Bamum	バムン文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Bass	Bassa Vah	Bassa Vah	バサ・ヴァー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Batk	Batak	Batak	バタク文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Beng	Bengali (Bangla)	Bengali (Bangla)	ベンガル文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Bhks	Bhaiksuki	Bhaiksuki	バイクシュキー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Blis	Blissymbols	Blissymbols	ブリスシンボル	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Bopo	Bopomofo	Bopomofo	注音字母	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Brah	Brahmi	Brahmi	ブラーフミー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Brai	Braille	Braille	点字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Bugi	Buginese	Buginese	ブギス文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Buhd	Buhid	Buhid	ブヒッド文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cakm	Chakma	Chakma	チャクマ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cans	Unified Canadian Aboriginal Syllabics	Unified Canadian Aboriginal Syllabics	統合カナダ先住民音節文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cari	Carian	Carian	カリア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cham	Cham	Cham	チャム文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cher	Cherokee	Cherokee	チェロキー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cirt	Cirth	Cirth	キアス文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Copt	Coptic	Coptic	コプト文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cpmn	Cypro-Minoan	Cypro-Minoan	キプロ・ミノア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cprt	Cypriot syllabary	Cypriot syllabary	キプロス音節文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cyrl	Cyrillic	Cyrillic	キリル文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Cyrs	Cyrillic (Old Church Slavonic variant)	Cyrillic (Old Church Slavonic variant)	キリル文字（古代教会スラヴ語異体）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Deva	Devanagari (Nagari)	Devanagari (Nagari)	デーヴァナーガリー文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Dogr	Dogra	Dogra	ドーグラー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Dsrt	Deseret (Mormon)	Deseret (Mormon)	デザレット文字（モルモン）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Dupl	Duployan shorthand, Duployan stenography	Duployan shorthand, Duployan stenography	デュプロワイエ式速記	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Egyd	Egyptian demotic	Egyptian demotic	エジプト民衆文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Egyh	Egyptian hieratic	Egyptian hieratic	エジプト神官文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Egyp	Egyptian hieroglyphs	Egyptian hieroglyphs	エジプト聖刻文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Elba	Elbasan	Elbasan	エルバサン文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Elym	Elymaic	Elymaic	エリマイス文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Ethi	Ethiopic (Geʻez)	Ethiopic (Geʻez)	エチオピア文字（ゲエズ文字）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Geok	Khutsuri (Asomtavruli and Nuskhuri)	Khutsuri (Asomtavruli and Nuskhuri)	フツリ文字（アソムタヴルリ及びヌスフリ）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Geor	Georgian (Mkhedruli and Mtavruli)	Georgian (Mkhedruli and Mtavruli)	ジョージア文字（ムヘドルリ及びムタヴルリ）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Glag	Glagolitic	Glagolitic	グラゴル文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Gong	Gunjala Gondi	Gunjala Gondi	グンジャラ・ゴーンディー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Gonm	Masaram Gondi	Masaram Gondi	マサラム・ゴーンディー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Goth	Gothic	Gothic	ゴート文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Gran	Grantha	Grantha	グランタ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Grek	Greek	Greek	ギリシア文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Gujr	Gujarati	Gujarati	グジャラート文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Guru	Gurmukhi	Gurmukhi	グルムキー文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hanb	Han with Bopomofo (alias for Han + Bopomofo)	Han with Bopomofo (alias for Han + Bopomofo)	漢字と注音字母	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hang	Hangul (Hangŭl, Hangeul)	Hangul (Hangŭl, Hangeul)	ハングル	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hani	Han (Hanzi, Kanji, Hanja)	Han (Hanzi, Kanji, Hanja)	漢字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hano	Hanunoo (Hanunóo)	Hanunoo (Hanunóo)	ハヌノオ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hans	Han (Simplified variant)	Han (Simplified variant)	漢字（簡体字）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hant	Han (Traditional variant)	Han (Traditional variant)	漢字（繁体字）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hatr	Hatran	Hatran	ハトラ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hebr	Hebrew	Hebrew	ヘブライ文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hira	Hiragana	Hiragana	平仮名	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hluw	Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)	Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)	アナトリア象形文字（ルウィ象形文字、ヒッタイト象形文字）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hmng	Pahawh Hmong	Pahawh Hmong	パハウ・フモン文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hmnp	Nyiakeng Puachue Hmong	Nyiakeng Puachue Hmong	ニアケン・プアチュエ・フモン文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hrkt	Japanese syllabaries (alias for Hiragana + Katakana)	Japanese syllabaries (alias for Hiragana + Katakana)	仮名（平仮名と片仮名）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Hung	Old Hungarian (Hungarian Runic)	Old Hungarian (Hungarian Runic)	古代ハンガリー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Inds	Indus (Harappan)	Indus (Harappan)	インダス文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Ital	Old Italic (Etruscan, Oscan, etc.)	Old Italic (Etruscan, Oscan, etc.)	古イタリア文字（エトルリア文字、オスク文字など）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Jamo	Jamo (alias for Jamo subset of Hangul)	Jamo (alias for Jamo subset of Hangul)	字母（ハングルの字母）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Java	Javanese	Javanese	ジャワ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Jpan	Japanese (alias for Han + Hiragana + Katakana)	Japanese (alias for Han + Hiragana + Katakana)	日本語の文字（漢字・平仮名・片仮名）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Jurc	Jurchen	Jurchen	女真文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Kali	Kayah Li	Kayah Li	カヤー・リー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Kana	Katakana	Katakana	片仮名	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Khar	Kharoshthi	Kharoshthi	カローシュティー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Khmr	Khmer	Khmer	クメール文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Khoj	Khojki	Khojki	ホージャ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Kitl	Khitan large script	Khitan large script	契丹大字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Kits	Khitan small script	Khitan small script	契丹小字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Knda	Kannada	Kannada	カンナダ文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Kore	Korean (alias for Hangul + Han)	Korean (alias for Hangul + Han)	韓国語・朝鮮語の文字（ハングルと漢字）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Kpel	Kpelle	Kpelle	クペレ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Kthi	Kaithi	Kaithi	カイティー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Lana	Tai Tham (Lanna)	Tai Tham (Lanna)	タイ・タム文字（ラーンナー）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Laoo	Lao	Lao	ラーオ文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Latf	Latin (Fraktur variant)	Latin (Fraktur variant)	ラテン文字（フラクトゥール体）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Latg	Latin (Gaelic variant)	Latin (Gaelic variant)	ラテン文字（ゲール体）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Latn	Latin	Latin	ラテン文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Leke	Leke	Leke	レケ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Lepc	Lepcha (Róng)	Lepcha (Róng)	レプチャ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Limb	Limbu	Limbu	リンブ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Lina	Linear A	Linear A	線文字A	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Linb	Linear B	Linear B	線文字B	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Lisu	Lisu (Fraser)	Lisu (Fraser)	リス文字（フレーザー文字）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Loma	Loma	Loma	ロマ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Lyci	Lycian	Lycian	リュキア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Lydi	Lydian	Lydian	リュディア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mahj	Mahajani	Mahajani	マハージャニー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Maka	Makasar	Makasar	マカッサル文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mand	Mandaic, Mandaean	Mandaic, Mandaean	マンダ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mani	Manichaean	Manichaean	マニ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Marc	Marchen	Marchen	マルチェン文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Maya	Mayan hieroglyphs	Mayan hieroglyphs	マヤ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Medf	Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)	Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)	メデファイドリン文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mend	Mende Kikakui	Mende Kikakui	メンデ・キカクイ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Merc	Meroitic Cursive	Meroitic Cursive	メロエ草書体	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mero	Meroitic Hieroglyphs	Meroitic Hieroglyphs	メロエ聖刻文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mlym	Malayalam	Malayalam	マラヤーラム文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Modi	Modi, Moḍī	Modi, Moḍī	モーディー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mong	Mongolian	Mongolian	モンゴル文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Moon	Moon (Moon code, Moon script, Moon type)	Moon (Moon code, Moon script, Moon type)	ムーン式点字（ムーン文字）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mroo	Mro, Mru	Mro, Mru	ムロ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mtei	Meitei Mayek (Meithei, Meetei)	Meitei Mayek (Meithei, Meetei)	メイテイ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mult	Multani	Multani	ムルターニー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Mymr	Myanmar (Burmese)	Myanmar (Burmese)	ミャンマー文字（ビルマ文字）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Nand	Nandinagari	Nandinagari	ナンディナーガリー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Narb	Old North Arabian (Ancient North Arabian)	Old North Arabian (Ancient North Arabian)	古代北アラビア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Nbat	Nabataean	Nabataean	ナバテア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Newa	Newa, Newar, Newari, Nepāla lipi	Newa, Newar, Newari, Nepāla lipi	ネワール文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Nkdb	Naxi Dongba (na²¹ɕi³³ to³³ba²¹, Nakhi Tomba)	Naxi Dongba (na²¹ɕi³³ to³³ba²¹, Nakhi Tomba)	ナシ・トンバ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Nkgb	Naxi Geba (na²¹ɕi³³ gʌ²¹ba²¹, 'Na-'Khi ²Ggŏ-¹baw, Nakhi Geba)	Naxi Geba (na²¹ɕi³³ gʌ²¹ba²¹, 'Na-'Khi ²Ggŏ-¹baw, Nakhi Geba)	ナシ・ゲバ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Nkoo	N’Ko	N’Ko	ンコ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Nshu	Nüshu	Nüshu	女書	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Ogam	Ogham	Ogham	オガム文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Olck	Ol Chiki (Ol Cemet’, Ol, Santali)	Ol Chiki (Ol Cemet’, Ol, Santali)	オル・チキ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Orkh	Old Turkic, Orkhon Runic	Old Turkic, Orkhon Runic	古テュルク文字（オルホン突厥文字）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Orya	Oriya (Odia)	Oriya (Odia)	オリヤー文字（オディア文字）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Osge	Osage	Osage	オセージ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Osma	Osmanya	Osmanya	オスマニヤ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Palm	Palmyrene	Palmyrene	パルミラ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Pauc	Pau Cin Hau	Pau Cin Hau	パウ・チン・ハウ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Perm	Old Permic	Old Permic	古ペルミ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Phag	Phags-pa	Phags-pa	パスパ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Phli	Inscriptional Pahlavi	Inscriptional Pahlavi	碑文パフラヴィー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Phlp	Psalter Pahlavi	Psalter Pahlavi	詩篇パフラヴィー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Phlv	Book Pahlavi	Book Pahlavi	書籍パフラヴィー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Phnx	Phoenician	Phoenician	フェニキア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Piqd	Klingon (KLI pIqaD)	Klingon (KLI pIqaD)	クリンゴン文字（pIqaD）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Plrd	Miao (Pollard)	Miao (Pollard)	ミャオ文字（ポラード文字）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Prti	Inscriptional Parthian	Inscriptional Parthian	碑文パルティア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Qaaa	Reserved for private use (start)	Reserved for private use (start)	私用（開始）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Qabx	Reserved for private use (end)	Reserved for private use (end)	私用（終了）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Rjng	Rejang (Redjang, Kaganga)	Rejang (Redjang, Kaganga)	レジャン文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Rohg	Hanifi Rohingya	Hanifi Rohingya	ハニーフィー・ロヒンギャ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Roro	Rongorongo	Rongorongo	ロンゴロンゴ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Runr	Runic	Runic	ルーン文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Samr	Samaritan	Samaritan	サマリア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sara	Sarati	Sarati	サラティ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sarb	Old South Arabian	Old South Arabian	古代南アラビア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Saur	Saurashtra	Saurashtra	サウラーシュトラ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sgnw	SignWriting	SignWriting	サインライティング	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Shaw	Shavian (Shaw)	Shavian (Shaw)	ショー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Shrd	Sharada, Śāradā	Sharada, Śāradā	シャーラダー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Shui	Shuishu	Shuishu	水書	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sidd	Siddham, Siddhaṃ, Siddhamātṛkā	Siddham, Siddhaṃ, Siddhamātṛkā	悉曇文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sind	Khudawadi, Sindhi	Khudawadi, Sindhi	クダーワーディー文字（シンド文字）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sinh	Sinhala	Sinhala	シンハラ文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sogd	Sogdian	Sogdian	ソグド文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sogo	Old Sogdian	Old Sogdian	古ソグド文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sora	Sora Sompeng	Sora Sompeng	ソラ・ソンペン文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Soyo	Soyombo	Soyombo	ソヨンボ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sund	Sundanese	Sundanese	スンダ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Sylo	Syloti Nagri	Syloti Nagri	シロティ・ナグリ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Syrc	Syriac	Syriac	シリア文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Syre	Syriac (Estrangelo variant)	Syriac (Estrangelo variant)	シリア文字（エストランゲロ体）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Syrj	Syriac (Western variant)	Syriac (Western variant)	シリア文字（西方体）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Syrn	Syriac (Eastern variant)	Syriac (Eastern variant)	シリア文字（東方体）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Tagb	Tagbanwa	Tagbanwa	タグバヌワ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Takr	Takri, Ṭākrī, Ṭāṅkrī	Takri, Ṭākrī, Ṭāṅkrī	タークリー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Tale	Tai Le	Tai Le	タイ・ロ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Talu	New Tai Lue	New Tai Lue	新タイ・ルー文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Taml	Tamil	Tamil	タミル文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Tang	Tangut	Tangut	西夏文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Tavt	Tai Viet	Tai Viet	タイ・ヴィエト文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Telu	Telugu	Telugu	テルグ文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Teng	Tengwar	Tengwar	テングワール	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Tfng	Tifinagh (Berber)	Tifinagh (Berber)	ティフィナグ文字（ベルベル）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Tglg	Tagalog (Baybayin, Alibata)	Tagalog (Baybayin, Alibata)	タガログ文字（バイバイン）	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Thaa	Thaana	Thaana	ターナ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Thai	Thai	Thai	タイ文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Tibt	Tibetan	Tibetan	チベット文字	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Tirh	Tirhuta	Tirhuta	ティルフータ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Ugar	Ugaritic	Ugaritic	ウガリット文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Vaii	Vai	Vai	ヴァイ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Visp	Visible Speech	Visible Speech	視話法	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Wara	Warang Citi (Varang Kshiti)	Warang Citi (Varang Kshiti)	ワラング・クシティ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Wcho	Wancho	Wancho	ワンチョ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Wole	Woleai	Woleai	ウォレアイ文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Xpeo	Old Persian	Old Persian	古代ペルシア文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Xsux	Cuneiform, Sumero-Akkadian	Cuneiform, Sumero-Akkadian	楔形文字（シュメール・アッカド）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Yiii	Yi	Yi	彝文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Zanb	Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square\ \ Script)	Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)	ザナバザル方形文字	未訳	低	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Zinh	Code for inherited script	Code for inherited script	継承用文字コード	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Zmth	Mathematical notation	Mathematical notation	数学記号	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Zsye	Symbols (Emoji variant)	Symbols (Emoji variant)	記号（絵文字）	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Zsym	Symbols	Symbols	記号	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Zxxx	Code for unwritten documents	Code for unwritten documents	書かれていない資料用コード	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Zyyy	Code for undetermined script	Code for undetermined script	未確定の文字用コード	未訳	中	文字体系名が英語のまま
+common/locales/enums/ja.yml	enumerations.script_iso15924.Zzzz	Code for uncoded script	Code for uncoded script	コード未登録の文字	未訳	中	文字体系名が英語のまま

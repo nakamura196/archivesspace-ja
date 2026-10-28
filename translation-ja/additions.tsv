@@ -1,0 +1,1067 @@
+ファイル	キー	英語	現在の訳	訳	出典	メモ
+common/locales/ja.yml	digital_object.linker.browse	Browse Digital Objects		デジタルオブジェクトを参照	missing	
+common/locales/ja.yml	digital_object.linker.create	Create Digital Object		デジタルオブジェクトを作成	missing	
+common/locales/ja.yml	digital_object.linker.link_title	Link to digital object		デジタルオブジェクトにリンク	missing	
+common/locales/ja.yml	digital_object_component.linker.browse	Browse Digital Objects		デジタルオブジェクトを参照	missing	
+common/locales/ja.yml	digital_object_component.linker.create	Create Digital Object		デジタルオブジェクトを作成	missing	
+common/locales/ja.yml	digital_object_component.linker.link_title	Link to digital object		デジタルオブジェクトにリンク	missing	
+common/locales/ja.yml	location.new_title	New Location		新規ロケーション	missing	
+common/locales/ja.yml	location.linker.browse	Browse Locations		ロケーションを参照	missing	
+common/locales/ja.yml	location.linker.create	Create Location		ロケーションを作成	missing	
+common/locales/ja.yml	location.linker.link_title	Link to location		ロケーションにリンク	missing	
+common/locales/ja.yml	location_batch.new_title	New Location		新規ロケーション	missing	
+common/locales/ja.yml	location_batch.linker.browse	Browse Locations		ロケーションを参照	missing	
+common/locales/ja.yml	location_batch.linker.create	Create Location		ロケーションを作成	missing	
+common/locales/ja.yml	location_batch.linker.link_title	Link to location		ロケーションにリンク	missing	
+common/locales/ja.yml	linked_record.linker_ref.browse	Browse Records		レコードを参照	missing	
+common/locales/ja.yml	linked_record.linker_ref.create	Create Record		レコードを作成	missing	
+common/locales/ja.yml	linked_record.linker_ref.link_title	Link to record		レコードにリンク	missing	
+common/locales/ja.yml	event.new_title	New Event		新規イベント	missing	
+common/locales/ja.yml	linked_event.new_title	New Event		新規イベント	missing	
+common/locales/ja.yml	agent_resource.file_uri_tooltip	<p>A URI for the online location of the source used in the preparation of the Agent description. Example: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (for Find-A-Grave entry for Robert W. Service).</p>\n	<p>エージェント記述の準備に使用されたソースのオンラインロケーションのURI。例：http：//www.findagrave.com/cgi-bin/fg.cgi？page = gr＆GRid = 8373（Robert W. ServiceのFind-A-Graveエントリの場合）。</p>	<p>エージェントの記述を作成する際に使った情報源の、オンライン上の所在を示す URI。例：http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373（Find-A-Grave の Robert W. Service の項目）。</p>	missing	
+common/locales/ja.yml	accession.new_title	New Accession		新規受入	missing	
+common/locales/ja.yml	accession.linker.browse	Browse Accessions		受入を参照	missing	
+common/locales/ja.yml	accession.linker.create	Create Accession		受入を作成	missing	
+common/locales/ja.yml	accession.linker.link_title	Link to accession		受入にリンク	missing	
+common/locales/ja.yml	agent.new_title.agent_family	New Family		新規家族	missing	
+common/locales/ja.yml	agent.new_title.agent_person	New Person		新規個人	missing	
+common/locales/ja.yml	agent.new_title.agent_corporate_entity	New Corporate Entity		新規団体	missing	
+common/locales/ja.yml	agent.new_title.agent_software	New Software		新規ソフトウェア	missing	
+common/locales/ja.yml	agent.linker.create	Create Agent		エージェントを作成	missing	
+common/locales/ja.yml	agent.linker.browse	Browse Agents		エージェントを参照	missing	
+common/locales/ja.yml	agent.linker.link_title	Link to agent		エージェントにリンク	missing	
+common/locales/ja.yml	agent_person.new_title.agent_family	New Family		新規家族	missing	
+common/locales/ja.yml	agent_person.new_title.agent_person	New Person		新規個人	missing	
+common/locales/ja.yml	agent_person.new_title.agent_corporate_entity	New Corporate Entity		新規団体	missing	
+common/locales/ja.yml	agent_person.new_title.agent_software	New Software		新規ソフトウェア	missing	
+common/locales/ja.yml	agent_person.linker.create	Create Agent		エージェントを作成	missing	
+common/locales/ja.yml	agent_person.linker.browse	Browse Agents		エージェントを参照	missing	
+common/locales/ja.yml	agent_person.linker.link_title	Link to agent		エージェントにリンク	missing	
+common/locales/ja.yml	agent_family.new_title.agent_family	New Family		新規家族	missing	
+common/locales/ja.yml	agent_family.new_title.agent_person	New Person		新規個人	missing	
+common/locales/ja.yml	agent_family.new_title.agent_corporate_entity	New Corporate Entity		新規団体	missing	
+common/locales/ja.yml	agent_family.new_title.agent_software	New Software		新規ソフトウェア	missing	
+common/locales/ja.yml	agent_family.linker.create	Create Agent		エージェントを作成	missing	
+common/locales/ja.yml	agent_family.linker.browse	Browse Agents		エージェントを参照	missing	
+common/locales/ja.yml	agent_family.linker.link_title	Link to agent		エージェントにリンク	missing	
+common/locales/ja.yml	agent_software.new_title.agent_family	New Family		新規家族	missing	
+common/locales/ja.yml	agent_software.new_title.agent_person	New Person		新規個人	missing	
+common/locales/ja.yml	agent_software.new_title.agent_corporate_entity	New Corporate Entity		新規団体	missing	
+common/locales/ja.yml	agent_software.new_title.agent_software	New Software		新規ソフトウェア	missing	
+common/locales/ja.yml	agent_software.linker.create	Create Agent		エージェントを作成	missing	
+common/locales/ja.yml	agent_software.linker.browse	Browse Agents		エージェントを参照	missing	
+common/locales/ja.yml	agent_software.linker.link_title	Link to agent		エージェントにリンク	missing	
+common/locales/ja.yml	agent_corporate_entity.new_title.agent_family	New Family		新規家族	missing	
+common/locales/ja.yml	agent_corporate_entity.new_title.agent_person	New Person		新規個人	missing	
+common/locales/ja.yml	agent_corporate_entity.new_title.agent_corporate_entity	New Corporate Entity		新規団体	missing	
+common/locales/ja.yml	agent_corporate_entity.new_title.agent_software	New Software		新規ソフトウェア	missing	
+common/locales/ja.yml	agent_corporate_entity.linker.create	Create Agent		エージェントを作成	missing	
+common/locales/ja.yml	agent_corporate_entity.linker.browse	Browse Agents		エージェントを参照	missing	
+common/locales/ja.yml	agent_corporate_entity.linker.link_title	Link to agent		エージェントにリンク	missing	
+common/locales/ja.yml	group.default_group_names.repository_managers	Managers of the %{repo_code} repository		%{repo_code}リポジトリの管理者	missing	
+common/locales/ja.yml	group.default_group_names.repository_archivists	Archivists of the %{repo_code} repository		%{repo_code}リポジトリのアーキビスト	missing	
+common/locales/ja.yml	group.default_group_names.project_managers	Project managers of the %{repo_code} repository		%{repo_code}リポジトリのプロジェクト管理者	missing	
+common/locales/ja.yml	group.default_group_names.advanced_data_entry	Advanced Data Entry users of the %{repo_code} repository		%{repo_code}リポジトリの上級データ入力者	missing	
+common/locales/ja.yml	group.default_group_names.basic_data_entry	Basic Data Entry users of the %{repo_code} repository		%{repo_code}リポジトリの基本データ入力者	missing	
+common/locales/ja.yml	group.default_group_names.repository_viewers	Viewers of the %{repo_code} repository		%{repo_code}リポジトリの閲覧者	missing	
+common/locales/ja.yml	resource.is_finding_aid_status_published	Finding Aid Status Published?		検索手段のステータスを公開しますか？	missing	
+common/locales/ja.yml	resource.is_finding_aid_status_published_tooltip	<p>Determines whether Finding Aid Status is exposed publically.</p>\n		<p>検索手段のステータスを一般に公開するかどうかを指定します。</p>	missing	
+common/locales/ja.yml	resource.new_title	New Resource		新規リソース	missing	
+common/locales/ja.yml	repository.ark_shoulder	ARK Shoulder (local namespace)		ARK ショルダー（ローカル名前空間）	missing	
+common/locales/ja.yml	repository.ark_shoulder_tooltip	Per-repository string to be included in generated ARKs		生成される ARK に含める、リポジトリごとの文字列	missing	
+common/locales/ja.yml	repository.new_title	New Repository		新規リポジトリ	missing	
+common/locales/ja.yml	repository.linker.browse	Browse Repositories		リポジトリを参照	missing	
+common/locales/ja.yml	repository.linker.create	Create Repository		リポジトリを作成	missing	
+common/locales/ja.yml	repository.linker.link_title	Link to repository		リポジトリにリンク	missing	
+common/locales/ja.yml	repository.position	Position		並び順	missing	
+common/locales/ja.yml	subject.new_title	New Subject		新規件名	missing	
+common/locales/ja.yml	subject.linker.browse	Browse Subjects		件名を参照	missing	
+common/locales/ja.yml	subject.linker.create	Create Subject		件名を作成	missing	
+common/locales/ja.yml	subject.linker.link_title	Link to subject		件名にリンク	missing	
+common/locales/ja.yml	user.reset_password	Reset Password		パスワードをリセット	missing	
+common/locales/ja.yml	enumeration.default	Default		既定	missing	
+common/locales/ja.yml	classification.new_title	New Classification		新規分類	missing	
+common/locales/ja.yml	classification.linker.browse	Browse Classifications		分類を参照	missing	
+common/locales/ja.yml	classification.linker.create	Create Classification		分類を作成	missing	
+common/locales/ja.yml	classification.linker.link_title	Link to classification		分類にリンク	missing	
+common/locales/ja.yml	classification_term.linker.browse	Browse Classification Terms		分類項目を参照	missing	
+common/locales/ja.yml	classification_term.linker.create	Create Classification Term		分類項目を作成	missing	
+common/locales/ja.yml	classification_term.linker.link_title	Link to classification term		分類項目にリンク	missing	
+common/locales/ja.yml	defaults.include_unpublished	Include Unpublished Records in Exports?		エクスポートに未公開のレコードを含めますか？	missing	
+common/locales/ja.yml	defaults.rde_sort_alpha	Display RDE Templates Alphabetically?		RDE テンプレートをアルファベット順に表示しますか？	missing	
+common/locales/ja.yml	defaults.top_container_mgmt_browse_section	Top Container Management Browse Columns		最上位コンテナ管理の一覧に表示する列	missing	
+common/locales/ja.yml	reports.parameters.rating	Rating		評価	missing	
+common/locales/ja.yml	reports.parameters.values	Values		値	missing	
+common/locales/ja.yml	validation_errors.missing_required_subrecord	Subrecord is required but was missing		サブレコードは必須ですが、ありません	missing	
+common/locales/ja.yml	validation_errors.missing_end_filter_date	Start and end dates are required to filter by date. Please provide an end date.		日付で絞り込むには、開始日と終了日が必要です。終了日を入力してください。	missing	
+common/locales/ja.yml	validation_errors.missing_start_filter_date	Start and end dates are required to filter by date. Please provide a start date.		日付で絞り込むには、開始日と終了日が必要です。開始日を入力してください。	missing	
+common/locales/ja.yml	validation_errors.ark_collision	There was a problem while generating an ARK for this record. Please contact your system administrator.		このレコードの ARK を生成する際に問題が発生しました。システム管理者に連絡してください。	missing	
+common/locales/ja.yml	validation_errors.external_ark_collision	External ARK already in use		外部 ARK はすでに使われています	missing	
+common/locales/ja.yml	validation_errors.ark_format_error	One of the ARKs provided was not a valid ARK.		指定された ARK のうち 1 つは、ARK として正しくありません。	missing	
+common/locales/ja.yml	job.new_title	New Background Job		新規バックグラウンドジョブ	missing	
+common/locales/ja.yml	job.types.ns2_remover_job	ns2 Namespace Remover		ns2 名前空間の削除	missing	
+common/locales/ja.yml	job.queue_position	No. %{position}		%{position} 番目	missing	
+common/locales/ja.yml	import_job.import_subjects	Import and Link related Subjects?		関連する件名もインポートしてリンクしますか？	missing	
+common/locales/ja.yml	import_job.import_repository	Link imported locations to current repository?		インポートしたロケーションを現在のリポジトリにリンクしますか？	missing	
+common/locales/ja.yml	import_job.import_type_subject_csv	Subject CSV		件名CSV	missing	
+common/locales/ja.yml	import_job.bulk_import_csv	Bulk Import AO CSV		アーカイバルオブジェクト一括インポート（CSV）	missing	
+common/locales/ja.yml	import_job.bulk_import_xlsx	Bulk Import AO XLSX		アーカイバルオブジェクト一括インポート（XLSX）	missing	
+common/locales/ja.yml	import_job.bulk_import_DO_csv	Bulk Import DO CSV		デジタルオブジェクト一括インポート（CSV）	missing	
+common/locales/ja.yml	import_job.bulk_import_DO_xlsx	Bulk Import DO XLSX		デジタルオブジェクト一括インポート（XLSX）	missing	
+common/locales/ja.yml	import_job.import_subject_csv	Subject CSV		件名CSV	missing	
+common/locales/ja.yml	ns2_remover_job.description	Archivists' Toolit-era EADs imported into ASpace may have vestigal "ns2" namespace references pre-pended to various EAD tag attributes inside note subrecords. This may produce validation errors on EAD export from ArchivesSpace, as the root <ead> tag doesn't declare the "ns2" namespace. This job bulk deletes "ns2" references within Notes subrecords attached to resource, archival_object, digital_object, and digital_object_component records. As this job works across all repositories, it is restricted to users with <b>System Administrator permissions only</b>.\n		Archivists' Toolkit 時代の EAD を ArchivesSpace にインポートすると、ノートのサブレコード内にある各種 EAD タグの属性の前に、古い "ns2" 名前空間の参照が残っていることがあります。ルートの <ead> タグが "ns2" 名前空間を宣言していないため、ArchivesSpace から EAD をエクスポートするときに検証エラーになるおそれがあります。このジョブは、リソース、アーカイバルオブジェクト、デジタルオブジェクト、デジタルオブジェクトコンポーネントに付いたノートのサブレコードから、"ns2" の参照を一括で削除します。すべてのリポジトリを対象とするため、<b>システム管理者の権限を持つユーザーのみ</b>が実行できます。	missing	
+common/locales/ja.yml	ns2_remover_job.dry_run	Dry run?		ドライラン（実際には削除しない）にしますか？	missing	
+common/locales/ja.yml	assessment.new_title	New Assessment		新規評価	missing	
+common/locales/ja.yml	assessment.linker.link_title	Link to record		レコードにリンク	missing	
+common/locales/ja.yml	bulk_import_template._singular	Bulk Import Template		一括インポート用テンプレート	missing	
+common/locales/ja.yml	bulk_import_template._plural	Bulk Import Templates		一括インポート用テンプレート	missing	
+common/locales/ja.yml	bulk_import.templates	Bulk Import Templates		一括インポート用テンプレート	missing	
+common/locales/ja.yml	bulk_import.error.era	Invalid 'date era' ignored for %{date_str}: (%{what})		%{date_str} の日付の時代区分が正しくないため、無視しました：(%{what})	missing	en.yml に無い（手元の 4.2.1 の en.yml には無く、missing.tsv の基準の上流 master にある）
+common/locales/ja.yml	bulk_import.error.calendar	Invalid 'date calendar' ignored for %{date_str}: (%{what})		%{date_str} の日付の暦が正しくないため、無視しました：(%{what})	missing	en.yml に無い（手元の 4.2.1 の en.yml には無く、missing.tsv の基準の上流 master にある）
+common/locales/ja.yml	bulk_import.error.utf8	This spreadsheet has some invalid or corrupt text that cannot be processed.		このスプレッドシートには、処理できない無効または破損したテキストが含まれています。	missing	
+common/locales/ja.yml	arks.ark	ARK		ARK	missing	
+common/locales/ja.yml	arks.edit	Edit ARKs		ARK を編集	missing	
+common/locales/ja.yml	arks.current	current		現在	missing	
+common/locales/ja.yml	arks.remove_ark	Remove		削除	missing	
+common/locales/ja.yml	arks.add_new	Add new ARK		ARK を追加	missing	
+common/locales/ja.yml	arks.set_current	Set to current		現在の ARK にする	missing	
+common/locales/ja.yml	arks.save	Save ARKs		ARK を保存	missing	
+common/locales/ja.yml	arks.no_changes	No changes to save		保存する変更はありません	missing	
+common/locales/ja.yml	arks.modal_title	Edit ARKs for current record		このレコードの ARK を編集	missing	
+common/locales/ja.yml	arks.actions	Actions		操作	missing	
+common/locales/ja.yml	arks.unsubmitted_input	You have unsubmitted input		未送信の入力があります	missing	
+common/locales/ja.yml	arks.only_current_ark_can_be_external	The current ARK cannot be replaced while it is marked as external.		外部 ARK として設定されている間は、現在の ARK を置き換えられません。	missing	
+common/locales/ja.yml	arks.ark_editor_errors.ark_collision	One of the ARKs provided is already in use.		指定された ARK のうち 1 つは、すでに使われています。	missing	
+common/locales/ja.yml	arks.ark_editor_errors.ark_format_error	One of the ARKs provided was not a valid ARK.		指定された ARK のうち 1 つは、ARK として正しくありません。	missing	
+common/locales/ja.yml	container_profile.title	%{name} [%{depth}d, %{height}h, %{width}w %{dimension_units}] extent measured by %{extent_dimension}		%{name} [%{depth}d, %{height}h, %{width}w %{dimension_units}] 数量の測定寸法：%{extent_dimension}	missing	
+common/locales/ja.yml	container_profile.new_title	New Container Profile		新規コンテナプロファイル	missing	
+common/locales/ja.yml	location_profile.new_title	New Location Profile		新規ロケーションプロファイル	missing	
+common/locales/enums/ja.yml	enumerations.maintenance_status.deleted_merged	Deleted-Merged		削除（統合）	missing	
+common/locales/enums/ja.yml	enumerations.subject_source.not_applicable	Not applicable		該当なし	missing	
+common/locales/enums/ja.yml	enumerations.subject_source.not_specified	Source not specified		出典の指定なし	missing	
+common/locales/enums/ja.yml	enumerations.subject_source.other	Other		その他	missing	
+common/locales/enums/ja.yml	enumerations.subject_source.sears	Sears List of Subject Heading		シアーズ件名標目表	missing	
+frontend/config/locales/ja.yml	actions.require_subrecord	Require Subrecord		サブレコードを必須にする	missing	
+frontend/config/locales/ja.yml	actions.select_resource	Select Resource		リソースを選択	missing	
+frontend/config/locales/ja.yml	actions.reorder_successful	Repositories successfully reordered		リポジトリの並べ替えが完了しました	missing	
+frontend/config/locales/ja.yml	search.accession.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.resource.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.archival_object.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.subject.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.digital_object.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.digital_object_component.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.agent.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.location.location_no_holdings	No holdings for this repository.		このリポジトリには所蔵がありません。	missing	
+frontend/config/locales/ja.yml	search.location.location_one_top_container	1 top container.		最上位コンテナ 1 件。	missing	
+frontend/config/locales/ja.yml	search.location.location_top_containers	 top containers.		 件の最上位コンテナ。	missing	
+frontend/config/locales/ja.yml	search.location.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.event.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.collection_management.name	Collection Management		コレクション管理	missing	
+frontend/config/locales/ja.yml	search.collection_management.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.classification.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.assessment.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.repositories.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.top_container.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.top_container.series_level_u_sstr	Series		シリーズ	missing	
+frontend/config/locales/ja.yml	search.top_container.collection_identifier_stored_u_sstr	Collection		コレクション	missing	
+frontend/config/locales/ja.yml	search.top_container.ils_holding_id	ILS Holding ID		ILS 所蔵ID	missing	
+frontend/config/locales/ja.yml	search.top_container.exported_to_ils	Exported to ILS		ILS に出力済み	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.resource_accession	Resource/Accession		リソース/受入	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.resource_accession_id	Resource/Accession ID		リソース/受入 ID	missing	en.yml に無い（手元の 4.2.1 の en.yml には無く、missing.tsv の基準の上流 master にある）
+frontend/config/locales/ja.yml	search.top_container_mgmt.series	Series		シリーズ	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.container_profile	Container Profile		コンテナプロファイル	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.location_profile	Location Profile		ロケーションプロファイル	missing	en.yml に無い（手元の 4.2.1 の en.yml には無く、missing.tsv の基準の上流 master にある）
+frontend/config/locales/ja.yml	search.top_container_mgmt.type	Type		種類	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.indicator	Indicator		番号	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.barcode	Barcode		バーコード	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.internal_note	Internal Note		内部ノート	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.location	Location		ロケーション	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.restricted	Restricted		制限あり	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.not_restricted	Not Restricted		制限なし	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.ils_holding_id	ILS Holding ID		ILS 所蔵ID	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.exported_to_ils	Exported to ILS		ILS に出力済み	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.not_exported_to_ils	Not Exported		ILS に未出力	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.asc	Ascending		昇順	missing	
+frontend/config/locales/ja.yml	search.top_container_mgmt.desc	Descending		降順	missing	
+frontend/config/locales/ja.yml	search.container_profile.notes	Note		ノート	missing	
+frontend/config/locales/ja.yml	search.container_profile.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.location_profile.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.job.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	search.multi.uri	URI		URI	missing	
+frontend/config/locales/ja.yml	advanced_search.enum_field.label	Advanced search enumerations		高度な検索の選択肢	missing	
+frontend/config/locales/ja.yml	advanced_search.add_row	Add Row		行を追加	missing	
+frontend/config/locales/ja.yml	become-user.username	Username		ユーザー名	missing	
+frontend/config/locales/ja.yml	navbar.repository_settings	Repository settings		リポジトリの設定	missing	
+frontend/config/locales/ja.yml	navbar.global_settings	Global Settings		全体の設定	missing	
+frontend/config/locales/ja.yml	footer.keyboard_shortcuts	Keyboard Shortcuts		キーボードショートカット	missing	
+frontend/config/locales/ja.yml	footer.public_interface_html	View <a href="%{public_url}">Public Interface</a>		<a href="%{public_url}">公開画面</a>を表示	missing	
+frontend/config/locales/ja.yml	footer.archivesspace_home_html	Visit <a href='http://archivesspace.org'>ArchivesSpace.org</a>		<a href='http://archivesspace.org'>ArchivesSpace</a> を使用しています	missing	
+frontend/config/locales/ja.yml	footer.feedback_html	<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>Send Feedback or Report a Problem</a>		<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>ご意見・ご質問</a>	missing	
+frontend/config/locales/ja.yml	login.username_placeholder	Username		ユーザー名	missing	
+frontend/config/locales/ja.yml	login.password_placeholder	Password		パスワード	missing	
+frontend/config/locales/ja.yml	login.confirm_password	Confirm Password		パスワード（確認）	missing	
+frontend/config/locales/ja.yml	login.username_aria_label	User Name		ユーザー名	missing	
+frontend/config/locales/ja.yml	login.password_aria_label	User Password		ユーザーのパスワード	missing	
+frontend/config/locales/ja.yml	login.lost_password	Forgot Password?		パスワードをお忘れですか？	missing	
+frontend/config/locales/ja.yml	login.reset_password	Reset Password		パスワードをリセット	missing	
+frontend/config/locales/ja.yml	login.recover_password	Recover Password		パスワードを再設定	missing	
+frontend/config/locales/ja.yml	login.email_placeholder	Email Address		メールアドレス	missing	
+frontend/config/locales/ja.yml	login.reset_form_instructions	Enter the email associated with your user account. If an account exists for that email address, a link to reset your password will be sent to that email address.		ユーザーアカウントに登録されているメールアドレスを入力してください。そのメールアドレスのアカウントがある場合、パスワードをリセットするためのリンクをそのアドレスに送信します。	missing	
+frontend/config/locales/ja.yml	login.new_password	New Password		新しいパスワード	missing	
+frontend/config/locales/ja.yml	login.new_password_instructions	Create a new password for %{user} using the form, then login again.		フォームで %{user} の新しいパスワードを作成してから、もう一度ログインしてください。	missing	
+frontend/config/locales/ja.yml	login.password_mismatch_error	Passwords do not match.		パスワードが一致しません。	missing	
+frontend/config/locales/ja.yml	login.password_update_success	Password successfully updated.		パスワードを更新しました。	missing	
+frontend/config/locales/ja.yml	login.password_update_error	Password could not be updated. Try again or contact an administrator.		パスワードを更新できませんでした。もう一度試すか、管理者に連絡してください。	missing	
+frontend/config/locales/ja.yml	login.password_too_simple	This password is too easy to guess. Try adding words or use a random password generator.		このパスワードは推測されやすいです。語を加えるか、ランダムなパスワード生成ツールを使ってください。	missing	
+frontend/config/locales/ja.yml	component_link._plural	Component Links		コンポーネントのリンク	missing	
+frontend/config/locales/ja.yml	component_link._singular	Component Link		コンポーネントのリンク	missing	
+frontend/config/locales/ja.yml	component_link._frontend.action.add	Add Component Link		コンポーネントのリンクを追加	missing	
+frontend/config/locales/ja.yml	accession_link._plural	Accession Links		受入のリンク	missing	
+frontend/config/locales/ja.yml	accession_link._singular	Accesssion Link		受入のリンク	missing	
+frontend/config/locales/ja.yml	accession_link._frontend.action.add	Add Accession Link		受入のリンクを追加	missing	
+frontend/config/locales/ja.yml	accession.component_link	Linked Component		リンクされたコンポーネント	missing	
+frontend/config/locales/ja.yml	accession.component_links	Linked Components		リンクされたコンポーネント	missing	
+frontend/config/locales/ja.yml	agent._frontend.section.events	Events		イベント	missing	
+frontend/config/locales/ja.yml	archival_object.new_title	New Archival Object		新規アーカイバルオブジェクト	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.messages.transfer_description	Select a resource to transfer this archival object into		このアーカイバルオブジェクトの転送先のリソースを選択してください	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawned	This Archival Object has been spawned from Accession <strong>%{accession_display_string}</strong>. This record is unsaved. You must click Save for the record to be created in the system.		このアーカイバルオブジェクトは、受入 <strong>%{accession_display_string}</strong> から生成されました。このレコードは未保存です。システムにレコードを作成するには「保存」をクリックしてください。	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_placeholder	<em>Spawned component will be inserted here</em>		<em>生成されたコンポーネントがここに挿入されます</em>	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_menu_before	Insert spawned component before		生成されたコンポーネントを前に挿入	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_menu_child	Insert spawned component as child		生成されたコンポーネントを子として挿入	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_menu_after	Insert spawned component after		生成されたコンポーネントを後ろに挿入	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.action.select_resource	Select Resource		リソースを選択	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.action.select_parent_and_position	Select Component Position		コンポーネントの位置を選択	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.action.leave_parent_empty	Close / Do not Assign Parent		閉じる / 親を割り当てない	missing	
+frontend/config/locales/ja.yml	structured_date_label_existence.date_label	Label	ラベル	ラベル	missing	
+frontend/config/locales/ja.yml	structured_date_label_existence.date_type_structured	Date Type	日付タイプ	日付の種類	missing	
+frontend/config/locales/ja.yml	structured_date_label_existence.date_certainty	Certainty	確実	確からしさ	missing	
+frontend/config/locales/ja.yml	structured_date_label_existence.date_era	Era	時代	時代区分	missing	
+frontend/config/locales/ja.yml	structured_date_label_existence.date_calendar	Calendar	カレンダー	暦	missing	
+frontend/config/locales/ja.yml	structured_date_label_usage.date_label	Label	ラベル	ラベル	missing	
+frontend/config/locales/ja.yml	structured_date_label_usage.date_type_structured	Date Type	日付タイプ	日付の種類	missing	
+frontend/config/locales/ja.yml	structured_date_label_usage.date_certainty	Certainty	確実	確からしさ	missing	
+frontend/config/locales/ja.yml	structured_date_label_usage.date_era	Era	時代	時代区分	missing	
+frontend/config/locales/ja.yml	structured_date_label_usage.date_calendar	Calendar	カレンダー	暦	missing	
+frontend/config/locales/ja.yml	enumeration._frontend.messages.not_used	Not Used.		使用されていません。	missing	
+frontend/config/locales/ja.yml	enumeration._frontend.messages.one_related_item	1 related item.		関連項目 1 件。	missing	
+frontend/config/locales/ja.yml	enumeration._frontend.messages.related_items	 related items.		 件の関連項目。	missing	
+frontend/config/locales/ja.yml	name._frontend.section.place_subject	Place Subject		場所の件名	missing	
+frontend/config/locales/ja.yml	name._frontend.section.topic_subject	Topic Subject		トピックの件名	missing	
+frontend/config/locales/ja.yml	name._frontend.section.name_subject	Name Subject		名前の件名	missing	
+frontend/config/locales/ja.yml	name._frontend.section.function_subject	Function Subject		機能の件名	missing	
+frontend/config/locales/ja.yml	name._frontend.section.occupation_subject	Occupation Subject		職業の件名	missing	
+frontend/config/locales/ja.yml	name._frontend.action.make_authorized_tooltip	Use to indicate the name form is the authorized version of the name by authoritative sources such as LCNAF.		LCNAF などの典拠機関が示す、この名前の形式が統一形（典拠形）であることを示すときに使います。	missing	
+frontend/config/locales/ja.yml	name._frontend.action.make_display_name_tooltip	Use to indicate that this form of the name should be used for displays when there are multiple name forms associated with the agent record.		エージェントレコードに複数の名前の形式がある場合に、表示でこの名前の形式を使うことを示すときに使います。	missing	
+frontend/config/locales/ja.yml	name._frontend.action.make_primary	Make Primary		主にする	missing	
+frontend/config/locales/ja.yml	name._frontend.action.make_primary_tooltip	Make Primary Tooltip		この名前の形式を主なものにします。	missing	
+frontend/config/locales/ja.yml	repository._frontend.action.order_for_pui	Set Order in Public Interface		公開画面での並び順を設定	missing	
+frontend/config/locales/ja.yml	resource._frontend.remove_subrecord	Remove sub-record		サブレコードを削除	missing	
+frontend/config/locales/ja.yml	resource.linker.browse	Browse Resources		リソースを参照	missing	
+frontend/config/locales/ja.yml	resource.linker.link_title	Browse		参照	missing	
+frontend/config/locales/ja.yml	resource.linker.link_to	Link to Resource		リソースにリンク	missing	
+frontend/config/locales/ja.yml	user.source	Authentication		認証方式	missing	
+frontend/config/locales/ja.yml	user._frontend.messages.password_reset_email_sent	If an account for %{email} exists, an email with instructions for resetting your password will be sent.		%{email} のアカウントがある場合、パスワードをリセットする手順を記載したメールを送信します。	missing	
+frontend/config/locales/ja.yml	user._frontend.messages.error_not_found	A username account for %{email} could not be found. Contact your administrator for help.		%{email} のユーザー名のアカウントが見つかりませんでした。管理者に連絡してください。	missing	
+frontend/config/locales/ja.yml	user._frontend.messages.password_reset_not_allowed	Password Recovery is not allowed. Contact your administrator.		パスワードの再設定は許可されていません。管理者に連絡してください。	missing	
+frontend/config/locales/ja.yml	user._frontend.messages.password_reset_fail	Password Recovery failed. Contact your administrator.		パスワードの再設定に失敗しました。管理者に連絡してください。	missing	
+frontend/config/locales/ja.yml	user._frontend.section.new_account	New Account		新規アカウント	missing	
+frontend/config/locales/ja.yml	user._frontend.action.update_self	Manage User Account		ユーザーアカウントを管理	missing	
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.title	Keyboard Shortcuts		キーボードショートカット	missing	
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.shift	SHIFT		SHIFT	missing	
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.arrow_keys	Arrow Keys		矢印キー	missing	
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.return	Return		Return	missing	
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.move_term	Jump from cell to cell		セルからセルへ移動	missing	
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.new_term	Create a new row (from last row)		新しい行を作成（最後の行から）	missing	
+frontend/config/locales/ja.yml	rde.help.sticky_columns.title	Sticky Columns		固定する列	missing	
+frontend/config/locales/ja.yml	rde.help.sticky_columns.p_one	Highlighted columns are sticky and will be replicated when new rows are added. Toggle 'sticky' by clicking the corresponding table heading.		強調表示された列は「固定」されており、新しい行を追加すると同じ値が複製されます。表の見出しをクリックすると、固定のオン・オフを切り替えられます。	missing	
+frontend/config/locales/ja.yml	rde.help.sticky_columns.p_two	Clicking <strong>Add Row</strong> will copy values from the last row. The row's <strong>+</strong> button will copy values from the currently focused row.		<strong>行を追加</strong>をクリックすると、最後の行の値が複製されます。行の <strong>+</strong> ボタンは、現在選択している行の値を複製します。	missing	
+frontend/config/locales/ja.yml	rde.help.fill_column.basic_title	Fill Column - Basic		列を埋める - 基本	missing	
+frontend/config/locales/ja.yml	rde.help.fill_column.basic_description	To fill a column with a single value, click <strong>Fill Column</strong> and under the <strong>Basic</strong> tab select the target <strong>Column</strong>, enter the desired <strong>Fill Value</strong> and click <strong>Apply Fill</strong>.		列を 1 つの値で埋めるには、<strong>列を埋める</strong>をクリックし、<strong>基本</strong>タブで対象の<strong>列</strong>を選び、<strong>埋める値</strong>を入力して<strong>埋める</strong>をクリックします。	missing	
+frontend/config/locales/ja.yml	rde.help.fill_column.sequence_title	Fill Column - Sequence		列を埋める - 連番	missing	
+frontend/config/locales/ja.yml	rde.help.fill_column.sequence_description	To apply a sequence to a column, click <strong>Fill Column</strong> and under the <strong>Sequence</strong> tab select the target <strong>Column</strong> and complete the <strong>Fill Value</strong> fields to generate the sequence you desire.  A warning will be displayed if the sequence generated will not fulfil the number of rows in the form.		列に連番を入れるには、<strong>列を埋める</strong>をクリックし、<strong>連番</strong>タブで対象の<strong>列</strong>を選び、<strong>埋める値</strong>の欄に必要な内容を入力して、連番を作成します。作成した連番がフォームの行数に足りない場合は、警告が表示されます。	missing	
+frontend/config/locales/ja.yml	rde.help.reorder_columns.title	Reorder Columns		列の並べ替え	missing	
+frontend/config/locales/ja.yml	rde.help.reorder_columns.description	Click <strong>Reorder columns</strong>, select the row(s) you wish to reorder and use the up/down arrow buttons to change their position in the list. When happy with your new ordering, click <strong>Apply Column Order</strong>.		<strong>列の並べ替え</strong>をクリックし、並べ替えたい行を選んで、上下の矢印ボタンで一覧内の位置を変えます。順序が決まったら、<strong>列の順序を適用</strong>をクリックします。	missing	
+frontend/config/locales/ja.yml	rde.help.reset.title	Reset Form		フォームをリセット	missing	
+frontend/config/locales/ja.yml	rde.help.reset.description	Click <strong>Reset</strong> to clear the form and revert the sticky, visible and order of the columns to the default values.		<strong>リセット</strong>をクリックすると、フォームが空になり、列の固定・表示・順序が既定値に戻ります。	missing	
+frontend/config/locales/ja.yml	job._frontend.singular	Job		ジョブ	missing	
+frontend/config/locales/ja.yml	job._frontend.plural	Jobs		ジョブ	missing	
+frontend/config/locales/ja.yml	job._frontend.external_repo	Record belongs to a different repository		このレコードは別のリポジトリに属しています	missing	
+frontend/config/locales/ja.yml	top_container.internal_note	Internal Note		内部ノート	missing	
+frontend/config/locales/ja.yml	top_container.internal_note_tooltip	<p>Notes for internal use. Only visible in staff interface.</p>\n		<p>内部で使うノート。スタッフ用画面でのみ表示されます。</p>	missing	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_resource_linker.browse	Browse Resources		リソースを参照	missing	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_resource_linker.create	Create Resource		リソースを作成	missing	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_resource_linker.link_title	Link to resource		リソースにリンク	missing	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_accession_linker.browse	Browse Accessions		受入を参照	missing	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_accession_linker.create	Create Accession		受入を作成	missing	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_accession_linker.link_title	Link to accession		受入にリンク	missing	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.rapid_indicator_entry	Update Indicators		番号を更新	missing	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.rapid_indicator_entry_new_indicator	New Indicator		新しい番号	missing	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.rapid_indicator_entry_help	Enter an indicator for each selected container.  Leave the New Indicator field blank to leave it unchanged.		選択した各コンテナの番号を入力してください。「新しい番号」を空欄にすると、変更されません。	missing	
+frontend/config/locales/ja.yml	top_container.linker.browse	Browse Top Containers		最上位コンテナを参照	missing	
+frontend/config/locales/ja.yml	top_container.linker.create	Create Top Container		最上位コンテナを作成	missing	
+frontend/config/locales/ja.yml	top_container.linker.link_title	Link to top container		最上位コンテナにリンク	missing	
+frontend/config/locales/ja.yml	container_profile.notes	Note		ノート	missing	
+frontend/config/locales/ja.yml	container_profile.notes_tooltip	<p>A note for miscellaneous information/metadata.</p>\n		<p>その他の情報やメタデータを記録するためのノート。</p>	missing	
+frontend/config/locales/ja.yml	container_profile.linker.browse	Browse Container Profiles		コンテナプロファイルを参照	missing	
+frontend/config/locales/ja.yml	container_profile.linker.create	Create Container Profile		コンテナプロファイルを作成	missing	
+frontend/config/locales/ja.yml	container_profile.linker.link_title	Link to container profile		コンテナプロファイルにリンク	missing	
+frontend/config/locales/ja.yml	location_profile.linker.browse	Browse Location Profiles		ロケーションプロファイルを参照	missing	
+frontend/config/locales/ja.yml	location_profile.linker.create	Create Location Profile		ロケーションプロファイルを作成	missing	
+frontend/config/locales/ja.yml	location_profile.linker.link_title	Link to location profile		ロケーションプロファイルにリンク	missing	
+frontend/config/locales/ja.yml	custom_report_template.new_title	New Custom Report Template		新規カスタムレポートテンプレート	missing	
+frontend/config/locales/ja.yml	custom_report_template._frontend.action.search_usernames	Search Usernames		ユーザー名を検索	missing	
+frontend/config/locales/ja.yml	agent_record_controls._plural	Record Info	記録情報	記録情報	missing	
+frontend/config/locales/ja.yml	agent_record_controls._singular	Record Info	記録情報	記録情報	missing	
+frontend/config/locales/ja.yml	agent_record_controls._frontend.action.add	Add Record Info	レコード情報を追加	記録情報を追加	missing	
+frontend/config/locales/ja.yml	agent_record_controls.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_controls.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_controls.romanization	Romanization	ローマ字	ローマ字化	missing	
+frontend/config/locales/ja.yml	agent_record_controls.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理：政府機関の種類	missing	
+frontend/config/locales/ja.yml	agent_record_controls.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照の評価	missing	
+frontend/config/locales/ja.yml	agent_record_controls.name_type	Record Control Name Type	レコードコントロール名タイプ	レコード管理：名前の種類	missing	
+frontend/config/locales/ja.yml	agent_record_controls.level_of_detail	Record Control Level of Detail	記録管理の詳細レベル	レコード管理：詳細レベル	missing	
+frontend/config/locales/ja.yml	agent_record_controls.modified_record	Record Control Modified Type	レコード制御変更タイプ	レコード管理：変更の種類	missing	
+frontend/config/locales/ja.yml	agent_record_controls.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成の情報源	missing	
+frontend/config/locales/ja.yml	agent_record_controls.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
+frontend/config/locales/ja.yml	agent_record_controls.agency_name	Agency Name	代理店名	機関名	missing	
+frontend/config/locales/ja.yml	agent_record_controls.maintenance_agency_note	Maintenance Agency Note	メンテナンスエージェンシーノート	維持管理機関のノート	missing	
+frontend/config/locales/ja.yml	agent_record_controls.language	Language	言語	言語	missing	
+frontend/config/locales/ja.yml	agent_record_controls.script	Script	脚本	文字体系	missing	
+frontend/config/locales/ja.yml	agent_record_controls.language_note	Language Note	言語ノート	言語のノート	missing	
+frontend/config/locales/ja.yml	agent_record_control_required._plural	Record Info	記録情報	記録情報	missing	
+frontend/config/locales/ja.yml	agent_record_control_required._singular	Record Info	記録情報	記録情報	missing	
+frontend/config/locales/ja.yml	agent_record_control_required._frontend.action.add	Add Record Info	レコード情報を追加	記録情報を追加	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.romanization	Romanization	ローマ字	ローマ字化	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理：政府機関の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照の評価	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.name_type	Record Control Name Type	レコードコントロール名タイプ	レコード管理：名前の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.level_of_detail	Record Control Level of Detail	記録管理の詳細レベル	レコード管理：詳細レベル	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.modified_record	Record Control Modified Type	レコード制御変更タイプ	レコード管理：変更の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成の情報源	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.agency_name	Agency Name	代理店名	機関名	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.maintenance_agency_note	Maintenance Agency Note	メンテナンスエージェンシーノート	維持管理機関のノート	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.language	Language	言語	言語	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.script	Script	脚本	文字体系	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.language_note	Language Note	言語ノート	言語のノート	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination._plural	Record Info	記録情報	記録情報	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination._singular	Record Info	記録情報	記録情報	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination._frontend.action.add	Add Record Info	レコード情報を追加	記録情報を追加	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.romanization	Romanization	ローマ字	ローマ字化	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理：政府機関の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照の評価	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.name_type	Record Control Name Type	レコードコントロール名タイプ	レコード管理：名前の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.level_of_detail	Record Control Level of Detail	記録管理の詳細レベル	レコード管理：詳細レベル	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.modified_record	Record Control Modified Type	レコード制御変更タイプ	レコード管理：変更の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成の情報源	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.agency_name	Agency Name	代理店名	機関名	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_agency_note	Maintenance Agency Note	メンテナンスエージェンシーノート	維持管理機関のノート	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.language	Language	言語	言語	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.script	Script	脚本	文字体系	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.language_note	Language Note	言語ノート	言語のノート	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate._plural	Record Info	記録情報	記録情報	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate._singular	Record Info	記録情報	記録情報	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate._frontend.action.add	Add Record Info	レコード情報を追加	記録情報を追加	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.romanization	Romanization	ローマ字	ローマ字化	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理：政府機関の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照の評価	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.name_type	Record Control Name Type	レコードコントロール名タイプ	レコード管理：名前の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.level_of_detail	Record Control Level of Detail	記録管理の詳細レベル	レコード管理：詳細レベル	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.modified_record	Record Control Modified Type	レコード制御変更タイプ	レコード管理：変更の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成の情報源	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.agency_name	Agency Name	代理店名	機関名	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_agency_note	Maintenance Agency Note	メンテナンスエージェンシーノート	維持管理機関のノート	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.language	Language	言語	言語	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.script	Script	脚本	文字体系	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.language_note	Language Note	言語ノート	言語のノート	missing	
+frontend/config/locales/ja.yml	agent_genders._plural	Genders	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_genders._singular	Gender	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_genders._frontend.action.add	Add Gender	性別を追加	性別を追加	missing	
+frontend/config/locales/ja.yml	agent_genders.gender	Gender	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_genders.note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_genders.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_gender_required._plural	Genders	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_gender_required._singular	Gender	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_gender_required._frontend.action.add	Add Gender	性別を追加	性別を追加	missing	
+frontend/config/locales/ja.yml	agent_gender_required.gender	Gender	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_gender_required.note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_gender_required.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_destination._plural	Genders	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_destination._singular	Gender	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_destination._frontend.action.add	Add Gender	性別を追加	性別を追加	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_destination.gender	Gender	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_destination.note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_destination.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_candidate._plural	Genders	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_candidate._singular	Gender	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_candidate._frontend.action.add	Add Gender	性別を追加	性別を追加	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_candidate.gender	Gender	性別	性別	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_candidate.note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_gender_merge_candidate.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	used_language_required._plural	Languages Used	使用される言語	使用言語	missing	
+frontend/config/locales/ja.yml	used_language_required._singular	Language Used	使用言語	使用言語	missing	
+frontend/config/locales/ja.yml	used_language_required._frontend.action.add	Add Language	言語を追加する	言語を追加	missing	
+frontend/config/locales/ja.yml	used_language_required.language	Language	言語	言語	missing	
+frontend/config/locales/ja.yml	used_language_required.script	Script	脚本	文字体系	missing	
+frontend/config/locales/ja.yml	used_languages._plural	Languages Used	使用される言語	使用言語	missing	
+frontend/config/locales/ja.yml	used_languages._singular	Language Used	使用言語	使用言語	missing	
+frontend/config/locales/ja.yml	used_languages._frontend.action.add	Add Language	言語を追加する	言語を追加	missing	
+frontend/config/locales/ja.yml	used_languages.language	Language	言語	言語	missing	
+frontend/config/locales/ja.yml	used_languages.script	Script	脚本	文字体系	missing	
+frontend/config/locales/ja.yml	used_language_merge_candidate._plural	Languages Used	使用される言語	使用言語	missing	
+frontend/config/locales/ja.yml	used_language_merge_candidate._singular	Language Used	使用言語	使用言語	missing	
+frontend/config/locales/ja.yml	used_language_merge_candidate._frontend.action.add	Add Language	言語を追加する	言語を追加	missing	
+frontend/config/locales/ja.yml	used_language_merge_candidate.language	Language	言語	言語	missing	
+frontend/config/locales/ja.yml	used_language_merge_candidate.script	Script	脚本	文字体系	missing	
+frontend/config/locales/ja.yml	used_language_merge_destination._plural	Languages Used	使用される言語	使用言語	missing	
+frontend/config/locales/ja.yml	used_language_merge_destination._singular	Language Used	使用言語	使用言語	missing	
+frontend/config/locales/ja.yml	used_language_merge_destination._frontend.action.add	Add Language	言語を追加する	言語を追加	missing	
+frontend/config/locales/ja.yml	used_language_merge_destination.language	Language	言語	言語	missing	
+frontend/config/locales/ja.yml	used_language_merge_destination.script	Script	脚本	文字体系	missing	
+frontend/config/locales/ja.yml	agent_identifiers._plural	Entity IDs	エンティティID	エンティティID	missing	
+frontend/config/locales/ja.yml	agent_identifiers._singular	Identifier	識別子	識別子	missing	
+frontend/config/locales/ja.yml	agent_identifiers._frontend.action.add	Add Entity ID	エンティティIDを追加します	エンティティIDを追加	missing	
+frontend/config/locales/ja.yml	agent_identifiers.identifier_type	Identifier Type	識別子の種類	識別子の種類	missing	
+frontend/config/locales/ja.yml	agent_identifiers.entity_identifier	Entity IDs	エンティティID	エンティティID	missing	
+frontend/config/locales/ja.yml	agent_identifier_required._plural	Entity IDs	エンティティID	エンティティID	missing	
+frontend/config/locales/ja.yml	agent_identifier_required._singular	Identifier	識別子	識別子	missing	
+frontend/config/locales/ja.yml	agent_identifier_required._frontend.action.add	Add Entity ID	エンティティIDを追加します	エンティティIDを追加	missing	
+frontend/config/locales/ja.yml	agent_identifier_required.identifier_type	Identifier Type	識別子の種類	識別子の種類	missing	
+frontend/config/locales/ja.yml	agent_identifier_required.entity_identifier	Entity IDs	エンティティID	エンティティID	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_destination._plural	Entity IDs	エンティティID	エンティティID	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_destination._singular	Identifier	識別子	識別子	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_destination._frontend.action.add	Add Entity ID	エンティティIDを追加します	エンティティIDを追加	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_destination.identifier_type	Identifier Type	識別子の種類	識別子の種類	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_destination.entity_identifier	Entity IDs	エンティティID	エンティティID	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate._plural	Entity IDs	エンティティID	エンティティID	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate._singular	Identifier	識別子	識別子	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate._frontend.action.add	Add Entity ID	エンティティIDを追加します	エンティティIDを追加	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate.identifier_type	Identifier Type	識別子の種類	識別子の種類	missing	
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate.entity_identifier	Entity IDs	エンティティID	エンティティID	missing	
+frontend/config/locales/ja.yml	agent_place_required._frontend.action.add	Add Place	場所を追加	場所を追加	missing	
+frontend/config/locales/ja.yml	agent_place_required.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_place_required._plural	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_place_required._singular	Place	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_place_required.place_role	Agent Place Role	エージェントプレイスの役割	エージェントの場所の役割	missing	
+frontend/config/locales/ja.yml	agent_place_required.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_place_required.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_place_required.subjects	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_place_required.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_places._frontend.action.add	Add Place	場所を追加	場所を追加	missing	
+frontend/config/locales/ja.yml	agent_places.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_places._plural	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_places._singular	Place	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_places.place_role	Agent Place Role	エージェントプレイスの役割	エージェントの場所の役割	missing	
+frontend/config/locales/ja.yml	agent_places.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_places.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_places.subjects	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_places.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_place_merge_destination._frontend.action.add	Add Place	場所を追加	場所を追加	missing	
+frontend/config/locales/ja.yml	agent_place_merge_destination.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_place_merge_destination._plural	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_place_merge_destination._singular	Place	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_place_merge_destination.place_role	Agent Place Role	エージェントプレイスの役割	エージェントの場所の役割	missing	
+frontend/config/locales/ja.yml	agent_place_merge_destination.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_place_merge_destination.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_place_merge_destination.subjects	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_place_merge_destination.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_place_merge_candidate._frontend.action.add	Add Place	場所を追加	場所を追加	missing	
+frontend/config/locales/ja.yml	agent_place_merge_candidate.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_place_merge_candidate._plural	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_place_merge_candidate._singular	Place	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_place_merge_candidate.place_role	Agent Place Role	エージェントプレイスの役割	エージェントの場所の役割	missing	
+frontend/config/locales/ja.yml	agent_place_merge_candidate.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_place_merge_candidate.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_place_merge_candidate.subjects	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_place_merge_candidate.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_occupation_required._frontend.action.add	Add Occupation	職業を追加する	職業を追加	missing	
+frontend/config/locales/ja.yml	agent_occupation_required.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_occupation_required._plural	Occupations	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupation_required._singular	Occupation	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupation_required.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_occupation_required.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_occupation_required.subjects	Occupations	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupation_required.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_occupation_required.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_occupations._frontend.action.add	Add Occupation	職業を追加する	職業を追加	missing	
+frontend/config/locales/ja.yml	agent_occupations.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_occupations._plural	Occupations	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupations._singular	Occupation	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupations.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_occupations.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_occupations.subjects	Occupations	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupations.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_occupations.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_destination._frontend.action.add	Add Occupation	職業を追加する	職業を追加	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_destination._plural	Occupations	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_destination._singular	Occupation	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.subjects	Occupations	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate._frontend.action.add	Add Occupation	職業を追加する	職業を追加	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate._plural	Occupations	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate._singular	Occupation	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.subjects	Occupations	職業	職業	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_function_required._frontend.action.add	Add Function	機能の追加	機能を追加	missing	
+frontend/config/locales/ja.yml	agent_function_required.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_function_required._plural	Functions	機能	機能	missing	
+frontend/config/locales/ja.yml	agent_function_required._singular	Function	関数	機能	missing	
+frontend/config/locales/ja.yml	agent_function_required.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_function_required.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_function_required.subjects	Functions	機能	機能	missing	
+frontend/config/locales/ja.yml	agent_function_required.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_function_required.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_functions._frontend.action.add	Add Function	機能の追加	機能を追加	missing	
+frontend/config/locales/ja.yml	agent_functions.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_functions._plural	Functions	機能	機能	missing	
+frontend/config/locales/ja.yml	agent_functions._singular	Function	関数	機能	missing	
+frontend/config/locales/ja.yml	agent_functions.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_functions.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_functions.subjects	Functions	機能	機能	missing	
+frontend/config/locales/ja.yml	agent_functions.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_functions.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_function_merge_destination._frontend.action.add	Add Function	機能の追加	機能を追加	missing	
+frontend/config/locales/ja.yml	agent_function_merge_destination.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_function_merge_destination._plural	Functions	機能	機能	missing	
+frontend/config/locales/ja.yml	agent_function_merge_destination._singular	Function	関数	機能	missing	
+frontend/config/locales/ja.yml	agent_function_merge_destination.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_function_merge_destination.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_function_merge_destination.subjects	Functions	機能	機能	missing	
+frontend/config/locales/ja.yml	agent_function_merge_destination.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_function_merge_destination.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_function_merge_candidate._frontend.action.add	Add Function	機能の追加	機能を追加	missing	
+frontend/config/locales/ja.yml	agent_function_merge_candidate.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_function_merge_candidate._plural	Functions	機能	機能	missing	
+frontend/config/locales/ja.yml	agent_function_merge_candidate._singular	Function	関数	機能	missing	
+frontend/config/locales/ja.yml	agent_function_merge_candidate.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_function_merge_candidate.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_function_merge_candidate.subjects	Functions	機能	機能	missing	
+frontend/config/locales/ja.yml	agent_function_merge_candidate.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_function_merge_candidate.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_topic_required._frontend.action.add	Add Topic	トピックを追加	トピックを追加	missing	
+frontend/config/locales/ja.yml	agent_topic_required.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_topic_required._plural	Topics	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topic_required._singular	Topic	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topic_required.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_topic_required.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_topic_required.subjects	Topics	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topic_required.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_topic_required.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_topics._frontend.action.add	Add Topic	トピックを追加	トピックを追加	missing	
+frontend/config/locales/ja.yml	agent_topics.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_topics._plural	Topics	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topics._singular	Topic	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topics.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_topics.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_topics.subjects	Topics	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topics.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_topics.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_destination._frontend.action.add	Add Topic	トピックを追加	トピックを追加	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_destination.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_destination._plural	Topics	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_destination._singular	Topic	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_destination.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_destination.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_destination.subjects	Topics	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_destination.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_destination.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_candidate._frontend.action.add	Add Topic	トピックを追加	トピックを追加	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_candidate._plural	Topics	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_candidate._singular	Topic	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.text_note	Note	注意	ノート	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.subjects	Topics	トピック	トピック	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets._plural	Alternate Sets	代替セット	代替セット	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets._singular	Alternate Set	代替セット	代替セット	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets._frontend.action.add	Add Alternative Set	代替セットを追加	代替セットを追加	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.set_component	Set Component	コンポーネントの設定	セットの構成要素	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required._plural	Alternate Sets	代替セット	代替セット	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required._singular	Alternate Set	代替セット	代替セット	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required._frontend.action.add	Add Alternative Set	代替セットを追加	代替セットを追加	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.set_component	Set Component	コンポーネントの設定	セットの構成要素	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination._plural	Alternate Sets	代替セット	代替セット	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination._singular	Alternate Set	代替セット	代替セット	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination._frontend.action.add	Add Alternative Set	代替セットを追加	代替セットを追加	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.set_component	Set Component	コンポーネントの設定	セットの構成要素	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate._plural	Alternate Sets	代替セット	代替セット	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate._singular	Alternate Set	代替セット	代替セット	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate._frontend.action.add	Add Alternative Set	代替セットを追加	代替セットを追加	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.set_component	Set Component	コンポーネントの設定	セットの構成要素	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations._plural	Convention Declarations	条約宣言	準拠規則の宣言	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations._singular	Convention Declaration	条約宣言	準拠規則の宣言	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations._frontend.action.add	Add Convention Declaration	条約宣言を追加する	準拠規則の宣言を追加	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.name_rule	Convention	コンベンション	規則	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.citation	Citation	引用	引用	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required._plural	Convention Declarations	条約宣言	準拠規則の宣言	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required._singular	Convention Declaration	条約宣言	準拠規則の宣言	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required._frontend.action.add	Add Convention Declaration	条約宣言を追加する	準拠規則の宣言を追加	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.name_rule	Convention	コンベンション	規則	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.citation	Citation	引用	引用	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination._plural	Convention Declarations	条約宣言	準拠規則の宣言	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination._singular	Convention Declaration	条約宣言	準拠規則の宣言	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination._frontend.action.add	Add Convention Declaration	条約宣言を追加する	準拠規則の宣言を追加	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.name_rule	Convention	コンベンション	規則	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.citation	Citation	引用	引用	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate._plural	Convention Declarations	条約宣言	準拠規則の宣言	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate._singular	Convention Declaration	条約宣言	準拠規則の宣言	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate._frontend.action.add	Add Convention Declaration	条約宣言を追加する	準拠規則の宣言を追加	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.name_rule	Convention	コンベンション	規則	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.citation	Citation	引用	引用	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_other_agency_codes._plural	Other Agency Codes	その他の機関コード	その他の機関コード	missing	
+frontend/config/locales/ja.yml	agent_other_agency_codes._singular	Other Agency Code	その他の機関コード	その他の機関コード	missing	
+frontend/config/locales/ja.yml	agent_other_agency_codes._frontend.action.add	Add Agency Code	代理店コードを追加	機関コードを追加	missing	
+frontend/config/locales/ja.yml	agent_other_agency_codes.agency_code_type	Record Control Agency Code Type	レコード管理機関のコードタイプ	レコード管理：機関コードの種類	missing	
+frontend/config/locales/ja.yml	agent_other_agency_codes.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_required._plural	Other Agency Codes	その他の機関コード	その他の機関コード	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_required._singular	Other Agency Code	その他の機関コード	その他の機関コード	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_required._frontend.action.add	Add Agency Code	代理店コードを追加	機関コードを追加	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_required.agency_code_type	Record Control Agency Code Type	レコード管理機関のコードタイプ	レコード管理：機関コードの種類	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_required.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination._plural	Other Agency Codes	その他の機関コード	その他の機関コード	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination._singular	Other Agency Code	その他の機関コード	その他の機関コード	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination._frontend.action.add	Add Agency Code	代理店コードを追加	機関コードを追加	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination.agency_code_type	Record Control Agency Code Type	レコード管理機関のコードタイプ	レコード管理：機関コードの種類	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate._plural	Other Agency Codes	その他の機関コード	その他の機関コード	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate._singular	Other Agency Code	その他の機関コード	その他の機関コード	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate._frontend.action.add	Add Agency Code	代理店コードを追加	機関コードを追加	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate.agency_code_type	Record Control Agency Code Type	レコード管理機関のコードタイプ	レコード管理：機関コードの種類	missing	
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
+frontend/config/locales/ja.yml	agent_maintenance_histories._plural	Maintenance History	メンテナンス履歴	維持管理履歴	missing	
+frontend/config/locales/ja.yml	agent_maintenance_histories._singular	Agent Maintenance History	エージェントのメンテナンス履歴	エージェントの維持管理履歴	missing	
+frontend/config/locales/ja.yml	agent_maintenance_histories._frontend.action.add	Add Event	イベントを追加	イベントを追加	missing	
+frontend/config/locales/ja.yml	agent_maintenance_histories.maintenance_event_type	Record Control Maintenance Event Type	レコード制御保守イベントタイプ	レコード管理：維持管理イベントの種類	missing	
+frontend/config/locales/ja.yml	agent_maintenance_histories.maintenance_agent_type	Record Control Maintenance Agent Type	レコード制御保守エージェントタイプ	レコード管理：維持管理担当者の種類	missing	
+frontend/config/locales/ja.yml	agent_maintenance_histories.agent	Agent	エージェント	エージェント	missing	
+frontend/config/locales/ja.yml	agent_maintenance_histories.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_maintenance_histories.event_date	Event Date	開催日	イベントの日付	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_required._plural	Maintenance History	メンテナンス履歴	維持管理履歴	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_required._singular	Agent Maintenance History	エージェントのメンテナンス履歴	エージェントの維持管理履歴	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_required._frontend.action.add	Add Event	イベントを追加	イベントを追加	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_required.maintenance_event_type	Record Control Maintenance Event Type	レコード制御保守イベントタイプ	レコード管理：維持管理イベントの種類	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_required.maintenance_agent_type	Record Control Maintenance Agent Type	レコード制御保守エージェントタイプ	レコード管理：維持管理担当者の種類	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_required.agent	Agent	エージェント	エージェント	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_required.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_required.event_date	Event Date	開催日	イベントの日付	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination._plural	Maintenance History	メンテナンス履歴	維持管理履歴	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination._singular	Agent Maintenance History	エージェントのメンテナンス履歴	エージェントの維持管理履歴	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination._frontend.action.add	Add Event	イベントを追加	イベントを追加	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.maintenance_event_type	Record Control Maintenance Event Type	レコード制御保守イベントタイプ	レコード管理：維持管理イベントの種類	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.maintenance_agent_type	Record Control Maintenance Agent Type	レコード制御保守エージェントタイプ	レコード管理：維持管理担当者の種類	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.agent	Agent	エージェント	エージェント	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.event_date	Event Date	開催日	イベントの日付	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate._plural	Maintenance History	メンテナンス履歴	維持管理履歴	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate._singular	Agent Maintenance History	エージェントのメンテナンス履歴	エージェントの維持管理履歴	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate._frontend.action.add	Add Event	イベントを追加	イベントを追加	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.maintenance_event_type	Record Control Maintenance Event Type	レコード制御保守イベントタイプ	レコード管理：維持管理イベントの種類	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.maintenance_agent_type	Record Control Maintenance Agent Type	レコード制御保守エージェントタイプ	レコード管理：維持管理担当者の種類	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.agent	Agent	エージェント	エージェント	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.event_date	Event Date	開催日	イベントの日付	missing	
+frontend/config/locales/ja.yml	agent_record_identifiers._plural	Record IDs	レコードID	レコードID	missing	
+frontend/config/locales/ja.yml	agent_record_identifiers._singular	Record ID	レコードID	レコードID	missing	
+frontend/config/locales/ja.yml	agent_record_identifiers._frontend.action.add	Add Record ID	レコードIDを追加	レコードIDを追加	missing	
+frontend/config/locales/ja.yml	agent_record_identifiers.identifier_type	Record Control Identifier Type	レコード制御識別子タイプ	レコード管理：識別子の種類	missing	
+frontend/config/locales/ja.yml	agent_record_identifiers.source	Source	ソース	出所	missing	
+frontend/config/locales/ja.yml	agent_record_identifiers.primary_identifier	Is Primary Identifier?	一次識別子はありますか？	主識別子か	missing	
+frontend/config/locales/ja.yml	agent_record_identifiers.primary	Primary	プライマリ	主	missing	
+frontend/config/locales/ja.yml	agent_record_identifiers.record_identifier	Record Identifier	レコード識別子	レコード識別子	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_required._plural	Record IDs	レコードID	レコードID	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_required._singular	Record ID	レコードID	レコードID	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_required._frontend.action.add	Add Record ID	レコードIDを追加	レコードIDを追加	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_required.identifier_type	Record Control Identifier Type	レコード制御識別子タイプ	レコード管理：識別子の種類	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_required.source	Source	ソース	出所	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_required.primary_identifier	Is Primary Identifier?	一次識別子はありますか？	主識別子か	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_required.primary	Primary	プライマリ	主	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_required.record_identifier	Record Identifier	レコード識別子	レコード識別子	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination._plural	Record IDs	レコードID	レコードID	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination._singular	Record ID	レコードID	レコードID	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination._frontend.action.add	Add Record ID	レコードIDを追加	レコードIDを追加	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.identifier_type	Record Control Identifier Type	レコード制御識別子タイプ	レコード管理：識別子の種類	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.source	Source	ソース	出所	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.primary_identifier	Is Primary Identifier?	一次識別子はありますか？	主識別子か	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.primary	Primary	プライマリ	主	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.record_identifier	Record Identifier	レコード識別子	レコード識別子	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate._plural	Record IDs	レコードID	レコードID	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate._singular	Record ID	レコードID	レコードID	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate._frontend.action.add	Add Record ID	レコードIDを追加	レコードIDを追加	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.identifier_type	Record Control Identifier Type	レコード制御識別子タイプ	レコード管理：識別子の種類	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.source	Source	ソース	出所	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.primary_identifier	Is Primary Identifier?	一次識別子はありますか？	主識別子か	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.primary	Primary	プライマリ	主	missing	
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.record_identifier	Record Identifier	レコード識別子	レコード識別子	missing	
+frontend/config/locales/ja.yml	agent_sources._plural	Sources	ソース	情報源	missing	
+frontend/config/locales/ja.yml	agent_sources._singular	Agent Source	エージェントソース	エージェントの情報源	missing	
+frontend/config/locales/ja.yml	agent_sources._frontend.action.add	Add Source	ソースを追加	情報源を追加	missing	
+frontend/config/locales/ja.yml	agent_sources.source_entry	Source Entry	ソースエントリ	情報源の記載	missing	
+frontend/config/locales/ja.yml	agent_sources.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_sources.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_sources.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_sources.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_sources.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_sources.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_sources.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_sources.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_source_required._plural	Sources	ソース	情報源	missing	
+frontend/config/locales/ja.yml	agent_source_required._singular	Agent Source	エージェントソース	エージェントの情報源	missing	
+frontend/config/locales/ja.yml	agent_source_required._frontend.action.add	Add Source	ソースを追加	情報源を追加	missing	
+frontend/config/locales/ja.yml	agent_source_required.source_entry	Source Entry	ソースエントリ	情報源の記載	missing	
+frontend/config/locales/ja.yml	agent_source_required.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_source_required.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_source_required.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_source_required.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_source_required.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_source_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_source_required.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_source_required.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination._plural	Sources	ソース	情報源	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination._singular	Agent Source	エージェントソース	エージェントの情報源	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination._frontend.action.add	Add Source	ソースを追加	情報源を追加	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.source_entry	Source Entry	ソースエントリ	情報源の記載	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate._plural	Sources	ソース	情報源	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate._singular	Agent Source	エージェントソース	エージェントの情報源	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate._frontend.action.add	Add Source	ソースを追加	情報源を追加	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.source_entry	Source Entry	ソースエントリ	情報源の記載	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.descriptive_note	Descriptive Note	注釈	記述ノート	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_resources._frontend.action.add	Add Related External Resource	関連する外部リソースを追加する	関連する外部リソースを追加	missing	
+frontend/config/locales/ja.yml	agent_resources.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_resources.section.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_resources._plural	Related External Resources	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resources._singular	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resources.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_resources.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_resources.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_resources.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソースとの関係の種類	missing	
+frontend/config/locales/ja.yml	agent_resources.linked_resource	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resources.linked_resource_description	Description	説明	説明	missing	
+frontend/config/locales/ja.yml	agent_resources.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_resources.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_resources.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_resources.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_resources.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_resources.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_resources.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_resource_required._frontend.action.add	Add Related External Resource	関連する外部リソースを追加する	関連する外部リソースを追加	missing	
+frontend/config/locales/ja.yml	agent_resource_required.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_resource_required.section.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_resource_required._plural	Related External Resources	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resource_required._singular	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resource_required.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_resource_required.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_resource_required.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_resource_required.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソースとの関係の種類	missing	
+frontend/config/locales/ja.yml	agent_resource_required.linked_resource	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resource_required.linked_resource_description	Description	説明	説明	missing	
+frontend/config/locales/ja.yml	agent_resource_required.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_resource_required.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_required.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_required.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_required.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_required.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate._frontend.action.add	Add Related External Resource	関連する外部リソースを追加する	関連する外部リソースを追加	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.section.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate._plural	Related External Resources	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate._singular	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソースとの関係の種類	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_resource	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_resource_description	Description	説明	説明	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination._frontend.action.add	Add Related External Resource	関連する外部リソースを追加する	関連する外部リソースを追加	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.section.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.section.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination._plural	Related External Resources	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination._singular	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.dates	Dates	日付	日付	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.places	Places	場所	場所	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.publish	Published	公開済み	公開済み	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソースとの関係の種類	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_resource	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_resource_description	Description	説明	説明	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.file_uri	File URI	ファイルURI	ファイルURI	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.overview	<p>These are templates for uploading spreadsheet data into ArchivesSpace using the different import options in the Background Jobs area. The data required for a successful import depends on the type of record being created. You do not have to fill out every row and column.</p><p>Each CSV template includes a row of sample data. Unless you want to create a record with the sample data, please delete the sample data before uploading your spreadsheet. <b>Do not delete the header row, add additional columns or rearrange existing columns.</b></p><p>The Excel templates include additional instructions for using the templates and validations for certain cells. Do not delete the instructions or validations.</p>\n		<p>これらは、バックグラウンドジョブの画面にあるさまざまなインポート機能を使って、スプレッドシートのデータを ArchivesSpace に取り込むためのテンプレートです。インポートに必要なデータは、作成するレコードの種類によって異なります。すべての行と列を埋める必要はありません。</p><p>各 CSV テンプレートには、サンプルデータの行が 1 行入っています。サンプルデータでレコードを作成するつもりがなければ、スプレッドシートをアップロードする前にサンプルデータを削除してください。<b>見出しの行は削除せず、列の追加や既存の列の並べ替えもしないでください。</b></p><p>Excel のテンプレートには、テンプレートの使い方を説明する追加の指示と、一部のセルの入力チェックが含まれています。指示と入力チェックは削除しないでください。</p>	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.aspace_digital_object_import_template_csv	Create digital object records and records linked to digital objects like agents, subjects, and events.		デジタルオブジェクトのレコードと、デジタルオブジェクトにリンクされるエージェント、件名、イベントなどのレコードを作成します。	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_template_csv	Create archival objects attached to an existing resource. Includes option to create many different sub-records and linked records including dates, extents, notes, containers, and digital objects. The CSV format is for people who do not have access to Microsoft Excel.		既存のリソースに属するアーカイバルオブジェクトを作成します。日付、数量、ノート、コンテナ、デジタルオブジェクトなど、さまざまなサブレコードやリンクされたレコードを一緒に作成することもできます。CSV 形式は、Microsoft Excel を使えない人向けです。	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_template_xlsx	Create archival objects attached to an existing resource. Includes option to create many different sub-records and linked records including dates, extents, notes, containers, and digital objects. The XLSX format is for those who have access to Microsoft Excel.		既存のリソースに属するアーカイバルオブジェクトを作成します。日付、数量、ノート、コンテナ、デジタルオブジェクトなど、さまざまなサブレコードやリンクされたレコードを一緒に作成することもできます。XLSX 形式は、Microsoft Excel を使える人向けです。	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_DO_template_csv	Create and link digital objects to existing archival objects in a resource. The CSV format is for people who do not have access to Microsoft Excel.		リソース内の既存のアーカイバルオブジェクトに、デジタルオブジェクトを作成してリンクします。CSV 形式は、Microsoft Excel を使えない人向けです。	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_DO_template_xlsx	Create and link digital objects to existing archival objects in a resource. The XLSX format is for those who have access to Microsoft Excel.		リソース内の既存のアーカイバルオブジェクトに、デジタルオブジェクトを作成してリンクします。XLSX 形式は、Microsoft Excel を使える人向けです。	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.aspace_location_import_template_csv	Create new location records. Please note that this template is for creating the location records themselves, not linking materials to locations.		新しいロケーションのレコードを作成します。このテンプレートはロケーションのレコードそのものを作成するためのもので、資料をロケーションにリンクするためのものではありません。	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.aspace_assessment_import_template_csv	Create and link assessments to existing accessions, resources, archival objects, or digital objects.		既存の受入、リソース、アーカイバルオブジェクト、デジタルオブジェクトに、評価を作成してリンクします。	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.aspace_subject_import_template_csv	Create new Subject records. Please note that this template is for creating the subject records themselves, not linking them to other records.		新しい件名のレコードを作成します。このテンプレートは件名のレコードそのものを作成するためのもので、ほかのレコードにリンクするためのものではありません。	missing	
+public/config/locales/ja.yml	actions.next	Next		次へ	missing	
+public/config/locales/ja.yml	actions.previous	Previous		前へ	missing	
+public/config/locales/ja.yml	search_results.filter.digital_object_type_enum_s	Type		種類	missing	
+public/config/locales/ja.yml	search_results.filter.extent_type_enum_s	Extent		数量の種類	missing	
+public/config/locales/ja.yml	errors.invalid_search_params	Invalid search parameter '%{value}' for field '%{field}'		フィールド「%{field}」の検索パラメータ「%{value}」が正しくありません	missing	
+public/config/locales/ja.yml	accession._public.related_accessions.has_part	Part Relationship		部分関係	missing	
+public/config/locales/ja.yml	resource._public.identifier_pdf	ID		ID	missing	
+public/config/locales/ja.yml	resource._public.identifier_ark	ID [ark]		ID [ark]	missing	
+public/config/locales/ja.yml	resource._public.ark_link_name	Archival Resource Key		Archival Resource Key（ARK）	missing	
+public/config/locales/ja.yml	resource._public.lang_pdf	Language of the Material		資料の言語	missing	
+public/config/locales/ja.yml	resource._public.uri	ID [aspace_uri]		ID [aspace_uri]	missing	
+public/config/locales/ja.yml	top_container.restricted	Restricted		制限あり	missing	
+public/config/locales/ja.yml	digital_object._public.additional	Additional File Versions		その他のファイルバージョン	missing	
+public/config/locales/ja.yml	digital_object._public.url_encoded_data	URL-encoded data		URL エンコードされたデータ	missing	
+public/config/locales/ja.yml	digital_object._public.browse_number_digital_objects_in_collection.one	Browse %{num} digital object in collection	コレクションの%{num}つのディジタルオブジェクトを閲覧する	コレクション内のデジタルオブジェクト（%{num} 件）を参照	missing	
+public/config/locales/ja.yml	pdf_reports.accessrestrict	Conditions Governing Access		アクセス条件	missing	
+public/config/locales/ja.yml	pdf_reports.userestrict	Conditions Governing Use		利用条件	missing	
+public/config/locales/ja.yml	pdf_reports.accruals	Accruals		追加受入	missing	
+public/config/locales/ja.yml	pdf_reports.acqinfo	Immediate Source of Acquisition		直接の入手元	missing	
+public/config/locales/ja.yml	pdf_error.title	There was an error generating this PDF.		この PDF を作成する際にエラーが発生しました。	missing	
+public/config/locales/ja.yml	pdf_error.description	We're sorry, there was an error generating this PDF finding aid. Here is some diagnostic information to help determine what went wrong.		申し訳ありません。この PDF 形式の検索手段を作成する際にエラーが発生しました。原因を調べる手がかりとなる情報を、以下に表示します。	missing	
+public/config/locales/ja.yml	pdf_error.headings.location	Error Location		エラーの発生箇所	missing	
+public/config/locales/ja.yml	pdf_error.headings.message	Error Message		エラーメッセージ	missing	
+public/config/locales/ja.yml	pdf_error.headings.type	Error Type		エラーの種類	missing	
+public/config/locales/ja.yml	pdf_error.headings.additional_info	Additional Information		補足情報	missing	
+public/config/locales/ja.yml	pdf_error.location.location_header	The error occurred while generating the header.		ヘッダーの作成中にエラーが発生しました。	missing	
+public/config/locales/ja.yml	pdf_error.location.location_title_page	The error occurred while generating the title page.		表紙の作成中にエラーが発生しました。	missing	
+public/config/locales/ja.yml	pdf_error.location.location_toc	The error occurred while generating the table of contents.		目次の作成中にエラーが発生しました。	missing	
+public/config/locales/ja.yml	pdf_error.location.location_resource	The error occurred while generating sections relating to the Resource record, which includes Summary Information, Controlled Access Headings, and the Notes sections.		リソースレコードに関する部分（概要情報、統制アクセスポイント、ノートの各節を含む）の作成中にエラーが発生しました。	missing	
+public/config/locales/ja.yml	pdf_error.location.location_archival_object	The error occurred while generating the Collection Inventory.		コレクションの目録の作成中にエラーが発生しました。	missing	
+public/config/locales/ja.yml	pdf_error.location.location_footer	The error occurred while generating the footer.		フッターの作成中にエラーが発生しました。	missing	
+public/config/locales/ja.yml	pdf_error.additional_info.invalid_markup	This error can result from invalid markup present in a note or subrecord.		このエラーは、ノートまたはサブレコードに無効なマークアップが含まれている場合に発生することがあります。	missing	
+public/config/locales/ja.yml	footer.staff_interface_html	<a href="%{staff_url}">Staff Interface</a>		<a href="%{staff_url}">スタッフ用画面</a>	audit	画面にキー名が出る（ja.yml にキーが無い）
+public/config/locales/ja.yml	repository.part	Part of the	の一部	所属：	audit	「の一部 X リポジトリ」と組み立てが崩れる。名前の前に置く語に変更
+public/config/locales/ja.yml	search_sorting.sort	Sort	ソート	並び替え	audit	用語統一
+public/config/locales/ja.yml	search_results.highlighting.found_in	Found in	見つかった場所	ヒット箇所：	audit	
+public/config/locales/ja.yml	search_results.filter.add	Additional filters	追加のフィルタ	さらに絞り込む	audit	
+public/config/locales/ja.yml	record._plural	Records	記録	レコード	audit	
+public/config/locales/ja.yml	inherit.inherited	From the %{level}:	%{level} ：	%{level}から継承：	audit	語順
+public/config/locales/ja.yml	actions.cite_item	Cite Item	項目を引用	資料を引用	audit	
+public/config/locales/ja.yml	actions.request	Request	要求	閲覧申込み	audit	
+public/config/locales/ja.yml	request.submit	Submit Request	リクエストを送信する	申込みを送信	audit	
+public/config/locales/ja.yml	more_about	More about	もっと詳しく	詳細：	audit	直後に名前が連結される。名詞止めにした
+public/config/locales/ja.yml	search_results.op.AND	and	AND	かつ	audit	画面側が直書きの場合は反映されない可能性
+public/config/locales/ja.yml	search_results.op.OR	or	OR	または	audit	同上
+public/config/locales/ja.yml	search_results.op.NOT	and not	NOT	かつ次を含まない	audit	同上
+public/config/locales/ja.yml	search_results.op_first_row.NOT	not	ない	次を含まない	audit	同上
+public/config/locales/ja.yml	digital_object._singular	Digital Record	デジタルレコード	デジタル資料	audit	actions.digitized と用語を揃える
+frontend/config/locales/ja.yml	navbar.user_repo_preferences	Repository Preferences	ユーザー設定	リポジトリ別のユーザー設定	audit	現在の訳「ユーザー設定」は別のメニューと区別できない
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.rapid_barcode_entry	Rapid Barcode Entry	迅速なバーコード入力	バーコードの一括入力	audit	
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.empty	Unassociated containers	関連付けられていないコンテナ	どのレコードにも関連付けられていないコンテナ	audit	
+frontend/config/locales/ja.yml	top_container.exported_to_ils	Exported to ILS	ILSにエクスポート	ILS に出力済み	audit	
+frontend/config/locales/ja.yml	top_container.has_location	Has Location	場所がある	ロケーションあり	audit	
+frontend/config/locales/ja.yml	resource._frontend.messages.transfer_description	Transfer this resource to...	このリソースを転送する...	このリソースの転送先：	audit	
+frontend/config/locales/ja.yml	agent._frontend.messages.merge_description	Select the agent to merge into	マージするエージェントを選択する	マージ先のエージェントを選択：	audit	語順
+frontend/config/locales/ja.yml	search.accession.audit_info	Audit Information	監査データ	監査情報	audit	
+frontend/config/locales/ja.yml	repository._frontend.messages.selected_short	Selected	選択された	選択中	audit	
+frontend/config/locales/ja.yml	pagination.last	Last	最終	最後	audit	
+frontend/config/locales/ja.yml	linked_agent.is_primary	Primary	主要な	主	audit	
+frontend/config/locales/ja.yml	note._frontend.preview.raw	Raw	生	原文	audit	
+frontend/config/locales/ja.yml	note._frontend.preview.parsed	Formatted	フォーマット済み	整形表示	audit	
+frontend/config/locales/ja.yml	file_version._frontend.action.make_representative_tooltip	Use to indicate that this image should be displayed when there are multiple file versions associated with the record.		このレコードに複数のファイルバージョンがある場合に、この画像を代表として表示することを示すときに使います。	audit	ja.yml にキーが無い
+frontend/config/locales/ja.yml	rde.actions.add_row	Add Row	行を追加する	行を追加	audit	
+frontend/config/locales/ja.yml	rde.actions.add_rows	Add Rows	行を追加	複数行を追加	audit	
+frontend/config/locales/ja.yml	rde.fill_column.basic	Basic	ベーシック	基本	audit	
+frontend/config/locales/ja.yml	rde.fill_column.sequence_count_warning	There are more rows than there are items in the sequence.	シーケンス内に項目があるよりも多くの行があります。	連番の数より行数が多くなっています。	audit	
+frontend/config/locales/ja.yml	rde.templates.no_templates	No templates defined	テンプレートが定義されていない	テンプレートはまだありません	audit	
+frontend/config/locales/ja.yml	rde.actions.inline_errors_toggle	View Inline Errors	インラインエラーを表示する	行ごとのエラーを表示する	audit	
+frontend/config/locales/ja.yml	tree.unexpected_failure	Oops! We're having trouble fetching this tree. Please try refreshing the page.	おっとっと！このツリーを取得する際に問題が発生しています。ページをリフレッシュしてみてください。	ツリーを読み込めませんでした。ページを再読み込みしてください。	audit	
+frontend/config/locales/ja.yml	mixed_content.wrap_prefix	Wrap with:	ラップ：	囲む：	audit	
+frontend/config/locales/ja.yml	metadata_rights_declaration.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	audit	
+frontend/config/locales/ja.yml	metadata_rights_declaration.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	audit	
+frontend/config/locales/ja.yml	metadata_rights_declaration.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	audit	
+frontend/config/locales/ja.yml	metadata_rights_declaration.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	audit	
+frontend/config/locales/ja.yml	metadata_rights_declaration_merge_destination.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	audit	
+frontend/config/locales/ja.yml	metadata_rights_declaration_merge_destination.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	audit	
+frontend/config/locales/ja.yml	metadata_rights_declaration_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	audit	
+frontend/config/locales/ja.yml	metadata_rights_declaration_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	audit	
+public/config/locales/ja.yml	metadata_rights_declaration.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	audit	
+public/config/locales/ja.yml	metadata_rights_declaration.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	audit	
+public/config/locales/ja.yml	metadata_rights_declaration.xlink_arcrole_attribute	Xlink Arcrole Attribute	XlinkArcrole属性	Xlink Arcrole 属性	audit	
+public/config/locales/ja.yml	metadata_rights_declaration.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	audit	
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.global	Global %{type}	グローバル%{type}	全体の%{type}	audit	語順
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.repository	Repository %{type}	リポジトリ%{type}	このリポジトリの%{type}	audit	語順
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.action.find_rating	Find records with a %{rating_type} rating	%{rating_type} 評価のレコードを検索	%{rating_type}の評価があるレコードを検索	audit	
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.action.find_format	Find records with a %{format_type} material type/format	%{format_type} マテリアルタイプ/フォーマットのレコードを検索します	資料の種類・形式が%{format_type}のレコードを検索	audit	
+frontend/config/locales/ja.yml	assessment_attribute_definitions._frontend.action.find_issue	Find records with a %{issue_type} conservation issue	%{issue_type} 保全問題のあるレコードを検索する	保存上の問題「%{issue_type}」があるレコードを検索	audit	
+frontend/config/locales/ja.yml	actions.reset	Reset Defaults	デフォルトにリセット	既定値に戻す	audit	
+frontend/config/locales/ja.yml	actions.merge_subject_confirm_message	The subject '%{source}' will have the selected records merged into it. All selected records will be deleted and any linked records will be re-linked to this subject.	件名 '%{source}'には、選択したレコードがマージされます。選択したすべてのレコードが削除され、リンクされたレコードはすべてこの件名に再リンクされます。	件名「%{source}」に、選択したレコードをマージします。選択したレコードはすべて削除され、リンクされているレコードはこの件名に付け替えられます。	audit	引用符をプレースホルダ周囲の「」に変更
+frontend/config/locales/ja.yml	actions.merge_agent_confirm_message	The agent '%{source}' will have the selected record merged into it. The selected record will be deleted and any linked records will be re-linked to this agent. Clicking the Compare Agents button will bring up a screen that gives you the option to choose which fields and sub-records to retain from each record.	エージェント '%{source}'には、選択したレコードがマージされます。選択したレコードはすべて削除され、リンクされたレコードはこのエージェントに再リンクされます。 [エージェントの比較]ボタンをクリックすると、各レコードからどのフィールドとサブレコードを保持するかを選択するための画面が表示されます。	エージェント「%{source}」に、選択したレコードをマージします。選択したレコードは削除され、リンクされているレコードはこのエージェントに付け替えられます。「エージェントを比較」ボタンをクリックすると、各レコードからどのフィールドとサブレコードを残すかを選ぶ画面が開きます。	audit	
+frontend/config/locales/ja.yml	default_values.form_title.resource	Resource Record Defaults	リソースレコードのデフォルト	リソースレコードの既定値	audit	
+frontend/config/locales/ja.yml	default_values.form_title.archival_object	Component Record Defaults	コンポーネントレコードのデフォルト	コンポーネントレコードの既定値	audit	
+common/locales/ja.yml	extent.portion	Portion	部分	全体/一部	audit	
+common/locales/ja.yml	language_and_script.script	Script	スクリプト	文字体系	audit	
+common/locales/ja.yml	extent.portion_tooltip	<p>REQUIRED FIELD: Used to specify whether an extent statement relates to the whole or part of a given described aggregation or object.</p>\n<p>See DACS 2.5.7</p>\n	<p>必須フィールド：エクステント文が、記述された集約またはオブジェクトの全体または一部に関連するかどうかを指定するために使用されます。 </p><p>DACS 2.5.7を参照</p>	<p>必須フィールド：数量の記述が、記述対象の集合体またはオブジェクトの全体に関するものか、一部に関するものかを指定するために使います。</p><p>DACS 2.5.7を参照</p>	audit	Extent=数量
+common/locales/ja.yml	deaccession.scope_tooltip	<p>REQUIRED FIELD: Used to specify whether an extent statement relates to the whole or part of a given described aggregation or object.</p>\n	<p>必須フィールド：エクステント文が、記述された集約またはオブジェクトの全体または一部に関連するかどうかを指定するために使用されます。 </p>	<p>必須フィールド：数量の記述が、記述対象の集合体またはオブジェクトの全体に関するものか、一部に関するものかを指定するために使います。</p>	audit	
+common/locales/ja.yml	deaccession.description_tooltip	<p>REQUIRED FIELD: Description of the materials that have been deaccessioned.</p>\n<p>Examples:</p>\n<ul>\n<li>Periodicals, newspaper clippings, and family financial records.</li>\n<li>Trophies awarded at dog shows.</li>\n</ul>\n	<p>必要なフィールド：デアクセスされた材料の説明。 </p><p>例： </p><ul><li>定期刊行物、新聞の切り抜き、家族の財務記録。 </li><li>犬ショーで授与されたトロフィー。 </li></ul>	<p>必須フィールド：除籍した資料の説明。</p><p>例：</p><ul><li>定期刊行物、新聞の切り抜き、家族の財務記録。</li><li>ドッグショーで授与されたトロフィー。</li></ul>	audit	Deaccession=除籍
+common/locales/ja.yml	deaccession.disposition_tooltip	<p>A description indicating what was done with the deaccessioned materials.</p>\n<p>Examples:</p>\n<ul>\n<li>Financial records returned to the family.</li>\n<li>Dog show trophies returned to the donor's wife.</li>\n</ul>\n	<p>デアクセスされた材料で何が行われたかを示す説明。 </p><p>例： </p><ul><li>財務記録は家族に返還された。 </li><li>ドッグショートロフィーはドナーの妻に返されました。 </li></ul>	<p>除籍した資料をどのように扱ったかを示す説明。</p><p>例：</p><ul><li>財務記録は家族に返還した。</li><li>ドッグショーのトロフィーは寄贈者の妻に返還した。</li></ul>	audit	
+common/locales/ja.yml	deaccession.notification_tooltip	<p>A checkbox indicating that notification of the deaccession was given.</p>\n	<p>デアクセスを通知したことを示すチェックボックス。 </p>	<p>除籍を通知したことを示すチェックボックス。</p>	audit	
+common/locales/ja.yml	accession.publish_tooltip	<p>Determines whether this Accession will be published to public (patron) interfaces.</p>\n	<p>このアクセッションがパブリック（パトラン）インターフェイスに公開されるかどうかを決定します。 </p>	<p>この受入を公開画面（閲覧者向け画面）に公開するかどうかを指定します。</p>	audit	「パブリック（パトラン）インターフェイス」を直した
+common/locales/ja.yml	resource.publish_tooltip	<p>Determines whether this Resource will be published to public (patron) interfaces.</p>\n	<p>このリソースをパブリック（パトラン）インターフェイスに公開するかどうかを決定します。 </p>	<p>このリソースを公開画面（閲覧者向け画面）に公開するかどうかを指定します。</p>	audit	同上
+common/locales/ja.yml	accession.related_resources_tooltip	<p>Used for linking associated Resources with this Accession.</p>\n	<p>関連付けられたリソースをこのアクセッションにリンクするために使用されます。 </p>	<p>関連するリソースをこの受入にリンクするために使います。</p>	audit	
+common/locales/ja.yml	collection_management.processing_total_extent_tooltip	<p>A numerical expression for the total extent (cubic feet, linear feet, items, etc) processed. An Extent Type must be provided in conjunction with this field.</p>\n	<p>処理された全範囲（立方フィート、線形フィート、アイテムなど）の数値式。 このフィールドと一緒にエクステントタイプを入力する必要があります。</p>	<p>処理した全体の数量（立方フィート、直線フィート、点数など）を示す数値。このフィールドとあわせて、数量の種類を入力する必要があります。</p>	audit	
+common/locales/ja.yml	archival_object.title_tooltip	<p>CONDITIONALLY REQUIRED FIELD: The title assigned to the materials described. An Archival Object must have either a Title or a Date subrecord.</p>\n<p>See DACS 2.3</p>\n<p>Examples:</p>\n<ul>\n<li>Graciany Miranda Archilla papers</li>\n<li>Love Makes a Family records</li>\n<li>Cameron family account book</li>\n<li>Caroline and Erwin Swann collection of caricatures and cartoons</li>\n<li>National Academy of Sciences correspondence</li>\n<li>Audio and video recordings</li>\n</ul>\n	<p>条件付き必須フィールド：説明されたマテリアルに割り当てられたタイトル。アーカイブオブジェクトには、TitleまたはDateのいずれかのサブレコードが必要です。 </p><p>DACS 2.3を参照</p><p>例： </p><ul><li> Graciany Miranda Archillaの論文</li><li>愛は家族の記録を作る</li><li>キャメロンファミリーアカウントブック</li><li>キャロラインとアーウィンスワンの漫画と漫画のコレクション</li><li>国立科学アカデミーの対応</li><li>オーディオとビデオの録音</li></ul>	<p>条件付き必須フィールド：記述対象の資料につけるタイトル。アーカイバルオブジェクトには、タイトルまたは日付のどちらかのサブレコードが必要です。</p><p>DACS 2.3を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>	audit	Title or Date が未訳だった。例は英語の文献名のため原文のまま
+common/locales/ja.yml	archival_object.restrictions_apply_tooltip	<p>Indicates whether the materials described are restricted in any way. Additional description of the restriction should be provided in appropriate Notes or Rights Statements for the record where the restriction occurs.</p>\n<p>See DACS 4.1-4.4</p>\n	<p>記載されている資料が何らかの形で制限されているかどうかを示します。制限の追加の説明は、制限が発生したレコードの適切なNotesまたはRights Statementsに記載する必要があります。 </p><p>DACS 4.1-4.4を参照</p>	<p>記述対象の資料に何らかの制限があるかどうかを示します。制限の詳しい説明は、制限が生じているレコードの、適切なノートまたは権利表明に記載してください。</p><p>DACS 4.1-4.4を参照</p>	audit	Notes / Rights Statements が未訳だった
+common/locales/ja.yml	structured_date_single.date_role_tooltip	<p>For a single date, used to indicate whether the date should be understood as a beginning date or an ending date. The default is Begin.</p>\n	<p>単一の日付の場合、日付を開始日または終了日として理解する必要があるかどうかを示すために使用されます。デフォルトはBeginです。</p>	<p>単一の日付について、その日付を開始日として扱うか、終了日として扱うかを示すために使います。既定は「開始」です。</p>	audit	「Begin」が未訳だった
+common/locales/ja.yml	rights_statement.status_tooltip	<p>A coded designation for the copyright status of the object at the time the rights statement is recorded.</p>\n<ul>\n  <li>Copyrighted = Under copyright.</li>\n  <li>Public domain = In the public domain.</li>\n  <li>Unknown = Copyright status of the resource is unknown</li>\n</ul>\n	<p>権利明細書が記録された時点でのオブジェクトの著作権ステータスのコード化された指定。 </p><ul><li> Copyrighted =著作権で保護されています。 </li><li>パブリックドメイン=パブリックドメイン。 </li><li>不明=リソースの著作権ステータスが不明です</li></ul>	<p>権利表明を記録した時点での、対象の著作権ステータスを示すコード化された区分。</p><ul><li>著作権あり：著作権で保護されている。</li><li>パブリックドメイン：パブリックドメインである。</li><li>不明：資料の著作権ステータスが不明である。</li></ul>	audit	
+common/locales/ja.yml	rights_statement.statute_citation_tooltip	<p>A citation, URI, or other reference to the statute related to this Rights Statement.</p>\n<p>Examples:</p>\n<ul>\n<li>Freedom of Information and Protection of Privacy Act [RSBC 1996] Chapter 165</li>\n</ul>\n	<p>この権利声明に関連する法令への引用、URI、または他の言及。 </p><p>例： </p><ul><li>情報の自由とプライバシー保護法[RSBC 1996] Chapter 165 </li></ul>	<p>この権利表明に関係する法令の引用、URI、その他の参照情報。</p><p>例：</p><ul><li>Freedom of Information and Protection of Privacy Act [RSBC 1996] Chapter 165</li></ul>	audit	法令名は原文のまま
+common/locales/ja.yml	assessment.inactive_tooltip	<p>Indicates if the Assessment record is no longer considered “active” and thus should not be included in searches or reports.</p>	<p>アセスメントレコードがもはや「アクティブ」とみなされないため、検索やレポートに含めないでください。 </p>	<p>この評価レコードを「有効」とは見なさなくなり、検索やレポートに含めないことを示します。</p>	audit	
+common/locales/ja.yml	term.term_tooltip	<p>REQUIRED FIELD. A descriptor for part of a subject heading. A subject heading must have at least 1 term associated with it.</p>\n	<p>必要なフィールド。サブジェクト見出しの一部の記述子。件名の見出しには少なくとも1つの用語が関連付けられていなければなりません。 </p>	<p>必須フィールド。件名見出しの一部をなす記述子。件名見出しには、少なくとも 1 つの語が必要です。</p>	audit	「サブジェクト」を方針の「件名」に
+common/locales/ja.yml	term.term_type_tooltip	<p>REQUIRED FIELD. An indicator for expressing the type or category of a subject term.</p>\n	<p>必要なフィールド。サブジェクト用語のタイプまたはカテゴリを表すためのインジケータ。 </p>	<p>必須フィールド。件名の語の種類または区分を示す指標。</p>	audit	
+common/locales/ja.yml	repository.image_url	Branding Image URL	ブランドイメージURL	ブランド画像 URL	audit	
+common/locales/ja.yml	user.first_name	First Name	ファーストネーム	名	audit	
+common/locales/ja.yml	user.last_name	Last Name	苗字	姓	audit	first_name とそろえた
+common/locales/ja.yml	user.title	Title	タイトル	役職	audit	
+common/locales/ja.yml	user.is_admin	Grant system administrator permissions	システム管理者のアクセス許可を与える	システム管理者の権限を与える	audit	
+common/locales/ja.yml	group.permissions	Members can:	メンバーは：	このグループのメンバーに許可する操作：	audit	
+common/locales/ja.yml	group.permission_types.view_repository	view <b>all records</b> (in this repository)<br/>view <b>agents</b> (system-wide)<br/>view <b>subjects</b> (system-wide)	<b>すべてのレコード</b> を表示 (このリポジトリ内)<br/><b>エージェント</b> を表示 (システム全体)<br/><b>サブジェクト</b> を表示 (システム全体)	<b>すべてのレコード</b>を表示（このリポジトリ内）<br/><b>エージェント</b>を表示（システム全体）<br/><b>件名</b>を表示（システム全体）	audit	サブジェクト→件名
+common/locales/ja.yml	group.permission_types.manage_enumeration_record	create/update/delete <b>controlled values</b> (system-wide)	<b>制御値</b>の作成/更新/削除 (システム全体)	<b>統制値</b>の作成・更新・削除（システム全体）	audit	Controlled Value=統制値
+common/locales/ja.yml	group.permission_types.manage_location_profile_record	create/update/delete <b>location profiles</b> (system-wide)	<b>位置プロファイル</b>の作成/更新/削除 (システム全体)	<b>ロケーションプロファイル</b>の作成・更新・削除（システム全体）	audit	
+common/locales/ja.yml	group.permission_types.manage_rde_templates	create/delete <b>rapid data entry templates</b> (in this repository)	<b>高速データ入力テンプレート</b>を作成/削除します（このリポジトリ内）	<b>迅速データ入力（RDE）テンプレート</b>の作成・削除（このリポジトリ内）	audit	
+common/locales/ja.yml	group.permission_types.manage_assessment_attributes	create/update/delete <b>repository assessment attributes definitions</b> (in this repository)	(このリポジトリ内) <b>リポジトリ評価属性定義</b>を作成/更新/削除します。	<b>評価属性の定義</b>の作成・更新・削除（このリポジトリ内）	audit	
+common/locales/ja.yml	group.permission_types.merge_agents_and_subjects	merge <b>agents</b> (system-wide)<br/>merge <b>subjects</b> (system-wide)	<b>エージェント</b> をマージする (システム全体)<br/><b>サブジェクト</b> をマージする (システム全体)	<b>エージェント</b>のマージ（システム全体）<br/><b>件名</b>のマージ（システム全体）	audit	
+common/locales/ja.yml	enumeration.position	Position	ポジション	並び順	audit	
+common/locales/ja.yml	enumeration.translation	Translation	翻訳	表示名	audit	
+common/locales/ja.yml	job.types.find_and_replace_job	Batch Find and Replace (Beta)	バッチの検索と置換（ベータ版）	一括検索・置換（ベータ版）	audit	
+common/locales/ja.yml	find_and_replace_job.record_type	Record or subrecord type	レコードまたはサブレコードタイプ	対象のレコードまたはサブレコードの種類	audit	
+common/locales/ja.yml	print_to_pdf_job.include_unpublished	Include Unpublished	未公開を含める	未公開のレコードも含める	audit	
+common/locales/ja.yml	trim_whitespace_job.description	Removes leading and trailing whitespace from titles for resources, accessions, digital objects, archival objects, and digital object components.	リソース、アクセッション、デジタルオブジェクト、アーカイブオブジェクト、デジタルオブジェクトコンポーネントのタイトルから先頭と末尾の空白を削除します。	リソース、受入、デジタルオブジェクト、アーカイバルオブジェクト、デジタルオブジェクトコンポーネントのタイトルから、先頭と末尾の空白を削除します。	audit	
+common/locales/ja.yml	job.types.trim_whitespace_job	Trim Whitespace	空白をトリム	空白を削除	audit	
+common/locales/ja.yml	job.types.bulk_archival_object_updater_job	Bulk Archival Object Updater	一括アーカイブオブジェクトの更新	アーカイバルオブジェクトの一括更新	audit	
+common/locales/ja.yml	preference.user_repo_message	Edit these values to set your preferences for this repository. These values cannot be overridden.	これらの値を編集して、このリポジトリのユーザー設定を設定します。これらの値はオーバーライドできません。	このリポジトリでの自分の設定を編集します。ここで決めた値は、ほかの設定で上書きされません。	audit	
+common/locales/ja.yml	preference.user_global_message	Edit these values to set your user preferences. These values can be overridden by repository defaults or by your own preferences for a repository.	これらの値を編集して、システム全体のユーザー設定を設定します。これらの値は、リポジトリーのデフォルトまたはリポジトリーの独自のプリファレンスによってオーバーライドできます。	全リポジトリに共通の自分の設定を編集します。リポジトリの既定値や、リポジトリごとの自分の設定で上書きされることがあります。	audit	
+common/locales/ja.yml	preference.repo_message	Edit these values to set preferences for all users in the current repository. These values can be overridden by a user's own preferences.	これらの値を編集して、現在のリポジトリのユーザー設定のデフォルトを設定します。これらの値は、ユーザーの好みによって上書きできます。	このリポジトリの全ユーザーに共通の設定を編集します。各ユーザーが自分の設定で上書きできます。	audit	
+common/locales/ja.yml	repository_oai.oai_sets_available_tooltip	OAI sets available tooltip	OAIが利用可能なツールチップを設定	OAI で利用できるセットの説明	audit	英語原文が仮の文言（"... tooltip"）
+common/locales/ja.yml	repository_oai.oai_is_disabled_tooltip	OAI is disabled tooltip	OAIは無効になっています	OAI を無効にするかどうかを指定します	audit	同上
+common/locales/ja.yml	oai_config.oai_record_prefix_tooltip	OAI Record Prefix Tooltip	OAIレコードプレフィックスツールチップ	OAI レコードの接頭辞の説明	audit	同上
+common/locales/enums/ja.yml	enumerations.agent_contact_salutation.madame	Madame	夫人	マダム	audit	
+common/locales/enums/ja.yml	enumerations.agent_contact_salutation.mrs	Mrs.	夫人	ミセス	audit	
+common/locales/enums/ja.yml	enumerations.linked_agent_event_roles.requester	Requester	リクエスタ	依頼者	audit	
+common/locales/enums/ja.yml	enumerations.linked_event_archival_record_roles.requested	Requested	要求された	依頼された	audit	
+common/locales/enums/ja.yml	enumeration_names.extent_extent_type	Extent Extent Type	エクステントエクステントタイプ	数量の種類	audit	
+common/locales/enums/ja.yml	enumeration_names.event_event_type	Event Event Type	イベントイベントの種類	イベントの種類	audit	
+common/locales/enums/ja.yml	enumeration_names.instance_instance_type	Instance Instance Type	インスタンスインスタンスタイプ	インスタンスの種類	audit	
+common/locales/enums/ja.yml	enumeration_names.digital_object_digital_object_type	Digital Object Digital Object Type	デジタルオブジェクトデジタルオブジェクトタイプ	デジタルオブジェクトの種類	audit	
+common/locales/enums/ja.yml	enumeration_names.resource_resource_type	Resource Resource Type	リソースリソースタイプ	リソースの種類	audit	
+common/locales/enums/ja.yml	enumeration_names.note_digital_object_type	Note Digital Object Type	メモデジタルオブジェクトタイプ	デジタルオブジェクトのノートの種類	audit	
+common/locales/enums/ja.yml	enumeration_names.agency_code_type	Record Control Agency Code Type	代理店コード	機関コードの種類	audit	
+common/locales/enums/ja.yml	enumeration_names.linked_event_archival_record_roles	Linked Event Archival Record Roles	リンクされたイベントアーカイブのレコードの役割	リンクされたイベントにおけるアーカイブ記録の役割	audit	
+common/locales/enums/ja.yml	enumeration_names.note_orderedlist_enumeration	Note Orderedlist Enumeration	メモオーダーリストの列挙	順序付きリストの番号の種類	audit	
+common/locales/enums/ja.yml	enumeration_names.user_defined_enum_1	User Defined Enum 1	ユーザー定義列挙型1	ユーザー定義の選択肢1	audit	
+common/locales/enums/ja.yml	enumeration_names.user_defined_enum_2	User Defined Enum 2	ユーザー定義列挙型2	ユーザー定義の選択肢2	audit	
+common/locales/enums/ja.yml	enumeration_names.user_defined_enum_3	User Defined Enum 3	ユーザー定義列挙型3	ユーザー定義の選択肢3	audit	
+common/locales/enums/ja.yml	enumeration_names.user_defined_enum_4	User Defined Enum 4	ユーザー定義列挙型4	ユーザー定義の選択肢4	audit	
+common/locales/enums/ja.yml	enumerations.extent_extent_type.items			点	audit	en.yml に無い（データベース側の選択肢）。データ上の値 items
+common/locales/enums/ja.yml	enumerations.note_orderedlist_enumeration.arabic			算用数字（1, 2, 3）	audit	en.yml に無い（データベース側の選択肢）
+common/locales/enums/ja.yml	enumerations.note_orderedlist_enumeration.loweralpha			小文字英字（a, b, c）	audit	en.yml に無い（データベース側の選択肢）
+common/locales/enums/ja.yml	enumerations.note_orderedlist_enumeration.lowerroman			小文字ローマ数字（i, ii, iii）	audit	en.yml に無い（データベース側の選択肢）
+common/locales/enums/ja.yml	enumerations.note_orderedlist_enumeration.upperalpha			大文字英字（A, B, C）	audit	en.yml に無い（データベース側の選択肢）
+common/locales/enums/ja.yml	enumerations.note_orderedlist_enumeration.upperroman			大文字ローマ数字（I, II, III）	audit	en.yml に無い（データベース側の選択肢）
+common/locales/ja.yml	rights_statement_linked_agent.title			タイトル	audit	en.yml に無い（調査で「Translation missing」）
+common/locales/ja.yml	metadata_rights_declaration_merge_destination.citation			出典	audit	en.yml に無い（調査で「Translation missing」）

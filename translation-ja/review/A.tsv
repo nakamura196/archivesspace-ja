@@ -1,0 +1,388 @@
+file	key	en	current_ja	proposed_ja	category	severity	reason
+common/locales/ja.yml	states.suppressed	Suppressed	抑制された	非表示	不自然	中	ArchivesSpaceのSuppressは公開画面からの非表示を意味し、「抑制された」では状態が伝わらない。
+common/locales/ja.yml	boolean.true	True	真	はい	不自然	中	真偽値の表示は利用者向けに「はい／いいえ」とするのが自然。
+common/locales/ja.yml	boolean.false	False	偽	いいえ	不自然	中	真偽値の表示は利用者向けに「はい／いいえ」とするのが自然。
+common/locales/ja.yml	user_defined.boolean_1	Boolean 1	ブール1	真偽値1	不自然	低	「ブール」単独は利用者に分かりにくい。
+common/locales/ja.yml	user_defined.boolean_2	Boolean 2	ブール2	真偽値2	不自然	低	「ブール」単独は利用者に分かりにくい。
+common/locales/ja.yml	user_defined.boolean_3	Boolean 3	ブール3	真偽値3	不自然	低	「ブール」単独は利用者に分かりにくい。
+common/locales/ja.yml	user_defined.real_1	Real 1	リアル1	実数1	誤訳	中	Realは実数型の意で「リアル」は誤り。
+common/locales/ja.yml	user_defined.real_2	Real 2	リアル2	実数2	誤訳	中	Realは実数型の意で「リアル」は誤り。
+common/locales/ja.yml	user_defined.real_3	Real 3	リアル3	実数3	誤訳	中	Realは実数型の意で「リアル」は誤り。
+common/locales/ja.yml	user_defined.enum_1	Controlled Value 1	制御された値1	制御値1	不統一	低	同系列の2〜4は「制御値」で、1だけ表記が異なる。
+common/locales/ja.yml	user_defined._singular	User Defined	ユーザー定義の	ユーザー定義	不自然	低	見出しが連体形「〜の」で終わっている。
+common/locales/ja.yml	user_defined._plural	User Defined	ユーザー定義の	ユーザー定義	不自然	低	見出しが連体形「〜の」で終わっている。
+common/locales/ja.yml	slug.slug	Slug	Slug	スラッグ	未訳	低	英語のまま残っている。
+common/locales/ja.yml	slug.slug_tooltip	<p>When using human-readable URLs, the last part of the public URL for this record in the ArchivesSpace public interface. The slug can be manually added or updated, or generated automatically based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>When using human-readable URLs, the last part of the public URL for this record in the ArchivesSpace public interface. The slug can be manually added or updated, or generated automatically based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>人が読みやすいURLを使う場合の、ArchivesSpace公開画面でのこのレコードの公開URLの末尾部分です。スラッグは手入力・更新できるほか、サーバのconfig.rbにある読みやすいURLの設定に基づいて自動生成することもできます。</p>	未訳	低	ツールチップが英語のまま。
+common/locales/ja.yml	slug.public_url	Public URL	Public URL	公開URL	未訳	中	英語のまま残っている。
+common/locales/ja.yml	slug.public_url_tooltip	<p>If this record is published or updated to be published, the full URL for this record in the public user interface. If human-readable URLs are being used the end of the URL will be the slug.</p> <p>Whether human-readable URLs are being used or not, the original URI for this record always remains v	<p>If this record is published or updated to be published, the full URL for this record in the public user interface. If human-readable URLs are being used the end of the URL will be the slug.</p> <p>Whether human-readable URLs are being used or not, the original URI for this record always remains v	<p>このレコードが公開されている、または公開に更新された場合の、公開画面におけるこのレコードの完全なURLです。読みやすいURLを使っている場合、URLの末尾はスラッグになります。</p> <p>読みやすいURLを使うかどうかにかかわらず、このレコードの元のURIは常に有効です。</p>	未訳	低	ツールチップが英語のまま。
+common/locales/ja.yml	slug.is_slug_auto	Automatically Generate Slug?	Automatically generate Slug?	スラッグを自動生成しますか？	未訳	中	英語のまま残っている。
+common/locales/ja.yml	slug.is_slug_auto_tooltip	<p>If this field is checked, the slug for this record will be automatically generated when the record is saved based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>If this field is checked, the slug for this record will be automatically generated when the record is saved based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>チェックすると、レコードの保存時に、サーバのconfig.rbにある読みやすいURLの設定に基づいてスラッグが自動生成されます。</p>	未訳	低	ツールチップが英語のまま。
+common/locales/ja.yml	slug.autogen_disabled	A slug cannot be automatically generated from the provided data based on the current configuration settings	A slug cannot be automatically generated from the provided data based on the current configuration settings	現在の設定では、入力されたデータからスラッグを自動生成できません	未訳	中	英語のまま残っている。
+common/locales/ja.yml	slug.autogen_repo_slug	Since a slug was not manually entered the repository slug was automatically generated using the repository short name	Since a slug was not manually entered the repository slug was automatically generated using the repository short name	スラッグが手入力されなかったため、リポジトリの略称からリポジトリのスラッグを自動生成しました	未訳	中	英語のまま残っている。
+common/locales/ja.yml	section_tooltips.lang_materials_tooltip	<p>The languages and scripts represented in the material(s) described.</p> <p>See DACS 4.5, ISAD(G) 3.4.3</p> 	"""""<p>説明されている資料に示されている言語およびスクリプト。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照 </p>"""" "	<p>記述対象の資料に用いられている言語と文字体系。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照</p>	不自然	中	"値の前後に余計な """" が入っており、そのまま画面に表示される。"
+common/locales/ja.yml	section_tooltips.extents_tooltip	<p>Indicates the extent and the physical nature of the materials being described.</p> <p>See DACS 2.5, ISAD(G) 3.1.5</p> 	<p>記載されている材料の範囲と物理的性質を示します。 </p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	<p>記述対象の資料の数量と物理的性質を示します。</p> <p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	誤訳	低	materials（資料）を「材料」と訳している。
+common/locales/ja.yml	section_tooltips.subjects_tooltip	<p>Used for linking Subjects with the materials described.</p> 	<p>説明されている資料とSubjectをリンクするために使用されます。 </p>	<p>記述対象の資料と件名をリンクするために使用します。</p>	未訳	低	Subjectが英語のまま残っている。
+common/locales/ja.yml	digital_object.slug	Slug	Slug	スラッグ	未訳	低	英語のまま残っている。
+common/locales/ja.yml	digital_object.slug_tooltip	<p>When using human-readable URLs, the last part of the public URL for this record in the ArchivesSpace public interface. The slug can be manually added or updated, or generated automatically based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>When using human-readable URLs, the last part of the public URL for this record in the ArchivesSpace public interface. The slug can be manually added or updated, or generated automatically based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>人が読みやすいURLを使う場合の、ArchivesSpace公開画面でのこのレコードの公開URLの末尾部分です。スラッグは手入力・更新できるほか、サーバのconfig.rbにある読みやすいURLの設定に基づいて自動生成することもできます。</p>	未訳	低	ツールチップが英語のまま。
+common/locales/ja.yml	digital_object.public_url	Public URL	Public URL	公開URL	未訳	中	英語のまま残っている。
+common/locales/ja.yml	digital_object.public_url_tooltip	<p>If this record is published or updated to be published, the full URL for this record in the public user interface. If human-readable URLs are being used the end of the URL will be the slug.</p> <p>Whether human-readable URLs are being used or not, the original URI for this record always remains v	<p>If this record is published or updated to be published, the full URL for this record in the public user interface. If human-readable URLs are being used the end of the URL will be the slug.</p> <p>Whether human-readable URLs are being used or not, the original URI for this record always remains v	<p>このレコードが公開されている、または公開に更新された場合の、公開画面におけるこのレコードの完全なURLです。読みやすいURLを使っている場合、URLの末尾はスラッグになります。</p> <p>読みやすいURLを使うかどうかにかかわらず、このレコードの元のURIは常に有効です。</p>	未訳	低	ツールチップが英語のまま。
+common/locales/ja.yml	digital_object.is_slug_auto	Automatically Generate Slug?	Automatically generate Slug?	スラッグを自動生成しますか？	未訳	中	英語のまま残っている。
+common/locales/ja.yml	digital_object.is_slug_auto_tooltip	<p>If this field is checked, the slug for this record will be automatically generated when the record is saved based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>If this field is checked, the slug for this record will be automatically generated when the record is saved based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>チェックすると、レコードの保存時に、サーバのconfig.rbにある読みやすいURLの設定に基づいてスラッグが自動生成されます。</p>	未訳	低	ツールチップが英語のまま。
+common/locales/ja.yml	digital_object.autogen_disabled	A slug cannot be automatically generated from the provided data based on the current configuration settings	A slug cannot be automatically generated from the provided data based on the current configuration settings	現在の設定では、入力されたデータからスラッグを自動生成できません	未訳	中	英語のまま残っている。
+common/locales/ja.yml	digital_object.autogen_repo_slug	Since a slug was not manually entered the repository slug was automatically generated using the repository short name	Since a slug was not manually entered the repository slug was automatically generated using the repository short name	スラッグが手入力されなかったため、リポジトリの略称からリポジトリのスラッグを自動生成しました	未訳	中	英語のまま残っている。
+common/locales/ja.yml	digital_object.lang_materials_tooltip	<p>The languages and scripts represented in the material(s) described.</p> <p>See DACS 4.5, ISAD(G) 3.4.3</p> 	"""""<p>説明されている資料に示されている言語およびスクリプト。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照 </p>"""" "	<p>記述対象の資料に用いられている言語と文字体系。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照</p>	不自然	中	"値の前後に余計な """" が入っており、そのまま画面に表示される。"
+common/locales/ja.yml	digital_object.extents_tooltip	<p>Indicates the extent and the physical nature of the materials being described.</p> <p>See DACS 2.5, ISAD(G) 3.1.5</p> 	<p>記載されている材料の範囲と物理的性質を示します。 </p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	<p>記述対象の資料の数量と物理的性質を示します。</p> <p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	誤訳	低	materials（資料）を「材料」と訳している。
+common/locales/ja.yml	digital_object.subjects_tooltip	<p>Used for linking Subjects with the materials described.</p> 	<p>説明されている資料とSubjectをリンクするために使用されます。 </p>	<p>記述対象の資料と件名をリンクするために使用します。</p>	未訳	低	Subjectが英語のまま残っている。
+common/locales/ja.yml	digital_object.user_defined.boolean_1	Boolean 1	ブール1	真偽値1	不自然	低	「ブール」単独は利用者に分かりにくい。
+common/locales/ja.yml	digital_object.user_defined.boolean_2	Boolean 2	ブール2	真偽値2	不自然	低	「ブール」単独は利用者に分かりにくい。
+common/locales/ja.yml	digital_object.user_defined.boolean_3	Boolean 3	ブール3	真偽値3	不自然	低	「ブール」単独は利用者に分かりにくい。
+common/locales/ja.yml	digital_object.user_defined.real_1	Real 1	リアル1	実数1	誤訳	中	Realは実数型の意で「リアル」は誤り。
+common/locales/ja.yml	digital_object.user_defined.real_2	Real 2	リアル2	実数2	誤訳	中	Realは実数型の意で「リアル」は誤り。
+common/locales/ja.yml	digital_object.user_defined.real_3	Real 3	リアル3	実数3	誤訳	中	Realは実数型の意で「リアル」は誤り。
+common/locales/ja.yml	digital_object.user_defined.enum_1	Controlled Value 1	制御された値1	制御値1	不統一	低	同系列の2〜4は「制御値」で、1だけ表記が異なる。
+common/locales/ja.yml	digital_object.user_defined._singular	User Defined	ユーザー定義の	ユーザー定義	不自然	低	見出しが連体形「〜の」で終わっている。
+common/locales/ja.yml	digital_object.user_defined._plural	User Defined	ユーザー定義の	ユーザー定義	不自然	低	見出しが連体形「〜の」で終わっている。
+common/locales/ja.yml	digital_object.digital_object_id	Identifier	識別	識別子	誤訳	中	「識別」は行為を指し、項目名としては「識別子」が正しい。
+common/locales/ja.yml	digital_object.level	VRA Core Level	コアレベルに問い合せる	VRA Coreレベル	誤訳	高	VRAを動詞（問い合わせる）と誤読しており、意味が全く異なる。
+common/locales/ja.yml	digital_object_component.slug	Slug	Slug	スラッグ	未訳	低	英語のまま残っている。
+common/locales/ja.yml	digital_object_component.slug_tooltip	<p>When using human-readable URLs, the last part of the public URL for this record in the ArchivesSpace public interface. The slug can be manually added or updated, or generated automatically based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>When using human-readable URLs, the last part of the public URL for this record in the ArchivesSpace public interface. The slug can be manually added or updated, or generated automatically based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>人が読みやすいURLを使う場合の、ArchivesSpace公開画面でのこのレコードの公開URLの末尾部分です。スラッグは手入力・更新できるほか、サーバのconfig.rbにある読みやすいURLの設定に基づいて自動生成することもできます。</p>	未訳	低	ツールチップが英語のまま。
+common/locales/ja.yml	digital_object_component.public_url	Public URL	Public URL	公開URL	未訳	中	英語のまま残っている。
+common/locales/ja.yml	digital_object_component.public_url_tooltip	<p>If this record is published or updated to be published, the full URL for this record in the public user interface. If human-readable URLs are being used the end of the URL will be the slug.</p> <p>Whether human-readable URLs are being used or not, the original URI for this record always remains v	<p>If this record is published or updated to be published, the full URL for this record in the public user interface. If human-readable URLs are being used the end of the URL will be the slug.</p> <p>Whether human-readable URLs are being used or not, the original URI for this record always remains v	<p>このレコードが公開されている、または公開に更新された場合の、公開画面におけるこのレコードの完全なURLです。読みやすいURLを使っている場合、URLの末尾はスラッグになります。</p> <p>読みやすいURLを使うかどうかにかかわらず、このレコードの元のURIは常に有効です。</p>	未訳	低	ツールチップが英語のまま。
+common/locales/ja.yml	digital_object_component.is_slug_auto	Automatically Generate Slug?	Automatically generate Slug?	スラッグを自動生成しますか？	未訳	中	英語のまま残っている。
+common/locales/ja.yml	digital_object_component.is_slug_auto_tooltip	<p>If this field is checked, the slug for this record will be automatically generated when the record is saved based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>If this field is checked, the slug for this record will be automatically generated when the record is saved based on the configuration settings for human-readable URLs in the config.rb file on the server.</p> 	<p>チェックすると、レコードの保存時に、サーバのconfig.rbにある読みやすいURLの設定に基づいてスラッグが自動生成されます。</p>	未訳	低	ツールチップが英語のまま。
+common/locales/ja.yml	digital_object_component.autogen_disabled	A slug cannot be automatically generated from the provided data based on the current configuration settings	A slug cannot be automatically generated from the provided data based on the current configuration settings	現在の設定では、入力されたデータからスラッグを自動生成できません	未訳	中	英語のまま残っている。
+common/locales/ja.yml	digital_object_component.autogen_repo_slug	Since a slug was not manually entered the repository slug was automatically generated using the repository short name	Since a slug was not manually entered the repository slug was automatically generated using the repository short name	スラッグが手入力されなかったため、リポジトリの略称からリポジトリのスラッグを自動生成しました	未訳	中	英語のまま残っている。
+common/locales/ja.yml	digital_object_component.lang_materials_tooltip	<p>The languages and scripts represented in the material(s) described.</p> <p>See DACS 4.5, ISAD(G) 3.4.3</p> 	"""""<p>説明されている資料に示されている言語およびスクリプト。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照 </p>"""" "	<p>記述対象の資料に用いられている言語と文字体系。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照</p>	不自然	中	"値の前後に余計な """" が入っており、そのまま画面に表示される。"
+common/locales/ja.yml	digital_object_component.extents_tooltip	<p>Indicates the extent and the physical nature of the materials being described.</p> <p>See DACS 2.5, ISAD(G) 3.1.5</p> 	<p>記載されている材料の範囲と物理的性質を示します。 </p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	<p>記述対象の資料の数量と物理的性質を示します。</p> <p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	誤訳	低	materials（資料）を「材料」と訳している。
+common/locales/ja.yml	digital_object_component.subjects_tooltip	<p>Used for linking Subjects with the materials described.</p> 	<p>説明されている資料とSubjectをリンクするために使用されます。 </p>	<p>記述対象の資料と件名をリンクするために使用します。</p>	未訳	低	Subjectが英語のまま残っている。
+common/locales/ja.yml	digital_object_component.user_defined.boolean_1	Boolean 1	ブール1	真偽値1	不自然	低	「ブール」単独は利用者に分かりにくい。
+common/locales/ja.yml	digital_object_component.user_defined.boolean_2	Boolean 2	ブール2	真偽値2	不自然	低	「ブール」単独は利用者に分かりにくい。
+common/locales/ja.yml	digital_object_component.user_defined.boolean_3	Boolean 3	ブール3	真偽値3	不自然	低	「ブール」単独は利用者に分かりにくい。
+common/locales/ja.yml	digital_object_component.user_defined.real_1	Real 1	リアル1	実数1	誤訳	中	Realは実数型の意で「リアル」は誤り。
+common/locales/ja.yml	digital_object_component.user_defined.real_2	Real 2	リアル2	実数2	誤訳	中	Realは実数型の意で「リアル」は誤り。
+common/locales/ja.yml	digital_object_component.user_defined.real_3	Real 3	リアル3	実数3	誤訳	中	Realは実数型の意で「リアル」は誤り。
+common/locales/ja.yml	digital_object_component.user_defined.enum_1	Controlled Value 1	制御された値1	制御値1	不統一	低	同系列の2〜4は「制御値」で、1だけ表記が異なる。
+common/locales/ja.yml	digital_object_component.user_defined._singular	User Defined	ユーザー定義の	ユーザー定義	不自然	低	見出しが連体形「〜の」で終わっている。
+common/locales/ja.yml	digital_object_component.user_defined._plural	User Defined	ユーザー定義の	ユーザー定義	不自然	低	見出しが連体形「〜の」で終わっている。
+common/locales/ja.yml	digital_object_component.digital_object_id	Identifier	識別	識別子	誤訳	中	「識別」は行為を指し、項目名としては「識別子」が正しい。
+common/locales/ja.yml	digital_object_component.level	VRA Core Level	コアレベルに問い合せる	VRA Coreレベル	誤訳	高	VRAを動詞（問い合わせる）と誤読しており、意味が全く異なる。
+common/locales/ja.yml	digital_object_component.component_id	Identifier	識別	識別子	誤訳	中	「識別」は行為を指し、項目名としては「識別子」が正しい。
+common/locales/ja.yml	digital_object_component.has_unpublished_ancestor	Has Unpublished Ancestor?	祖先は未公開ですか？	未公開の上位階層あり	不自然	低	「祖先」は階層構造の上位レコードを指すことが伝わりにくい。
+common/locales/ja.yml	location.temporary	Temporary Type	一時的	一時ロケーションの種類	不自然	低	項目名が形容詞だけで、何の種類かが分からない。
+common/locales/ja.yml	location.floor	Floor	床	階	誤訳	中	建物の階数を指すので「床」は誤り。
+common/locales/ja.yml	location.room	Room	ルーム	部屋	不自然	低	ツールチップでは「部屋」としており、ラベルだけカタカナ。
+common/locales/ja.yml	location.coordinate_3_indicator	Coordinate Indicator 3	座標指示器3	座標指示子3	不統一	低	1・2は「座標指示子」で3だけ「指示器」。
+common/locales/ja.yml	location.display_string	Display String	文字列を表示する	表示文字列	誤訳	中	名詞（表示用文字列）を動詞句に誤訳しており、ボタンのように見える。
+common/locales/ja.yml	location.has_unpublished_ancestor	Has Unpublished Ancestor?	祖先は未公開ですか？	未公開の上位階層あり	不自然	低	「祖先」は階層構造の上位レコードを指すことが伝わりにくい。
+common/locales/ja.yml	location.holdings	Holdings	ホールディングス	所蔵資料	誤訳	中	「ホールディングス」は持株会社を連想させ、所蔵の意が伝わらない。
+common/locales/ja.yml	location.owner_repo	Reserved For	予約済み	予約先リポジトリ	誤訳	中	値はこのロケーションを確保しているリポジトリ名であり、「予約済み」では状態表示と誤解される。
+common/locales/ja.yml	location._plural	Locations	場所	ロケーション	不統一	低	単数形は「ロケーション」で、複数形だけ「場所」になっている。
+common/locales/ja.yml	location_batch.temporary	Temporary Type	一時的	一時ロケーションの種類	不自然	低	項目名が形容詞だけで、何の種類かが分からない。
+common/locales/ja.yml	location_batch.floor	Floor	床	階	誤訳	中	建物の階数を指すので「床」は誤り。
+common/locales/ja.yml	location_batch.room	Room	ルーム	部屋	不自然	低	ツールチップでは「部屋」としており、ラベルだけカタカナ。
+common/locales/ja.yml	location_batch.coordinate_3_indicator	Coordinate Indicator 3	座標指示器3	座標指示子3	不統一	低	1・2は「座標指示子」で3だけ「指示器」。
+common/locales/ja.yml	location_batch.display_string	Display String	文字列を表示する	表示文字列	誤訳	中	名詞（表示用文字列）を動詞句に誤訳しており、ボタンのように見える。
+common/locales/ja.yml	location_batch.has_unpublished_ancestor	Has Unpublished Ancestor?	祖先は未公開ですか？	未公開の上位階層あり	不自然	低	「祖先」は階層構造の上位レコードを指すことが伝わりにくい。
+common/locales/ja.yml	location_batch.holdings	Holdings	ホールディングス	所蔵資料	誤訳	中	「ホールディングス」は持株会社を連想させ、所蔵の意が伝わらない。
+common/locales/ja.yml	location_batch.owner_repo	Reserved For	予約済み	予約先リポジトリ	誤訳	中	値はこのロケーションを確保しているリポジトリ名であり、「予約済み」では状態表示と誤解される。
+common/locales/ja.yml	location_batch._singular	Batch Locations	バッチ場所	ロケーションの一括作成	不自然	低	機械翻訳調で意味が分かりにくい。
+common/locales/ja.yml	location_batch._plural	Batch Locations	バッチ場所	ロケーションの一括作成	不自然	低	機械翻訳調で意味が分かりにくい。
+common/locales/ja.yml	location_batch.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	location_batch.end	Range End	レンジエンド	範囲の終了	不統一	低	Range Startは「範囲の開始」で、対の項目がカタカナ。
+common/locales/ja.yml	location_function.location_function_type	Function Type	関数型	機能の種類	誤訳	中	プログラミング用語の「関数型」になっている。
+common/locales/ja.yml	location_function._singular	Function	関数	機能	誤訳	中	ロケーションの機能（用途）を指し、「関数」は誤り。
+common/locales/ja.yml	function._singular	Function	関数	機能	誤訳	中	ロケーションの機能（用途）を指し、「関数」は誤り。
+common/locales/ja.yml	container_location.note	Note	注意	ノート	誤訳	中	注記（Note）を「注意」と誤訳しており、他のNoteの訳（ノート）とも不統一。
+common/locales/ja.yml	container_location._plural	Locations	場所	ロケーション	不統一	低	単数形は「ロケーション」で、複数形だけ「場所」になっている。
+common/locales/ja.yml	linked_record.ref	Record	記録	レコード	不統一	低	画面全体ではRecordを「レコード」と訳している。
+common/locales/ja.yml	linked_record.ref_plural	Records	記録	レコード	不統一	低	画面全体ではRecordを「レコード」と訳している。
+common/locales/ja.yml	linked_agent.relator	Relator	報告者	関係指示子	誤訳	高	Relator（MARCの関係指示子、例：イラストレーター）を「報告者」と誤訳している。
+common/locales/ja.yml	linked_agent.terms	Terms	条項	細目	誤訳	中	エージェントに付ける件名細目を指し、契約の「条項」ではない。
+common/locales/ja.yml	accession_linked_agent.relator	Relator	報告者	関係指示子	誤訳	高	Relator（MARCの関係指示子、例：イラストレーター）を「報告者」と誤訳している。
+common/locales/ja.yml	accession_linked_agent.terms	Terms	条項	細目	誤訳	中	エージェントに付ける件名細目を指し、契約の「条項」ではない。
+common/locales/ja.yml	event_linked_agent.role_tooltip	<p>REQUIRED FIELD. An indication of what function the Agent has in regards to the action described by the event.</p> 	<p>必要なフィールド。エージェントが特定の説明レコードへのリンクに関してどのような機能（作成者、ソース、またはサブジェクト）を持っているかを示す。</p><p>DACS 14.3、ISAAR (CPF) 6.3を参照</p>	<p>必須フィールド。このイベントが表す行為において、エージェントがどのような役割を果たしたかを示します。</p>	誤訳	高	別項目（記述レコードへのリンク機能）の訳がそのまま入っており、英語の内容と異なる。
+common/locales/ja.yml	event_linked_agent.relator	Relator	報告者	関係指示子	誤訳	高	Relator（MARCの関係指示子、例：イラストレーター）を「報告者」と誤訳している。
+common/locales/ja.yml	event_linked_agent.ref_tooltip	<p>REQUIRED FIELD. The person, family, corporate entity, or software that took part in the action described by the event.</p> 	<p>エージェントはレコードに記載されている資料に関連しています。 </p><p>エージェントは、ブラウズ機能を使用して自動補完を使用して検索することも、オンデマンドで作成することもできます。 </p>	<p>必須フィールド。このイベントが表す行為に関わった個人・家・団体またはソフトウェア。</p>	誤訳	高	別項目（資料に関連するエージェント）の訳が入っており、英語の内容と異なる。
+common/locales/ja.yml	event_linked_agent.terms	Terms	条項	細目	誤訳	中	エージェントに付ける件名細目を指し、契約の「条項」ではない。
+common/locales/ja.yml	resource_linked_agent.relator	Relator	報告者	関係指示子	誤訳	高	Relator（MARCの関係指示子、例：イラストレーター）を「報告者」と誤訳している。
+common/locales/ja.yml	resource_linked_agent.terms	Terms	条項	細目	誤訳	中	エージェントに付ける件名細目を指し、契約の「条項」ではない。
+common/locales/ja.yml	archival_object_linked_agent.relator	Relator	報告者	関係指示子	誤訳	高	Relator（MARCの関係指示子、例：イラストレーター）を「報告者」と誤訳している。
+common/locales/ja.yml	archival_object_linked_agent.terms	Terms	条項	細目	誤訳	中	エージェントに付ける件名細目を指し、契約の「条項」ではない。
+common/locales/ja.yml	digital_object_linked_agent.relator	Relator	報告者	関係指示子	誤訳	高	Relator（MARCの関係指示子、例：イラストレーター）を「報告者」と誤訳している。
+common/locales/ja.yml	digital_object_linked_agent.terms	Terms	条項	細目	誤訳	中	エージェントに付ける件名細目を指し、契約の「条項」ではない。
+common/locales/ja.yml	digital_object_component_linked_agent.relator	Relator	報告者	関係指示子	誤訳	高	Relator（MARCの関係指示子、例：イラストレーター）を「報告者」と誤訳している。
+common/locales/ja.yml	digital_object_component_linked_agent.terms	Terms	条項	細目	誤訳	中	エージェントに付ける件名細目を指し、契約の「条項」ではない。
+common/locales/ja.yml	event.lang_materials_tooltip	<p>The languages and scripts represented in the material(s) described.</p> <p>See DACS 4.5, ISAD(G) 3.4.3</p> 	"""""<p>説明されている資料に示されている言語およびスクリプト。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照 </p>"""" "	<p>記述対象の資料に用いられている言語と文字体系。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照</p>	不自然	中	"値の前後に余計な """" が入っており、そのまま画面に表示される。"
+common/locales/ja.yml	event.extents_tooltip	<p>Indicates the extent and the physical nature of the materials being described.</p> <p>See DACS 2.5, ISAD(G) 3.1.5</p> 	<p>記載されている材料の範囲と物理的性質を示します。 </p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	<p>記述対象の資料の数量と物理的性質を示します。</p> <p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	誤訳	低	materials（資料）を「材料」と訳している。
+common/locales/ja.yml	event.subjects_tooltip	<p>Used for linking Subjects with the materials described.</p> 	<p>説明されている資料とSubjectをリンクするために使用されます。 </p>	<p>記述対象の資料と件名をリンクするために使用します。</p>	未訳	低	Subjectが英語のまま残っている。
+common/locales/ja.yml	event.timestamp_inline_help	YYYY-MM-DD HH:MM:SS	YYYY-MM-DD HH：MM：SS	YYYY-MM-DD HH:MM:SS	不自然	低	入力書式の例で全角コロンになっており、そのまま入力すると誤りになる。
+common/locales/ja.yml	event.linked_records_tooltip	<p>REQUIRED SUBRECORD: Associates Accessions, Digital Objects, or Resources with this Event.</p> 	<p>REQUIRED SUBRECORD：アクセッション、デジタルオブジェクト、またはリソースをこのイベントに関連付けます。 </p>	<p>必須サブレコード：アクセッション、デジタルオブジェクト、またはリソースをこのイベントに関連付けます。 </p>	未訳	低	REQUIRED SUBRECORDが英語のまま。
+common/locales/ja.yml	event.types.accession	Accession	受託	受入	誤訳	高	受託は委託を受けることで、Accession（受入）とは意味が異なる。
+common/locales/ja.yml	event.types.accumulation	Accumulation	累積	集積	不自然	低	アーカイブズでは資料の「集積」が通例。
+common/locales/ja.yml	event.types.acknowledgement	Acknowledgement	了承	受領通知	誤訳	中	寄贈者等への受領の連絡を指し、「了承」ではない。
+common/locales/ja.yml	event.types.acknowledgement_sent	Acknowledgement Sent	送信された確認応答	受領通知送付	不自然	中	通信用語の「確認応答」になっている。
+common/locales/ja.yml	event.types.agreement_received	Agreement Received	受領した契約	契約書受領	不自然	低	イベント種別名として体裁がそろっていない。
+common/locales/ja.yml	event.types.agreement_sent	Agreement Sent	契約書が送信されました	契約書送付	不自然	低	イベント種別名が文（メッセージ）になっている。
+common/locales/ja.yml	event.types.appraisal	Appraisal	審査	評価選別	誤訳	中	アーカイブズのAppraisalは「評価選別」が定訳。
+common/locales/ja.yml	event.types.cataloged	Cataloged	カタログ化された	目録作成済	不自然	中	「目録作成」が定訳。
+common/locales/ja.yml	event.types.custody_transfer	Custody Transfer	保管転送	保管移転	誤訳	中	「転送」はデータ転送の意で、保管権限の移転には「移転」が適切。
+common/locales/ja.yml	event.types.deaccession	Deaccession	デアクセス	除籍	不自然	中	カタカナ造語で意味が伝わらない。受入の取消・除籍の意。
+common/locales/ja.yml	event.types.decompression	Decompression	減圧	解凍（展開）	誤訳	高	圧縮ファイルの展開を物理的な「減圧」と誤訳している。
+common/locales/ja.yml	event.types.fixity_check	Fixity Check	適合性チェック	固定性チェック	誤訳	中	Fixityはファイルが改変されていないことの確認で、「適合性」ではない。
+common/locales/ja.yml	event.types.ingestion	Ingestion	摂取	取り込み	誤訳	高	デジタル保存の取り込み（ingest）を食物の「摂取」と誤訳している。
+common/locales/ja.yml	event.types.processed	Processed	処理された	整理済	不自然	中	アーカイブズのProcessingは「整理」が定訳。
+common/locales/ja.yml	event.types.publication	Publication	出版物	公開	誤訳	中	イベント種別としては公開すること（行為）で、「出版物」は物を指す。
+common/locales/ja.yml	linked_event.lang_materials_tooltip	<p>The languages and scripts represented in the material(s) described.</p> <p>See DACS 4.5, ISAD(G) 3.4.3</p> 	"""""<p>説明されている資料に示されている言語およびスクリプト。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照 </p>"""" "	<p>記述対象の資料に用いられている言語と文字体系。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照</p>	不自然	中	"値の前後に余計な """" が入っており、そのまま画面に表示される。"
+common/locales/ja.yml	linked_event.extents_tooltip	<p>Indicates the extent and the physical nature of the materials being described.</p> <p>See DACS 2.5, ISAD(G) 3.1.5</p> 	<p>記載されている材料の範囲と物理的性質を示します。 </p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	<p>記述対象の資料の数量と物理的性質を示します。</p> <p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	誤訳	低	materials（資料）を「材料」と訳している。
+common/locales/ja.yml	linked_event.subjects_tooltip	<p>Used for linking Subjects with the materials described.</p> 	<p>説明されている資料とSubjectをリンクするために使用されます。 </p>	<p>記述対象の資料と件名をリンクするために使用します。</p>	未訳	低	Subjectが英語のまま残っている。
+common/locales/ja.yml	linked_event.timestamp_inline_help	YYYY-MM-DD HH:MM:SS	YYYY-MM-DD HH：MM：SS	YYYY-MM-DD HH:MM:SS	不自然	低	入力書式の例で全角コロンになっており、そのまま入力すると誤りになる。
+common/locales/ja.yml	linked_event.linked_records_tooltip	<p>REQUIRED SUBRECORD: Associates Accessions, Digital Objects, or Resources with this Event.</p> 	<p>REQUIRED SUBRECORD：アクセッション、デジタルオブジェクト、またはリソースをこのイベントに関連付けます。 </p>	<p>必須サブレコード：アクセッション、デジタルオブジェクト、またはリソースをこのイベントに関連付けます。 </p>	未訳	低	REQUIRED SUBRECORDが英語のまま。
+common/locales/ja.yml	linked_event.types.accession	Accession	受託	受入	誤訳	高	受託は委託を受けることで、Accession（受入）とは意味が異なる。
+common/locales/ja.yml	linked_event.types.accumulation	Accumulation	累積	集積	不自然	低	アーカイブズでは資料の「集積」が通例。
+common/locales/ja.yml	linked_event.types.acknowledgement	Acknowledgement	了承	受領通知	誤訳	中	寄贈者等への受領の連絡を指し、「了承」ではない。
+common/locales/ja.yml	linked_event.types.acknowledgement_sent	Acknowledgement Sent	送信された確認応答	受領通知送付	不自然	中	通信用語の「確認応答」になっている。
+common/locales/ja.yml	linked_event.types.agreement_received	Agreement Received	受領した契約	契約書受領	不自然	低	イベント種別名として体裁がそろっていない。
+common/locales/ja.yml	linked_event.types.agreement_sent	Agreement Sent	契約書が送信されました	契約書送付	不自然	低	イベント種別名が文（メッセージ）になっている。
+common/locales/ja.yml	linked_event.types.appraisal	Appraisal	審査	評価選別	誤訳	中	アーカイブズのAppraisalは「評価選別」が定訳。
+common/locales/ja.yml	linked_event.types.cataloged	Cataloged	カタログ化された	目録作成済	不自然	中	「目録作成」が定訳。
+common/locales/ja.yml	linked_event.types.custody_transfer	Custody Transfer	保管転送	保管移転	誤訳	中	「転送」はデータ転送の意で、保管権限の移転には「移転」が適切。
+common/locales/ja.yml	linked_event.types.deaccession	Deaccession	デアクセス	除籍	不自然	中	カタカナ造語で意味が伝わらない。受入の取消・除籍の意。
+common/locales/ja.yml	linked_event.types.decompression	Decompression	減圧	解凍（展開）	誤訳	高	圧縮ファイルの展開を物理的な「減圧」と誤訳している。
+common/locales/ja.yml	linked_event.types.fixity_check	Fixity Check	適合性チェック	固定性チェック	誤訳	中	Fixityはファイルが改変されていないことの確認で、「適合性」ではない。
+common/locales/ja.yml	linked_event.types.ingestion	Ingestion	摂取	取り込み	誤訳	高	デジタル保存の取り込み（ingest）を食物の「摂取」と誤訳している。
+common/locales/ja.yml	linked_event.types.processed	Processed	処理された	整理済	不自然	中	アーカイブズのProcessingは「整理」が定訳。
+common/locales/ja.yml	linked_event.types.publication	Publication	出版物	公開	誤訳	中	イベント種別としては公開すること（行為）で、「出版物」は物を指す。
+common/locales/ja.yml	deaccession.lang_materials_tooltip	<p>The languages and scripts represented in the material(s) described.</p> <p>See DACS 4.5, ISAD(G) 3.4.3</p> 	"""""<p>説明されている資料に示されている言語およびスクリプト。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照 </p>"""" "	<p>記述対象の資料に用いられている言語と文字体系。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照</p>	不自然	中	"値の前後に余計な """" が入っており、そのまま画面に表示される。"
+common/locales/ja.yml	deaccession.extents_tooltip	<p>Indicates the extent and the physical nature of the materials being described.</p> <p>See DACS 2.5, ISAD(G) 3.1.5</p> 	<p>記載されている材料の範囲と物理的性質を示します。 </p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	<p>記述対象の資料の数量と物理的性質を示します。</p> <p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	誤訳	低	materials（資料）を「材料」と訳している。
+common/locales/ja.yml	deaccession.subjects_tooltip	<p>Used for linking Subjects with the materials described.</p> 	<p>説明されている資料とSubjectをリンクするために使用されます。 </p>	<p>記述対象の資料と件名をリンクするために使用します。</p>	未訳	低	Subjectが英語のまま残っている。
+common/locales/ja.yml	deaccession.reason_tooltip	<p>The reason for deaccessioning the materials described.</p> <p>Examples:</p> <ul> <li>Donor did not intend to transfer these materials.</li> </ul> 	<p>材料をデアクセスする理由。 </p><p>例： </p><ul><li>ドナーはこれらの資料を転載するつもりはなかった。 </li></ul>	<p>資料をデアクセスする理由。 </p><p>例： </p><ul><li>ドナーはこれらの資料を移管するつもりはなかった。 </li></ul>	誤訳	中	transfer（移管）を「転載」と誤訳している。
+common/locales/ja.yml	deaccession.disposition	Disposition	規定	処置	誤訳	高	除籍した資料をどう処置したかの欄で、「規定」は意味が異なる。
+common/locales/ja.yml	deaccession.notification	Notification Given?	通知は？	通知済み？	不自然	低	問いが途中で切れている。
+common/locales/ja.yml	deaccession.dates	Deaccession Date	デアクセスデート	除籍日	不自然	中	「デート」は日付の訳として不適切。
+common/locales/ja.yml	deaccession._plural	Deaccessions	デアクセス	除籍	不自然	中	カタカナ造語で意味が伝わらない。
+common/locales/ja.yml	deaccession._singular	Deaccession	デアクセス	除籍	不自然	中	カタカナ造語で意味が伝わらない。受入の取消・除籍の意。
+common/locales/ja.yml	agent_name.name_order_tooltip	<p>Indicates if the name form should be displayed in inverted (last name, first name) order or in direct order (first name last name).</p> 	<p>名前の書式を逆順（姓、名）の順に表示するか、直接の順序（名字の姓）で表示するかを示します。 </p>	<p>名前を倒置順（姓、名）で表示するか、正順（名 姓）で表示するかを示します。</p>	誤訳	中	正順の説明が「名字の姓」となっており意味が通らない。
+common/locales/ja.yml	agent_name.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	agent_name.fuller_form	Fuller Form	フラーフォーム	完全形	不自然	中	カタカナ音写で意味が分からない（略称に対する名前の完全形）。
+common/locales/ja.yml	agent_name.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	agent_name.number_tooltip	<p>A number, sometimes with a term, that qualifies the name. For personal names, often a roman numeral or a roman numeral and a subsequent part of a forename. For corporate names, the number of a part / section or meeting.</p> <p>Examples:</p> <ul> <li>II Comnenus <em>(for John II Comnenus, Emperor 	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（ジョン・コメヌス、東の皇帝のために</em> / li&gt; <li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	不自然	中	「/ li&gt;」と壊れたHTMLが表示され、例の訳も崩れている。
+common/locales/ja.yml	agent_name.dates_tooltip	<p>Use this field for alignment with MARC authority records. These dates, rather than Dates of Existence, are added to the name entry in the display.</p> <p>Dates of existence for the named entity.</p> <p>Examples:<p> <ul> <li>1886-1961 <em>(for H.D., Hilda Doolittle, 1886-1961)</em></li> </ul> 	<p>このフィールドは、MARCの権限レコードとの位置合わせに使用します。これらの日付は、Dates of Existenceではなく、ディスプレイの名前入力に追加されます。 </p><p>名前付きエンティティの存在日。 </p><p>例： <p><ul><li> 1886-1961 <em>（HDの場合、Hilda Doolittle、1886-1961）</em> </li></ul>	<p>MARC典拠レコードとの整合のために使用します。表示の際は、存在期間（Dates of Existence）ではなくこの日付が名前に付加されます。</p><p>名前の対象となる実体の存在期間。</p><p>例：</p><ul><li>1886-1961 <em>（H.D., Hilda Doolittle, 1886-1961の場合）</em></li></ul>	誤訳	中	authority recordを「権限レコード」と誤訳し、<p>も閉じていない。
+common/locales/ja.yml	agent_name.use_dates	Usage Dates	使用日	使用期間	不自然	低	名前が使われた期間を指す。
+common/locales/ja.yml	agent_name.authorized	Authorized	認可された	統一形	誤訳	中	典拠の「統一形（authorized form）」の意で、「認可」ではない。
+common/locales/ja.yml	agent_name.script	Script	脚本	文字体系	誤訳	高	Scriptは文字体系（ラテン文字・キリル文字等）で、「脚本」は誤り。
+common/locales/ja.yml	agent_name.transliteration	Transliteration	文字変換	翻字	不自然	低	典拠作業では「翻字」が通例。
+common/locales/ja.yml	agent_name._singular	Name Form	名	名前の形式	不自然	中	「名」一字ではfirst nameと誤解される。
+common/locales/ja.yml	agent_name._plural	Name Forms	名前	名前の形式	不自然	低	単数形の訳とも不統一。
+common/locales/ja.yml	name_person.name_order_tooltip	<p>Indicates if the name form should be displayed in inverted (last name, first name) order or in direct order (first name last name).</p> 	<p>名前の書式を逆順（姓、名）の順に表示するか、直接の順序（名字の姓）で表示するかを示します。 </p>	<p>名前を倒置順（姓、名）で表示するか、正順（名 姓）で表示するかを示します。</p>	誤訳	中	正順の説明が「名字の姓」となっており意味が通らない。
+common/locales/ja.yml	name_person.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	name_person.fuller_form	Fuller Form	フラーフォーム	完全形	不自然	中	カタカナ音写で意味が分からない（略称に対する名前の完全形）。
+common/locales/ja.yml	name_person.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	name_person.number_tooltip	<p>A number, sometimes with a term, that qualifies the name. For personal names, often a roman numeral or a roman numeral and a subsequent part of a forename. For corporate names, the number of a part / section or meeting.</p> <p>Examples:</p> <ul> <li>II Comnenus <em>(for John II Comnenus, Emperor 	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（ジョン・コメヌス、東の皇帝のために</em> / li&gt; <li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	不自然	中	「/ li&gt;」と壊れたHTMLが表示され、例の訳も崩れている。
+common/locales/ja.yml	name_person.dates_tooltip	<p>Use this field for alignment with MARC authority records. These dates, rather than Dates of Existence, are added to the name entry in the display.</p> <p>Dates of existence for the named entity.</p> <p>Examples:<p> <ul> <li>1886-1961 <em>(for H.D., Hilda Doolittle, 1886-1961)</em></li> </ul> 	<p>このフィールドは、MARCの権限レコードとの位置合わせに使用します。これらの日付は、Dates of Existenceではなく、ディスプレイの名前入力に追加されます。 </p><p>名前付きエンティティの存在日。 </p><p>例： <p><ul><li> 1886-1961 <em>（HDの場合、Hilda Doolittle、1886-1961）</em> </li></ul>	<p>MARC典拠レコードとの整合のために使用します。表示の際は、存在期間（Dates of Existence）ではなくこの日付が名前に付加されます。</p><p>名前の対象となる実体の存在期間。</p><p>例：</p><ul><li>1886-1961 <em>（H.D., Hilda Doolittle, 1886-1961の場合）</em></li></ul>	誤訳	中	authority recordを「権限レコード」と誤訳し、<p>も閉じていない。
+common/locales/ja.yml	name_person.use_dates	Usage Dates	使用日	使用期間	不自然	低	名前が使われた期間を指す。
+common/locales/ja.yml	name_person.authorized	Authorized	認可された	統一形	誤訳	中	典拠の「統一形（authorized form）」の意で、「認可」ではない。
+common/locales/ja.yml	name_person.script	Script	脚本	文字体系	誤訳	高	Scriptは文字体系（ラテン文字・キリル文字等）で、「脚本」は誤り。
+common/locales/ja.yml	name_person.transliteration	Transliteration	文字変換	翻字	不自然	低	典拠作業では「翻字」が通例。
+common/locales/ja.yml	name_person._singular	Name Form	名	名前の形式	不自然	中	「名」一字ではfirst nameと誤解される。
+common/locales/ja.yml	name_person._plural	Name Forms	名前	名前の形式	不自然	低	単数形の訳とも不統一。
+common/locales/ja.yml	parallel_name_person.name_order_tooltip	<p>Indicates if the name form should be displayed in inverted (last name, first name) order or in direct order (first name last name).</p> 	<p>名前の書式を逆順（姓、名）の順に表示するか、直接の順序（名字の姓）で表示するかを示します。 </p>	<p>名前を倒置順（姓、名）で表示するか、正順（名 姓）で表示するかを示します。</p>	誤訳	中	正順の説明が「名字の姓」となっており意味が通らない。
+common/locales/ja.yml	parallel_name_person.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	parallel_name_person.fuller_form	Fuller Form	フラーフォーム	完全形	不自然	中	カタカナ音写で意味が分からない（略称に対する名前の完全形）。
+common/locales/ja.yml	parallel_name_person.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	parallel_name_person.number_tooltip	<p>A number, sometimes with a term, that qualifies the name. For personal names, often a roman numeral or a roman numeral and a subsequent part of a forename. For corporate names, the number of a part / section or meeting.</p> <p>Examples:</p> <ul> <li>II Comnenus <em>(for John II Comnenus, Emperor 	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（ジョン・コメヌス、東の皇帝のために</em> / li&gt; <li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	不自然	中	「/ li&gt;」と壊れたHTMLが表示され、例の訳も崩れている。
+common/locales/ja.yml	parallel_name_person.dates_tooltip	<p>Use this field for alignment with MARC authority records. These dates, rather than Dates of Existence, are added to the name entry in the display.</p> <p>Dates of existence for the named entity.</p> <p>Examples:<p> <ul> <li>1886-1961 <em>(for H.D., Hilda Doolittle, 1886-1961)</em></li> </ul> 	<p>このフィールドは、MARCの権限レコードとの位置合わせに使用します。これらの日付は、Dates of Existenceではなく、ディスプレイの名前入力に追加されます。 </p><p>名前付きエンティティの存在日。 </p><p>例： <p><ul><li> 1886-1961 <em>（HDの場合、Hilda Doolittle、1886-1961）</em> </li></ul>	<p>MARC典拠レコードとの整合のために使用します。表示の際は、存在期間（Dates of Existence）ではなくこの日付が名前に付加されます。</p><p>名前の対象となる実体の存在期間。</p><p>例：</p><ul><li>1886-1961 <em>（H.D., Hilda Doolittle, 1886-1961の場合）</em></li></ul>	誤訳	中	authority recordを「権限レコード」と誤訳し、<p>も閉じていない。
+common/locales/ja.yml	parallel_name_person.use_dates	Usage Dates	使用日	使用期間	不自然	低	名前が使われた期間を指す。
+common/locales/ja.yml	parallel_name_person.authorized	Authorized	認可された	統一形	誤訳	中	典拠の「統一形（authorized form）」の意で、「認可」ではない。
+common/locales/ja.yml	parallel_name_person.script	Script	脚本	文字体系	誤訳	高	Scriptは文字体系（ラテン文字・キリル文字等）で、「脚本」は誤り。
+common/locales/ja.yml	parallel_name_person.transliteration	Transliteration	文字変換	翻字	不自然	低	典拠作業では「翻字」が通例。
+common/locales/ja.yml	parallel_name_person._singular	Parallel Name	パラレルネーム	並列名	不統一	低	複数形やボタンは「並列名」。
+common/locales/ja.yml	name_family.name_order_tooltip	<p>Indicates if the name form should be displayed in inverted (last name, first name) order or in direct order (first name last name).</p> 	<p>名前の書式を逆順（姓、名）の順に表示するか、直接の順序（名字の姓）で表示するかを示します。 </p>	<p>名前を倒置順（姓、名）で表示するか、正順（名 姓）で表示するかを示します。</p>	誤訳	中	正順の説明が「名字の姓」となっており意味が通らない。
+common/locales/ja.yml	name_family.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	name_family.fuller_form	Fuller Form	フラーフォーム	完全形	不自然	中	カタカナ音写で意味が分からない（略称に対する名前の完全形）。
+common/locales/ja.yml	name_family.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	name_family.number_tooltip	<p>A number, sometimes with a term, that qualifies the name. For personal names, often a roman numeral or a roman numeral and a subsequent part of a forename. For corporate names, the number of a part / section or meeting.</p> <p>Examples:</p> <ul> <li>II Comnenus <em>(for John II Comnenus, Emperor 	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（ジョン・コメヌス、東の皇帝のために</em> / li&gt; <li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	不自然	中	「/ li&gt;」と壊れたHTMLが表示され、例の訳も崩れている。
+common/locales/ja.yml	name_family.dates_tooltip	<p>Use this field for alignment with MARC authority records. These dates, rather than Dates of Existence, are added to the name entry in the display.</p> <p>Dates of existence for the named entity.</p> <p>Examples:<p> <ul> <li>1886-1961 <em>(for H.D., Hilda Doolittle, 1886-1961)</em></li> </ul> 	<p>このフィールドは、MARCの権限レコードとの位置合わせに使用します。これらの日付は、Dates of Existenceではなく、ディスプレイの名前入力に追加されます。 </p><p>名前付きエンティティの存在日。 </p><p>例： <p><ul><li> 1886-1961 <em>（HDの場合、Hilda Doolittle、1886-1961）</em> </li></ul>	<p>MARC典拠レコードとの整合のために使用します。表示の際は、存在期間（Dates of Existence）ではなくこの日付が名前に付加されます。</p><p>名前の対象となる実体の存在期間。</p><p>例：</p><ul><li>1886-1961 <em>（H.D., Hilda Doolittle, 1886-1961の場合）</em></li></ul>	誤訳	中	authority recordを「権限レコード」と誤訳し、<p>も閉じていない。
+common/locales/ja.yml	name_family.use_dates	Usage Dates	使用日	使用期間	不自然	低	名前が使われた期間を指す。
+common/locales/ja.yml	name_family.authorized	Authorized	認可された	統一形	誤訳	中	典拠の「統一形（authorized form）」の意で、「認可」ではない。
+common/locales/ja.yml	name_family.script	Script	脚本	文字体系	誤訳	高	Scriptは文字体系（ラテン文字・キリル文字等）で、「脚本」は誤り。
+common/locales/ja.yml	name_family.transliteration	Transliteration	文字変換	翻字	不自然	低	典拠作業では「翻字」が通例。
+common/locales/ja.yml	name_family._singular	Name Form	名	名前の形式	不自然	中	「名」一字ではfirst nameと誤解される。
+common/locales/ja.yml	name_family._plural	Name Forms	名前	名前の形式	不自然	低	単数形の訳とも不統一。
+common/locales/ja.yml	name_family.family_name	Family Name	苗字	家名	不自然	低	家（family）エージェントの名前で、個人の苗字ではない。
+common/locales/ja.yml	parallel_name_family.name_order_tooltip	<p>Indicates if the name form should be displayed in inverted (last name, first name) order or in direct order (first name last name).</p> 	<p>名前の書式を逆順（姓、名）の順に表示するか、直接の順序（名字の姓）で表示するかを示します。 </p>	<p>名前を倒置順（姓、名）で表示するか、正順（名 姓）で表示するかを示します。</p>	誤訳	中	正順の説明が「名字の姓」となっており意味が通らない。
+common/locales/ja.yml	parallel_name_family.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	parallel_name_family.fuller_form	Fuller Form	フラーフォーム	完全形	不自然	中	カタカナ音写で意味が分からない（略称に対する名前の完全形）。
+common/locales/ja.yml	parallel_name_family.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	parallel_name_family.number_tooltip	<p>A number, sometimes with a term, that qualifies the name. For personal names, often a roman numeral or a roman numeral and a subsequent part of a forename. For corporate names, the number of a part / section or meeting.</p> <p>Examples:</p> <ul> <li>II Comnenus <em>(for John II Comnenus, Emperor 	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（ジョン・コメヌス、東の皇帝のために</em> / li&gt; <li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	不自然	中	「/ li&gt;」と壊れたHTMLが表示され、例の訳も崩れている。
+common/locales/ja.yml	parallel_name_family.dates_tooltip	<p>Use this field for alignment with MARC authority records. These dates, rather than Dates of Existence, are added to the name entry in the display.</p> <p>Dates of existence for the named entity.</p> <p>Examples:<p> <ul> <li>1886-1961 <em>(for H.D., Hilda Doolittle, 1886-1961)</em></li> </ul> 	<p>このフィールドは、MARCの権限レコードとの位置合わせに使用します。これらの日付は、Dates of Existenceではなく、ディスプレイの名前入力に追加されます。 </p><p>名前付きエンティティの存在日。 </p><p>例： <p><ul><li> 1886-1961 <em>（HDの場合、Hilda Doolittle、1886-1961）</em> </li></ul>	<p>MARC典拠レコードとの整合のために使用します。表示の際は、存在期間（Dates of Existence）ではなくこの日付が名前に付加されます。</p><p>名前の対象となる実体の存在期間。</p><p>例：</p><ul><li>1886-1961 <em>（H.D., Hilda Doolittle, 1886-1961の場合）</em></li></ul>	誤訳	中	authority recordを「権限レコード」と誤訳し、<p>も閉じていない。
+common/locales/ja.yml	parallel_name_family.use_dates	Usage Dates	使用日	使用期間	不自然	低	名前が使われた期間を指す。
+common/locales/ja.yml	parallel_name_family.authorized	Authorized	認可された	統一形	誤訳	中	典拠の「統一形（authorized form）」の意で、「認可」ではない。
+common/locales/ja.yml	parallel_name_family.script	Script	脚本	文字体系	誤訳	高	Scriptは文字体系（ラテン文字・キリル文字等）で、「脚本」は誤り。
+common/locales/ja.yml	parallel_name_family.transliteration	Transliteration	文字変換	翻字	不自然	低	典拠作業では「翻字」が通例。
+common/locales/ja.yml	parallel_name_family._singular	Name Form	名	名前の形式	不自然	中	「名」一字ではfirst nameと誤解される。
+common/locales/ja.yml	parallel_name_family._plural	Name Forms	名前	名前の形式	不自然	低	単数形の訳とも不統一。
+common/locales/ja.yml	parallel_name_family.family_name	Family Name	苗字	家名	不自然	低	家（family）エージェントの名前で、個人の苗字ではない。
+common/locales/ja.yml	name_corporate_entity.name_order_tooltip	<p>Indicates if the name form should be displayed in inverted (last name, first name) order or in direct order (first name last name).</p> 	<p>名前の書式を逆順（姓、名）の順に表示するか、直接の順序（名字の姓）で表示するかを示します。 </p>	<p>名前を倒置順（姓、名）で表示するか、正順（名 姓）で表示するかを示します。</p>	誤訳	中	正順の説明が「名字の姓」となっており意味が通らない。
+common/locales/ja.yml	name_corporate_entity.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	name_corporate_entity.fuller_form	Fuller Form	フラーフォーム	完全形	不自然	中	カタカナ音写で意味が分からない（略称に対する名前の完全形）。
+common/locales/ja.yml	name_corporate_entity.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	name_corporate_entity.number_tooltip	<p>A number, sometimes with a term, that qualifies the name. For personal names, often a roman numeral or a roman numeral and a subsequent part of a forename. For corporate names, the number of a part / section or meeting.</p> <p>Examples:</p> <ul> <li>II Comnenus <em>(for John II Comnenus, Emperor 	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（ジョン・コメヌス、東の皇帝のために</em> / li&gt; <li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	不自然	中	「/ li&gt;」と壊れたHTMLが表示され、例の訳も崩れている。
+common/locales/ja.yml	name_corporate_entity.dates_tooltip	<p>Use this field for alignment with MARC authority records. These dates, rather than Dates of Existence, are added to the name entry in the display.</p> <p>Dates of existence for the named entity.</p> <p>Examples:<p> <ul> <li>1886-1961 <em>(for H.D., Hilda Doolittle, 1886-1961)</em></li> </ul> 	<p>このフィールドは、MARCの権限レコードとの位置合わせに使用します。これらの日付は、Dates of Existenceではなく、ディスプレイの名前入力に追加されます。 </p><p>名前付きエンティティの存在日。 </p><p>例： <p><ul><li> 1886-1961 <em>（HDの場合、Hilda Doolittle、1886-1961）</em> </li></ul>	<p>MARC典拠レコードとの整合のために使用します。表示の際は、存在期間（Dates of Existence）ではなくこの日付が名前に付加されます。</p><p>名前の対象となる実体の存在期間。</p><p>例：</p><ul><li>1886-1961 <em>（H.D., Hilda Doolittle, 1886-1961の場合）</em></li></ul>	誤訳	中	authority recordを「権限レコード」と誤訳し、<p>も閉じていない。
+common/locales/ja.yml	name_corporate_entity.use_dates	Usage Dates	使用日	使用期間	不自然	低	名前が使われた期間を指す。
+common/locales/ja.yml	name_corporate_entity.authorized	Authorized	認可された	統一形	誤訳	中	典拠の「統一形（authorized form）」の意で、「認可」ではない。
+common/locales/ja.yml	name_corporate_entity.script	Script	脚本	文字体系	誤訳	高	Scriptは文字体系（ラテン文字・キリル文字等）で、「脚本」は誤り。
+common/locales/ja.yml	name_corporate_entity.transliteration	Transliteration	文字変換	翻字	不自然	低	典拠作業では「翻字」が通例。
+common/locales/ja.yml	name_corporate_entity._singular	Name Form	名	名前の形式	不自然	中	「名」一字ではfirst nameと誤解される。
+common/locales/ja.yml	name_corporate_entity._plural	Name Forms	名前	名前の形式	不自然	低	単数形の訳とも不統一。
+common/locales/ja.yml	name_corporate_entity.conference_meeting	Conference Meeting?	会議会議？	会議？	不自然	中	重複した機械翻訳。
+common/locales/ja.yml	parallel_name_corporate_entity.name_order_tooltip	<p>Indicates if the name form should be displayed in inverted (last name, first name) order or in direct order (first name last name).</p> 	<p>名前の書式を逆順（姓、名）の順に表示するか、直接の順序（名字の姓）で表示するかを示します。 </p>	<p>名前を倒置順（姓、名）で表示するか、正順（名 姓）で表示するかを示します。</p>	誤訳	中	正順の説明が「名字の姓」となっており意味が通らない。
+common/locales/ja.yml	parallel_name_corporate_entity.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	parallel_name_corporate_entity.fuller_form	Fuller Form	フラーフォーム	完全形	不自然	中	カタカナ音写で意味が分からない（略称に対する名前の完全形）。
+common/locales/ja.yml	parallel_name_corporate_entity.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	parallel_name_corporate_entity.number_tooltip	<p>A number, sometimes with a term, that qualifies the name. For personal names, often a roman numeral or a roman numeral and a subsequent part of a forename. For corporate names, the number of a part / section or meeting.</p> <p>Examples:</p> <ul> <li>II Comnenus <em>(for John II Comnenus, Emperor 	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（ジョン・コメヌス、東の皇帝のために</em> / li&gt; <li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	不自然	中	「/ li&gt;」と壊れたHTMLが表示され、例の訳も崩れている。
+common/locales/ja.yml	parallel_name_corporate_entity.dates_tooltip	<p>Use this field for alignment with MARC authority records. These dates, rather than Dates of Existence, are added to the name entry in the display.</p> <p>Dates of existence for the named entity.</p> <p>Examples:<p> <ul> <li>1886-1961 <em>(for H.D., Hilda Doolittle, 1886-1961)</em></li> </ul> 	<p>このフィールドは、MARCの権限レコードとの位置合わせに使用します。これらの日付は、Dates of Existenceではなく、ディスプレイの名前入力に追加されます。 </p><p>名前付きエンティティの存在日。 </p><p>例： <p><ul><li> 1886-1961 <em>（HDの場合、Hilda Doolittle、1886-1961）</em> </li></ul>	<p>MARC典拠レコードとの整合のために使用します。表示の際は、存在期間（Dates of Existence）ではなくこの日付が名前に付加されます。</p><p>名前の対象となる実体の存在期間。</p><p>例：</p><ul><li>1886-1961 <em>（H.D., Hilda Doolittle, 1886-1961の場合）</em></li></ul>	誤訳	中	authority recordを「権限レコード」と誤訳し、<p>も閉じていない。
+common/locales/ja.yml	parallel_name_corporate_entity.use_dates	Usage Dates	使用日	使用期間	不自然	低	名前が使われた期間を指す。
+common/locales/ja.yml	parallel_name_corporate_entity.authorized	Authorized	認可された	統一形	誤訳	中	典拠の「統一形（authorized form）」の意で、「認可」ではない。
+common/locales/ja.yml	parallel_name_corporate_entity.script	Script	脚本	文字体系	誤訳	高	Scriptは文字体系（ラテン文字・キリル文字等）で、「脚本」は誤り。
+common/locales/ja.yml	parallel_name_corporate_entity.transliteration	Transliteration	文字変換	翻字	不自然	低	典拠作業では「翻字」が通例。
+common/locales/ja.yml	parallel_name_corporate_entity._singular	Name Form	名	名前の形式	不自然	中	「名」一字ではfirst nameと誤解される。
+common/locales/ja.yml	parallel_name_corporate_entity._plural	Name Forms	名前	名前の形式	不自然	低	単数形の訳とも不統一。
+common/locales/ja.yml	parallel_name_corporate_entity.conference_meeting	Conference Meeting?	会議会議？	会議？	不自然	中	重複した機械翻訳。
+common/locales/ja.yml	name_software.name_order_tooltip	<p>Indicates if the name form should be displayed in inverted (last name, first name) order or in direct order (first name last name).</p> 	<p>名前の書式を逆順（姓、名）の順に表示するか、直接の順序（名字の姓）で表示するかを示します。 </p>	<p>名前を倒置順（姓、名）で表示するか、正順（名 姓）で表示するかを示します。</p>	誤訳	中	正順の説明が「名字の姓」となっており意味が通らない。
+common/locales/ja.yml	name_software.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	name_software.fuller_form	Fuller Form	フラーフォーム	完全形	不自然	中	カタカナ音写で意味が分からない（略称に対する名前の完全形）。
+common/locales/ja.yml	name_software.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	name_software.number_tooltip	<p>A number, sometimes with a term, that qualifies the name. For personal names, often a roman numeral or a roman numeral and a subsequent part of a forename. For corporate names, the number of a part / section or meeting.</p> <p>Examples:</p> <ul> <li>II Comnenus <em>(for John II Comnenus, Emperor 	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（ジョン・コメヌス、東の皇帝のために</em> / li&gt; <li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	不自然	中	「/ li&gt;」と壊れたHTMLが表示され、例の訳も崩れている。
+common/locales/ja.yml	name_software.dates_tooltip	<p>Use this field for alignment with MARC authority records. These dates, rather than Dates of Existence, are added to the name entry in the display.</p> <p>Dates of existence for the named entity.</p> <p>Examples:<p> <ul> <li>1886-1961 <em>(for H.D., Hilda Doolittle, 1886-1961)</em></li> </ul> 	<p>このフィールドは、MARCの権限レコードとの位置合わせに使用します。これらの日付は、Dates of Existenceではなく、ディスプレイの名前入力に追加されます。 </p><p>名前付きエンティティの存在日。 </p><p>例： <p><ul><li> 1886-1961 <em>（HDの場合、Hilda Doolittle、1886-1961）</em> </li></ul>	<p>MARC典拠レコードとの整合のために使用します。表示の際は、存在期間（Dates of Existence）ではなくこの日付が名前に付加されます。</p><p>名前の対象となる実体の存在期間。</p><p>例：</p><ul><li>1886-1961 <em>（H.D., Hilda Doolittle, 1886-1961の場合）</em></li></ul>	誤訳	中	authority recordを「権限レコード」と誤訳し、<p>も閉じていない。
+common/locales/ja.yml	name_software.use_dates	Usage Dates	使用日	使用期間	不自然	低	名前が使われた期間を指す。
+common/locales/ja.yml	name_software.authorized	Authorized	認可された	統一形	誤訳	中	典拠の「統一形（authorized form）」の意で、「認可」ではない。
+common/locales/ja.yml	name_software.script	Script	脚本	文字体系	誤訳	高	Scriptは文字体系（ラテン文字・キリル文字等）で、「脚本」は誤り。
+common/locales/ja.yml	name_software.transliteration	Transliteration	文字変換	翻字	不自然	低	典拠作業では「翻字」が通例。
+common/locales/ja.yml	name_software._singular	Name Form	名	名前の形式	不自然	中	「名」一字ではfirst nameと誤解される。
+common/locales/ja.yml	name_software._plural	Name Forms	名前	名前の形式	不自然	低	単数形の訳とも不統一。
+common/locales/ja.yml	parallel_name_software.name_order_tooltip	<p>Indicates if the name form should be displayed in inverted (last name, first name) order or in direct order (first name last name).</p> 	<p>名前の書式を逆順（姓、名）の順に表示するか、直接の順序（名字の姓）で表示するかを示します。 </p>	<p>名前を倒置順（姓、名）で表示するか、正順（名 姓）で表示するかを示します。</p>	誤訳	中	正順の説明が「名字の姓」となっており意味が通らない。
+common/locales/ja.yml	parallel_name_software.suffix	Suffix	サフィックス	接尾辞	不統一	低	Prefixは「接頭辞」と訳されており対にならない。
+common/locales/ja.yml	parallel_name_software.fuller_form	Fuller Form	フラーフォーム	完全形	不自然	中	カタカナ音写で意味が分からない（略称に対する名前の完全形）。
+common/locales/ja.yml	parallel_name_software.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	parallel_name_software.number_tooltip	<p>A number, sometimes with a term, that qualifies the name. For personal names, often a roman numeral or a roman numeral and a subsequent part of a forename. For corporate names, the number of a part / section or meeting.</p> <p>Examples:</p> <ul> <li>II Comnenus <em>(for John II Comnenus, Emperor 	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（ジョン・コメヌス、東の皇帝のために</em> / li&gt; <li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	<p>名前を修飾する、時には用語を含む数字。個人的な名前の場合は、ローマ数字またはローマ数字とその後の姓の部分にしばしば使用されます。企業名の場合は、パート/セクションまたは会議の番号。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ジョン・パウロ2世）</em> </li><li>第97回第2回会議<em>（米国議会向け、第97回第2回会議）</em> </li></ul>	不自然	中	「/ li&gt;」と壊れたHTMLが表示され、例の訳も崩れている。
+common/locales/ja.yml	parallel_name_software.dates_tooltip	<p>Use this field for alignment with MARC authority records. These dates, rather than Dates of Existence, are added to the name entry in the display.</p> <p>Dates of existence for the named entity.</p> <p>Examples:<p> <ul> <li>1886-1961 <em>(for H.D., Hilda Doolittle, 1886-1961)</em></li> </ul> 	<p>このフィールドは、MARCの権限レコードとの位置合わせに使用します。これらの日付は、Dates of Existenceではなく、ディスプレイの名前入力に追加されます。 </p><p>名前付きエンティティの存在日。 </p><p>例： <p><ul><li> 1886-1961 <em>（HDの場合、Hilda Doolittle、1886-1961）</em> </li></ul>	<p>MARC典拠レコードとの整合のために使用します。表示の際は、存在期間（Dates of Existence）ではなくこの日付が名前に付加されます。</p><p>名前の対象となる実体の存在期間。</p><p>例：</p><ul><li>1886-1961 <em>（H.D., Hilda Doolittle, 1886-1961の場合）</em></li></ul>	誤訳	中	authority recordを「権限レコード」と誤訳し、<p>も閉じていない。
+common/locales/ja.yml	parallel_name_software.use_dates	Usage Dates	使用日	使用期間	不自然	低	名前が使われた期間を指す。
+common/locales/ja.yml	parallel_name_software.authorized	Authorized	認可された	統一形	誤訳	中	典拠の「統一形（authorized form）」の意で、「認可」ではない。
+common/locales/ja.yml	parallel_name_software.script	Script	脚本	文字体系	誤訳	高	Scriptは文字体系（ラテン文字・キリル文字等）で、「脚本」は誤り。
+common/locales/ja.yml	parallel_name_software.transliteration	Transliteration	文字変換	翻字	不自然	低	典拠作業では「翻字」が通例。
+common/locales/ja.yml	parallel_name_software._singular	Name Form	名	名前の形式	不自然	中	「名」一字ではfirst nameと誤解される。
+common/locales/ja.yml	parallel_name_software._plural	Name Forms	名前	名前の形式	不自然	低	単数形の訳とも不統一。
+common/locales/ja.yml	agent_record_identifiers.identifier_type_tooltip	<p>Indicates the type or format of the authority record identifier. Values in this Controlled Value List may be modified.</p> 	<p>権限レコードIDのタイプまたはフォーマットを示します。この管理値リストの値は変更される可能性があります。</p>	典拠レコード識別子の種類または形式を示します。この制御値リストの値は変更できます。	誤訳	中	authority recordを「権限レコード」と誤訳している。
+common/locales/ja.yml	agent_alternate_set.set_component_tooltip	<p>A caption to provide identification and access to an equivalent linked authority record.</p> 	<p>同等のリンクされた機関レコードへの識別とアクセスを提供するキャプション。</p>	同等の典拠レコードを識別し、そこへアクセスするためのキャプション。	誤訳	中	authority recordを「機関レコード」と誤訳している。
+common/locales/ja.yml	agent_alternate_set.descriptive_note_tooltip	<p>The content of the note, providing details about the linked authority record.</p> 	<p>リンクされた権限レコードに関する詳細を提供するメモの内容。</p>	リンクされた典拠レコードの詳細を記すノートの内容。	誤訳	中	authority recordを「権限レコード」と誤訳している。
+common/locales/ja.yml	agent_resource.linked_resource_description_tooltip	<p>Free text field for recording bibliographic information, related collection information, etc.</p> 	<p>エージェント/エンティティに関連するリソースのオンライン上の場所を示すURI。DACS 14.1、ISAAR (CPF) 6.1を参照</p>	<p>書誌情報や関連するコレクションの情報などを記録する自由記述欄。</p>	誤訳	高	別項目（URI）の訳が入っており、英語の内容と異なる。
+common/locales/ja.yml	agent_contact.name	Contact Name	連絡先	担当者名	不自然	低	連絡先担当者の名前の欄で、他の「連絡先」と区別できない。
+common/locales/ja.yml	agent_contact.salutation	Salutation	挨拶	敬称	誤訳	中	Mr./Dr.などの敬称を指す。
+common/locales/ja.yml	agent_contact.address_1	Address 1	住所（1	住所1	不自然	中	括弧が閉じておらず表示が崩れている。
+common/locales/ja.yml	agent_contact.address_2	Address 2	アドレス2	住所2	不統一	低	住所1・3は「住所」で2だけ「アドレス」。
+common/locales/ja.yml	agent_contact.city	City	シティ	市区町村	不自然	中	住所欄でカタカナは不自然。
+common/locales/ja.yml	agent_contact.telephone_ext	Telephone Extension	電話番号の延長	内線番号	誤訳	中	Extensionは内線で、「延長」は誤り。
+common/locales/ja.yml	agent_contact.note	Contact Notes	連絡先	連絡先メモ	不自然	低	「連絡先」と同じ訳で区別できない。
+common/locales/ja.yml	agent_contact._singular	Contact	接触	連絡先	誤訳	中	「接触」は物理的な接触の意。
+common/locales/ja.yml	telephone.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	telephone.ext	Telephone Extension	電話番号の延長	内線番号	誤訳	中	Extensionは内線で、「延長」は誤り。
+common/locales/ja.yml	telephone_required.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	telephone_required.ext	Telephone Extension	電話番号の延長	内線番号	誤訳	中	Extensionは内線で、「延長」は誤り。
+common/locales/ja.yml	telephone_merge.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	telephone_merge.ext	Telephone Extension	電話番号の延長	内線番号	誤訳	中	Extensionは内線で、「延長」は誤り。
+common/locales/ja.yml	telephone_merge_target.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	telephone_merge_target.ext	Telephone Extension	電話番号の延長	内線番号	誤訳	中	Extensionは内線で、「延長」は誤り。
+common/locales/ja.yml	note_attributes.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_attributes.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	related_agent.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	related_agents.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	agent_relationship_parentchild.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	agent_relationship_earlierlater.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	agent_relationship_earlierlater._singular	Earlier/Later Relationship	以前/後の関係	先行／後継関係	不自然	低	ISAAR(CPF)の時間的関係（先行・後継）として不自然。
+common/locales/ja.yml	agent_relationship_subordinatesuperior.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	agent_relationship_associative.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	agent_relationship_identity.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	agent_relationship_identity._singular	Identity Relationship	リレーターで特定されたエージェントの関係	同一性関係	誤訳	高	Identity Relationship（同一実体の関係）と全く異なる内容になっている。
+common/locales/ja.yml	agent_relationship_hierarchical.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	agent_relationship_hierarchical._singular	Hierarchical Relationship	エージェント関係階層関係	階層関係	不自然	中	語が重複した機械翻訳。
+common/locales/ja.yml	agent_relationship_temporal.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	agent_relationship_temporal._singular	Temporal Relationship	エージェント関係時間的関係者	時間的関係	誤訳	中	語が重複し、末尾が「関係者」（人）になっている。
+common/locales/ja.yml	agent_relationship_family.relator_tooltip	When a general relationship type is part of a pair with two possibilities for direction (such as Parent-Child), a controlled term indicating the direction of the relationship.	関係を説明する特定の修飾子。	一般的な関係タイプが向きを持つ対（親子など）の場合に、関係の向きを示す制御語。	誤訳	中	英語は関係の向きを示す説明だが、訳は別内容（特定の修飾子）になっている。
+common/locales/ja.yml	agent_relationship_family._singular	Family Relationship	エージェント関係関連の関係者	家族関係	誤訳	中	Familyの訳が無く、「関係者」（人）になっている。
+common/locales/ja.yml	note.note_orderedlist	Ordered List	オーダーリスト	番号付きリスト	不自然	低	カタカナ音写で意味が伝わりにくい。
+common/locales/ja.yml	note.note_index	Index	インデックス	索引	不自然	低	アーカイブズの索引ノートには「索引」が自然。
+common/locales/ja.yml	note.note_langmaterial	Language of Materials Note	材料の言語メモ	資料の言語ノート	誤訳	中	materialsは資料で「材料」は誤り。
+common/locales/ja.yml	note.note_bioghist	Biography/Historical Note	バイオグラフィー/歴史的メモ	経歴／沿革ノート	不自然	中	アーカイブズ記述では「経歴／沿革」が通例。
+common/locales/ja.yml	note.note_abstract	Abstract	抽象	要約	誤訳	高	Abstract（抄録）を「抽象」と誤訳している。
+common/locales/ja.yml	note.note_rights_statement	Rights Statement Note	権利ステートメント	権利表明ノート	不統一	低	Noteが訳されておらず、他の訳とも不統一。
+common/locales/ja.yml	note.note_rights_statement_act	Act Note	法律上の注意	行為ノート	誤訳	中	権利で許可・制限される行為（act）に関するノートで、法律の意ではない。
+common/locales/ja.yml	note.note_mandate	Mandate	委任	権限の根拠	誤訳	中	ISAAR(CPF)のMandatesは活動の法的根拠・権限を指す。
+common/locales/ja.yml	note.note_contact_note	Contact Note	お問い合わせ先	連絡記録ノート	誤訳	中	連絡のやり取りの記録で、問い合わせ先ではない。
+common/locales/ja.yml	note._singular	Note	注意	ノート	誤訳	中	注記（Note）を「注意」と誤訳しており、他のNoteの訳（ノート）とも不統一。
+common/locales/ja.yml	note_text.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_text.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_index.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_index.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_index.option	Index	インデックス	索引	不自然	低	アーカイブズの索引ノートには「索引」が自然。
+common/locales/ja.yml	note_singlepart.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_singlepart.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_multipart.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_multipart.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_digital_object.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_digital_object.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_langmaterial.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_langmaterial.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_rights_statement.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_rights_statement.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_rights_statement_act.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_rights_statement_act.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_agent_rights_statement.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_agent_rights_statement.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_bibliography.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_bibliography.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_chronology.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	chronology_item.event_date	Event Date	開催日	日付	誤訳	中	年表の出来事の日付で、催し物の「開催日」ではない。
+common/locales/ja.yml	chronology_item.place	Event Place	イベント会場	場所	誤訳	中	年表の出来事が起きた場所で、「会場」ではない。
+common/locales/ja.yml	note_definedlist.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_definedlist.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_orderedlist.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_orderedlist.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_orderedlist.option	Ordered List	オーダーリスト	番号付きリスト	不自然	低	カタカナ音写で意味が伝わりにくい。
+common/locales/ja.yml	note_bioghist.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_bioghist.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_general_context.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_general_context.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_mandate.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_mandate.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_contact_note.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_contact_note.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_contact_note.contact_notes	Contact Notes	連絡先	連絡先メモ	不自然	低	「連絡先」と同じ訳で区別できない。
+common/locales/ja.yml	note_legal_status.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_legal_status.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_structure_or_genealogy.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_structure_or_genealogy.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_abstract.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_abstract.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_abstract.option	Abstract	抽象	要約	誤訳	高	Abstract（抄録）を「抽象」と誤訳している。
+common/locales/ja.yml	note_citation.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_citation.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	note_citation_xlink.show	Show	ショー	表示方法（show）	誤訳	中	XLinkのshow属性で、「ショー」は誤り。
+common/locales/ja.yml	note_outline.items	Items	アイテム	項目	不統一	低	単数形Itemは「項目」で、複数形だけ「アイテム」。
+common/locales/ja.yml	note_outline.publish_tooltip	<p>Determines whether this Note to public (patron) interfaces.</p> 	<p>このパブリック（パトロン）インタフェースへの注釈を使用するかどうかを決定します。 </p>	<p>このノートを公開画面（利用者向けインターフェース）に公開するかどうかを指定します。</p>	誤訳	中	「注釈を使用するかどうか」となっており意味が通らない。
+common/locales/ja.yml	instance.is_representative	Is Representative?	代表者ですか？	代表インスタンス？	誤訳	中	人物の「代表者」ではなく、代表として表示するインスタンスかを問う項目。
+common/locales/ja.yml	instance_container.is_representative	Is Representative?	代表者ですか？	代表インスタンス？	誤訳	中	人物の「代表者」ではなく、代表として表示するインスタンスかを問う項目。
+common/locales/ja.yml	instance_digital_object.is_representative	Is Representative?	代表者ですか？	代表インスタンス？	誤訳	中	人物の「代表者」ではなく、代表として表示するインスタンスかを問う項目。
+common/locales/ja.yml	file_version.use_statement	Use Statement	ステートメントの使用	用途	誤訳	中	ファイルの用途（サムネイル等）を示す項目で、語順を誤訳している。
+common/locales/ja.yml	file_version.xlink_actuate_attribute	XLink Actuate Attribute	XLinkアクチュエータの属性	XLink actuate属性	誤訳	低	「アクチュエータ」は機械部品の意。
+common/locales/ja.yml	file_version.checksum_method	Checksum Method	チェックサムメソッド	チェックサム方式	不自然	低	アルゴリズムの意で「方式」が自然。
+common/locales/ja.yml	file_version.identifier	Identifier	識別	識別子	誤訳	中	「識別」は行為を指し、項目名としては「識別子」が正しい。
+common/locales/ja.yml	extent.number	Number	数	番号	誤訳	中	名前の番号（世数・回次）や電話番号を指し、「数」ではない。
+common/locales/ja.yml	extent.number_tooltip	<p>REQIURED FIELD: A numeric value for indicating the number of units in the extent statement, e.g, 5, 11.5, 245. Used in conjunction with Extent Type to provide a structured extent statement.</p> <p>See DACS 2.5, ISAD(G) 3.1.5</p> 	<p>REQIURED FIELD：エクステント文の単位数を示す数値。たとえば、5,11.5,245など。エクステントタイプと組み合わせて使用​​して、構造化エクステント文を提供します。 </p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	<p>必須フィールド：エクステント文の単位数を示す数値。たとえば、5,11.5,245など。エクステントタイプと組み合わせて使用​​して、構造化エクステント文を提供します。 </p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	未訳	低	REQIURED FIELDが英語のまま。
+common/locales/ja.yml	extent._plural	Extents	エクステント	数量	不自然	中	アーカイブズ記述では「数量（規模）」が通例。
+common/locales/ja.yml	extent._singular	Extent	エクステント	数量	不自然	中	アーカイブズ記述では「数量（規模）」が通例。
+common/locales/ja.yml	rights_statement_external_document.identifier_type	Identifier Type	タイプを識別する	識別子の種類	誤訳	中	名詞句を動詞句に誤訳している。
+common/locales/ja.yml	rights_statement.identifier	Identifier	識別	識別子	誤訳	中	「識別」は行為を指し、項目名としては「識別子」が正しい。
+common/locales/ja.yml	rights_statement.rights_type_tooltip	<p>The basis for the rights statement being made. Four bases are allowed: Copyright, License, Statute, and Other. License is for formal and informal licenses, such as donor and purchase agreements. Statute is for codified laws such as Fair Use or FERPA in the United States. Other is for institutiona	<p>権利行使のための基礎。著作権、ライセンス、法令、その他の4つの拠点が認められています。ライセンスは、ドナー契約や購入契約などの正式および非公式ライセンス用です。 Statuteは、米国におけるFair UseやFERPAなどの法律化された法律のためのものです。その他のものは、制度上の方針、または著作権、ライセンス、法令以外の拠点のためのものです。リポジトリが好きな場合は、ドナーと購入契約にも使用できます。 </p>	<p>権利表明の根拠。著作権、ライセンス、法令、その他の4つの根拠が認められています。ライセンスは、ドナー契約や購入契約などの正式および非公式ライセンス用です。 Statuteは、米国におけるFair UseやFERPAなどの法律化された法律のためのものです。その他のものは、制度上の方針、または著作権、ライセンス、法令以外の拠点のためのものです。リポジトリが好きな場合は、ドナーと購入契約にも使用できます。 </p>	誤訳	中	basis（根拠）を「拠点」「権利行使のための基礎」と誤訳している。
+common/locales/ja.yml	rights_statement._singular	Rights Statement	権利声明	権利表明	不統一	低	同じRights Statementが「権利ステートメント」「権利声明」等ばらついている。
+common/locales/ja.yml	rights_type_copyright.identifier	Identifier	識別	識別子	誤訳	中	「識別」は行為を指し、項目名としては「識別子」が正しい。
+common/locales/ja.yml	rights_type_copyright.rights_type_tooltip	<p>The basis for the rights statement being made. Four bases are allowed: Copyright, License, Statute, and Other. License is for formal and informal licenses, such as donor and purchase agreements. Statute is for codified laws such as Fair Use or FERPA in the United States. Other is for institutiona	<p>権利行使のための基礎。著作権、ライセンス、法令、その他の4つの拠点が認められています。ライセンスは、ドナー契約や購入契約などの正式および非公式ライセンス用です。 Statuteは、米国におけるFair UseやFERPAなどの法律化された法律のためのものです。その他のものは、制度上の方針、または著作権、ライセンス、法令以外の拠点のためのものです。リポジトリが好きな場合は、ドナーと購入契約にも使用できます。 </p>	<p>権利表明の根拠。著作権、ライセンス、法令、その他の4つの根拠が認められています。ライセンスは、ドナー契約や購入契約などの正式および非公式ライセンス用です。 Statuteは、米国におけるFair UseやFERPAなどの法律化された法律のためのものです。その他のものは、制度上の方針、または著作権、ライセンス、法令以外の拠点のためのものです。リポジトリが好きな場合は、ドナーと購入契約にも使用できます。 </p>	誤訳	中	basis（根拠）を「拠点」「権利行使のための基礎」と誤訳している。

@@ -1,0 +1,42 @@
+<%#
+  トップの検索欄の下に、入口のカードを並べる。
+  本体のトップ（welcome/show）は、全プラグインの public/views/_welcome_addition.html.erb を順に差し込む。
+  ひな形そのものは上書きしないので、言葉を直す japanese プラグインとは重ならない。
+  カードはメニューと同じ $MAIN_MENU から作る。AppConfig[:pui_hide] で隠した入口はカードにも出ない。
+  見出しは本体の訳（resource._plural など）をそのまま使い、説明文だけをこのプラグインの訳に持つ。
+  館ごとに説明文を変えたいときは、後ろに並べたプラグインの locales で ja_theme.welcome.desc.* を上書きする。
+%>
+<style>
+  /* 幅は layout_head のトップの検索欄（960px・中央寄せ）にそろえる */
+  .jt-entry { max-width: 960px; margin: 2.5rem auto 1rem; }
+  .jt-entry__heading { font-size: 1rem; font-weight: 700; color: var(--c-sub); margin: 0 0 .9rem; }
+  .jt-entry__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+  .jt-entry__card {
+    display: flex; flex-direction: column; gap: .35rem; height: 100%; padding: 1.1rem 1.2rem 1rem;
+    background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--c-radius);
+    color: var(--c-text); text-decoration: none; transition: border-color .15s, box-shadow .15s, transform .15s;
+  }
+  .jt-entry__card:hover, .jt-entry__card:focus-visible {
+    border-color: var(--c-accent-line); box-shadow: var(--c-shadow-pop); transform: translateY(-1px); text-decoration: none; color: var(--c-text);
+  }
+  .jt-entry__card:focus-visible { outline: none; box-shadow: var(--c-focus-ring); }
+  .jt-entry__title { display: flex; align-items: center; justify-content: space-between; gap: .5rem; font-weight: 700; font-size: 1.05rem; color: var(--c-accent-dark); }
+  .jt-entry__title::after { content: "→"; font-weight: 400; color: var(--c-accent); transition: transform .15s; }
+  .jt-entry__card:hover .jt-entry__title::after { transform: translateX(3px); }
+  .jt-entry__desc { font-size: .88rem; line-height: 1.6; color: var(--c-muted); }
+  @media (max-width: 575px) { .jt-entry__list { grid-template-columns: 1fr; gap: 10px; } }
+</style>
+<nav class="jt-entry" aria-labelledby="jt-entry-heading">
+  <h2 class="jt-entry__heading" id="jt-entry-heading"><%= t('ja_theme.welcome.heading') %></h2>
+  <ul class="jt-entry__list">
+    <% $MAIN_MENU.each do |path, label_key| %>
+      <% desc = t("ja_theme.welcome.desc.#{label_key.split('.').first}", default: '') %>
+      <li>
+        <a class="jt-entry__card" href="<%= app_prefix(path) %>">
+          <span class="jt-entry__title"><%= t(label_key) %></span>
+          <% unless desc.blank? %><span class="jt-entry__desc"><%= desc %></span><% end %>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+</nav>

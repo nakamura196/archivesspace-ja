@@ -1,0 +1,936 @@
+common_locales	digital_object.linker.browse	Browse Digital Objects
+common_locales	digital_object.linker.create	Create Digital Object
+common_locales	digital_object.linker.link_title	Link to digital object
+common_locales	digital_object_component.linker.browse	Browse Digital Objects
+common_locales	digital_object_component.linker.create	Create Digital Object
+common_locales	digital_object_component.linker.link_title	Link to digital object
+common_locales	location.new_title	New Location
+common_locales	location.linker.browse	Browse Locations
+common_locales	location.linker.create	Create Location
+common_locales	location.linker.link_title	Link to location
+common_locales	location_batch.new_title	New Location
+common_locales	location_batch.linker.browse	Browse Locations
+common_locales	location_batch.linker.create	Create Location
+common_locales	location_batch.linker.link_title	Link to location
+common_locales	linked_record.linker_ref.browse	Browse Records
+common_locales	linked_record.linker_ref.create	Create Record
+common_locales	linked_record.linker_ref.link_title	Link to record
+common_locales	event.new_title	New Event
+common_locales	linked_event.new_title	New Event
+common_locales	agent_resource.file_uri_tooltip	<p>A URI for the online location of the source used in the preparation of the Agent description. Example: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (for Find-A-Grave entry for Robert W. Service).</p> 
+common_locales	accession.new_title	New Accession
+common_locales	accession.linker.browse	Browse Accessions
+common_locales	accession.linker.create	Create Accession
+common_locales	accession.linker.link_title	Link to accession
+common_locales	agent.new_title.agent_family	New Family
+common_locales	agent.new_title.agent_person	New Person
+common_locales	agent.new_title.agent_corporate_entity	New Corporate Entity
+common_locales	agent.new_title.agent_software	New Software
+common_locales	agent.linker.create	Create Agent
+common_locales	agent.linker.browse	Browse Agents
+common_locales	agent.linker.link_title	Link to agent
+common_locales	agent_person.new_title.agent_family	New Family
+common_locales	agent_person.new_title.agent_person	New Person
+common_locales	agent_person.new_title.agent_corporate_entity	New Corporate Entity
+common_locales	agent_person.new_title.agent_software	New Software
+common_locales	agent_person.linker.create	Create Agent
+common_locales	agent_person.linker.browse	Browse Agents
+common_locales	agent_person.linker.link_title	Link to agent
+common_locales	agent_family.new_title.agent_family	New Family
+common_locales	agent_family.new_title.agent_person	New Person
+common_locales	agent_family.new_title.agent_corporate_entity	New Corporate Entity
+common_locales	agent_family.new_title.agent_software	New Software
+common_locales	agent_family.linker.create	Create Agent
+common_locales	agent_family.linker.browse	Browse Agents
+common_locales	agent_family.linker.link_title	Link to agent
+common_locales	agent_software.new_title.agent_family	New Family
+common_locales	agent_software.new_title.agent_person	New Person
+common_locales	agent_software.new_title.agent_corporate_entity	New Corporate Entity
+common_locales	agent_software.new_title.agent_software	New Software
+common_locales	agent_software.linker.create	Create Agent
+common_locales	agent_software.linker.browse	Browse Agents
+common_locales	agent_software.linker.link_title	Link to agent
+common_locales	agent_corporate_entity.new_title.agent_family	New Family
+common_locales	agent_corporate_entity.new_title.agent_person	New Person
+common_locales	agent_corporate_entity.new_title.agent_corporate_entity	New Corporate Entity
+common_locales	agent_corporate_entity.new_title.agent_software	New Software
+common_locales	agent_corporate_entity.linker.create	Create Agent
+common_locales	agent_corporate_entity.linker.browse	Browse Agents
+common_locales	agent_corporate_entity.linker.link_title	Link to agent
+common_locales	group.default_group_names.repository_managers	Managers of the %{repo_code} repository
+common_locales	group.default_group_names.repository_archivists	Archivists of the %{repo_code} repository
+common_locales	group.default_group_names.project_managers	Project managers of the %{repo_code} repository
+common_locales	group.default_group_names.advanced_data_entry	Advanced Data Entry users of the %{repo_code} repository
+common_locales	group.default_group_names.basic_data_entry	Basic Data Entry users of the %{repo_code} repository
+common_locales	group.default_group_names.repository_viewers	Viewers of the %{repo_code} repository
+common_locales	resource.is_finding_aid_status_published	Finding Aid Status Published?
+common_locales	resource.is_finding_aid_status_published_tooltip	<p>Determines whether Finding Aid Status is exposed publically.</p> 
+common_locales	resource.new_title	New Resource
+common_locales	repository.ark_shoulder	ARK Shoulder (local namespace)
+common_locales	repository.ark_shoulder_tooltip	Per-repository string to be included in generated ARKs
+common_locales	repository.new_title	New Repository
+common_locales	repository.linker.browse	Browse Repositories
+common_locales	repository.linker.create	Create Repository
+common_locales	repository.linker.link_title	Link to repository
+common_locales	repository.position	Position
+common_locales	subject.new_title	New Subject
+common_locales	subject.linker.browse	Browse Subjects
+common_locales	subject.linker.create	Create Subject
+common_locales	subject.linker.link_title	Link to subject
+common_locales	user.reset_password	Reset Password
+common_locales	enumeration.default	Default
+common_locales	classification.new_title	New Classification
+common_locales	classification.linker.browse	Browse Classifications
+common_locales	classification.linker.create	Create Classification
+common_locales	classification.linker.link_title	Link to classification
+common_locales	classification_term.linker.browse	Browse Classification Terms
+common_locales	classification_term.linker.create	Create Classification Term
+common_locales	classification_term.linker.link_title	Link to classification term
+common_locales	defaults.include_unpublished	Include Unpublished Records in Exports?
+common_locales	defaults.rde_sort_alpha	Display RDE Templates Alphabetically?
+common_locales	defaults.top_container_mgmt_browse_section	Top Container Management Browse Columns
+common_locales	reports.parameters.rating	Rating
+common_locales	reports.parameters.values	Values
+common_locales	validation_errors.missing_required_subrecord	Subrecord is required but was missing
+common_locales	validation_errors.missing_end_filter_date	Start and end dates are required to filter by date. Please provide an end date.
+common_locales	validation_errors.missing_start_filter_date	Start and end dates are required to filter by date. Please provide a start date.
+common_locales	validation_errors.ark_collision	There was a problem while generating an ARK for this record. Please contact your system administrator.
+common_locales	validation_errors.external_ark_collision	External ARK already in use
+common_locales	validation_errors.ark_format_error	One of the ARKs provided was not a valid ARK.
+common_locales	job.new_title	New Background Job
+common_locales	job.types.ns2_remover_job	ns2 Namespace Remover
+common_locales	job.queue_position	No. %{position}
+common_locales	import_job.import_subjects	Import and Link related Subjects?
+common_locales	import_job.import_repository	Link imported locations to current repository?
+common_locales	import_job.import_type_subject_csv	Subject CSV
+common_locales	import_job.bulk_import_csv	Bulk Import AO CSV
+common_locales	import_job.bulk_import_xlsx	Bulk Import AO XLSX
+common_locales	import_job.bulk_import_DO_csv	Bulk Import DO CSV
+common_locales	import_job.bulk_import_DO_xlsx	Bulk Import DO XLSX
+common_locales	import_job.import_subject_csv	Subject CSV
+common_locales	ns2_remover_job.description	Archivists' Toolit-era EADs imported into ASpace may have vestigal "ns2" namespace references pre-pended to various EAD tag attributes inside note subrecords. This may produce validation errors on EAD export from ArchivesSpace, as the root <ead> tag doesn't declare the "ns2" namespace. This job bulk
+common_locales	ns2_remover_job.dry_run	Dry run?
+common_locales	assessment.new_title	New Assessment
+common_locales	assessment.linker.link_title	Link to record
+common_locales	bulk_import_template._singular	Bulk Import Template
+common_locales	bulk_import_template._plural	Bulk Import Templates
+common_locales	bulk_import.templates	Bulk Import Templates
+common_locales	bulk_import.error.era	Invalid 'date era' ignored for %{date_str}: (%{what})
+common_locales	bulk_import.error.calendar	Invalid 'date calendar' ignored for %{date_str}: (%{what})
+common_locales	bulk_import.error.utf8	This spreadsheet has some invalid or corrupt text that cannot be processed.
+common_locales	arks.ark	ARK
+common_locales	arks.edit	Edit ARKs
+common_locales	arks.current	current
+common_locales	arks.remove_ark	Remove
+common_locales	arks.add_new	Add new ARK
+common_locales	arks.set_current	Set to current
+common_locales	arks.save	Save ARKs
+common_locales	arks.no_changes	No changes to save
+common_locales	arks.modal_title	Edit ARKs for current record
+common_locales	arks.actions	Actions
+common_locales	arks.unsubmitted_input	You have unsubmitted input
+common_locales	arks.only_current_ark_can_be_external	The current ARK cannot be replaced while it is marked as external.
+common_locales	arks.ark_editor_errors.ark_collision	One of the ARKs provided is already in use.
+common_locales	arks.ark_editor_errors.ark_format_error	One of the ARKs provided was not a valid ARK.
+common_locales	container_profile.title	%{name} [%{depth}d, %{height}h, %{width}w %{dimension_units}] extent measured by %{extent_dimension}
+common_locales	container_profile.new_title	New Container Profile
+common_locales	location_profile.new_title	New Location Profile
+common_locales_enums	enumerations.maintenance_status.deleted_merged	Deleted-Merged
+common_locales_enums	enumerations.subject_source.not_applicable	Not applicable
+common_locales_enums	enumerations.subject_source.not_specified	Source not specified
+common_locales_enums	enumerations.subject_source.other	Other
+common_locales_enums	enumerations.subject_source.sears	Sears List of Subject Heading
+frontend_config_locales	actions.require_subrecord	Require Subrecord
+frontend_config_locales	actions.select_resource	Select Resource
+frontend_config_locales	actions.reorder_successful	Repositories successfully reordered
+frontend_config_locales	search.accession.uri	URI
+frontend_config_locales	search.resource.uri	URI
+frontend_config_locales	search.archival_object.uri	URI
+frontend_config_locales	search.subject.uri	URI
+frontend_config_locales	search.digital_object.uri	URI
+frontend_config_locales	search.digital_object_component.uri	URI
+frontend_config_locales	search.agent.uri	URI
+frontend_config_locales	search.location.location_no_holdings	No holdings for this repository.
+frontend_config_locales	search.location.location_one_top_container	1 top container.
+frontend_config_locales	search.location.location_top_containers	 top containers.
+frontend_config_locales	search.location.uri	URI
+frontend_config_locales	search.event.uri	URI
+frontend_config_locales	search.collection_management.name	Collection Management
+frontend_config_locales	search.collection_management.uri	URI
+frontend_config_locales	search.classification.uri	URI
+frontend_config_locales	search.assessment.uri	URI
+frontend_config_locales	search.repositories.uri	URI
+frontend_config_locales	search.top_container.uri	URI
+frontend_config_locales	search.top_container.series_level_u_sstr	Series
+frontend_config_locales	search.top_container.collection_identifier_stored_u_sstr	Collection
+frontend_config_locales	search.top_container.ils_holding_id	ILS Holding ID
+frontend_config_locales	search.top_container.exported_to_ils	Exported to ILS
+frontend_config_locales	search.top_container_mgmt.resource_accession	Resource/Accession
+frontend_config_locales	search.top_container_mgmt.resource_accession_id	Resource/Accession ID
+frontend_config_locales	search.top_container_mgmt.series	Series
+frontend_config_locales	search.top_container_mgmt.container_profile	Container Profile
+frontend_config_locales	search.top_container_mgmt.location_profile	Location Profile
+frontend_config_locales	search.top_container_mgmt.type	Type
+frontend_config_locales	search.top_container_mgmt.indicator	Indicator
+frontend_config_locales	search.top_container_mgmt.barcode	Barcode
+frontend_config_locales	search.top_container_mgmt.internal_note	Internal Note
+frontend_config_locales	search.top_container_mgmt.location	Location
+frontend_config_locales	search.top_container_mgmt.restricted	Restricted
+frontend_config_locales	search.top_container_mgmt.not_restricted	Not Restricted
+frontend_config_locales	search.top_container_mgmt.ils_holding_id	ILS Holding ID
+frontend_config_locales	search.top_container_mgmt.exported_to_ils	Exported to ILS
+frontend_config_locales	search.top_container_mgmt.not_exported_to_ils	Not Exported
+frontend_config_locales	search.top_container_mgmt.asc	Ascending
+frontend_config_locales	search.top_container_mgmt.desc	Descending
+frontend_config_locales	search.container_profile.notes	Note
+frontend_config_locales	search.container_profile.uri	URI
+frontend_config_locales	search.location_profile.uri	URI
+frontend_config_locales	search.job.uri	URI
+frontend_config_locales	search.multi.uri	URI
+frontend_config_locales	advanced_search.enum_field.label	Advanced search enumerations
+frontend_config_locales	advanced_search.add_row	Add Row
+frontend_config_locales	become-user.username	Username
+frontend_config_locales	navbar.repository_settings	Repository settings
+frontend_config_locales	navbar.global_settings	Global Settings
+frontend_config_locales	footer.keyboard_shortcuts	Keyboard Shortcuts
+frontend_config_locales	footer.public_interface_html	View <a href="%{public_url}">Public Interface</a>
+frontend_config_locales	footer.archivesspace_home_html	Powered by <a href='http://archivesspace.org'>ArchivesSpace</a>
+frontend_config_locales	footer.feedback_html	<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>Feedback or questions</a>
+frontend_config_locales	login.username_placeholder	Username
+frontend_config_locales	login.password_placeholder	Password
+frontend_config_locales	login.confirm_password	Confirm Password
+frontend_config_locales	login.username_aria_label	User Name
+frontend_config_locales	login.password_aria_label	User Password
+frontend_config_locales	login.lost_password	Forgot Password?
+frontend_config_locales	login.reset_password	Reset Password
+frontend_config_locales	login.recover_password	Recover Password
+frontend_config_locales	login.email_placeholder	Email Address
+frontend_config_locales	login.reset_form_instructions	Enter the email associated with your user account. If an account exists for that email address, a link to reset your password will be sent to that email address.
+frontend_config_locales	login.new_password	New Password
+frontend_config_locales	login.new_password_instructions	Create a new password for %{user} using the form, then login again.
+frontend_config_locales	login.password_mismatch_error	Passwords do not match.
+frontend_config_locales	login.password_update_success	Password successfully updated.
+frontend_config_locales	login.password_update_error	Password could not be updated. Try again or contact an administrator.
+frontend_config_locales	login.password_too_simple	This password is too easy to guess. Try adding words or use a random password generator.
+frontend_config_locales	component_link._plural	Component Links
+frontend_config_locales	component_link._singular	Component Link
+frontend_config_locales	component_link._frontend.action.add	Add Component Link
+frontend_config_locales	accession_link._plural	Accession Links
+frontend_config_locales	accession_link._singular	Accesssion Link
+frontend_config_locales	accession_link._frontend.action.add	Add Accession Link
+frontend_config_locales	accession.component_link	Linked Component
+frontend_config_locales	accession.component_links	Linked Components
+frontend_config_locales	agent._frontend.section.events	Events
+frontend_config_locales	archival_object.new_title	New Archival Object
+frontend_config_locales	archival_object._frontend.messages.transfer_description	Select a resource to transfer this archival object into
+frontend_config_locales	archival_object._frontend.messages.spawned	This Archival Object has been spawned from Accession <strong>%{accession_display_string}</strong>. This record is unsaved. You must click Save for the record to be created in the system.
+frontend_config_locales	archival_object._frontend.messages.spawn_placeholder	Spawned component will be inserted here
+frontend_config_locales	archival_object._frontend.messages.spawn_menu_before	Insert spawned component before
+frontend_config_locales	archival_object._frontend.messages.spawn_menu_child	Insert spawned component as child
+frontend_config_locales	archival_object._frontend.messages.spawn_menu_after	Insert spawned component after
+frontend_config_locales	archival_object._frontend.action.select_resource	Select Resource
+frontend_config_locales	archival_object._frontend.action.select_parent_and_position	Select Component Position
+frontend_config_locales	archival_object._frontend.action.leave_parent_empty	Close / Do not Assign Parent
+frontend_config_locales	structured_date_label_existence.date_label	Label
+frontend_config_locales	structured_date_label_existence.date_type_structured	Date Type
+frontend_config_locales	structured_date_label_existence.date_certainty	Certainty
+frontend_config_locales	structured_date_label_existence.date_era	Era
+frontend_config_locales	structured_date_label_existence.date_calendar	Calendar
+frontend_config_locales	structured_date_label_usage.date_label	Label
+frontend_config_locales	structured_date_label_usage.date_type_structured	Date Type
+frontend_config_locales	structured_date_label_usage.date_certainty	Certainty
+frontend_config_locales	structured_date_label_usage.date_era	Era
+frontend_config_locales	structured_date_label_usage.date_calendar	Calendar
+frontend_config_locales	enumeration._frontend.messages.not_used	Not Used.
+frontend_config_locales	enumeration._frontend.messages.one_related_item	1 related item.
+frontend_config_locales	enumeration._frontend.messages.related_items	 related items.
+frontend_config_locales	name._frontend.section.place_subject	Place Subject
+frontend_config_locales	name._frontend.section.topic_subject	Topic Subject
+frontend_config_locales	name._frontend.section.name_subject	Name Subject
+frontend_config_locales	name._frontend.section.function_subject	Function Subject
+frontend_config_locales	name._frontend.section.occupation_subject	Occupation Subject
+frontend_config_locales	name._frontend.action.make_authorized_tooltip	Use to indicate the name form is the authorized version of the name by authoritative sources such as LCNAF.
+frontend_config_locales	name._frontend.action.make_display_name_tooltip	Use to indicate that this form of the name should be used for displays when there are multiple name forms associated with the agent record.
+frontend_config_locales	name._frontend.action.make_primary	Make Primary
+frontend_config_locales	name._frontend.action.make_primary_tooltip	Make Primary Tooltip
+frontend_config_locales	repository._frontend.action.order_for_pui	Set Order in Public Interface
+frontend_config_locales	resource._frontend.remove_subrecord	Remove sub-record
+frontend_config_locales	resource.linker.browse	Browse Resources
+frontend_config_locales	resource.linker.link_title	Browse
+frontend_config_locales	resource.linker.link_to	Link to Resource
+frontend_config_locales	user.source	Authentication
+frontend_config_locales	user._frontend.messages.password_reset_email_sent	If an account for %{email} exists, an email with instructions for resetting your password will be sent.
+frontend_config_locales	user._frontend.messages.error_not_found	A username account for %{email} could not be found. Contact your administrator for help.
+frontend_config_locales	user._frontend.messages.password_reset_not_allowed	Password Recovery is not allowed. Contact your administrator.
+frontend_config_locales	user._frontend.messages.password_reset_fail	Password Recovery failed. Contact your administrator.
+frontend_config_locales	user._frontend.section.new_account	New Account
+frontend_config_locales	user._frontend.action.update_self	Manage User Account
+frontend_config_locales	rde.help.keyboard_shortcuts.title	Keyboard Shortcuts
+frontend_config_locales	rde.help.keyboard_shortcuts.shift	SHIFT
+frontend_config_locales	rde.help.keyboard_shortcuts.arrow_keys	Arrow Keys
+frontend_config_locales	rde.help.keyboard_shortcuts.return	Return
+frontend_config_locales	rde.help.keyboard_shortcuts.move_term	Jump from cell to cell
+frontend_config_locales	rde.help.keyboard_shortcuts.new_term	Create a new row (from last row)
+frontend_config_locales	rde.help.sticky_columns.title	Sticky Columns
+frontend_config_locales	rde.help.sticky_columns.p_one	Highlighted columns are sticky and will be replicated when new rows are added. Toggle 'sticky' by clicking the corresponding table heading.
+frontend_config_locales	rde.help.sticky_columns.p_two	Clicking <strong>Add Row</strong> will copy values from the last row. The row's <strong>+</strong> button will copy values from the currently focused row.
+frontend_config_locales	rde.help.fill_column.basic_title	Fill Column - Basic
+frontend_config_locales	rde.help.fill_column.basic_description	To fill a column with a single value, click <strong>Fill Column</strong> and under the <strong>Basic</strong> tab select the target <strong>Column</strong>, enter the desired <strong>Fill Value</strong> and click <strong>Apply Fill</strong>.
+frontend_config_locales	rde.help.fill_column.sequence_title	Fill Column - Sequence
+frontend_config_locales	rde.help.fill_column.sequence_description	To apply a sequence to a column, click <strong>Fill Column</strong> and under the <strong>Sequence</strong> tab select the target <strong>Column</strong> and complete the <strong>Fill Value</strong> fields to generate the sequence you desire. A warning will be displayed if the sequence generated wil
+frontend_config_locales	rde.help.reorder_columns.title	Reorder Columns
+frontend_config_locales	rde.help.reorder_columns.description	Click <strong>Reorder columns</strong>, select the row(s) you wish to reorder and use the up/down arrow buttons to change their position in the list. When happy with your new ordering, click <strong>Apply Column Order</strong>.
+frontend_config_locales	rde.help.reset.title	Reset Form
+frontend_config_locales	rde.help.reset.description	Click <strong>Reset</strong> to clear the form and revert the sticky, visible and order of the columns to the default values.
+frontend_config_locales	job._frontend.singular	Job
+frontend_config_locales	job._frontend.plural	Jobs
+frontend_config_locales	job._frontend.external_repo	Record belongs to a different repository
+frontend_config_locales	top_container.internal_note	Internal Note
+frontend_config_locales	top_container.internal_note_tooltip	<p>Notes for internal use. Only visible in staff interface.</p> 
+frontend_config_locales	top_container._frontend.bulk_operations.collection_resource_linker.browse	Browse Resources
+frontend_config_locales	top_container._frontend.bulk_operations.collection_resource_linker.create	Create Resource
+frontend_config_locales	top_container._frontend.bulk_operations.collection_resource_linker.link_title	Link to resource
+frontend_config_locales	top_container._frontend.bulk_operations.collection_accession_linker.browse	Browse Accessions
+frontend_config_locales	top_container._frontend.bulk_operations.collection_accession_linker.create	Create Accession
+frontend_config_locales	top_container._frontend.bulk_operations.collection_accession_linker.link_title	Link to accession
+frontend_config_locales	top_container._frontend.bulk_operations.rapid_indicator_entry	Update Indicators
+frontend_config_locales	top_container._frontend.bulk_operations.rapid_indicator_entry_new_indicator	New Indicator
+frontend_config_locales	top_container._frontend.bulk_operations.rapid_indicator_entry_help	Enter an indicator for each selected container. Leave the New Indicator field blank to leave it unchanged.
+frontend_config_locales	top_container.linker.browse	Browse Top Containers
+frontend_config_locales	top_container.linker.create	Create Top Container
+frontend_config_locales	top_container.linker.link_title	Link to top container
+frontend_config_locales	container_profile.notes	Note
+frontend_config_locales	container_profile.notes_tooltip	<p>A note for miscellaneous information/metadata.</p> 
+frontend_config_locales	container_profile.linker.browse	Browse Container Profiles
+frontend_config_locales	container_profile.linker.create	Create Container Profile
+frontend_config_locales	container_profile.linker.link_title	Link to container profile
+frontend_config_locales	location_profile.linker.browse	Browse Location Profiles
+frontend_config_locales	location_profile.linker.create	Create Location Profile
+frontend_config_locales	location_profile.linker.link_title	Link to location profile
+frontend_config_locales	custom_report_template.new_title	New Custom Report Template
+frontend_config_locales	custom_report_template._frontend.action.search_usernames	Search Usernames
+frontend_config_locales	agent_record_controls._plural	Record Info
+frontend_config_locales	agent_record_controls._singular	Record Info
+frontend_config_locales	agent_record_controls._frontend.action.add	Add Record Info
+frontend_config_locales	agent_record_controls.maintenance_status	Record Control Maintenance Status
+frontend_config_locales	agent_record_controls.publication_status	Record Control Publication Status
+frontend_config_locales	agent_record_controls.romanization	Romanization
+frontend_config_locales	agent_record_controls.government_agency_type	Record Control Government Agency Type
+frontend_config_locales	agent_record_controls.reference_evaluation	Record Control Reference Evaluation
+frontend_config_locales	agent_record_controls.name_type	Record Control Name Type
+frontend_config_locales	agent_record_controls.level_of_detail	Record Control Level of Detail
+frontend_config_locales	agent_record_controls.modified_record	Record Control Modified Type
+frontend_config_locales	agent_record_controls.cataloging_source	Record Control Cataloging Source
+frontend_config_locales	agent_record_controls.maintenance_agency	Maintenance Agency
+frontend_config_locales	agent_record_controls.agency_name	Agency Name
+frontend_config_locales	agent_record_controls.maintenance_agency_note	Maintenance Agency Note
+frontend_config_locales	agent_record_controls.language	Language
+frontend_config_locales	agent_record_controls.script	Script
+frontend_config_locales	agent_record_controls.language_note	Language Note
+frontend_config_locales	agent_record_control_required._plural	Record Info
+frontend_config_locales	agent_record_control_required._singular	Record Info
+frontend_config_locales	agent_record_control_required._frontend.action.add	Add Record Info
+frontend_config_locales	agent_record_control_required.maintenance_status	Record Control Maintenance Status
+frontend_config_locales	agent_record_control_required.publication_status	Record Control Publication Status
+frontend_config_locales	agent_record_control_required.romanization	Romanization
+frontend_config_locales	agent_record_control_required.government_agency_type	Record Control Government Agency Type
+frontend_config_locales	agent_record_control_required.reference_evaluation	Record Control Reference Evaluation
+frontend_config_locales	agent_record_control_required.name_type	Record Control Name Type
+frontend_config_locales	agent_record_control_required.level_of_detail	Record Control Level of Detail
+frontend_config_locales	agent_record_control_required.modified_record	Record Control Modified Type
+frontend_config_locales	agent_record_control_required.cataloging_source	Record Control Cataloging Source
+frontend_config_locales	agent_record_control_required.maintenance_agency	Maintenance Agency
+frontend_config_locales	agent_record_control_required.agency_name	Agency Name
+frontend_config_locales	agent_record_control_required.maintenance_agency_note	Maintenance Agency Note
+frontend_config_locales	agent_record_control_required.language	Language
+frontend_config_locales	agent_record_control_required.script	Script
+frontend_config_locales	agent_record_control_required.language_note	Language Note
+frontend_config_locales	agent_record_control_merge_destination._plural	Record Info
+frontend_config_locales	agent_record_control_merge_destination._singular	Record Info
+frontend_config_locales	agent_record_control_merge_destination._frontend.action.add	Add Record Info
+frontend_config_locales	agent_record_control_merge_destination.maintenance_status	Record Control Maintenance Status
+frontend_config_locales	agent_record_control_merge_destination.publication_status	Record Control Publication Status
+frontend_config_locales	agent_record_control_merge_destination.romanization	Romanization
+frontend_config_locales	agent_record_control_merge_destination.government_agency_type	Record Control Government Agency Type
+frontend_config_locales	agent_record_control_merge_destination.reference_evaluation	Record Control Reference Evaluation
+frontend_config_locales	agent_record_control_merge_destination.name_type	Record Control Name Type
+frontend_config_locales	agent_record_control_merge_destination.level_of_detail	Record Control Level of Detail
+frontend_config_locales	agent_record_control_merge_destination.modified_record	Record Control Modified Type
+frontend_config_locales	agent_record_control_merge_destination.cataloging_source	Record Control Cataloging Source
+frontend_config_locales	agent_record_control_merge_destination.maintenance_agency	Maintenance Agency
+frontend_config_locales	agent_record_control_merge_destination.agency_name	Agency Name
+frontend_config_locales	agent_record_control_merge_destination.maintenance_agency_note	Maintenance Agency Note
+frontend_config_locales	agent_record_control_merge_destination.language	Language
+frontend_config_locales	agent_record_control_merge_destination.script	Script
+frontend_config_locales	agent_record_control_merge_destination.language_note	Language Note
+frontend_config_locales	agent_record_control_merge_candidate._plural	Record Info
+frontend_config_locales	agent_record_control_merge_candidate._singular	Record Info
+frontend_config_locales	agent_record_control_merge_candidate._frontend.action.add	Add Record Info
+frontend_config_locales	agent_record_control_merge_candidate.maintenance_status	Record Control Maintenance Status
+frontend_config_locales	agent_record_control_merge_candidate.publication_status	Record Control Publication Status
+frontend_config_locales	agent_record_control_merge_candidate.romanization	Romanization
+frontend_config_locales	agent_record_control_merge_candidate.government_agency_type	Record Control Government Agency Type
+frontend_config_locales	agent_record_control_merge_candidate.reference_evaluation	Record Control Reference Evaluation
+frontend_config_locales	agent_record_control_merge_candidate.name_type	Record Control Name Type
+frontend_config_locales	agent_record_control_merge_candidate.level_of_detail	Record Control Level of Detail
+frontend_config_locales	agent_record_control_merge_candidate.modified_record	Record Control Modified Type
+frontend_config_locales	agent_record_control_merge_candidate.cataloging_source	Record Control Cataloging Source
+frontend_config_locales	agent_record_control_merge_candidate.maintenance_agency	Maintenance Agency
+frontend_config_locales	agent_record_control_merge_candidate.agency_name	Agency Name
+frontend_config_locales	agent_record_control_merge_candidate.maintenance_agency_note	Maintenance Agency Note
+frontend_config_locales	agent_record_control_merge_candidate.language	Language
+frontend_config_locales	agent_record_control_merge_candidate.script	Script
+frontend_config_locales	agent_record_control_merge_candidate.language_note	Language Note
+frontend_config_locales	agent_genders._plural	Genders
+frontend_config_locales	agent_genders._singular	Gender
+frontend_config_locales	agent_genders._frontend.action.add	Add Gender
+frontend_config_locales	agent_genders.gender	Gender
+frontend_config_locales	agent_genders.note	Note
+frontend_config_locales	agent_genders.dates	Dates
+frontend_config_locales	agent_gender_required._plural	Genders
+frontend_config_locales	agent_gender_required._singular	Gender
+frontend_config_locales	agent_gender_required._frontend.action.add	Add Gender
+frontend_config_locales	agent_gender_required.gender	Gender
+frontend_config_locales	agent_gender_required.note	Note
+frontend_config_locales	agent_gender_required.dates	Dates
+frontend_config_locales	agent_gender_merge_destination._plural	Genders
+frontend_config_locales	agent_gender_merge_destination._singular	Gender
+frontend_config_locales	agent_gender_merge_destination._frontend.action.add	Add Gender
+frontend_config_locales	agent_gender_merge_destination.gender	Gender
+frontend_config_locales	agent_gender_merge_destination.note	Note
+frontend_config_locales	agent_gender_merge_destination.dates	Dates
+frontend_config_locales	agent_gender_merge_candidate._plural	Genders
+frontend_config_locales	agent_gender_merge_candidate._singular	Gender
+frontend_config_locales	agent_gender_merge_candidate._frontend.action.add	Add Gender
+frontend_config_locales	agent_gender_merge_candidate.gender	Gender
+frontend_config_locales	agent_gender_merge_candidate.note	Note
+frontend_config_locales	agent_gender_merge_candidate.dates	Dates
+frontend_config_locales	used_language_required._plural	Languages Used
+frontend_config_locales	used_language_required._singular	Language Used
+frontend_config_locales	used_language_required._frontend.action.add	Add Language
+frontend_config_locales	used_language_required.language	Language
+frontend_config_locales	used_language_required.script	Script
+frontend_config_locales	used_languages._plural	Languages Used
+frontend_config_locales	used_languages._singular	Language Used
+frontend_config_locales	used_languages._frontend.action.add	Add Language
+frontend_config_locales	used_languages.language	Language
+frontend_config_locales	used_languages.script	Script
+frontend_config_locales	used_language_merge_candidate._plural	Languages Used
+frontend_config_locales	used_language_merge_candidate._singular	Language Used
+frontend_config_locales	used_language_merge_candidate._frontend.action.add	Add Language
+frontend_config_locales	used_language_merge_candidate.language	Language
+frontend_config_locales	used_language_merge_candidate.script	Script
+frontend_config_locales	used_language_merge_destination._plural	Languages Used
+frontend_config_locales	used_language_merge_destination._singular	Language Used
+frontend_config_locales	used_language_merge_destination._frontend.action.add	Add Language
+frontend_config_locales	used_language_merge_destination.language	Language
+frontend_config_locales	used_language_merge_destination.script	Script
+frontend_config_locales	agent_identifiers._plural	Entity IDs
+frontend_config_locales	agent_identifiers._singular	Identifier
+frontend_config_locales	agent_identifiers._frontend.action.add	Add Entity ID
+frontend_config_locales	agent_identifiers.identifier_type	Identifier Type
+frontend_config_locales	agent_identifiers.entity_identifier	Entity IDs
+frontend_config_locales	agent_identifier_required._plural	Entity IDs
+frontend_config_locales	agent_identifier_required._singular	Identifier
+frontend_config_locales	agent_identifier_required._frontend.action.add	Add Entity ID
+frontend_config_locales	agent_identifier_required.identifier_type	Identifier Type
+frontend_config_locales	agent_identifier_required.entity_identifier	Entity IDs
+frontend_config_locales	agent_identifier_merge_destination._plural	Entity IDs
+frontend_config_locales	agent_identifier_merge_destination._singular	Identifier
+frontend_config_locales	agent_identifier_merge_destination._frontend.action.add	Add Entity ID
+frontend_config_locales	agent_identifier_merge_destination.identifier_type	Identifier Type
+frontend_config_locales	agent_identifier_merge_destination.entity_identifier	Entity IDs
+frontend_config_locales	agent_identifier_merge_candidate._plural	Entity IDs
+frontend_config_locales	agent_identifier_merge_candidate._singular	Identifier
+frontend_config_locales	agent_identifier_merge_candidate._frontend.action.add	Add Entity ID
+frontend_config_locales	agent_identifier_merge_candidate.identifier_type	Identifier Type
+frontend_config_locales	agent_identifier_merge_candidate.entity_identifier	Entity IDs
+frontend_config_locales	agent_place_required._frontend.action.add	Add Place
+frontend_config_locales	agent_place_required.section.dates	Dates
+frontend_config_locales	agent_place_required._plural	Places
+frontend_config_locales	agent_place_required._singular	Place
+frontend_config_locales	agent_place_required.place_role	Agent Place Role
+frontend_config_locales	agent_place_required.text_note	Note
+frontend_config_locales	agent_place_required.dates	Dates
+frontend_config_locales	agent_place_required.subjects	Places
+frontend_config_locales	agent_place_required.publish	Published
+frontend_config_locales	agent_places._frontend.action.add	Add Place
+frontend_config_locales	agent_places.section.dates	Dates
+frontend_config_locales	agent_places._plural	Places
+frontend_config_locales	agent_places._singular	Place
+frontend_config_locales	agent_places.place_role	Agent Place Role
+frontend_config_locales	agent_places.text_note	Note
+frontend_config_locales	agent_places.dates	Dates
+frontend_config_locales	agent_places.subjects	Places
+frontend_config_locales	agent_places.publish	Published
+frontend_config_locales	agent_place_merge_destination._frontend.action.add	Add Place
+frontend_config_locales	agent_place_merge_destination.section.dates	Dates
+frontend_config_locales	agent_place_merge_destination._plural	Places
+frontend_config_locales	agent_place_merge_destination._singular	Place
+frontend_config_locales	agent_place_merge_destination.place_role	Agent Place Role
+frontend_config_locales	agent_place_merge_destination.text_note	Note
+frontend_config_locales	agent_place_merge_destination.dates	Dates
+frontend_config_locales	agent_place_merge_destination.subjects	Places
+frontend_config_locales	agent_place_merge_destination.publish	Published
+frontend_config_locales	agent_place_merge_candidate._frontend.action.add	Add Place
+frontend_config_locales	agent_place_merge_candidate.section.dates	Dates
+frontend_config_locales	agent_place_merge_candidate._plural	Places
+frontend_config_locales	agent_place_merge_candidate._singular	Place
+frontend_config_locales	agent_place_merge_candidate.place_role	Agent Place Role
+frontend_config_locales	agent_place_merge_candidate.text_note	Note
+frontend_config_locales	agent_place_merge_candidate.dates	Dates
+frontend_config_locales	agent_place_merge_candidate.subjects	Places
+frontend_config_locales	agent_place_merge_candidate.publish	Published
+frontend_config_locales	agent_occupation_required._frontend.action.add	Add Occupation
+frontend_config_locales	agent_occupation_required.section.dates	Dates
+frontend_config_locales	agent_occupation_required._plural	Occupations
+frontend_config_locales	agent_occupation_required._singular	Occupation
+frontend_config_locales	agent_occupation_required.text_note	Note
+frontend_config_locales	agent_occupation_required.dates	Dates
+frontend_config_locales	agent_occupation_required.subjects	Occupations
+frontend_config_locales	agent_occupation_required.places	Places
+frontend_config_locales	agent_occupation_required.publish	Published
+frontend_config_locales	agent_occupations._frontend.action.add	Add Occupation
+frontend_config_locales	agent_occupations.section.dates	Dates
+frontend_config_locales	agent_occupations._plural	Occupations
+frontend_config_locales	agent_occupations._singular	Occupation
+frontend_config_locales	agent_occupations.text_note	Note
+frontend_config_locales	agent_occupations.dates	Dates
+frontend_config_locales	agent_occupations.subjects	Occupations
+frontend_config_locales	agent_occupations.places	Places
+frontend_config_locales	agent_occupations.publish	Published
+frontend_config_locales	agent_occupation_merge_destination._frontend.action.add	Add Occupation
+frontend_config_locales	agent_occupation_merge_destination.section.dates	Dates
+frontend_config_locales	agent_occupation_merge_destination._plural	Occupations
+frontend_config_locales	agent_occupation_merge_destination._singular	Occupation
+frontend_config_locales	agent_occupation_merge_destination.text_note	Note
+frontend_config_locales	agent_occupation_merge_destination.dates	Dates
+frontend_config_locales	agent_occupation_merge_destination.subjects	Occupations
+frontend_config_locales	agent_occupation_merge_destination.places	Places
+frontend_config_locales	agent_occupation_merge_destination.publish	Published
+frontend_config_locales	agent_occupation_merge_candidate._frontend.action.add	Add Occupation
+frontend_config_locales	agent_occupation_merge_candidate.section.dates	Dates
+frontend_config_locales	agent_occupation_merge_candidate._plural	Occupations
+frontend_config_locales	agent_occupation_merge_candidate._singular	Occupation
+frontend_config_locales	agent_occupation_merge_candidate.text_note	Note
+frontend_config_locales	agent_occupation_merge_candidate.dates	Dates
+frontend_config_locales	agent_occupation_merge_candidate.subjects	Occupations
+frontend_config_locales	agent_occupation_merge_candidate.places	Places
+frontend_config_locales	agent_occupation_merge_candidate.publish	Published
+frontend_config_locales	agent_function_required._frontend.action.add	Add Function
+frontend_config_locales	agent_function_required.section.dates	Dates
+frontend_config_locales	agent_function_required._plural	Functions
+frontend_config_locales	agent_function_required._singular	Function
+frontend_config_locales	agent_function_required.text_note	Note
+frontend_config_locales	agent_function_required.dates	Dates
+frontend_config_locales	agent_function_required.subjects	Functions
+frontend_config_locales	agent_function_required.places	Places
+frontend_config_locales	agent_function_required.publish	Published
+frontend_config_locales	agent_functions._frontend.action.add	Add Function
+frontend_config_locales	agent_functions.section.dates	Dates
+frontend_config_locales	agent_functions._plural	Functions
+frontend_config_locales	agent_functions._singular	Function
+frontend_config_locales	agent_functions.text_note	Note
+frontend_config_locales	agent_functions.dates	Dates
+frontend_config_locales	agent_functions.subjects	Functions
+frontend_config_locales	agent_functions.places	Places
+frontend_config_locales	agent_functions.publish	Published
+frontend_config_locales	agent_function_merge_destination._frontend.action.add	Add Function
+frontend_config_locales	agent_function_merge_destination.section.dates	Dates
+frontend_config_locales	agent_function_merge_destination._plural	Functions
+frontend_config_locales	agent_function_merge_destination._singular	Function
+frontend_config_locales	agent_function_merge_destination.text_note	Note
+frontend_config_locales	agent_function_merge_destination.dates	Dates
+frontend_config_locales	agent_function_merge_destination.subjects	Functions
+frontend_config_locales	agent_function_merge_destination.places	Places
+frontend_config_locales	agent_function_merge_destination.publish	Published
+frontend_config_locales	agent_function_merge_candidate._frontend.action.add	Add Function
+frontend_config_locales	agent_function_merge_candidate.section.dates	Dates
+frontend_config_locales	agent_function_merge_candidate._plural	Functions
+frontend_config_locales	agent_function_merge_candidate._singular	Function
+frontend_config_locales	agent_function_merge_candidate.text_note	Note
+frontend_config_locales	agent_function_merge_candidate.dates	Dates
+frontend_config_locales	agent_function_merge_candidate.subjects	Functions
+frontend_config_locales	agent_function_merge_candidate.places	Places
+frontend_config_locales	agent_function_merge_candidate.publish	Published
+frontend_config_locales	agent_topic_required._frontend.action.add	Add Topic
+frontend_config_locales	agent_topic_required.section.dates	Dates
+frontend_config_locales	agent_topic_required._plural	Topics
+frontend_config_locales	agent_topic_required._singular	Topic
+frontend_config_locales	agent_topic_required.text_note	Note
+frontend_config_locales	agent_topic_required.dates	Dates
+frontend_config_locales	agent_topic_required.subjects	Topics
+frontend_config_locales	agent_topic_required.places	Places
+frontend_config_locales	agent_topic_required.publish	Published
+frontend_config_locales	agent_topics._frontend.action.add	Add Topic
+frontend_config_locales	agent_topics.section.dates	Dates
+frontend_config_locales	agent_topics._plural	Topics
+frontend_config_locales	agent_topics._singular	Topic
+frontend_config_locales	agent_topics.text_note	Note
+frontend_config_locales	agent_topics.dates	Dates
+frontend_config_locales	agent_topics.subjects	Topics
+frontend_config_locales	agent_topics.places	Places
+frontend_config_locales	agent_topics.publish	Published
+frontend_config_locales	agent_topic_merge_destination._frontend.action.add	Add Topic
+frontend_config_locales	agent_topic_merge_destination.section.dates	Dates
+frontend_config_locales	agent_topic_merge_destination._plural	Topics
+frontend_config_locales	agent_topic_merge_destination._singular	Topic
+frontend_config_locales	agent_topic_merge_destination.text_note	Note
+frontend_config_locales	agent_topic_merge_destination.dates	Dates
+frontend_config_locales	agent_topic_merge_destination.subjects	Topics
+frontend_config_locales	agent_topic_merge_destination.places	Places
+frontend_config_locales	agent_topic_merge_destination.publish	Published
+frontend_config_locales	agent_topic_merge_candidate._frontend.action.add	Add Topic
+frontend_config_locales	agent_topic_merge_candidate.section.dates	Dates
+frontend_config_locales	agent_topic_merge_candidate._plural	Topics
+frontend_config_locales	agent_topic_merge_candidate._singular	Topic
+frontend_config_locales	agent_topic_merge_candidate.text_note	Note
+frontend_config_locales	agent_topic_merge_candidate.dates	Dates
+frontend_config_locales	agent_topic_merge_candidate.subjects	Topics
+frontend_config_locales	agent_topic_merge_candidate.places	Places
+frontend_config_locales	agent_topic_merge_candidate.publish	Published
+frontend_config_locales	agent_alternate_sets._plural	Alternate Sets
+frontend_config_locales	agent_alternate_sets._singular	Alternate Set
+frontend_config_locales	agent_alternate_sets._frontend.action.add	Add Alternative Set
+frontend_config_locales	agent_alternate_sets.set_component	Set Component
+frontend_config_locales	agent_alternate_sets.descriptive_note	Descriptive Note
+frontend_config_locales	agent_alternate_sets.file_uri	File URI
+frontend_config_locales	agent_alternate_sets.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_alternate_sets.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_alternate_sets.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_alternate_sets.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_alternate_sets.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_alternate_sets.last_verified_date	Last Verified Date
+frontend_config_locales	agent_alternate_set_required._plural	Alternate Sets
+frontend_config_locales	agent_alternate_set_required._singular	Alternate Set
+frontend_config_locales	agent_alternate_set_required._frontend.action.add	Add Alternative Set
+frontend_config_locales	agent_alternate_set_required.set_component	Set Component
+frontend_config_locales	agent_alternate_set_required.descriptive_note	Descriptive Note
+frontend_config_locales	agent_alternate_set_required.file_uri	File URI
+frontend_config_locales	agent_alternate_set_required.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_alternate_set_required.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_alternate_set_required.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_alternate_set_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_alternate_set_required.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_alternate_set_required.last_verified_date	Last Verified Date
+frontend_config_locales	agent_alternate_set_merge_destination._plural	Alternate Sets
+frontend_config_locales	agent_alternate_set_merge_destination._singular	Alternate Set
+frontend_config_locales	agent_alternate_set_merge_destination._frontend.action.add	Add Alternative Set
+frontend_config_locales	agent_alternate_set_merge_destination.set_component	Set Component
+frontend_config_locales	agent_alternate_set_merge_destination.descriptive_note	Descriptive Note
+frontend_config_locales	agent_alternate_set_merge_destination.file_uri	File URI
+frontend_config_locales	agent_alternate_set_merge_destination.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_alternate_set_merge_destination.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_alternate_set_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_alternate_set_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_alternate_set_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_alternate_set_merge_destination.last_verified_date	Last Verified Date
+frontend_config_locales	agent_alternate_set_merge_candidate._plural	Alternate Sets
+frontend_config_locales	agent_alternate_set_merge_candidate._singular	Alternate Set
+frontend_config_locales	agent_alternate_set_merge_candidate._frontend.action.add	Add Alternative Set
+frontend_config_locales	agent_alternate_set_merge_candidate.set_component	Set Component
+frontend_config_locales	agent_alternate_set_merge_candidate.descriptive_note	Descriptive Note
+frontend_config_locales	agent_alternate_set_merge_candidate.file_uri	File URI
+frontend_config_locales	agent_alternate_set_merge_candidate.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_alternate_set_merge_candidate.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_alternate_set_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_alternate_set_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_alternate_set_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_alternate_set_merge_candidate.last_verified_date	Last Verified Date
+frontend_config_locales	agent_conventions_declarations._plural	Convention Declarations
+frontend_config_locales	agent_conventions_declarations._singular	Convention Declaration
+frontend_config_locales	agent_conventions_declarations._frontend.action.add	Add Convention Declaration
+frontend_config_locales	agent_conventions_declarations.name_rule	Convention
+frontend_config_locales	agent_conventions_declarations.citation	Citation
+frontend_config_locales	agent_conventions_declarations.descriptive_note	Descriptive Note
+frontend_config_locales	agent_conventions_declarations.file_uri	File URI
+frontend_config_locales	agent_conventions_declarations.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_conventions_declarations.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_conventions_declarations.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_conventions_declarations.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_conventions_declarations.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_conventions_declarations.last_verified_date	Last Verified Date
+frontend_config_locales	agent_conventions_declaration_required._plural	Convention Declarations
+frontend_config_locales	agent_conventions_declaration_required._singular	Convention Declaration
+frontend_config_locales	agent_conventions_declaration_required._frontend.action.add	Add Convention Declaration
+frontend_config_locales	agent_conventions_declaration_required.name_rule	Convention
+frontend_config_locales	agent_conventions_declaration_required.citation	Citation
+frontend_config_locales	agent_conventions_declaration_required.descriptive_note	Descriptive Note
+frontend_config_locales	agent_conventions_declaration_required.file_uri	File URI
+frontend_config_locales	agent_conventions_declaration_required.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_conventions_declaration_required.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_conventions_declaration_required.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_conventions_declaration_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_conventions_declaration_required.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_conventions_declaration_required.last_verified_date	Last Verified Date
+frontend_config_locales	agent_conventions_declaration_merge_destination._plural	Convention Declarations
+frontend_config_locales	agent_conventions_declaration_merge_destination._singular	Convention Declaration
+frontend_config_locales	agent_conventions_declaration_merge_destination._frontend.action.add	Add Convention Declaration
+frontend_config_locales	agent_conventions_declaration_merge_destination.name_rule	Convention
+frontend_config_locales	agent_conventions_declaration_merge_destination.citation	Citation
+frontend_config_locales	agent_conventions_declaration_merge_destination.descriptive_note	Descriptive Note
+frontend_config_locales	agent_conventions_declaration_merge_destination.file_uri	File URI
+frontend_config_locales	agent_conventions_declaration_merge_destination.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_conventions_declaration_merge_destination.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_conventions_declaration_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_conventions_declaration_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_conventions_declaration_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_conventions_declaration_merge_destination.last_verified_date	Last Verified Date
+frontend_config_locales	agent_conventions_declaration_merge_candidate._plural	Convention Declarations
+frontend_config_locales	agent_conventions_declaration_merge_candidate._singular	Convention Declaration
+frontend_config_locales	agent_conventions_declaration_merge_candidate._frontend.action.add	Add Convention Declaration
+frontend_config_locales	agent_conventions_declaration_merge_candidate.name_rule	Convention
+frontend_config_locales	agent_conventions_declaration_merge_candidate.citation	Citation
+frontend_config_locales	agent_conventions_declaration_merge_candidate.descriptive_note	Descriptive Note
+frontend_config_locales	agent_conventions_declaration_merge_candidate.file_uri	File URI
+frontend_config_locales	agent_conventions_declaration_merge_candidate.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_conventions_declaration_merge_candidate.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_conventions_declaration_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_conventions_declaration_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_conventions_declaration_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_conventions_declaration_merge_candidate.last_verified_date	Last Verified Date
+frontend_config_locales	agent_other_agency_codes._plural	Other Agency Codes
+frontend_config_locales	agent_other_agency_codes._singular	Other Agency Code
+frontend_config_locales	agent_other_agency_codes._frontend.action.add	Add Agency Code
+frontend_config_locales	agent_other_agency_codes.agency_code_type	Record Control Agency Code Type
+frontend_config_locales	agent_other_agency_codes.maintenance_agency	Maintenance Agency
+frontend_config_locales	agent_other_agency_code_required._plural	Other Agency Codes
+frontend_config_locales	agent_other_agency_code_required._singular	Other Agency Code
+frontend_config_locales	agent_other_agency_code_required._frontend.action.add	Add Agency Code
+frontend_config_locales	agent_other_agency_code_required.agency_code_type	Record Control Agency Code Type
+frontend_config_locales	agent_other_agency_code_required.maintenance_agency	Maintenance Agency
+frontend_config_locales	agent_other_agency_code_merge_destination._plural	Other Agency Codes
+frontend_config_locales	agent_other_agency_code_merge_destination._singular	Other Agency Code
+frontend_config_locales	agent_other_agency_code_merge_destination._frontend.action.add	Add Agency Code
+frontend_config_locales	agent_other_agency_code_merge_destination.agency_code_type	Record Control Agency Code Type
+frontend_config_locales	agent_other_agency_code_merge_destination.maintenance_agency	Maintenance Agency
+frontend_config_locales	agent_other_agency_code_merge_candidate._plural	Other Agency Codes
+frontend_config_locales	agent_other_agency_code_merge_candidate._singular	Other Agency Code
+frontend_config_locales	agent_other_agency_code_merge_candidate._frontend.action.add	Add Agency Code
+frontend_config_locales	agent_other_agency_code_merge_candidate.agency_code_type	Record Control Agency Code Type
+frontend_config_locales	agent_other_agency_code_merge_candidate.maintenance_agency	Maintenance Agency
+frontend_config_locales	agent_maintenance_histories._plural	Maintenance History
+frontend_config_locales	agent_maintenance_histories._singular	Agent Maintenance History
+frontend_config_locales	agent_maintenance_histories._frontend.action.add	Add Event
+frontend_config_locales	agent_maintenance_histories.maintenance_event_type	Record Control Maintenance Event Type
+frontend_config_locales	agent_maintenance_histories.maintenance_agent_type	Record Control Maintenance Agent Type
+frontend_config_locales	agent_maintenance_histories.agent	Agent
+frontend_config_locales	agent_maintenance_histories.descriptive_note	Descriptive Note
+frontend_config_locales	agent_maintenance_histories.event_date	Event Date
+frontend_config_locales	agent_maintenance_history_required._plural	Maintenance History
+frontend_config_locales	agent_maintenance_history_required._singular	Agent Maintenance History
+frontend_config_locales	agent_maintenance_history_required._frontend.action.add	Add Event
+frontend_config_locales	agent_maintenance_history_required.maintenance_event_type	Record Control Maintenance Event Type
+frontend_config_locales	agent_maintenance_history_required.maintenance_agent_type	Record Control Maintenance Agent Type
+frontend_config_locales	agent_maintenance_history_required.agent	Agent
+frontend_config_locales	agent_maintenance_history_required.descriptive_note	Descriptive Note
+frontend_config_locales	agent_maintenance_history_required.event_date	Event Date
+frontend_config_locales	agent_maintenance_history_merge_destination._plural	Maintenance History
+frontend_config_locales	agent_maintenance_history_merge_destination._singular	Agent Maintenance History
+frontend_config_locales	agent_maintenance_history_merge_destination._frontend.action.add	Add Event
+frontend_config_locales	agent_maintenance_history_merge_destination.maintenance_event_type	Record Control Maintenance Event Type
+frontend_config_locales	agent_maintenance_history_merge_destination.maintenance_agent_type	Record Control Maintenance Agent Type
+frontend_config_locales	agent_maintenance_history_merge_destination.agent	Agent
+frontend_config_locales	agent_maintenance_history_merge_destination.descriptive_note	Descriptive Note
+frontend_config_locales	agent_maintenance_history_merge_destination.event_date	Event Date
+frontend_config_locales	agent_maintenance_history_merge_candidate._plural	Maintenance History
+frontend_config_locales	agent_maintenance_history_merge_candidate._singular	Agent Maintenance History
+frontend_config_locales	agent_maintenance_history_merge_candidate._frontend.action.add	Add Event
+frontend_config_locales	agent_maintenance_history_merge_candidate.maintenance_event_type	Record Control Maintenance Event Type
+frontend_config_locales	agent_maintenance_history_merge_candidate.maintenance_agent_type	Record Control Maintenance Agent Type
+frontend_config_locales	agent_maintenance_history_merge_candidate.agent	Agent
+frontend_config_locales	agent_maintenance_history_merge_candidate.descriptive_note	Descriptive Note
+frontend_config_locales	agent_maintenance_history_merge_candidate.event_date	Event Date
+frontend_config_locales	agent_record_identifiers._plural	Record IDs
+frontend_config_locales	agent_record_identifiers._singular	Record ID
+frontend_config_locales	agent_record_identifiers._frontend.action.add	Add Record ID
+frontend_config_locales	agent_record_identifiers.identifier_type	Record Control Identifier Type
+frontend_config_locales	agent_record_identifiers.source	Source
+frontend_config_locales	agent_record_identifiers.primary_identifier	Is Primary Identifier?
+frontend_config_locales	agent_record_identifiers.primary	Primary
+frontend_config_locales	agent_record_identifiers.record_identifier	Record Identifier
+frontend_config_locales	agent_record_identifier_required._plural	Record IDs
+frontend_config_locales	agent_record_identifier_required._singular	Record ID
+frontend_config_locales	agent_record_identifier_required._frontend.action.add	Add Record ID
+frontend_config_locales	agent_record_identifier_required.identifier_type	Record Control Identifier Type
+frontend_config_locales	agent_record_identifier_required.source	Source
+frontend_config_locales	agent_record_identifier_required.primary_identifier	Is Primary Identifier?
+frontend_config_locales	agent_record_identifier_required.primary	Primary
+frontend_config_locales	agent_record_identifier_required.record_identifier	Record Identifier
+frontend_config_locales	agent_record_identifier_merge_destination._plural	Record IDs
+frontend_config_locales	agent_record_identifier_merge_destination._singular	Record ID
+frontend_config_locales	agent_record_identifier_merge_destination._frontend.action.add	Add Record ID
+frontend_config_locales	agent_record_identifier_merge_destination.identifier_type	Record Control Identifier Type
+frontend_config_locales	agent_record_identifier_merge_destination.source	Source
+frontend_config_locales	agent_record_identifier_merge_destination.primary_identifier	Is Primary Identifier?
+frontend_config_locales	agent_record_identifier_merge_destination.primary	Primary
+frontend_config_locales	agent_record_identifier_merge_destination.record_identifier	Record Identifier
+frontend_config_locales	agent_record_identifier_merge_candidate._plural	Record IDs
+frontend_config_locales	agent_record_identifier_merge_candidate._singular	Record ID
+frontend_config_locales	agent_record_identifier_merge_candidate._frontend.action.add	Add Record ID
+frontend_config_locales	agent_record_identifier_merge_candidate.identifier_type	Record Control Identifier Type
+frontend_config_locales	agent_record_identifier_merge_candidate.source	Source
+frontend_config_locales	agent_record_identifier_merge_candidate.primary_identifier	Is Primary Identifier?
+frontend_config_locales	agent_record_identifier_merge_candidate.primary	Primary
+frontend_config_locales	agent_record_identifier_merge_candidate.record_identifier	Record Identifier
+frontend_config_locales	agent_sources._plural	Sources
+frontend_config_locales	agent_sources._singular	Agent Source
+frontend_config_locales	agent_sources._frontend.action.add	Add Source
+frontend_config_locales	agent_sources.source_entry	Source Entry
+frontend_config_locales	agent_sources.descriptive_note	Descriptive Note
+frontend_config_locales	agent_sources.file_uri	File URI
+frontend_config_locales	agent_sources.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_sources.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_sources.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_sources.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_sources.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_sources.last_verified_date	Last Verified Date
+frontend_config_locales	agent_source_required._plural	Sources
+frontend_config_locales	agent_source_required._singular	Agent Source
+frontend_config_locales	agent_source_required._frontend.action.add	Add Source
+frontend_config_locales	agent_source_required.source_entry	Source Entry
+frontend_config_locales	agent_source_required.descriptive_note	Descriptive Note
+frontend_config_locales	agent_source_required.file_uri	File URI
+frontend_config_locales	agent_source_required.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_source_required.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_source_required.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_source_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_source_required.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_source_required.last_verified_date	Last Verified Date
+frontend_config_locales	agent_source_merge_destination._plural	Sources
+frontend_config_locales	agent_source_merge_destination._singular	Agent Source
+frontend_config_locales	agent_source_merge_destination._frontend.action.add	Add Source
+frontend_config_locales	agent_source_merge_destination.source_entry	Source Entry
+frontend_config_locales	agent_source_merge_destination.descriptive_note	Descriptive Note
+frontend_config_locales	agent_source_merge_destination.file_uri	File URI
+frontend_config_locales	agent_source_merge_destination.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_source_merge_destination.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_source_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_source_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_source_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_source_merge_destination.last_verified_date	Last Verified Date
+frontend_config_locales	agent_source_merge_candidate._plural	Sources
+frontend_config_locales	agent_source_merge_candidate._singular	Agent Source
+frontend_config_locales	agent_source_merge_candidate._frontend.action.add	Add Source
+frontend_config_locales	agent_source_merge_candidate.source_entry	Source Entry
+frontend_config_locales	agent_source_merge_candidate.descriptive_note	Descriptive Note
+frontend_config_locales	agent_source_merge_candidate.file_uri	File URI
+frontend_config_locales	agent_source_merge_candidate.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_source_merge_candidate.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_source_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_source_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_source_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_source_merge_candidate.last_verified_date	Last Verified Date
+frontend_config_locales	agent_resources._frontend.action.add	Add Related External Resource
+frontend_config_locales	agent_resources.section.dates	Dates
+frontend_config_locales	agent_resources.section.places	Places
+frontend_config_locales	agent_resources._plural	Related External Resources
+frontend_config_locales	agent_resources._singular	Related External Resource
+frontend_config_locales	agent_resources.dates	Dates
+frontend_config_locales	agent_resources.places	Places
+frontend_config_locales	agent_resources.publish	Published
+frontend_config_locales	agent_resources.linked_agent_role	Resource Relation Type
+frontend_config_locales	agent_resources.linked_resource	Related External Resource
+frontend_config_locales	agent_resources.linked_resource_description	Description
+frontend_config_locales	agent_resources.file_uri	File URI
+frontend_config_locales	agent_resources.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_resources.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_resources.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_resources.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_resources.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_resources.last_verified_date	Last Verified Date
+frontend_config_locales	agent_resource_required._frontend.action.add	Add Related External Resource
+frontend_config_locales	agent_resource_required.section.dates	Dates
+frontend_config_locales	agent_resource_required.section.places	Places
+frontend_config_locales	agent_resource_required._plural	Related External Resources
+frontend_config_locales	agent_resource_required._singular	Related External Resource
+frontend_config_locales	agent_resource_required.dates	Dates
+frontend_config_locales	agent_resource_required.places	Places
+frontend_config_locales	agent_resource_required.publish	Published
+frontend_config_locales	agent_resource_required.linked_agent_role	Resource Relation Type
+frontend_config_locales	agent_resource_required.linked_resource	Related External Resource
+frontend_config_locales	agent_resource_required.linked_resource_description	Description
+frontend_config_locales	agent_resource_required.file_uri	File URI
+frontend_config_locales	agent_resource_required.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_resource_required.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_resource_required.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_resource_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_resource_required.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_resource_required.last_verified_date	Last Verified Date
+frontend_config_locales	agent_resource_merge_candidate._frontend.action.add	Add Related External Resource
+frontend_config_locales	agent_resource_merge_candidate.section.dates	Dates
+frontend_config_locales	agent_resource_merge_candidate.section.places	Places
+frontend_config_locales	agent_resource_merge_candidate._plural	Related External Resources
+frontend_config_locales	agent_resource_merge_candidate._singular	Related External Resource
+frontend_config_locales	agent_resource_merge_candidate.dates	Dates
+frontend_config_locales	agent_resource_merge_candidate.places	Places
+frontend_config_locales	agent_resource_merge_candidate.publish	Published
+frontend_config_locales	agent_resource_merge_candidate.linked_agent_role	Resource Relation Type
+frontend_config_locales	agent_resource_merge_candidate.linked_resource	Related External Resource
+frontend_config_locales	agent_resource_merge_candidate.linked_resource_description	Description
+frontend_config_locales	agent_resource_merge_candidate.file_uri	File URI
+frontend_config_locales	agent_resource_merge_candidate.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_resource_merge_candidate.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_resource_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_resource_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_resource_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_resource_merge_candidate.last_verified_date	Last Verified Date
+frontend_config_locales	agent_resource_merge_destination._frontend.action.add	Add Related External Resource
+frontend_config_locales	agent_resource_merge_destination.section.dates	Dates
+frontend_config_locales	agent_resource_merge_destination.section.places	Places
+frontend_config_locales	agent_resource_merge_destination._plural	Related External Resources
+frontend_config_locales	agent_resource_merge_destination._singular	Related External Resource
+frontend_config_locales	agent_resource_merge_destination.dates	Dates
+frontend_config_locales	agent_resource_merge_destination.places	Places
+frontend_config_locales	agent_resource_merge_destination.publish	Published
+frontend_config_locales	agent_resource_merge_destination.linked_agent_role	Resource Relation Type
+frontend_config_locales	agent_resource_merge_destination.linked_resource	Related External Resource
+frontend_config_locales	agent_resource_merge_destination.linked_resource_description	Description
+frontend_config_locales	agent_resource_merge_destination.file_uri	File URI
+frontend_config_locales	agent_resource_merge_destination.xlink_title_attribute	Xlink Title Attribute
+frontend_config_locales	agent_resource_merge_destination.xlink_role_attribute	Xlink Role Attribute
+frontend_config_locales	agent_resource_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend_config_locales	agent_resource_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend_config_locales	agent_resource_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend_config_locales	agent_resource_merge_destination.last_verified_date	Last Verified Date
+frontend_config_locales	bulk_import_templates.overview	<p>These are templates for uploading spreadsheet data into ArchivesSpace using the different import options in the Background Jobs area. The data required for a successful import depends on the type of record being created. You do not have to fill out every row and column.</p><p>Each CSV template in
+frontend_config_locales	bulk_import_templates.aspace_digital_object_import_template_csv	Create digital object records and records linked to digital objects like agents, subjects, and events.
+frontend_config_locales	bulk_import_templates.bulk_import_template_csv	Create archival objects attached to an existing resource. Includes option to create many different sub-records and linked records including dates, extents, notes, containers, and digital objects. The CSV format is for people who do not have access to Microsoft Excel.
+frontend_config_locales	bulk_import_templates.bulk_import_template_xlsx	Create archival objects attached to an existing resource. Includes option to create many different sub-records and linked records including dates, extents, notes, containers, and digital objects. The XLSX format is for those who have access to Microsoft Excel.
+frontend_config_locales	bulk_import_templates.bulk_import_DO_template_csv	Create and link digital objects to existing archival objects in a resource. The CSV format is for people who do not have access to Microsoft Excel.
+frontend_config_locales	bulk_import_templates.bulk_import_DO_template_xlsx	Create and link digital objects to existing archival objects in a resource. The XLSX format is for those who have access to Microsoft Excel.
+frontend_config_locales	bulk_import_templates.aspace_location_import_template_csv	Create new location records. Please note that this template is for creating the location records themselves, not linking materials to locations.
+frontend_config_locales	bulk_import_templates.aspace_assessment_import_template_csv	Create and link assessments to existing accessions, resources, archival objects, or digital objects.
+frontend_config_locales	bulk_import_templates.aspace_subject_import_template_csv	Create new Subject records. Please note that this template is for creating the subject records themselves, not linking them to other records.
+public_config_locales	actions.next	Next
+public_config_locales	actions.previous	Previous
+public_config_locales	search_results.filter.digital_object_type_enum_s	Type
+public_config_locales	search_results.filter.extent_type_enum_s	Extent
+public_config_locales	errors.invalid_search_params	Invalid search parameter '%{value}' for field '%{field}'
+public_config_locales	accession._public.related_accessions.has_part	Part Relationship
+public_config_locales	resource._public.identifier_pdf	ID
+public_config_locales	resource._public.identifier_ark	ID [ark]
+public_config_locales	resource._public.ark_link_name	Archival Resource Key
+public_config_locales	resource._public.lang_pdf	Language of the Material
+public_config_locales	resource._public.uri	ID [aspace_uri]
+public_config_locales	top_container.restricted	Restricted
+public_config_locales	digital_object._public.additional	Additional File Versions
+public_config_locales	digital_object._public.url_encoded_data	URL-encoded data
+public_config_locales	digital_object._public.browse_number_digital_objects_in_collection.one	Browse %{num} digital object in collection
+public_config_locales	pdf_reports.accessrestrict	Conditions Governing Access
+public_config_locales	pdf_reports.userestrict	Conditions Governing Use
+public_config_locales	pdf_reports.accruals	Accruals
+public_config_locales	pdf_reports.acqinfo	Immediate Source of Acquisition
+public_config_locales	pdf_error.title	There was an error generating this PDF.
+public_config_locales	pdf_error.description	We're sorry, there was an error generating this PDF finding aid. Here is some diagnostic information to help determine what went wrong.
+public_config_locales	pdf_error.headings.location	Error Location
+public_config_locales	pdf_error.headings.message	Error Message
+public_config_locales	pdf_error.headings.type	Error Type
+public_config_locales	pdf_error.headings.additional_info	Additional Information
+public_config_locales	pdf_error.location.location_header	The error occurred while generating the header.
+public_config_locales	pdf_error.location.location_title_page	The error occurred while generating the title page.
+public_config_locales	pdf_error.location.location_toc	The error occurred while generating the table of contents.
+public_config_locales	pdf_error.location.location_resource	The error occurred while generating sections relating to the Resource record, which includes Summary Information, Controlled Access Headings, and the Notes sections.
+public_config_locales	pdf_error.location.location_archival_object	The error occurred while generating the Collection Inventory.
+public_config_locales	pdf_error.location.location_footer	The error occurred while generating the footer.
+public_config_locales	pdf_error.additional_info.invalid_markup	This error can result from invalid markup present in a note or subrecord.

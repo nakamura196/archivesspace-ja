@@ -1,0 +1,8 @@
+en:
+  iiif_manifest:
+    identifier: Identifier
+    dates: Dates
+    collection: Collection
+    repository: Repository
+    heading: Images
+    manifest_link: IIIF manifest

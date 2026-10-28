@@ -1,0 +1,937 @@
+ファイル	キー	英語
+common/locales/ja.yml	digital_object.linker.browse	Browse Digital Objects
+common/locales/ja.yml	digital_object.linker.create	Create Digital Object
+common/locales/ja.yml	digital_object.linker.link_title	Link to digital object
+common/locales/ja.yml	digital_object_component.linker.browse	Browse Digital Objects
+common/locales/ja.yml	digital_object_component.linker.create	Create Digital Object
+common/locales/ja.yml	digital_object_component.linker.link_title	Link to digital object
+common/locales/ja.yml	location.new_title	New Location
+common/locales/ja.yml	location.linker.browse	Browse Locations
+common/locales/ja.yml	location.linker.create	Create Location
+common/locales/ja.yml	location.linker.link_title	Link to location
+common/locales/ja.yml	location_batch.new_title	New Location
+common/locales/ja.yml	location_batch.linker.browse	Browse Locations
+common/locales/ja.yml	location_batch.linker.create	Create Location
+common/locales/ja.yml	location_batch.linker.link_title	Link to location
+common/locales/ja.yml	linked_record.linker_ref.browse	Browse Records
+common/locales/ja.yml	linked_record.linker_ref.create	Create Record
+common/locales/ja.yml	linked_record.linker_ref.link_title	Link to record
+common/locales/ja.yml	event.new_title	New Event
+common/locales/ja.yml	linked_event.new_title	New Event
+common/locales/ja.yml	agent_resource.file_uri_tooltip	<p>A URI for the online location of the source used in the preparation of the Agent description. Example: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (for Find-A-Grave entry for Robert W. Service).</p> 
+common/locales/ja.yml	accession.new_title	New Accession
+common/locales/ja.yml	accession.linker.browse	Browse Accessions
+common/locales/ja.yml	accession.linker.create	Create Accession
+common/locales/ja.yml	accession.linker.link_title	Link to accession
+common/locales/ja.yml	agent.new_title.agent_family	New Family
+common/locales/ja.yml	agent.new_title.agent_person	New Person
+common/locales/ja.yml	agent.new_title.agent_corporate_entity	New Corporate Entity
+common/locales/ja.yml	agent.new_title.agent_software	New Software
+common/locales/ja.yml	agent.linker.create	Create Agent
+common/locales/ja.yml	agent.linker.browse	Browse Agents
+common/locales/ja.yml	agent.linker.link_title	Link to agent
+common/locales/ja.yml	agent_person.new_title.agent_family	New Family
+common/locales/ja.yml	agent_person.new_title.agent_person	New Person
+common/locales/ja.yml	agent_person.new_title.agent_corporate_entity	New Corporate Entity
+common/locales/ja.yml	agent_person.new_title.agent_software	New Software
+common/locales/ja.yml	agent_person.linker.create	Create Agent
+common/locales/ja.yml	agent_person.linker.browse	Browse Agents
+common/locales/ja.yml	agent_person.linker.link_title	Link to agent
+common/locales/ja.yml	agent_family.new_title.agent_family	New Family
+common/locales/ja.yml	agent_family.new_title.agent_person	New Person
+common/locales/ja.yml	agent_family.new_title.agent_corporate_entity	New Corporate Entity
+common/locales/ja.yml	agent_family.new_title.agent_software	New Software
+common/locales/ja.yml	agent_family.linker.create	Create Agent
+common/locales/ja.yml	agent_family.linker.browse	Browse Agents
+common/locales/ja.yml	agent_family.linker.link_title	Link to agent
+common/locales/ja.yml	agent_software.new_title.agent_family	New Family
+common/locales/ja.yml	agent_software.new_title.agent_person	New Person
+common/locales/ja.yml	agent_software.new_title.agent_corporate_entity	New Corporate Entity
+common/locales/ja.yml	agent_software.new_title.agent_software	New Software
+common/locales/ja.yml	agent_software.linker.create	Create Agent
+common/locales/ja.yml	agent_software.linker.browse	Browse Agents
+common/locales/ja.yml	agent_software.linker.link_title	Link to agent
+common/locales/ja.yml	agent_corporate_entity.new_title.agent_family	New Family
+common/locales/ja.yml	agent_corporate_entity.new_title.agent_person	New Person
+common/locales/ja.yml	agent_corporate_entity.new_title.agent_corporate_entity	New Corporate Entity
+common/locales/ja.yml	agent_corporate_entity.new_title.agent_software	New Software
+common/locales/ja.yml	agent_corporate_entity.linker.create	Create Agent
+common/locales/ja.yml	agent_corporate_entity.linker.browse	Browse Agents
+common/locales/ja.yml	agent_corporate_entity.linker.link_title	Link to agent
+common/locales/ja.yml	group.default_group_names.repository_managers	Managers of the %{repo_code} repository
+common/locales/ja.yml	group.default_group_names.repository_archivists	Archivists of the %{repo_code} repository
+common/locales/ja.yml	group.default_group_names.project_managers	Project managers of the %{repo_code} repository
+common/locales/ja.yml	group.default_group_names.advanced_data_entry	Advanced Data Entry users of the %{repo_code} repository
+common/locales/ja.yml	group.default_group_names.basic_data_entry	Basic Data Entry users of the %{repo_code} repository
+common/locales/ja.yml	group.default_group_names.repository_viewers	Viewers of the %{repo_code} repository
+common/locales/ja.yml	resource.is_finding_aid_status_published	Finding Aid Status Published?
+common/locales/ja.yml	resource.is_finding_aid_status_published_tooltip	<p>Determines whether Finding Aid Status is exposed publically.</p> 
+common/locales/ja.yml	resource.new_title	New Resource
+common/locales/ja.yml	repository.ark_shoulder	ARK Shoulder (local namespace)
+common/locales/ja.yml	repository.ark_shoulder_tooltip	Per-repository string to be included in generated ARKs
+common/locales/ja.yml	repository.new_title	New Repository
+common/locales/ja.yml	repository.linker.browse	Browse Repositories
+common/locales/ja.yml	repository.linker.create	Create Repository
+common/locales/ja.yml	repository.linker.link_title	Link to repository
+common/locales/ja.yml	repository.position	Position
+common/locales/ja.yml	subject.new_title	New Subject
+common/locales/ja.yml	subject.linker.browse	Browse Subjects
+common/locales/ja.yml	subject.linker.create	Create Subject
+common/locales/ja.yml	subject.linker.link_title	Link to subject
+common/locales/ja.yml	user.reset_password	Reset Password
+common/locales/ja.yml	enumeration.default	Default
+common/locales/ja.yml	classification.new_title	New Classification
+common/locales/ja.yml	classification.linker.browse	Browse Classifications
+common/locales/ja.yml	classification.linker.create	Create Classification
+common/locales/ja.yml	classification.linker.link_title	Link to classification
+common/locales/ja.yml	classification_term.linker.browse	Browse Classification Terms
+common/locales/ja.yml	classification_term.linker.create	Create Classification Term
+common/locales/ja.yml	classification_term.linker.link_title	Link to classification term
+common/locales/ja.yml	defaults.include_unpublished	Include Unpublished Records in Exports?
+common/locales/ja.yml	defaults.rde_sort_alpha	Display RDE Templates Alphabetically?
+common/locales/ja.yml	defaults.top_container_mgmt_browse_section	Top Container Management Browse Columns
+common/locales/ja.yml	reports.parameters.rating	Rating
+common/locales/ja.yml	reports.parameters.values	Values
+common/locales/ja.yml	validation_errors.missing_required_subrecord	Subrecord is required but was missing
+common/locales/ja.yml	validation_errors.missing_end_filter_date	Start and end dates are required to filter by date. Please provide an end date.
+common/locales/ja.yml	validation_errors.missing_start_filter_date	Start and end dates are required to filter by date. Please provide a start date.
+common/locales/ja.yml	validation_errors.ark_collision	There was a problem while generating an ARK for this record. Please contact your system administrator.
+common/locales/ja.yml	validation_errors.external_ark_collision	External ARK already in use
+common/locales/ja.yml	validation_errors.ark_format_error	One of the ARKs provided was not a valid ARK.
+common/locales/ja.yml	job.new_title	New Background Job
+common/locales/ja.yml	job.types.ns2_remover_job	ns2 Namespace Remover
+common/locales/ja.yml	job.queue_position	No. %{position}
+common/locales/ja.yml	import_job.import_subjects	Import and Link related Subjects?
+common/locales/ja.yml	import_job.import_repository	Link imported locations to current repository?
+common/locales/ja.yml	import_job.import_type_subject_csv	Subject CSV
+common/locales/ja.yml	import_job.bulk_import_csv	Bulk Import AO CSV
+common/locales/ja.yml	import_job.bulk_import_xlsx	Bulk Import AO XLSX
+common/locales/ja.yml	import_job.bulk_import_DO_csv	Bulk Import DO CSV
+common/locales/ja.yml	import_job.bulk_import_DO_xlsx	Bulk Import DO XLSX
+common/locales/ja.yml	import_job.import_subject_csv	Subject CSV
+common/locales/ja.yml	ns2_remover_job.description	Archivists' Toolit-era EADs imported into ASpace may have vestigal "ns2" namespace references pre-pended to various EAD tag attributes inside note subrecords. This may produce validation errors on EAD export from ArchivesSpace, as the root <ead> tag doesn't declare the "ns2" namespace. This job bulk
+common/locales/ja.yml	ns2_remover_job.dry_run	Dry run?
+common/locales/ja.yml	assessment.new_title	New Assessment
+common/locales/ja.yml	assessment.linker.link_title	Link to record
+common/locales/ja.yml	bulk_import_template._singular	Bulk Import Template
+common/locales/ja.yml	bulk_import_template._plural	Bulk Import Templates
+common/locales/ja.yml	bulk_import.templates	Bulk Import Templates
+common/locales/ja.yml	bulk_import.error.era	Invalid 'date era' ignored for %{date_str}: (%{what})
+common/locales/ja.yml	bulk_import.error.calendar	Invalid 'date calendar' ignored for %{date_str}: (%{what})
+common/locales/ja.yml	bulk_import.error.utf8	This spreadsheet has some invalid or corrupt text that cannot be processed.
+common/locales/ja.yml	arks.ark	ARK
+common/locales/ja.yml	arks.edit	Edit ARKs
+common/locales/ja.yml	arks.current	current
+common/locales/ja.yml	arks.remove_ark	Remove
+common/locales/ja.yml	arks.add_new	Add new ARK
+common/locales/ja.yml	arks.set_current	Set to current
+common/locales/ja.yml	arks.save	Save ARKs
+common/locales/ja.yml	arks.no_changes	No changes to save
+common/locales/ja.yml	arks.modal_title	Edit ARKs for current record
+common/locales/ja.yml	arks.actions	Actions
+common/locales/ja.yml	arks.unsubmitted_input	You have unsubmitted input
+common/locales/ja.yml	arks.only_current_ark_can_be_external	The current ARK cannot be replaced while it is marked as external.
+common/locales/ja.yml	arks.ark_editor_errors.ark_collision	One of the ARKs provided is already in use.
+common/locales/ja.yml	arks.ark_editor_errors.ark_format_error	One of the ARKs provided was not a valid ARK.
+common/locales/ja.yml	container_profile.title	%{name} [%{depth}d, %{height}h, %{width}w %{dimension_units}] extent measured by %{extent_dimension}
+common/locales/ja.yml	container_profile.new_title	New Container Profile
+common/locales/ja.yml	location_profile.new_title	New Location Profile
+common/locales/enums/ja.yml	enumerations.maintenance_status.deleted_merged	Deleted-Merged
+common/locales/enums/ja.yml	enumerations.subject_source.not_applicable	Not applicable
+common/locales/enums/ja.yml	enumerations.subject_source.not_specified	Source not specified
+common/locales/enums/ja.yml	enumerations.subject_source.other	Other
+common/locales/enums/ja.yml	enumerations.subject_source.sears	Sears List of Subject Heading
+frontend/config/locales/ja.yml	actions.require_subrecord	Require Subrecord
+frontend/config/locales/ja.yml	actions.select_resource	Select Resource
+frontend/config/locales/ja.yml	actions.reorder_successful	Repositories successfully reordered
+frontend/config/locales/ja.yml	search.accession.uri	URI
+frontend/config/locales/ja.yml	search.resource.uri	URI
+frontend/config/locales/ja.yml	search.archival_object.uri	URI
+frontend/config/locales/ja.yml	search.subject.uri	URI
+frontend/config/locales/ja.yml	search.digital_object.uri	URI
+frontend/config/locales/ja.yml	search.digital_object_component.uri	URI
+frontend/config/locales/ja.yml	search.agent.uri	URI
+frontend/config/locales/ja.yml	search.location.location_no_holdings	No holdings for this repository.
+frontend/config/locales/ja.yml	search.location.location_one_top_container	1 top container.
+frontend/config/locales/ja.yml	search.location.location_top_containers	 top containers.
+frontend/config/locales/ja.yml	search.location.uri	URI
+frontend/config/locales/ja.yml	search.event.uri	URI
+frontend/config/locales/ja.yml	search.collection_management.name	Collection Management
+frontend/config/locales/ja.yml	search.collection_management.uri	URI
+frontend/config/locales/ja.yml	search.classification.uri	URI
+frontend/config/locales/ja.yml	search.assessment.uri	URI
+frontend/config/locales/ja.yml	search.repositories.uri	URI
+frontend/config/locales/ja.yml	search.top_container.uri	URI
+frontend/config/locales/ja.yml	search.top_container.series_level_u_sstr	Series
+frontend/config/locales/ja.yml	search.top_container.collection_identifier_stored_u_sstr	Collection
+frontend/config/locales/ja.yml	search.top_container.ils_holding_id	ILS Holding ID
+frontend/config/locales/ja.yml	search.top_container.exported_to_ils	Exported to ILS
+frontend/config/locales/ja.yml	search.top_container_mgmt.resource_accession	Resource/Accession
+frontend/config/locales/ja.yml	search.top_container_mgmt.resource_accession_id	Resource/Accession ID
+frontend/config/locales/ja.yml	search.top_container_mgmt.series	Series
+frontend/config/locales/ja.yml	search.top_container_mgmt.container_profile	Container Profile
+frontend/config/locales/ja.yml	search.top_container_mgmt.location_profile	Location Profile
+frontend/config/locales/ja.yml	search.top_container_mgmt.type	Type
+frontend/config/locales/ja.yml	search.top_container_mgmt.indicator	Indicator
+frontend/config/locales/ja.yml	search.top_container_mgmt.barcode	Barcode
+frontend/config/locales/ja.yml	search.top_container_mgmt.internal_note	Internal Note
+frontend/config/locales/ja.yml	search.top_container_mgmt.location	Location
+frontend/config/locales/ja.yml	search.top_container_mgmt.restricted	Restricted
+frontend/config/locales/ja.yml	search.top_container_mgmt.not_restricted	Not Restricted
+frontend/config/locales/ja.yml	search.top_container_mgmt.ils_holding_id	ILS Holding ID
+frontend/config/locales/ja.yml	search.top_container_mgmt.exported_to_ils	Exported to ILS
+frontend/config/locales/ja.yml	search.top_container_mgmt.not_exported_to_ils	Not Exported
+frontend/config/locales/ja.yml	search.top_container_mgmt.asc	Ascending
+frontend/config/locales/ja.yml	search.top_container_mgmt.desc	Descending
+frontend/config/locales/ja.yml	search.container_profile.notes	Note
+frontend/config/locales/ja.yml	search.container_profile.uri	URI
+frontend/config/locales/ja.yml	search.location_profile.uri	URI
+frontend/config/locales/ja.yml	search.job.uri	URI
+frontend/config/locales/ja.yml	search.multi.uri	URI
+frontend/config/locales/ja.yml	advanced_search.enum_field.label	Advanced search enumerations
+frontend/config/locales/ja.yml	advanced_search.add_row	Add Row
+frontend/config/locales/ja.yml	become-user.username	Username
+frontend/config/locales/ja.yml	navbar.repository_settings	Repository settings
+frontend/config/locales/ja.yml	navbar.global_settings	Global Settings
+frontend/config/locales/ja.yml	footer.keyboard_shortcuts	Keyboard Shortcuts
+frontend/config/locales/ja.yml	footer.public_interface_html	View <a href="%{public_url}">Public Interface</a>
+frontend/config/locales/ja.yml	footer.archivesspace_home_html	Powered by <a href='http://archivesspace.org'>ArchivesSpace</a>
+frontend/config/locales/ja.yml	footer.feedback_html	<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>Feedback or questions</a>
+frontend/config/locales/ja.yml	login.username_placeholder	Username
+frontend/config/locales/ja.yml	login.password_placeholder	Password
+frontend/config/locales/ja.yml	login.confirm_password	Confirm Password
+frontend/config/locales/ja.yml	login.username_aria_label	User Name
+frontend/config/locales/ja.yml	login.password_aria_label	User Password
+frontend/config/locales/ja.yml	login.lost_password	Forgot Password?
+frontend/config/locales/ja.yml	login.reset_password	Reset Password
+frontend/config/locales/ja.yml	login.recover_password	Recover Password
+frontend/config/locales/ja.yml	login.email_placeholder	Email Address
+frontend/config/locales/ja.yml	login.reset_form_instructions	Enter the email associated with your user account. If an account exists for that email address, a link to reset your password will be sent to that email address.
+frontend/config/locales/ja.yml	login.new_password	New Password
+frontend/config/locales/ja.yml	login.new_password_instructions	Create a new password for %{user} using the form, then login again.
+frontend/config/locales/ja.yml	login.password_mismatch_error	Passwords do not match.
+frontend/config/locales/ja.yml	login.password_update_success	Password successfully updated.
+frontend/config/locales/ja.yml	login.password_update_error	Password could not be updated. Try again or contact an administrator.
+frontend/config/locales/ja.yml	login.password_too_simple	This password is too easy to guess. Try adding words or use a random password generator.
+frontend/config/locales/ja.yml	component_link._plural	Component Links
+frontend/config/locales/ja.yml	component_link._singular	Component Link
+frontend/config/locales/ja.yml	component_link._frontend.action.add	Add Component Link
+frontend/config/locales/ja.yml	accession_link._plural	Accession Links
+frontend/config/locales/ja.yml	accession_link._singular	Accesssion Link
+frontend/config/locales/ja.yml	accession_link._frontend.action.add	Add Accession Link
+frontend/config/locales/ja.yml	accession.component_link	Linked Component
+frontend/config/locales/ja.yml	accession.component_links	Linked Components
+frontend/config/locales/ja.yml	agent._frontend.section.events	Events
+frontend/config/locales/ja.yml	archival_object.new_title	New Archival Object
+frontend/config/locales/ja.yml	archival_object._frontend.messages.transfer_description	Select a resource to transfer this archival object into
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawned	This Archival Object has been spawned from Accession <strong>%{accession_display_string}</strong>. This record is unsaved. You must click Save for the record to be created in the system.
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_placeholder	Spawned component will be inserted here
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_menu_before	Insert spawned component before
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_menu_child	Insert spawned component as child
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_menu_after	Insert spawned component after
+frontend/config/locales/ja.yml	archival_object._frontend.action.select_resource	Select Resource
+frontend/config/locales/ja.yml	archival_object._frontend.action.select_parent_and_position	Select Component Position
+frontend/config/locales/ja.yml	archival_object._frontend.action.leave_parent_empty	Close / Do not Assign Parent
+frontend/config/locales/ja.yml	structured_date_label_existence.date_label	Label
+frontend/config/locales/ja.yml	structured_date_label_existence.date_type_structured	Date Type
+frontend/config/locales/ja.yml	structured_date_label_existence.date_certainty	Certainty
+frontend/config/locales/ja.yml	structured_date_label_existence.date_era	Era
+frontend/config/locales/ja.yml	structured_date_label_existence.date_calendar	Calendar
+frontend/config/locales/ja.yml	structured_date_label_usage.date_label	Label
+frontend/config/locales/ja.yml	structured_date_label_usage.date_type_structured	Date Type
+frontend/config/locales/ja.yml	structured_date_label_usage.date_certainty	Certainty
+frontend/config/locales/ja.yml	structured_date_label_usage.date_era	Era
+frontend/config/locales/ja.yml	structured_date_label_usage.date_calendar	Calendar
+frontend/config/locales/ja.yml	enumeration._frontend.messages.not_used	Not Used.
+frontend/config/locales/ja.yml	enumeration._frontend.messages.one_related_item	1 related item.
+frontend/config/locales/ja.yml	enumeration._frontend.messages.related_items	 related items.
+frontend/config/locales/ja.yml	name._frontend.section.place_subject	Place Subject
+frontend/config/locales/ja.yml	name._frontend.section.topic_subject	Topic Subject
+frontend/config/locales/ja.yml	name._frontend.section.name_subject	Name Subject
+frontend/config/locales/ja.yml	name._frontend.section.function_subject	Function Subject
+frontend/config/locales/ja.yml	name._frontend.section.occupation_subject	Occupation Subject
+frontend/config/locales/ja.yml	name._frontend.action.make_authorized_tooltip	Use to indicate the name form is the authorized version of the name by authoritative sources such as LCNAF.
+frontend/config/locales/ja.yml	name._frontend.action.make_display_name_tooltip	Use to indicate that this form of the name should be used for displays when there are multiple name forms associated with the agent record.
+frontend/config/locales/ja.yml	name._frontend.action.make_primary	Make Primary
+frontend/config/locales/ja.yml	name._frontend.action.make_primary_tooltip	Make Primary Tooltip
+frontend/config/locales/ja.yml	repository._frontend.action.order_for_pui	Set Order in Public Interface
+frontend/config/locales/ja.yml	resource._frontend.remove_subrecord	Remove sub-record
+frontend/config/locales/ja.yml	resource.linker.browse	Browse Resources
+frontend/config/locales/ja.yml	resource.linker.link_title	Browse
+frontend/config/locales/ja.yml	resource.linker.link_to	Link to Resource
+frontend/config/locales/ja.yml	user.source	Authentication
+frontend/config/locales/ja.yml	user._frontend.messages.password_reset_email_sent	If an account for %{email} exists, an email with instructions for resetting your password will be sent.
+frontend/config/locales/ja.yml	user._frontend.messages.error_not_found	A username account for %{email} could not be found. Contact your administrator for help.
+frontend/config/locales/ja.yml	user._frontend.messages.password_reset_not_allowed	Password Recovery is not allowed. Contact your administrator.
+frontend/config/locales/ja.yml	user._frontend.messages.password_reset_fail	Password Recovery failed. Contact your administrator.
+frontend/config/locales/ja.yml	user._frontend.section.new_account	New Account
+frontend/config/locales/ja.yml	user._frontend.action.update_self	Manage User Account
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.title	Keyboard Shortcuts
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.shift	SHIFT
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.arrow_keys	Arrow Keys
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.return	Return
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.move_term	Jump from cell to cell
+frontend/config/locales/ja.yml	rde.help.keyboard_shortcuts.new_term	Create a new row (from last row)
+frontend/config/locales/ja.yml	rde.help.sticky_columns.title	Sticky Columns
+frontend/config/locales/ja.yml	rde.help.sticky_columns.p_one	Highlighted columns are sticky and will be replicated when new rows are added. Toggle 'sticky' by clicking the corresponding table heading.
+frontend/config/locales/ja.yml	rde.help.sticky_columns.p_two	Clicking <strong>Add Row</strong> will copy values from the last row. The row's <strong>+</strong> button will copy values from the currently focused row.
+frontend/config/locales/ja.yml	rde.help.fill_column.basic_title	Fill Column - Basic
+frontend/config/locales/ja.yml	rde.help.fill_column.basic_description	To fill a column with a single value, click <strong>Fill Column</strong> and under the <strong>Basic</strong> tab select the target <strong>Column</strong>, enter the desired <strong>Fill Value</strong> and click <strong>Apply Fill</strong>.
+frontend/config/locales/ja.yml	rde.help.fill_column.sequence_title	Fill Column - Sequence
+frontend/config/locales/ja.yml	rde.help.fill_column.sequence_description	To apply a sequence to a column, click <strong>Fill Column</strong> and under the <strong>Sequence</strong> tab select the target <strong>Column</strong> and complete the <strong>Fill Value</strong> fields to generate the sequence you desire. A warning will be displayed if the sequence generated wil
+frontend/config/locales/ja.yml	rde.help.reorder_columns.title	Reorder Columns
+frontend/config/locales/ja.yml	rde.help.reorder_columns.description	Click <strong>Reorder columns</strong>, select the row(s) you wish to reorder and use the up/down arrow buttons to change their position in the list. When happy with your new ordering, click <strong>Apply Column Order</strong>.
+frontend/config/locales/ja.yml	rde.help.reset.title	Reset Form
+frontend/config/locales/ja.yml	rde.help.reset.description	Click <strong>Reset</strong> to clear the form and revert the sticky, visible and order of the columns to the default values.
+frontend/config/locales/ja.yml	job._frontend.singular	Job
+frontend/config/locales/ja.yml	job._frontend.plural	Jobs
+frontend/config/locales/ja.yml	job._frontend.external_repo	Record belongs to a different repository
+frontend/config/locales/ja.yml	top_container.internal_note	Internal Note
+frontend/config/locales/ja.yml	top_container.internal_note_tooltip	<p>Notes for internal use. Only visible in staff interface.</p> 
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_resource_linker.browse	Browse Resources
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_resource_linker.create	Create Resource
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_resource_linker.link_title	Link to resource
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_accession_linker.browse	Browse Accessions
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_accession_linker.create	Create Accession
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.collection_accession_linker.link_title	Link to accession
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.rapid_indicator_entry	Update Indicators
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.rapid_indicator_entry_new_indicator	New Indicator
+frontend/config/locales/ja.yml	top_container._frontend.bulk_operations.rapid_indicator_entry_help	Enter an indicator for each selected container. Leave the New Indicator field blank to leave it unchanged.
+frontend/config/locales/ja.yml	top_container.linker.browse	Browse Top Containers
+frontend/config/locales/ja.yml	top_container.linker.create	Create Top Container
+frontend/config/locales/ja.yml	top_container.linker.link_title	Link to top container
+frontend/config/locales/ja.yml	container_profile.notes	Note
+frontend/config/locales/ja.yml	container_profile.notes_tooltip	<p>A note for miscellaneous information/metadata.</p> 
+frontend/config/locales/ja.yml	container_profile.linker.browse	Browse Container Profiles
+frontend/config/locales/ja.yml	container_profile.linker.create	Create Container Profile
+frontend/config/locales/ja.yml	container_profile.linker.link_title	Link to container profile
+frontend/config/locales/ja.yml	location_profile.linker.browse	Browse Location Profiles
+frontend/config/locales/ja.yml	location_profile.linker.create	Create Location Profile
+frontend/config/locales/ja.yml	location_profile.linker.link_title	Link to location profile
+frontend/config/locales/ja.yml	custom_report_template.new_title	New Custom Report Template
+frontend/config/locales/ja.yml	custom_report_template._frontend.action.search_usernames	Search Usernames
+frontend/config/locales/ja.yml	agent_record_controls._plural	Record Info
+frontend/config/locales/ja.yml	agent_record_controls._singular	Record Info
+frontend/config/locales/ja.yml	agent_record_controls._frontend.action.add	Add Record Info
+frontend/config/locales/ja.yml	agent_record_controls.maintenance_status	Record Control Maintenance Status
+frontend/config/locales/ja.yml	agent_record_controls.publication_status	Record Control Publication Status
+frontend/config/locales/ja.yml	agent_record_controls.romanization	Romanization
+frontend/config/locales/ja.yml	agent_record_controls.government_agency_type	Record Control Government Agency Type
+frontend/config/locales/ja.yml	agent_record_controls.reference_evaluation	Record Control Reference Evaluation
+frontend/config/locales/ja.yml	agent_record_controls.name_type	Record Control Name Type
+frontend/config/locales/ja.yml	agent_record_controls.level_of_detail	Record Control Level of Detail
+frontend/config/locales/ja.yml	agent_record_controls.modified_record	Record Control Modified Type
+frontend/config/locales/ja.yml	agent_record_controls.cataloging_source	Record Control Cataloging Source
+frontend/config/locales/ja.yml	agent_record_controls.maintenance_agency	Maintenance Agency
+frontend/config/locales/ja.yml	agent_record_controls.agency_name	Agency Name
+frontend/config/locales/ja.yml	agent_record_controls.maintenance_agency_note	Maintenance Agency Note
+frontend/config/locales/ja.yml	agent_record_controls.language	Language
+frontend/config/locales/ja.yml	agent_record_controls.script	Script
+frontend/config/locales/ja.yml	agent_record_controls.language_note	Language Note
+frontend/config/locales/ja.yml	agent_record_control_required._plural	Record Info
+frontend/config/locales/ja.yml	agent_record_control_required._singular	Record Info
+frontend/config/locales/ja.yml	agent_record_control_required._frontend.action.add	Add Record Info
+frontend/config/locales/ja.yml	agent_record_control_required.maintenance_status	Record Control Maintenance Status
+frontend/config/locales/ja.yml	agent_record_control_required.publication_status	Record Control Publication Status
+frontend/config/locales/ja.yml	agent_record_control_required.romanization	Romanization
+frontend/config/locales/ja.yml	agent_record_control_required.government_agency_type	Record Control Government Agency Type
+frontend/config/locales/ja.yml	agent_record_control_required.reference_evaluation	Record Control Reference Evaluation
+frontend/config/locales/ja.yml	agent_record_control_required.name_type	Record Control Name Type
+frontend/config/locales/ja.yml	agent_record_control_required.level_of_detail	Record Control Level of Detail
+frontend/config/locales/ja.yml	agent_record_control_required.modified_record	Record Control Modified Type
+frontend/config/locales/ja.yml	agent_record_control_required.cataloging_source	Record Control Cataloging Source
+frontend/config/locales/ja.yml	agent_record_control_required.maintenance_agency	Maintenance Agency
+frontend/config/locales/ja.yml	agent_record_control_required.agency_name	Agency Name
+frontend/config/locales/ja.yml	agent_record_control_required.maintenance_agency_note	Maintenance Agency Note
+frontend/config/locales/ja.yml	agent_record_control_required.language	Language
+frontend/config/locales/ja.yml	agent_record_control_required.script	Script
+frontend/config/locales/ja.yml	agent_record_control_required.language_note	Language Note
+frontend/config/locales/ja.yml	agent_record_control_merge_destination._plural	Record Info
+frontend/config/locales/ja.yml	agent_record_control_merge_destination._singular	Record Info
+frontend/config/locales/ja.yml	agent_record_control_merge_destination._frontend.action.add	Add Record Info
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_status	Record Control Maintenance Status
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.publication_status	Record Control Publication Status
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.romanization	Romanization
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.government_agency_type	Record Control Government Agency Type
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.reference_evaluation	Record Control Reference Evaluation
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.name_type	Record Control Name Type
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.level_of_detail	Record Control Level of Detail
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.modified_record	Record Control Modified Type
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.cataloging_source	Record Control Cataloging Source
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_agency	Maintenance Agency
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.agency_name	Agency Name
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_agency_note	Maintenance Agency Note
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.language	Language
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.script	Script
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.language_note	Language Note
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate._plural	Record Info
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate._singular	Record Info
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate._frontend.action.add	Add Record Info
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_status	Record Control Maintenance Status
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.publication_status	Record Control Publication Status
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.romanization	Romanization
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.government_agency_type	Record Control Government Agency Type
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.reference_evaluation	Record Control Reference Evaluation
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.name_type	Record Control Name Type
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.level_of_detail	Record Control Level of Detail
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.modified_record	Record Control Modified Type
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.cataloging_source	Record Control Cataloging Source
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_agency	Maintenance Agency
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.agency_name	Agency Name
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_agency_note	Maintenance Agency Note
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.language	Language
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.script	Script
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.language_note	Language Note
+frontend/config/locales/ja.yml	agent_genders._plural	Genders
+frontend/config/locales/ja.yml	agent_genders._singular	Gender
+frontend/config/locales/ja.yml	agent_genders._frontend.action.add	Add Gender
+frontend/config/locales/ja.yml	agent_genders.gender	Gender
+frontend/config/locales/ja.yml	agent_genders.note	Note
+frontend/config/locales/ja.yml	agent_genders.dates	Dates
+frontend/config/locales/ja.yml	agent_gender_required._plural	Genders
+frontend/config/locales/ja.yml	agent_gender_required._singular	Gender
+frontend/config/locales/ja.yml	agent_gender_required._frontend.action.add	Add Gender
+frontend/config/locales/ja.yml	agent_gender_required.gender	Gender
+frontend/config/locales/ja.yml	agent_gender_required.note	Note
+frontend/config/locales/ja.yml	agent_gender_required.dates	Dates
+frontend/config/locales/ja.yml	agent_gender_merge_destination._plural	Genders
+frontend/config/locales/ja.yml	agent_gender_merge_destination._singular	Gender
+frontend/config/locales/ja.yml	agent_gender_merge_destination._frontend.action.add	Add Gender
+frontend/config/locales/ja.yml	agent_gender_merge_destination.gender	Gender
+frontend/config/locales/ja.yml	agent_gender_merge_destination.note	Note
+frontend/config/locales/ja.yml	agent_gender_merge_destination.dates	Dates
+frontend/config/locales/ja.yml	agent_gender_merge_candidate._plural	Genders
+frontend/config/locales/ja.yml	agent_gender_merge_candidate._singular	Gender
+frontend/config/locales/ja.yml	agent_gender_merge_candidate._frontend.action.add	Add Gender
+frontend/config/locales/ja.yml	agent_gender_merge_candidate.gender	Gender
+frontend/config/locales/ja.yml	agent_gender_merge_candidate.note	Note
+frontend/config/locales/ja.yml	agent_gender_merge_candidate.dates	Dates
+frontend/config/locales/ja.yml	used_language_required._plural	Languages Used
+frontend/config/locales/ja.yml	used_language_required._singular	Language Used
+frontend/config/locales/ja.yml	used_language_required._frontend.action.add	Add Language
+frontend/config/locales/ja.yml	used_language_required.language	Language
+frontend/config/locales/ja.yml	used_language_required.script	Script
+frontend/config/locales/ja.yml	used_languages._plural	Languages Used
+frontend/config/locales/ja.yml	used_languages._singular	Language Used
+frontend/config/locales/ja.yml	used_languages._frontend.action.add	Add Language
+frontend/config/locales/ja.yml	used_languages.language	Language
+frontend/config/locales/ja.yml	used_languages.script	Script
+frontend/config/locales/ja.yml	used_language_merge_candidate._plural	Languages Used
+frontend/config/locales/ja.yml	used_language_merge_candidate._singular	Language Used
+frontend/config/locales/ja.yml	used_language_merge_candidate._frontend.action.add	Add Language
+frontend/config/locales/ja.yml	used_language_merge_candidate.language	Language
+frontend/config/locales/ja.yml	used_language_merge_candidate.script	Script
+frontend/config/locales/ja.yml	used_language_merge_destination._plural	Languages Used
+frontend/config/locales/ja.yml	used_language_merge_destination._singular	Language Used
+frontend/config/locales/ja.yml	used_language_merge_destination._frontend.action.add	Add Language
+frontend/config/locales/ja.yml	used_language_merge_destination.language	Language
+frontend/config/locales/ja.yml	used_language_merge_destination.script	Script
+frontend/config/locales/ja.yml	agent_identifiers._plural	Entity IDs
+frontend/config/locales/ja.yml	agent_identifiers._singular	Identifier
+frontend/config/locales/ja.yml	agent_identifiers._frontend.action.add	Add Entity ID
+frontend/config/locales/ja.yml	agent_identifiers.identifier_type	Identifier Type
+frontend/config/locales/ja.yml	agent_identifiers.entity_identifier	Entity IDs
+frontend/config/locales/ja.yml	agent_identifier_required._plural	Entity IDs
+frontend/config/locales/ja.yml	agent_identifier_required._singular	Identifier
+frontend/config/locales/ja.yml	agent_identifier_required._frontend.action.add	Add Entity ID
+frontend/config/locales/ja.yml	agent_identifier_required.identifier_type	Identifier Type
+frontend/config/locales/ja.yml	agent_identifier_required.entity_identifier	Entity IDs
+frontend/config/locales/ja.yml	agent_identifier_merge_destination._plural	Entity IDs
+frontend/config/locales/ja.yml	agent_identifier_merge_destination._singular	Identifier
+frontend/config/locales/ja.yml	agent_identifier_merge_destination._frontend.action.add	Add Entity ID
+frontend/config/locales/ja.yml	agent_identifier_merge_destination.identifier_type	Identifier Type
+frontend/config/locales/ja.yml	agent_identifier_merge_destination.entity_identifier	Entity IDs
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate._plural	Entity IDs
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate._singular	Identifier
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate._frontend.action.add	Add Entity ID
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate.identifier_type	Identifier Type
+frontend/config/locales/ja.yml	agent_identifier_merge_candidate.entity_identifier	Entity IDs
+frontend/config/locales/ja.yml	agent_place_required._frontend.action.add	Add Place
+frontend/config/locales/ja.yml	agent_place_required.section.dates	Dates
+frontend/config/locales/ja.yml	agent_place_required._plural	Places
+frontend/config/locales/ja.yml	agent_place_required._singular	Place
+frontend/config/locales/ja.yml	agent_place_required.place_role	Agent Place Role
+frontend/config/locales/ja.yml	agent_place_required.text_note	Note
+frontend/config/locales/ja.yml	agent_place_required.dates	Dates
+frontend/config/locales/ja.yml	agent_place_required.subjects	Places
+frontend/config/locales/ja.yml	agent_place_required.publish	Published
+frontend/config/locales/ja.yml	agent_places._frontend.action.add	Add Place
+frontend/config/locales/ja.yml	agent_places.section.dates	Dates
+frontend/config/locales/ja.yml	agent_places._plural	Places
+frontend/config/locales/ja.yml	agent_places._singular	Place
+frontend/config/locales/ja.yml	agent_places.place_role	Agent Place Role
+frontend/config/locales/ja.yml	agent_places.text_note	Note
+frontend/config/locales/ja.yml	agent_places.dates	Dates
+frontend/config/locales/ja.yml	agent_places.subjects	Places
+frontend/config/locales/ja.yml	agent_places.publish	Published
+frontend/config/locales/ja.yml	agent_place_merge_destination._frontend.action.add	Add Place
+frontend/config/locales/ja.yml	agent_place_merge_destination.section.dates	Dates
+frontend/config/locales/ja.yml	agent_place_merge_destination._plural	Places
+frontend/config/locales/ja.yml	agent_place_merge_destination._singular	Place
+frontend/config/locales/ja.yml	agent_place_merge_destination.place_role	Agent Place Role
+frontend/config/locales/ja.yml	agent_place_merge_destination.text_note	Note
+frontend/config/locales/ja.yml	agent_place_merge_destination.dates	Dates
+frontend/config/locales/ja.yml	agent_place_merge_destination.subjects	Places
+frontend/config/locales/ja.yml	agent_place_merge_destination.publish	Published
+frontend/config/locales/ja.yml	agent_place_merge_candidate._frontend.action.add	Add Place
+frontend/config/locales/ja.yml	agent_place_merge_candidate.section.dates	Dates
+frontend/config/locales/ja.yml	agent_place_merge_candidate._plural	Places
+frontend/config/locales/ja.yml	agent_place_merge_candidate._singular	Place
+frontend/config/locales/ja.yml	agent_place_merge_candidate.place_role	Agent Place Role
+frontend/config/locales/ja.yml	agent_place_merge_candidate.text_note	Note
+frontend/config/locales/ja.yml	agent_place_merge_candidate.dates	Dates
+frontend/config/locales/ja.yml	agent_place_merge_candidate.subjects	Places
+frontend/config/locales/ja.yml	agent_place_merge_candidate.publish	Published
+frontend/config/locales/ja.yml	agent_occupation_required._frontend.action.add	Add Occupation
+frontend/config/locales/ja.yml	agent_occupation_required.section.dates	Dates
+frontend/config/locales/ja.yml	agent_occupation_required._plural	Occupations
+frontend/config/locales/ja.yml	agent_occupation_required._singular	Occupation
+frontend/config/locales/ja.yml	agent_occupation_required.text_note	Note
+frontend/config/locales/ja.yml	agent_occupation_required.dates	Dates
+frontend/config/locales/ja.yml	agent_occupation_required.subjects	Occupations
+frontend/config/locales/ja.yml	agent_occupation_required.places	Places
+frontend/config/locales/ja.yml	agent_occupation_required.publish	Published
+frontend/config/locales/ja.yml	agent_occupations._frontend.action.add	Add Occupation
+frontend/config/locales/ja.yml	agent_occupations.section.dates	Dates
+frontend/config/locales/ja.yml	agent_occupations._plural	Occupations
+frontend/config/locales/ja.yml	agent_occupations._singular	Occupation
+frontend/config/locales/ja.yml	agent_occupations.text_note	Note
+frontend/config/locales/ja.yml	agent_occupations.dates	Dates
+frontend/config/locales/ja.yml	agent_occupations.subjects	Occupations
+frontend/config/locales/ja.yml	agent_occupations.places	Places
+frontend/config/locales/ja.yml	agent_occupations.publish	Published
+frontend/config/locales/ja.yml	agent_occupation_merge_destination._frontend.action.add	Add Occupation
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.section.dates	Dates
+frontend/config/locales/ja.yml	agent_occupation_merge_destination._plural	Occupations
+frontend/config/locales/ja.yml	agent_occupation_merge_destination._singular	Occupation
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.text_note	Note
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.dates	Dates
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.subjects	Occupations
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.places	Places
+frontend/config/locales/ja.yml	agent_occupation_merge_destination.publish	Published
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate._frontend.action.add	Add Occupation
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.section.dates	Dates
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate._plural	Occupations
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate._singular	Occupation
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.text_note	Note
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.dates	Dates
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.subjects	Occupations
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.places	Places
+frontend/config/locales/ja.yml	agent_occupation_merge_candidate.publish	Published
+frontend/config/locales/ja.yml	agent_function_required._frontend.action.add	Add Function
+frontend/config/locales/ja.yml	agent_function_required.section.dates	Dates
+frontend/config/locales/ja.yml	agent_function_required._plural	Functions
+frontend/config/locales/ja.yml	agent_function_required._singular	Function
+frontend/config/locales/ja.yml	agent_function_required.text_note	Note
+frontend/config/locales/ja.yml	agent_function_required.dates	Dates
+frontend/config/locales/ja.yml	agent_function_required.subjects	Functions
+frontend/config/locales/ja.yml	agent_function_required.places	Places
+frontend/config/locales/ja.yml	agent_function_required.publish	Published
+frontend/config/locales/ja.yml	agent_functions._frontend.action.add	Add Function
+frontend/config/locales/ja.yml	agent_functions.section.dates	Dates
+frontend/config/locales/ja.yml	agent_functions._plural	Functions
+frontend/config/locales/ja.yml	agent_functions._singular	Function
+frontend/config/locales/ja.yml	agent_functions.text_note	Note
+frontend/config/locales/ja.yml	agent_functions.dates	Dates
+frontend/config/locales/ja.yml	agent_functions.subjects	Functions
+frontend/config/locales/ja.yml	agent_functions.places	Places
+frontend/config/locales/ja.yml	agent_functions.publish	Published
+frontend/config/locales/ja.yml	agent_function_merge_destination._frontend.action.add	Add Function
+frontend/config/locales/ja.yml	agent_function_merge_destination.section.dates	Dates
+frontend/config/locales/ja.yml	agent_function_merge_destination._plural	Functions
+frontend/config/locales/ja.yml	agent_function_merge_destination._singular	Function
+frontend/config/locales/ja.yml	agent_function_merge_destination.text_note	Note
+frontend/config/locales/ja.yml	agent_function_merge_destination.dates	Dates
+frontend/config/locales/ja.yml	agent_function_merge_destination.subjects	Functions
+frontend/config/locales/ja.yml	agent_function_merge_destination.places	Places
+frontend/config/locales/ja.yml	agent_function_merge_destination.publish	Published
+frontend/config/locales/ja.yml	agent_function_merge_candidate._frontend.action.add	Add Function
+frontend/config/locales/ja.yml	agent_function_merge_candidate.section.dates	Dates
+frontend/config/locales/ja.yml	agent_function_merge_candidate._plural	Functions
+frontend/config/locales/ja.yml	agent_function_merge_candidate._singular	Function
+frontend/config/locales/ja.yml	agent_function_merge_candidate.text_note	Note
+frontend/config/locales/ja.yml	agent_function_merge_candidate.dates	Dates
+frontend/config/locales/ja.yml	agent_function_merge_candidate.subjects	Functions
+frontend/config/locales/ja.yml	agent_function_merge_candidate.places	Places
+frontend/config/locales/ja.yml	agent_function_merge_candidate.publish	Published
+frontend/config/locales/ja.yml	agent_topic_required._frontend.action.add	Add Topic
+frontend/config/locales/ja.yml	agent_topic_required.section.dates	Dates
+frontend/config/locales/ja.yml	agent_topic_required._plural	Topics
+frontend/config/locales/ja.yml	agent_topic_required._singular	Topic
+frontend/config/locales/ja.yml	agent_topic_required.text_note	Note
+frontend/config/locales/ja.yml	agent_topic_required.dates	Dates
+frontend/config/locales/ja.yml	agent_topic_required.subjects	Topics
+frontend/config/locales/ja.yml	agent_topic_required.places	Places
+frontend/config/locales/ja.yml	agent_topic_required.publish	Published
+frontend/config/locales/ja.yml	agent_topics._frontend.action.add	Add Topic
+frontend/config/locales/ja.yml	agent_topics.section.dates	Dates
+frontend/config/locales/ja.yml	agent_topics._plural	Topics
+frontend/config/locales/ja.yml	agent_topics._singular	Topic
+frontend/config/locales/ja.yml	agent_topics.text_note	Note
+frontend/config/locales/ja.yml	agent_topics.dates	Dates
+frontend/config/locales/ja.yml	agent_topics.subjects	Topics
+frontend/config/locales/ja.yml	agent_topics.places	Places
+frontend/config/locales/ja.yml	agent_topics.publish	Published
+frontend/config/locales/ja.yml	agent_topic_merge_destination._frontend.action.add	Add Topic
+frontend/config/locales/ja.yml	agent_topic_merge_destination.section.dates	Dates
+frontend/config/locales/ja.yml	agent_topic_merge_destination._plural	Topics
+frontend/config/locales/ja.yml	agent_topic_merge_destination._singular	Topic
+frontend/config/locales/ja.yml	agent_topic_merge_destination.text_note	Note
+frontend/config/locales/ja.yml	agent_topic_merge_destination.dates	Dates
+frontend/config/locales/ja.yml	agent_topic_merge_destination.subjects	Topics
+frontend/config/locales/ja.yml	agent_topic_merge_destination.places	Places
+frontend/config/locales/ja.yml	agent_topic_merge_destination.publish	Published
+frontend/config/locales/ja.yml	agent_topic_merge_candidate._frontend.action.add	Add Topic
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.section.dates	Dates
+frontend/config/locales/ja.yml	agent_topic_merge_candidate._plural	Topics
+frontend/config/locales/ja.yml	agent_topic_merge_candidate._singular	Topic
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.text_note	Note
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.dates	Dates
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.subjects	Topics
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.places	Places
+frontend/config/locales/ja.yml	agent_topic_merge_candidate.publish	Published
+frontend/config/locales/ja.yml	agent_alternate_sets._plural	Alternate Sets
+frontend/config/locales/ja.yml	agent_alternate_sets._singular	Alternate Set
+frontend/config/locales/ja.yml	agent_alternate_sets._frontend.action.add	Add Alternative Set
+frontend/config/locales/ja.yml	agent_alternate_sets.set_component	Set Component
+frontend/config/locales/ja.yml	agent_alternate_sets.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_alternate_sets.file_uri	File URI
+frontend/config/locales/ja.yml	agent_alternate_sets.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_alternate_sets.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_alternate_sets.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_alternate_sets.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_alternate_sets.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_alternate_sets.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_alternate_set_required._plural	Alternate Sets
+frontend/config/locales/ja.yml	agent_alternate_set_required._singular	Alternate Set
+frontend/config/locales/ja.yml	agent_alternate_set_required._frontend.action.add	Add Alternative Set
+frontend/config/locales/ja.yml	agent_alternate_set_required.set_component	Set Component
+frontend/config/locales/ja.yml	agent_alternate_set_required.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_alternate_set_required.file_uri	File URI
+frontend/config/locales/ja.yml	agent_alternate_set_required.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_required.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_required.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_required.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_required.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination._plural	Alternate Sets
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination._singular	Alternate Set
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination._frontend.action.add	Add Alternative Set
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.set_component	Set Component
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.file_uri	File URI
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate._plural	Alternate Sets
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate._singular	Alternate Set
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate._frontend.action.add	Add Alternative Set
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.set_component	Set Component
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.file_uri	File URI
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_conventions_declarations._plural	Convention Declarations
+frontend/config/locales/ja.yml	agent_conventions_declarations._singular	Convention Declaration
+frontend/config/locales/ja.yml	agent_conventions_declarations._frontend.action.add	Add Convention Declaration
+frontend/config/locales/ja.yml	agent_conventions_declarations.name_rule	Convention
+frontend/config/locales/ja.yml	agent_conventions_declarations.citation	Citation
+frontend/config/locales/ja.yml	agent_conventions_declarations.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_conventions_declarations.file_uri	File URI
+frontend/config/locales/ja.yml	agent_conventions_declarations.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_conventions_declarations.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_conventions_declarations.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_conventions_declarations.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_conventions_declarations.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_conventions_declarations.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_conventions_declaration_required._plural	Convention Declarations
+frontend/config/locales/ja.yml	agent_conventions_declaration_required._singular	Convention Declaration
+frontend/config/locales/ja.yml	agent_conventions_declaration_required._frontend.action.add	Add Convention Declaration
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.name_rule	Convention
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.citation	Citation
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.file_uri	File URI
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination._plural	Convention Declarations
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination._singular	Convention Declaration
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination._frontend.action.add	Add Convention Declaration
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.name_rule	Convention
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.citation	Citation
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.file_uri	File URI
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate._plural	Convention Declarations
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate._singular	Convention Declaration
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate._frontend.action.add	Add Convention Declaration
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.name_rule	Convention
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.citation	Citation
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.file_uri	File URI
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_other_agency_codes._plural	Other Agency Codes
+frontend/config/locales/ja.yml	agent_other_agency_codes._singular	Other Agency Code
+frontend/config/locales/ja.yml	agent_other_agency_codes._frontend.action.add	Add Agency Code
+frontend/config/locales/ja.yml	agent_other_agency_codes.agency_code_type	Record Control Agency Code Type
+frontend/config/locales/ja.yml	agent_other_agency_codes.maintenance_agency	Maintenance Agency
+frontend/config/locales/ja.yml	agent_other_agency_code_required._plural	Other Agency Codes
+frontend/config/locales/ja.yml	agent_other_agency_code_required._singular	Other Agency Code
+frontend/config/locales/ja.yml	agent_other_agency_code_required._frontend.action.add	Add Agency Code
+frontend/config/locales/ja.yml	agent_other_agency_code_required.agency_code_type	Record Control Agency Code Type
+frontend/config/locales/ja.yml	agent_other_agency_code_required.maintenance_agency	Maintenance Agency
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination._plural	Other Agency Codes
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination._singular	Other Agency Code
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination._frontend.action.add	Add Agency Code
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination.agency_code_type	Record Control Agency Code Type
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_destination.maintenance_agency	Maintenance Agency
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate._plural	Other Agency Codes
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate._singular	Other Agency Code
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate._frontend.action.add	Add Agency Code
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate.agency_code_type	Record Control Agency Code Type
+frontend/config/locales/ja.yml	agent_other_agency_code_merge_candidate.maintenance_agency	Maintenance Agency
+frontend/config/locales/ja.yml	agent_maintenance_histories._plural	Maintenance History
+frontend/config/locales/ja.yml	agent_maintenance_histories._singular	Agent Maintenance History
+frontend/config/locales/ja.yml	agent_maintenance_histories._frontend.action.add	Add Event
+frontend/config/locales/ja.yml	agent_maintenance_histories.maintenance_event_type	Record Control Maintenance Event Type
+frontend/config/locales/ja.yml	agent_maintenance_histories.maintenance_agent_type	Record Control Maintenance Agent Type
+frontend/config/locales/ja.yml	agent_maintenance_histories.agent	Agent
+frontend/config/locales/ja.yml	agent_maintenance_histories.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_maintenance_histories.event_date	Event Date
+frontend/config/locales/ja.yml	agent_maintenance_history_required._plural	Maintenance History
+frontend/config/locales/ja.yml	agent_maintenance_history_required._singular	Agent Maintenance History
+frontend/config/locales/ja.yml	agent_maintenance_history_required._frontend.action.add	Add Event
+frontend/config/locales/ja.yml	agent_maintenance_history_required.maintenance_event_type	Record Control Maintenance Event Type
+frontend/config/locales/ja.yml	agent_maintenance_history_required.maintenance_agent_type	Record Control Maintenance Agent Type
+frontend/config/locales/ja.yml	agent_maintenance_history_required.agent	Agent
+frontend/config/locales/ja.yml	agent_maintenance_history_required.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_maintenance_history_required.event_date	Event Date
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination._plural	Maintenance History
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination._singular	Agent Maintenance History
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination._frontend.action.add	Add Event
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.maintenance_event_type	Record Control Maintenance Event Type
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.maintenance_agent_type	Record Control Maintenance Agent Type
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.agent	Agent
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.event_date	Event Date
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate._plural	Maintenance History
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate._singular	Agent Maintenance History
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate._frontend.action.add	Add Event
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.maintenance_event_type	Record Control Maintenance Event Type
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.maintenance_agent_type	Record Control Maintenance Agent Type
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.agent	Agent
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.event_date	Event Date
+frontend/config/locales/ja.yml	agent_record_identifiers._plural	Record IDs
+frontend/config/locales/ja.yml	agent_record_identifiers._singular	Record ID
+frontend/config/locales/ja.yml	agent_record_identifiers._frontend.action.add	Add Record ID
+frontend/config/locales/ja.yml	agent_record_identifiers.identifier_type	Record Control Identifier Type
+frontend/config/locales/ja.yml	agent_record_identifiers.source	Source
+frontend/config/locales/ja.yml	agent_record_identifiers.primary_identifier	Is Primary Identifier?
+frontend/config/locales/ja.yml	agent_record_identifiers.primary	Primary
+frontend/config/locales/ja.yml	agent_record_identifiers.record_identifier	Record Identifier
+frontend/config/locales/ja.yml	agent_record_identifier_required._plural	Record IDs
+frontend/config/locales/ja.yml	agent_record_identifier_required._singular	Record ID
+frontend/config/locales/ja.yml	agent_record_identifier_required._frontend.action.add	Add Record ID
+frontend/config/locales/ja.yml	agent_record_identifier_required.identifier_type	Record Control Identifier Type
+frontend/config/locales/ja.yml	agent_record_identifier_required.source	Source
+frontend/config/locales/ja.yml	agent_record_identifier_required.primary_identifier	Is Primary Identifier?
+frontend/config/locales/ja.yml	agent_record_identifier_required.primary	Primary
+frontend/config/locales/ja.yml	agent_record_identifier_required.record_identifier	Record Identifier
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination._plural	Record IDs
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination._singular	Record ID
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination._frontend.action.add	Add Record ID
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.identifier_type	Record Control Identifier Type
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.source	Source
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.primary_identifier	Is Primary Identifier?
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.primary	Primary
+frontend/config/locales/ja.yml	agent_record_identifier_merge_destination.record_identifier	Record Identifier
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate._plural	Record IDs
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate._singular	Record ID
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate._frontend.action.add	Add Record ID
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.identifier_type	Record Control Identifier Type
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.source	Source
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.primary_identifier	Is Primary Identifier?
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.primary	Primary
+frontend/config/locales/ja.yml	agent_record_identifier_merge_candidate.record_identifier	Record Identifier
+frontend/config/locales/ja.yml	agent_sources._plural	Sources
+frontend/config/locales/ja.yml	agent_sources._singular	Agent Source
+frontend/config/locales/ja.yml	agent_sources._frontend.action.add	Add Source
+frontend/config/locales/ja.yml	agent_sources.source_entry	Source Entry
+frontend/config/locales/ja.yml	agent_sources.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_sources.file_uri	File URI
+frontend/config/locales/ja.yml	agent_sources.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_sources.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_sources.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_sources.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_sources.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_sources.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_source_required._plural	Sources
+frontend/config/locales/ja.yml	agent_source_required._singular	Agent Source
+frontend/config/locales/ja.yml	agent_source_required._frontend.action.add	Add Source
+frontend/config/locales/ja.yml	agent_source_required.source_entry	Source Entry
+frontend/config/locales/ja.yml	agent_source_required.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_source_required.file_uri	File URI
+frontend/config/locales/ja.yml	agent_source_required.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_source_required.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_source_required.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_source_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_source_required.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_source_required.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_source_merge_destination._plural	Sources
+frontend/config/locales/ja.yml	agent_source_merge_destination._singular	Agent Source
+frontend/config/locales/ja.yml	agent_source_merge_destination._frontend.action.add	Add Source
+frontend/config/locales/ja.yml	agent_source_merge_destination.source_entry	Source Entry
+frontend/config/locales/ja.yml	agent_source_merge_destination.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_source_merge_destination.file_uri	File URI
+frontend/config/locales/ja.yml	agent_source_merge_destination.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_source_merge_destination.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_source_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_source_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_source_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_source_merge_destination.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_source_merge_candidate._plural	Sources
+frontend/config/locales/ja.yml	agent_source_merge_candidate._singular	Agent Source
+frontend/config/locales/ja.yml	agent_source_merge_candidate._frontend.action.add	Add Source
+frontend/config/locales/ja.yml	agent_source_merge_candidate.source_entry	Source Entry
+frontend/config/locales/ja.yml	agent_source_merge_candidate.descriptive_note	Descriptive Note
+frontend/config/locales/ja.yml	agent_source_merge_candidate.file_uri	File URI
+frontend/config/locales/ja.yml	agent_source_merge_candidate.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_source_merge_candidate.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_source_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_source_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_source_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_source_merge_candidate.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_resources._frontend.action.add	Add Related External Resource
+frontend/config/locales/ja.yml	agent_resources.section.dates	Dates
+frontend/config/locales/ja.yml	agent_resources.section.places	Places
+frontend/config/locales/ja.yml	agent_resources._plural	Related External Resources
+frontend/config/locales/ja.yml	agent_resources._singular	Related External Resource
+frontend/config/locales/ja.yml	agent_resources.dates	Dates
+frontend/config/locales/ja.yml	agent_resources.places	Places
+frontend/config/locales/ja.yml	agent_resources.publish	Published
+frontend/config/locales/ja.yml	agent_resources.linked_agent_role	Resource Relation Type
+frontend/config/locales/ja.yml	agent_resources.linked_resource	Related External Resource
+frontend/config/locales/ja.yml	agent_resources.linked_resource_description	Description
+frontend/config/locales/ja.yml	agent_resources.file_uri	File URI
+frontend/config/locales/ja.yml	agent_resources.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_resources.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_resources.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_resources.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_resources.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_resources.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_resource_required._frontend.action.add	Add Related External Resource
+frontend/config/locales/ja.yml	agent_resource_required.section.dates	Dates
+frontend/config/locales/ja.yml	agent_resource_required.section.places	Places
+frontend/config/locales/ja.yml	agent_resource_required._plural	Related External Resources
+frontend/config/locales/ja.yml	agent_resource_required._singular	Related External Resource
+frontend/config/locales/ja.yml	agent_resource_required.dates	Dates
+frontend/config/locales/ja.yml	agent_resource_required.places	Places
+frontend/config/locales/ja.yml	agent_resource_required.publish	Published
+frontend/config/locales/ja.yml	agent_resource_required.linked_agent_role	Resource Relation Type
+frontend/config/locales/ja.yml	agent_resource_required.linked_resource	Related External Resource
+frontend/config/locales/ja.yml	agent_resource_required.linked_resource_description	Description
+frontend/config/locales/ja.yml	agent_resource_required.file_uri	File URI
+frontend/config/locales/ja.yml	agent_resource_required.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_resource_required.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_resource_required.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_resource_required.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_resource_required.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_resource_required.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_resource_merge_candidate._frontend.action.add	Add Related External Resource
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.section.dates	Dates
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.section.places	Places
+frontend/config/locales/ja.yml	agent_resource_merge_candidate._plural	Related External Resources
+frontend/config/locales/ja.yml	agent_resource_merge_candidate._singular	Related External Resource
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.dates	Dates
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.places	Places
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.publish	Published
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_agent_role	Resource Relation Type
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_resource	Related External Resource
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_resource_description	Description
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.file_uri	File URI
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	agent_resource_merge_destination._frontend.action.add	Add Related External Resource
+frontend/config/locales/ja.yml	agent_resource_merge_destination.section.dates	Dates
+frontend/config/locales/ja.yml	agent_resource_merge_destination.section.places	Places
+frontend/config/locales/ja.yml	agent_resource_merge_destination._plural	Related External Resources
+frontend/config/locales/ja.yml	agent_resource_merge_destination._singular	Related External Resource
+frontend/config/locales/ja.yml	agent_resource_merge_destination.dates	Dates
+frontend/config/locales/ja.yml	agent_resource_merge_destination.places	Places
+frontend/config/locales/ja.yml	agent_resource_merge_destination.publish	Published
+frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_agent_role	Resource Relation Type
+frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_resource	Related External Resource
+frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_resource_description	Description
+frontend/config/locales/ja.yml	agent_resource_merge_destination.file_uri	File URI
+frontend/config/locales/ja.yml	agent_resource_merge_destination.xlink_title_attribute	Xlink Title Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_destination.xlink_role_attribute	Xlink Role Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_destination.xlink_arcrole_attribute	Xlink Arcrole Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute
+frontend/config/locales/ja.yml	agent_resource_merge_destination.last_verified_date	Last Verified Date
+frontend/config/locales/ja.yml	bulk_import_templates.overview	<p>These are templates for uploading spreadsheet data into ArchivesSpace using the different import options in the Background Jobs area. The data required for a successful import depends on the type of record being created. You do not have to fill out every row and column.</p><p>Each CSV template in
+frontend/config/locales/ja.yml	bulk_import_templates.aspace_digital_object_import_template_csv	Create digital object records and records linked to digital objects like agents, subjects, and events.
+frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_template_csv	Create archival objects attached to an existing resource. Includes option to create many different sub-records and linked records including dates, extents, notes, containers, and digital objects. The CSV format is for people who do not have access to Microsoft Excel.
+frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_template_xlsx	Create archival objects attached to an existing resource. Includes option to create many different sub-records and linked records including dates, extents, notes, containers, and digital objects. The XLSX format is for those who have access to Microsoft Excel.
+frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_DO_template_csv	Create and link digital objects to existing archival objects in a resource. The CSV format is for people who do not have access to Microsoft Excel.
+frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_DO_template_xlsx	Create and link digital objects to existing archival objects in a resource. The XLSX format is for those who have access to Microsoft Excel.
+frontend/config/locales/ja.yml	bulk_import_templates.aspace_location_import_template_csv	Create new location records. Please note that this template is for creating the location records themselves, not linking materials to locations.
+frontend/config/locales/ja.yml	bulk_import_templates.aspace_assessment_import_template_csv	Create and link assessments to existing accessions, resources, archival objects, or digital objects.
+frontend/config/locales/ja.yml	bulk_import_templates.aspace_subject_import_template_csv	Create new Subject records. Please note that this template is for creating the subject records themselves, not linking them to other records.
+public/config/locales/ja.yml	actions.next	Next
+public/config/locales/ja.yml	actions.previous	Previous
+public/config/locales/ja.yml	search_results.filter.digital_object_type_enum_s	Type
+public/config/locales/ja.yml	search_results.filter.extent_type_enum_s	Extent
+public/config/locales/ja.yml	errors.invalid_search_params	Invalid search parameter '%{value}' for field '%{field}'
+public/config/locales/ja.yml	accession._public.related_accessions.has_part	Part Relationship
+public/config/locales/ja.yml	resource._public.identifier_pdf	ID
+public/config/locales/ja.yml	resource._public.identifier_ark	ID [ark]
+public/config/locales/ja.yml	resource._public.ark_link_name	Archival Resource Key
+public/config/locales/ja.yml	resource._public.lang_pdf	Language of the Material
+public/config/locales/ja.yml	resource._public.uri	ID [aspace_uri]
+public/config/locales/ja.yml	top_container.restricted	Restricted
+public/config/locales/ja.yml	digital_object._public.additional	Additional File Versions
+public/config/locales/ja.yml	digital_object._public.url_encoded_data	URL-encoded data
+public/config/locales/ja.yml	digital_object._public.browse_number_digital_objects_in_collection.one	Browse %{num} digital object in collection
+public/config/locales/ja.yml	pdf_reports.accessrestrict	Conditions Governing Access
+public/config/locales/ja.yml	pdf_reports.userestrict	Conditions Governing Use
+public/config/locales/ja.yml	pdf_reports.accruals	Accruals
+public/config/locales/ja.yml	pdf_reports.acqinfo	Immediate Source of Acquisition
+public/config/locales/ja.yml	pdf_error.title	There was an error generating this PDF.
+public/config/locales/ja.yml	pdf_error.description	We're sorry, there was an error generating this PDF finding aid. Here is some diagnostic information to help determine what went wrong.
+public/config/locales/ja.yml	pdf_error.headings.location	Error Location
+public/config/locales/ja.yml	pdf_error.headings.message	Error Message
+public/config/locales/ja.yml	pdf_error.headings.type	Error Type
+public/config/locales/ja.yml	pdf_error.headings.additional_info	Additional Information
+public/config/locales/ja.yml	pdf_error.location.location_header	The error occurred while generating the header.
+public/config/locales/ja.yml	pdf_error.location.location_title_page	The error occurred while generating the title page.
+public/config/locales/ja.yml	pdf_error.location.location_toc	The error occurred while generating the table of contents.
+public/config/locales/ja.yml	pdf_error.location.location_resource	The error occurred while generating sections relating to the Resource record, which includes Summary Information, Controlled Access Headings, and the Notes sections.
+public/config/locales/ja.yml	pdf_error.location.location_archival_object	The error occurred while generating the Collection Inventory.
+public/config/locales/ja.yml	pdf_error.location.location_footer	The error occurred while generating the footer.
+public/config/locales/ja.yml	pdf_error.additional_info.invalid_markup	This error can result from invalid markup present in a note or subrecord.

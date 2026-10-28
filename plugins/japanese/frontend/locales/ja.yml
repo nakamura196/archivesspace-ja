@@ -1,0 +1,35 @@
+# スタッフ画面のひな形（views/）に直書きされていた英語の訳。ひな形は frontend/views/ に写して t() に置き換えた。
+# 用語は既存の訳に合わせた（resource=リソース、location=場所）。
+ja:
+  japanese:
+    add_event: イベントを追加：
+    transfer_to_repository: このリポジトリに移管：
+    loading: 読み込んでいます...
+    rde_prefix: 接頭辞
+    rde_from: 開始
+    rde_to: 終了
+    rde_suffix: 接尾辞
+    show_components: 下位の資料を表示
+    filter_by_text: テキストで絞り込む
+    page_home: ホーム
+    search_title: 検索
+    search_title_for: "「%{q}」の検索"
+    search_in: "（%{types}）"
+    help_visit: "%{name}を開く"
+    audit_created: "%{user} が作成"
+    audit_modified: "%{user} が最終更新"
+    audit_uri: URI
+  reports:
+    location_report:
+      title: 場所レポート
+      description: 場所の一覧を表示し、定義済みの場所に割り当てられた受入やリソースを示します。
+      total_count: 場所の数
+    resource_restrictions_list_report:
+      title: 利用制限のあるリソースの一覧
+      description: 利用制限のあるリソースと場所の情報を表示します。表題、リソース識別子、階層、日付の範囲、割り当てられた場所を含みます。
+      total_count: 利用制限のあるリソースの合計
+      total_extent: 利用制限のあるリソースの数量の合計
+      identifier_prefix: リソース
+    shelflist_report:
+      title: 配架リスト
+      description: すべての場所と、それに関連付けられた最上位コンテナの一覧を表示します。

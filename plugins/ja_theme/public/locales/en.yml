@@ -1,0 +1,14 @@
+en:
+  ja_theme:
+    search:
+      more: More options
+    welcome:
+      heading: Start exploring
+      desc:
+        repository: Browse holdings by institution
+        resource: Navigate finding aids from the whole down to the item
+        digital_object: See only digitized materials, such as images
+        accession: Materials received but not yet processed
+        subject: Find materials by topic or place
+        pui_agent: Find materials by creator or related person or organization
+        classification: Browse collections through the classification scheme

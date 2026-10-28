@@ -1,0 +1,14 @@
+# config.rb に足す行（例）。ArchivesSpace 4.2.1 で確かめた。
+
+# 画面の表示言語
+AppConfig[:locale] = :ja
+
+# プラグイン（使うものだけ並べる）
+AppConfig[:plugins] = ['local', 'japanese', 'ja_theme', 'iiif_manifest']
+
+# Solr の schema.xml を書き換える場合（段階 2・3）は、本体の照合を切る
+AppConfig[:solr_verify_checksums] = false
+
+# iiif_manifest を使う場合: 画像の公開 URL の先頭と、公開画面から見える置き場
+AppConfig[:iiif_image_base_url] = 'https://example.org/dip/'
+AppConfig[:iiif_image_dir] = '/srv/dip'

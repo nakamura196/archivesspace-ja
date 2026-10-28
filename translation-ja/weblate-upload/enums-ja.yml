@@ -1,0 +1,105 @@
+---
+ja:
+  enumerations:
+    _note_types:
+      abstract: 抄録
+      accruals: 追加受入
+      acqinfo: 直接の入手元
+      custodhist: 保管履歴
+      inscription: 銘文
+      otherfindaid: その他の検索手段
+      physdesc: 形態的記述
+    accession_acquisition_type:
+      deposit: 寄託
+      transfer: 移管
+    accession_parts_relator:
+      forms_part_of: 一部を構成する
+    accession_resource_type:
+      papers: 個人文書
+    agent_relationship_subordinatesuperior_relator:
+      is_superior_of: 関連エージェントの上位
+    archival_record_level:
+      fonds: フォンド
+    cataloging_source:
+      unknown: 不明
+    container_type:
+      case: ケース
+    date_era:
+      ce: 西暦
+    date_role:
+      begin: 開始
+    digital_object_digital_object_type:
+      notated_music: 楽譜
+    digital_object_level:
+      work: 作品
+    dimension_units:
+      feet: フィート
+    event_event_type:
+      decompression: 解凍
+      ingestion: 取り込み
+    linked_agent_archival_record_relators:
+      ato: 自筆者
+      cmt: 植字工
+      cnd: 指揮者
+      com: 編纂者
+      con: 保存修復担当者
+      crr: 訂正者
+      dgg: 学位授与者
+      dpt: 寄託者
+      dub: 著者と疑われる者
+      fnd: 資金提供者
+      ins: 書き入れ者
+      ive: インタビュー対象者
+      led: 主導者
+      rsr: 修復者
+      sgn: 署名者
+      wdc: 木版画家
+    location_temporary:
+      exhibit: 展示
+      loan: 貸出
+    name_rule:
+      isaar: 団体・個人・家族に関するアーカイバル・オーソリティ・レコードの国際標準（ISAAR(CPF)）
+    name_source:
+      lcnaf: 米国議会図書館名称典拠ファイル
+    note_digital_object_type:
+      abstract: 抄録
+      accruals: 追加受入
+      acqinfo: 直接の入手元
+      custodhist: 保管履歴
+      inscription: 銘文
+      otherfindaid: その他の検索手段
+      physdesc: 形態的記述
+    note_index_item_type:
+      function: 機能
+    note_langmaterial_type:
+      abstract: 抄録
+      accruals: 追加受入
+      acqinfo: 直接の入手元
+      custodhist: 保管履歴
+      inscription: 銘文
+      otherfindaid: その他の検索手段
+      physdesc: 形態的記述
+    note_multipart_type:
+      abstract: 抄録
+      accruals: 追加受入
+      acqinfo: 直接の入手元
+      custodhist: 保管履歴
+      inscription: 銘文
+      otherfindaid: その他の検索手段
+      physdesc: 形態的記述
+    note_singlepart_type:
+      abstract: 抄録
+      accruals: 追加受入
+      acqinfo: 直接の入手元
+      custodhist: 保管履歴
+      inscription: 銘文
+      otherfindaid: その他の検索手段
+      physdesc: 形態的記述
+    resource_resource_type:
+      papers: 個人文書
+    rights_statement_external_document_identifier_type:
+      rbmspe: RBMS統制語彙：来歴の証拠（ACRL稀覯書・手稿部会）
+    subject_source:
+      lcgft: 米国議会図書館ジャンル/形式用語
+    subject_term_type:
+      function: 機能

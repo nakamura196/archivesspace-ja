@@ -1,0 +1,8 @@
+# 閲覧者向け画面のサイト名とトップの文言。各機関で書き換える（例）。
+ja:
+  brand:
+    title: ArchivesSpace
+    title_link_text: トップページに戻る
+    welcome_head: ようこそ
+    welcome_message: "<p>所蔵する資料の目録を検索・閲覧できます。</p>"
+    welcome_page_title: ArchivesSpace
