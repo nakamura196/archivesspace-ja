@@ -2,6 +2,7 @@
 
 使い方: python3 tools/build_overrides.py <plugins/local のパス>
 - ja-fixes-all.tsv（重さ 高・中・低すべて）と additions.tsv（訳の無かったキー・画面調査で見つけたキー）を使う
+- help（スタッフ画面のヘルプの文言。上流は frontend/config/locales/help/ja.yml）はスタッフ画面だけに入れる
 - common と enums の分は、スタッフ画面（frontend）と閲覧者向け画面（public）の両方に入れる
 - プラグインの ja.yml（手で書いた分）にあるキーは、そちらを優先して入れない
 - %{…} が英語と食い違う行は入れずに報告する
@@ -19,9 +20,10 @@ import yaml
 HERE = Path(__file__).resolve().parent.parent
 UP = HERE / "upstream-4.2.1"
 SLUG = {"common/locales/ja.yml": "common", "common/locales/enums/ja.yml": "enums",
-        "frontend/config/locales/ja.yml": "frontend", "public/config/locales/ja.yml": "public"}
+        "frontend/config/locales/ja.yml": "frontend", "frontend/config/locales/help/ja.yml": "help",
+        "public/config/locales/ja.yml": "public"}
 TARGET = {"common": ["frontend", "public"], "enums": ["frontend", "public"],
-          "frontend": ["frontend"], "public": ["public"]}
+          "frontend": ["frontend"], "help": ["frontend"], "public": ["public"]}
 PH = re.compile(r"%\{[^}]+\}")
 
 
@@ -43,6 +45,13 @@ def paths(d, p=(), out=None):
     return out
 
 
+def unquote(v):
+    """値全体が " で囲まれ、中の " がすべて "" に二重化されている場合だけ、CSV の引用符を外す（それ以外は文字通りに残す）。"""
+    if len(v) >= 2 and v[0] == '"' and v[-1] == '"' and '"' not in v[1:-1].replace('""', ""):
+        return v[1:-1].replace('""', '"')
+    return v
+
+
 def rows():
     """(ファイル, キー, 英語, 訳) を、後のものが勝つ順に返す。"""
     for name, col in (("ja-fixes-all.tsv", "修正案"), ("additions.tsv", "訳")):
@@ -51,8 +60,10 @@ def rows():
             print("なし:", name)
             continue
         for r in csv.DictReader(open(f, encoding="utf-8"), delimiter="\t", quoting=csv.QUOTE_NONE):
-            if r.get(col, "").strip():
-                yield r["ファイル"], r["キー"], r.get("英語", ""), r[col].strip()
+            # TSV では改行を \n の 2 文字で書いている。上流の yml に文字どおりの \n は無いので、改行に戻す
+            val = unquote((r.get(col) or "").strip()).replace("\\n", "\n")
+            if val:
+                yield r["ファイル"], r["キー"], r.get("英語", ""), val
 
 
 def main(plugins):
@@ -74,7 +85,8 @@ def main(plugins):
         if not slug:
             bad.append(f"ファイル不明 {file} {key}")
             continue
-        en = enval[slug].get(key, en)
+        # 上流 4.2.1 の英語で照合する。上流に無いキー（4.2.1 では使われない）は TSV の英語が途中で切れていることがあるので照合しない
+        en = enval[slug].get(key, "")
         if en and set(PH.findall(en)) != set(PH.findall(ja)):
             bad.append(f"%{{}}の食い違い {key}: {ja}")
             continue
