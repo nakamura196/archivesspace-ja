@@ -1786,6 +1786,7 @@ ja:
     chronotype_label_tooltip: <p>このイベントに関連付けられている日付の種類を示します。 </p>
     date_type: イベントの種類
     event_type: 種類
+    event_type_tooltip: <p>イベントの性質の分類。 </p><p>この統制値リストの値は変更することができます。 </p><p>PREMISのeventTypeを参照</p>
     extents_tooltip: <p>記述対象の資料の数量と物理的性質を示します。</p> <p>DACS 2.5、ISAD(G) 3.1.5を参照</p>
     lang_materials_tooltip: <p>記述対象の資料に用いられている言語と文字体系。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照</p>
     linked_records_tooltip: <p>必須サブレコード：受入、デジタルオブジェクト、またはリソースをこのイベントに関連付けます。 </p>
@@ -1865,6 +1866,8 @@ ja:
     location: 所在
   file_version:
     checksum_method: チェックサム方式
+    file_format_name_tooltip: <p>ファイル形式の名前。 </p><p>この統制値リストの値は変更することができます。 </p><p>例： </p><ul><li>オーディオ交換ファイル形式（aiff） </li><li>オーディオ/ビデオインターリーブ形式（avi） </li><li> JPEGファイル交換形式（jpeg） </li><li> MPEG-Audioレイヤ3（mp3） </li><li>ポータブルドキュメントフォーマット（pdf） </li></ul>
+    file_format_version_tooltip: <p>ファイル形式のバージョン。 </p><p>例： </p><ul><li> 5.0 <em>（TIFF 5.0の場合）</em> </li></ul>
     identifier: 識別子
     use_statement: 用途
     xlink_actuate_attribute: XLink actuate属性
@@ -1972,6 +1975,7 @@ ja:
     chronotype_label_tooltip: <p>このイベントに関連付けられている日付の種類を示します。 </p>
     date_type: イベントの種類
     event_type: 種類
+    event_type_tooltip: <p>イベントの性質の分類。 </p><p>この統制値リストの値は変更することができます。 </p><p>PREMISのeventTypeを参照</p>
     extents_tooltip: <p>記述対象の資料の数量と物理的性質を示します。</p> <p>DACS 2.5、ISAD(G) 3.1.5を参照</p>
     lang_materials_tooltip: <p>記述対象の資料に用いられている言語と文字体系。</p> <p>DACS 4.5、ISAD(G) 3.4.3を参照</p>
     linked_records_tooltip: <p>必須サブレコード：受入、デジタルオブジェクト、またはリソースをこのイベントに関連付けます。 </p>
