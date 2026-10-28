@@ -62,6 +62,14 @@ def plugin_strings(screen):
     return m
 
 
+def unquote(v):
+    """値全体が " で囲まれ、中の " がすべて "" に二重化されている場合だけ、CSV の引用符を外す（build_overrides.py と同じ）。"""
+    v = v.strip()
+    if len(v) >= 2 and v[0] == '"' and v[-1] == '"' and '"' not in v[1:-1].replace('""', ""):
+        return v[1:-1].replace('""', '"')
+    return v
+
+
 def is_text(v):
     return isinstance(v, str)
 
@@ -80,7 +88,7 @@ def measure(screen, en, ja, fixes):
 
 def main():
     with open(FIXES, encoding="utf-8") as f:
-        rows = list(csv.DictReader(f, delimiter="\t"))
+        rows = list(csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE))
     out = []
     for screen, slugs in SCREENS.items():
         en = strings("en", slugs)
@@ -90,7 +98,7 @@ def main():
         for slug in slugs:
             for r in rows:
                 if SLUG.get(r["ファイル"]) == slug and r["修正案"]:
-                    by_key[r["キー"]] = {"key": r["キー"], "fix": r["修正案"], "weight": r["重さ"]}
+                    by_key[r["キー"]] = {"key": r["キー"], "fix": unquote(r["修正案"]), "weight": r["重さ"]}
         fixes = list(by_key.values())
         after = dict(ja, **plugin_strings(screen))
         out.append(dict(measure(screen, en, ja, fixes), state="before"))
