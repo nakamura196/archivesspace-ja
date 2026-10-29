@@ -1,0 +1,104 @@
+番号	部品	キー	判定	最終訳	理由
+142	frontend_help	help.topics.resource_finding_aid	直す	検索手段データのヘルプ	Finding Aid の誤訳（援助）
+143	frontend_help	help.topics.archival_object_finding_aid	直す	検索手段のヘルプ	Finding Aid の誤訳で同語反復
+144	frontend_help	help.topics.digital_object_finding_aid	直す	検索手段のヘルプ	Finding Aid の誤訳で同語反復
+145	frontend_help	help.topics.digital_object_component_finding_aid	直す	検索手段のヘルプ	Finding Aid の誤訳で同語反復
+146	frontend_help	help.topics.agent_person_dates_of_existence	直す	存在期間のヘルプ	Help を「助け」と直訳し意味が通らない
+147	frontend_help	help.topics.agent_family_dates_of_existence	直す	存在期間のヘルプ	Help を「助け」と直訳し意味が通らない
+148	frontend_help	help.topics.agent_corporate_entity_dates_of_existence	直す	存在期間のヘルプ	Help を「助け」と直訳し意味が通らない
+149	frontend_help	help.topics.agent_software_dates_of_existence	直す	存在期間のヘルプ	Help を「助け」と直訳し意味が通らない
+150	frontend_help	help.topics.accession	直す	受入のヘルプ	Accession=受入。「アクセス」は誤訳
+151	frontend_help	help.topics.resource_related_accessions	直す	関連する受入のヘルプ	Accession=受入。「アクセス」は誤訳
+152	frontend_help	help.topics.archival_object_related_accessions	直す	関連する受入のヘルプ	Accession=受入。「アクセス」は誤訳
+153	frontend_help	help.topics.digital_object_related_accessions	直す	関連する受入のヘルプ	Accession=受入。「アクセス」は誤訳
+154	frontend_help	help.topics.digital_object_component_related_accessions	直す	関連する受入のヘルプ	Accession=受入。「アクセス」は誤訳
+155	frontend_help	help.topics.agent_function	直す	機能に関するヘルプ	エージェントの Function は関数ではなく機能
+156	frontend_help	help.topics.bulk_archival_object_updater_job	直す	アーカイバルオブジェクトの一括更新に関するヘルプ	英語は一括更新。マージは誤り
+157	frontend_help	help.topics.subject_terms	直す	用語と細目に関するヘルプ	Terms を「条件」と誤訳
+158	frontend	bulk_archival_object_update_spreadsheet.download_spreadsheet_modal_message	直す	このスプレッドシートの生成には少し時間がかかる場合があります。	a few moments を「数分」は過大
+159	public	search_results.filter.to	直す	まで	範囲の終点。「に」では意味が通らない
+160	frontend_help	help.topics.accession_extents	直す	数量のヘルプ	用語方針 Extent=数量
+161	frontend_help	help.topics.resource_extents	直す	数量のヘルプ	用語方針 Extent=数量
+162	frontend_help	help.topics.archival_object_extents	直す	数量のヘルプ	用語方針 Extent=数量
+163	frontend_help	help.topics.digital_object_extents	直す	数量のヘルプ	用語方針 Extent=数量
+164	frontend_help	help.topics.digital_object_component_extents	直す	数量のヘルプ	用語方針 Extent=数量
+165	frontend_help	help.topics.accession_subjects	直す	件名のヘルプ	用語方針 Subject=件名。「科目」は誤り
+166	frontend_help	help.topics.resource_subjects	直す	件名のヘルプ	用語方針 Subject=件名。「科目」は誤り
+167	frontend_help	help.topics.archival_object_subjects	直す	件名のヘルプ	用語方針 Subject=件名。「科目」は誤り
+168	frontend_help	help.topics.digital_object_subjects	直す	件名のヘルプ	用語方針 Subject=件名。「科目」は誤り
+169	frontend_help	help.topics.digital_object_component_subjects	直す	件名のヘルプ	用語方針 Subject=件名。「科目」は誤り
+170	frontend_help	help.topics.subject	直す	件名のヘルプ	用語方針 Subject=件名。「科目」は誤り
+171	frontend_help	help.topics.accession_deaccessions	直す	除籍に関するヘルプ	用語方針 Deaccession=除籍
+172	frontend_help	help.topics.resource_deaccessions	直す	除籍に関するヘルプ	用語方針 Deaccession=除籍
+173	frontend_help	help.topics.archival_object_deaccessions	直す	除籍に関するヘルプ	用語方針 Deaccession=除籍
+174	frontend_help	help.topics.digital_object_deaccessions	直す	除籍に関するヘルプ	用語方針 Deaccession=除籍
+175	frontend_help	help.topics.digital_object_component_deaccessions	直す	除籍に関するヘルプ	用語方針 Deaccession=除籍
+176	frontend_help	help.topics.accession_rights_statements	直す	権利表明に関するヘルプ	用語方針 Rights Statement=権利表明
+177	frontend_help	help.topics.resource_rights_statements	直す	権利表明に関するヘルプ	用語方針 Rights Statement=権利表明
+178	frontend_help	help.topics.archival_object_rights_statements	直す	権利表明に関するヘルプ	用語方針 Rights Statement=権利表明
+179	frontend_help	help.topics.digital_object_rights_statements	直す	権利表明に関するヘルプ	用語方針 Rights Statement=権利表明
+180	frontend_help	help.topics.digital_object_component_rights_statements	直す	権利表明に関するヘルプ	用語方針 Rights Statement=権利表明
+181	frontend_help	help.topics.enumeration	直す	統制値リストのヘルプ	用語方針 Controlled value list=統制値リスト
+182	public	record._singular	直さない		「記録」でも誤りではない。好みの差
+183	frontend	actions.digital_object_template	直す	デジタルオブジェクトテンプレートをダウンロード	用語の中の不要な空白
+184	enums	enumerations.rights_statement_external_document_identifier_type.viaf	直す	バーチャル国際典拠ファイル番号	Authority File を「機関ファイル」と誤訳
+185	enums	enumerations.rights_statement_external_document_identifier_type.gnd	直す	共通典拠ファイル（ライプチヒ、フランクフルト：ドイツ国立図書館）	Normdatei は典拠ファイル（案の GND 追記は足さない）
+186	enums	enumerations.rights_statement_external_document_identifier_type.gettytgn	直す	ゲッティ地名シソーラス・オンライン（J・ポール・ゲッティ・トラスト）	語順が崩れ英語が残っている
+187	enums	enumerations.rights_statement_external_document_identifier_type.gettyulan	直す	芸術家名統合リスト・オンライン（J・ポール・ゲッティ・トラスト）	Union List の直訳で意味が通らない
+188	enums	enumerations.rights_statement_external_document_identifier_type.rbmsbt	直す	RBMS統制語彙：製本用語（大学・研究図書館協会 稀覯書・手稿部会）	制御→統制、Manuscripts を原稿と誤訳、協会名も欠落
+189	enums	enumerations.rights_statement_external_document_identifier_type.rbmsgt	直す	RBMS統制語彙：ジャンル用語（大学・研究図書館協会 稀覯書・手稿部会）	制御→統制、Manuscripts を原稿と誤訳
+190	enums	enumerations.rights_statement_external_document_identifier_type.rbmsppe	直す	RBMS統制語彙：印刷・出版の証拠（大学・研究図書館協会 稀覯書・手稿部会）	制御→統制、Manuscripts を原稿と誤訳
+191	enums	enumerations.rights_statement_external_document_identifier_type.bfi	直す	BFI - 英国映画協会	二重空白とゼロ幅文字の混入
+192	enums	enumerations.rights_statement_external_document_identifier_type.ibdb	直す	IBDB - インターネットブロードウェイデータベース	二重空白
+193	enums	enumerations.rights_statement_external_document_identifier_type.imdb	直す	IMDb - インターネット映画データベース	二重空白
+194	enums	enumerations.linked_agent_archival_record_relators.mod	直す	モデレーター	長音を付ける方針
+195	enums	enumerations.linked_agent_archival_record_relators.mrk	直す	マークアップエディター	長音を付ける方針
+196	enums	enumerations.linked_agent_archival_record_relators.red	直す	エディター	長音を付ける方針（Editor との区別は保つ）
+197	enums	enumerations.linked_agent_archival_record_relators.prv	直す	プロバイダー	長音を付ける方針
+198	enums	enumerations.linked_agent_archival_record_relators.rev	直す	レビュアー	長音の方針・一般的な表記
+199	frontend	actions.merge_from_browse_confirm_title	直す	選択したレコードをマージしますか？	全角文中の半角？
+200	frontend	actions.merge_agent_from_browse_confirm_message	直す	選択された最初のエージェントには、後で選択されたレコードがマージされます。その後選択されたすべてのレコードは削除され、リンクされたレコードは選択された最初のエージェントに再リンクされます。	文末が半角ピリオド（再リンクはそのまま）
+201	frontend	actions.transfer_failed_digital_objects_linked_to_records	直す	このデジタルオブジェクトは、このリポジトリに保持されている他のレコードにリンクしています。この転送を続行するには、次のレコードのリンクを削除してください	英語に無い鉤括弧
+202	frontend	actions.delete_repository_confirm_message	直す	<p><strong>この操作を元に戻すことはできませんので</strong>ご注意ください。</p><p>この操作は、<strong>リポジトリ</strong>と関連するすべてのレコードを、他のレコードへの参照も含めてデータベースから削除します。</p><p>続行するには、下に '%{repository}' と入力してください：</p><p><input id='deleteRepoConfim' data-confirm-answer='%{repository}'></input></p>	strong が英語2組に対し3組
+203	enums	enumerations.linked_agent_archival_record_relators.cou	直す	規則の適用を受ける裁判所	MARC の Court governed は規則に従う裁判所。能動は誤り
+204	enums	enumerations.linked_agent_archival_record_relators.app	直す	申請者	Applicant は申請者。応募者は語感が違う
+205	frontend	resource._frontend.messages.unpublished	直す	リソース<strong>%{resource_title}</strong>、その子、サブレコード、コンポーネントを非公開にしました	its children が欠落、「非公開されました」が崩れ
+206	frontend	search.agent.authority_id	直さない		方針表に無い。オーソリティIDでも誤りではない
+207	frontend	search.classification.has_classification_terms	直す	分類項目はありますか？	用語方針 Classification Term=分類項目
+208	frontend	batch_delete.locations.error	直す	選択した所在は、以下の問題のため、いずれも削除されませんでした：	用語方針 Location=所在
+209	frontend	agent._frontend.section.linked_via_rights_statement	直す	権利表明からリンクされたレコード	用語方針違反と不自然な文
+210	frontend	enumeration._frontend.messages.name_selector_tooltip	直す	<p>編集する統制値リスト。</p>\n	用語方針 Controlled value list=統制値リスト
+211	frontend	classification._frontend.messages.created	直す	分類<strong>%{classification_title}</strong>を作成しました	</strong>の後ろに助詞が無い
+212	frontend	classification._frontend.messages.updated	直す	分類<strong>%{classification_title}</strong>を更新しました	</strong>の後ろに助詞が無い
+213	frontend	classification._frontend.messages.deleted	直す	分類<strong>%{classification_title}</strong>を削除しました	</strong>の後ろに助詞が無い
+214	frontend	digital_object_component._frontend.messages.updated_with_parent	直す	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>を更新しました	</strong>の後ろに助詞が無い
+215	frontend	digital_object_component._frontend.messages.updated	直す	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>を更新しました	</strong>の後ろに助詞が無い
+216	frontend	digital_object_component._frontend.messages.deleted	直す	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>を削除しました	</strong>の後ろに助詞が無い
+217	frontend	resource._frontend.messages.created	直す	リソース<strong>%{resource_title}</strong>を作成しました	</strong>の後ろに助詞が無い
+218	frontend	resource._frontend.messages.updated	直す	リソース<strong>%{resource_title}</strong>を更新しました	</strong>の後ろに助詞が無い
+219	frontend	resource._frontend.messages.deleted	直す	リソース<strong>%{resource_title}</strong>を削除しました	</strong>の後ろに助詞が無い
+220	frontend	location._frontend.action.delete_confirm_message	直す	<p>この操作は<strong>元に戻せません</strong>のでご注意ください。</p><p>この所在が現在1つ以上のインスタンスにリンクされている場合、削除できません。</p>	strong が崩れ句点が重複。場所→所在
+221	frontend	location_batch._frontend.messages.updated	直す	<strong>%{number_created} 件の所在</strong>を更新しました	強調範囲のずれと単位欠落。場所→所在
+222	frontend	location_batch._frontend.messages.location_batch_info	直す	下の<strong>座標範囲</strong>から生成されるすべての所在に適用される基準値を定義します。	用語方針 Location=所在
+223	frontend	repository._frontend.messages.create_first_repository	直す	最初のリポジトリを作成するには、上の<strong>システム</strong>メニューをクリックし、続けて<strong>リポジトリの管理</strong>をクリックしてください。	strong の位置が崩れ、2つ目が英語と不一致
+224	frontend	top_container._frontend.bulk_operations.current_location	直す	現在の所在	用語方針 Location=所在
+225	frontend	top_container._frontend.bulk_operations.update_locations_current_location	直す	現在の所在	用語方針 Location=所在
+226	common	bulk_import.error.no_agent	直す	エージェント %{num} を作成できません：[%{why}]	番号が語の前にあり意味がずれる
+227	common	bulk_import.error.no_tc	直す	トップコンテナ %{number} を作成できません：[%{why}]	番号が語の前にあり意味がずれる
+228	common	bulk_import.error.no_ao_be	直す	アーカイバルオブジェクトは作成されません	用語方針 Archival Object
+229	common	bulk_import.error.no_move	直す	リストの末尾からアーカイバルオブジェクトを移動できません（応答コード %{code}）	括弧が文頭で語順崩れ。用語方針
+230	common	bulk_import.error.has_dig_obj	直す	アーカイバルオブジェクトには、すでに関連するデジタルオブジェクトがあります	用語方針と不自然な文
+231	common	top_container_linker.error.tc_indicator_and_record_no_exist	直す	行%{row_num}の%{ref_id}には、トップコンテナインジケータとTCレコード番号のどちらか一方のみを指定できます。	present を「表示」と誤訳
+232	common	top_container_linker.error.problem_adding_current_location	直す	現在の所在の追加で問題が発生しました（行%{row_num}の%{ref_id}を参照）：[%{why}]	用語方針 Location=所在
+233	common	top_container_linker.log_validate_only	直す	検証のみのオプションが有効になっているため、トップコンテナの作成とリンクをスキップします。	Top Container の訳揺れ（他行はトップコンテナ）
+234	common	metadata_rights_declaration.license_tooltip	直す	<p>メタデータを使用および再利用できる条件を規定するライセンスの名前（存在する場合）。例：</p>\n<p>このレコードは、Universal 1.0 Public Domain Dedication Creative Commonsライセンスの下で利用可能になります。</p>\n<p>このレコードは、Attribution-NonCommercial 4.0 International Creative Commonsライセンスの下で利用可能になります。</p>\n<p>このレコードは、Attribution-NonCommercial-NoDerivatives 4.0 International Creative Commonsライセンスの下で利用可能になります。</p>\n<p>このレコードは、Attribution-NoDerivatives 4.0 International Creative Commonsライセンスの下で利用可能になります。</p>\n<p>このレコードは、Attribution-NonCommercial-ShareAlike 4.0 International Creative Commonsライセンスの下で利用可能になります。</p>\n	固有名 Creative Commons の空白欠落（5か所）
+235	common	metadata_rights_declaration.last_verified_date_tooltip	直す	<p>関連付けられたURIでリンクされているリソースが最後に検証された日付、または日時。</p>\n	「リンクされた」の重複
+236	common	bulk_import.error.bad_accession_uri	直す	URI %{uri} の受入が見つかりません	用語方針 Accession=受入
+237	common	importer.error.subject_mode_conflict	直す	件名グループ %{index} にレコードIDと新規作成用の値の両方を含めることはできません	用語方針 Subject=件名
+238	common	bulk_import.error.subject_missing_identity	直す	件名 %{num} にはレコード ID または用語が必要です	用語方針 Subject=件名
+239	common	bulk_import.error.invalid_event_type	直す	イベントグループ %{group} のフィールド %{field} は既存のイベントの種類ではありません: '%{value}'	用語方針 Type=種類
+240	common	bulk_import.error.event_agent_unsupported_type	直す	イベントグループ %{group} のフィールド %{field} はサポートされているエージェントの種類ではありません。使用できる値: %{accepted}	用語方針 Type=種類
+241	enums	enumeration_names.agent_relationship_family_relator	直す	エージェント関係の関係語（家族）	区切りが無く意味が通らない
+242	enums	enumeration_names.agent_relationship_hierarchical_relator	直す	エージェント関係の関係語（階層）	区切りが無く意味が通らない
+243	enums	enumeration_names.agent_relationship_identity_relator	直す	エージェント関係の関係語（同一性）	区切りが無く英語の音写のみ
+244	enums	enumeration_names.agent_relationship_specific_relator	直す	エージェント関係の関係語（特定）	区切りが無く意味が通らない

@@ -1,0 +1,82 @@
+部品	キー	問題の種類	新しい訳(抜粋40字)	直し案(全文)	理由(短く)
+common	section_tooltips.linked_agents_tooltip	崩れ	エージェントは、そのコンテキストに関する情報を提供するために記述されたマテリアル	<p>エージェントを、記述対象の資料の作成者・出所・主題として関連付け、その背景に関する情報を提供します。</p>	主語と目的語が重複し、意味が通らない
+common	section_tooltips.instances_tooltip	崩れ	説明を素材の物理的またはデジタル的なインスタンス化に関する情報にリンクします。	<p>記述を、資料の物理的な実体またはデジタルの実体に関する情報に関連付けます。</p>	機械翻訳で不自然（Links description to ...）
+common	digital_object.title_tooltip	欠落	Cedar Fire <em>（</em> Cedar Fire <em>という	<li>Cedar Fire <em>（「Cedar Fire」というタイトルのリソースコンポーネントレコードにリンクされている）</em></li>	3番目の例で em タグの範囲が英語と合わず崩れている
+common	digital_object_component.label_tooltip	崩れ	画像：画像1、画像1など / テキスト：第1ページ、第1葉、第1章、第1章など	画像：画像1、写真1など / テキスト：1ページ、1葉、最初の葉、第1章、第1節など	Picture 1 と Section 1 が重複して同語反復になっている
+common	linked_agent.relator_tooltip	誤訳	リレーに関するDACS 14.3、ISAAR (CPF) 6.3、MARCコード	DACS 14.3、ISAAR (CPF) 6.3、MARCリレーターコード一覧（https://www.loc.gov/marc/relators/）を参照してください。	MARC Code List for Relators を「リレーに関する…」と誤訳
+common	linked_agent.ref_tooltip	崩れ	エージェントは、ブラウズ機能を使用して自動補完を使用して検索することも、	エージェントは、自動補完やブラウズ機能で検索できるほか、必要に応じてその場で作成することもできます。	「使用して」が重なり不自然
+common	event.outcome_tooltip	用語	システムが自動的に行動することができる制御された語彙を使用することをお勧めします	システムが自動的に処理できる統制語彙を使うことをお勧めします。 ... この統制値リストの値は変更できます。	用語方針（統制値リスト）。「行動する」も不自然
+common	event.date_tooltip	崩れ	イベントが発生した日時またはイベントが発生した日時と時刻の単一の日時。	<p>イベントが発生した単一の日時、または日時の範囲。</p>	同語反復で意味が通らない
+common	agent_name.authority_id_tooltip	崩れ	ULAN <em>名見出しの場合は500115393</em> / <em>VI	<li>500115393 <em>（ULAN の名称見出しの場合）</em></li><li>http://viaf.org/viaf/134138653 <em>（VIAF の名称見出しの場合）</em></li>	語順が崩れ、最後の li が閉じていない。英語に無い「DACS 13.2…を参照」が追加されている
+common	agent_name.source_tooltip	用語	この管理された値リストの値は変更することができます。	この統制値リストの値は変更できます。	用語方針（統制値リスト）
+common	agent_name.rules_tooltip	用語	この管理された値リストの値は変更することができます。	この統制値リストの値は変更できます。	用語方針（統制値リスト）
+common	agent_name.prefix_tooltip	崩れ	規範的に使用されている名前に関連する用語は、名前全体に先行します。	通常の用法で名前全体の前に置かれる語。	文として成立していない
+common	agent_name.primary_name_tooltip	崩れ	国際ビジネス機械<em>（</em>国際ビジネス機械の<em>ためのマイクロエレ	国際ビジネス機械 <em>（International Business Machines. Microelectronics Division [団体]の場合）</em>	em の範囲が崩れ意味不明
+common	agent_name.rest_of_name_tooltip	崩れ	最初の名前の要素またはforenameと、	名（ファーストネーム）と、追加の名（ミドルネームなど）。レコードで指定された人物のもの。	英単語 forename の取り残し
+common	agent_name.number_tooltip	誤訳	ローマ数字とその後の姓の部分にしばしば使用されます。	個人名の場合は、ローマ数字、またはローマ数字とそれに続く名の一部であることが多い。	forename（名）を「姓」と誤訳
+common	location.temporary_tooltip	用語	この場所が一時的な場所の特定の種類（例：展示エリア）であるかどうか	この所在が一時的な所在の特定の種類（例：展示エリア）であるかどうか	Location=所在 の方針
+common	container_location.status_tooltip	表記	必要なフィールド。このレコードの所在ステートメントが、	必須フィールド。このレコードの所在の記述が、	同じ節の「必須フィールド」と不統一（REQUIRED FIELD）
+common	name_family.family_name_tooltip	崩れ	家族の姓または姓。通常、「家族」という用語が追加されています。	<p>家族の姓（名字）。通常は「家族」という語を添えます。</p>	「姓または姓」で同語反復
+common	name_family.family_type_tooltip	用語	類似の名前エントリを区別するための修飾子として使用されるファミリの種類。	類似の名前の項目を区別するための修飾語として使う家族の種類。	「ファミリ」は例の「家族」と不統一で不自然
+common	name_family.location_tooltip	誤訳	日カナダ双子会議（1991年：在日カナダ大使館）	日加姉妹提携会議（1991年：在日カナダ大使館）	Twinning Conference を「双子会議」と誤訳
+common	name_corporate_entity.subordinate_name_2_tooltip	崩れ	「従属名1」フィールドに指定されたユニットよりも低い企業エンティティを持つ階層単	<p>「プライマリ名」フィールドの団体に属し、「従属名1」の組織単位よりも下位にある組織単位。</p>	修飾関係が崩れて意味が通らない
+common	name_corporate_entity.conference_meeting_tooltip	崩れ	エンティティが標準の企業体であるか、会議、会議、またはその他の名前付きイベントで	エンティティが通常の団体であるか、会議・集会などの名称を持つ催しであるか	conference と meeting がともに「会議」で同語反復
+common	name_software.version_tooltip	崩れ	2.1.2 <em>（議会図書館</em> 2.1.2の<em>図書館の場合）<	2.1.2 <em>（Library of Congress Bagger 2.1.2 の場合）</em>	em の範囲が崩れ意味不明
+common	name_software.manufacturer_tooltip	崩れ	議会図書館（議会図書館の<em>ためのバガー2.1.2）</em>	議会図書館 <em>（Library of Congress Bagger 2.1.2 の場合）</em>	em の範囲が英語と合わず崩れている
+common	agent_record_identifiers.identifier_type_tooltip	用語	この制御値リストの値は変更できます。	<p>典拠レコード識別子の種類または形式を示します。この統制値リストの値は変更できます。</p>	用語方針（統制値リスト）。<p> タグも英語に対し欠落
+common	agent_record_identifiers.source_tooltip	用語	この管理値リストの値は変更される可能性があります。	この統制値リストの値は変更できます。	用語方針（統制値リスト）
+common	agent_record_control.romanization_tooltip	崩れ	カスパロフ、GK（Garri Kimovich）forКаспаров、Г.К。	（ALA-LC ローマ字化表の例：Каспаров, Г. К. (Гарри Кимович) に対する Kasparov, G. K. (Garri Kimovich)）	英語の for が取り残され、「ローマ字化／ローマ化」も混在
+common	agent_alternate_set.set_component_tooltip	欠落	同等の典拠レコードを識別し、そこへアクセスするためのキャプション。	<p>同等の典拠レコードを識別し、そこへアクセスするためのキャプション。</p>	英語の <p> タグが訳に無い
+common	agent_alternate_set.descriptive_note_tooltip	欠落	リンクされた典拠レコードの詳細を記す注記の内容。	<p>リンクされた典拠レコードの詳細を記す注記の内容。</p>	英語の <p> タグが訳に無い
+common	agent_alternate_set.last_verified_date_tooltip	崩れ	関連付けられたURIでリンクされたリンクされたリソースが検証された最後の日付また	関連付けられた URI でリンクされたリソースを最後に検証した日付、または日時。	「リンクされた」が重なり同語反復
+common	agent_conventions_declaration.descriptive_note_tooltip	崩れ	規約の詳細を提供する注記の内容は、エージェントの説明の作成に使用されました。	<p>エージェントの記述の作成に使用した規約について、詳細を記す注記の内容。例：…</p>	文として成立せず意味が通らない
+common	agent_conventions_declaration.file_uri_tooltip	表記	http：//www2.archivists.org/standards/DAC	http://www2.archivists.org/standards/DACS/	URL のコロンが全角で、そのままではリンクできない
+common	agent_conventions_declaration.last_verified_date_tooltip	崩れ	関連付けられたURIでリンクされたリンクされたリソースが検証された最後の日付また	関連付けられた URI でリンクされたリソースを最後に検証した日付、または日時。	同語反復
+common	agent_sources.source_entry_tooltip	崩れ	ロックハート、GWロバートサービスの軌跡上（エジンバラ：Luath Press、	Lockhart, G. W. On the trail of Robert Service (Edinburgh : Luath Press, 1991).	書誌引用の書名・著者名を部分的に訳して崩れている（引用は原語のまま）
+common	agent_sources.file_uri_tooltip	表記	http：//www.findagrave.com/cgi-bin/fg.cgi	http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373	URL の記号が全角で、そのままではリンクできない
+common	agent_sources.last_verified_date_tooltip	崩れ	関連付けられたURIでリンクされたリンクされたリソースが検証された最後の日付また	関連付けられた URI でリンクされたリソースを最後に検証した日付、または日時。	同語反復
+common	agent_resource.last_verified_date_tooltip	崩れ	関連付けられたURIでリンクされたリンクされたリソースが検証された最後の日付また	関連付けられた URI でリンクされたリソースを最後に検証した日付、または日時。	同語反復
+common	agent_gender.gender_tooltip	用語	[システム]-> [制御値リストの管理]メニュー	[システム] → [統制値リストの管理]メニュー	用語方針（統制値リスト）
+common	subrecord_subject_agent_topic.subjects_tooltip	用語	エージェントに関連付けられているサブジェクト。	エージェントに関連付けられている件名。	用語方針（Subject=件名）
+common	structured_date_label.date_era_tooltip	崩れ	BCやCEなど、年に番号が付けられ、日付が計算される期間値「ce」が既定です。	紀元前（BC）や西暦（CE）など、年を数え日付を計算する際の紀元。値「ce」が既定です。	文の切れ目が無く「期間値」が意味不明
+common	agent_contact.name_tooltip	欠落	メインレコードのエンティティの連絡先担当者の名前。	<p>メインレコードのエンティティの連絡先担当者の名前。</p><p>リポジトリを表す団体エージェントでは、空欄の場合にシステムが名前を自動生成します。</p>	英語の2段落目が訳に無い
+common	agent_contact.salutation_tooltip	用語	連絡先の挨拶 / この管理された値リストの値は変更することができます。	<p>連絡担当者の敬称。</p><p>この統制値リストの値は変更できます。</p>	用語方針（統制値リスト）。Salutation は項目名の「敬称」に揃える
+common	note_index_item.value_tooltip	用語	インデックス注記には最低1つ必要です。	索引の各項目の内容。索引注記には最低1つ必要です。	見出しの「索引」と不統一（インデックス）
+common	note_index_item.type_tooltip	用語	インデックスエントリの種類。	索引の項目の種類。	見出しの「索引」と不統一（インデックス）
+common	note.note_agent_rights_statement	用語	権利ステートメント注記（使用しないでください）	権利表明注記（使用しないでください）	用語方針（Rights Statement=権利表明）
+common	note_index_item.reference_text_tooltip	崩れ	参照が必要な場合はその説明書。	必要に応じて付ける、参照についての説明。	「説明書」は誤り。description の訳として不自然
+common	definedlist_item.label_tooltip	崩れ	定義されたリスト注記アイテム内のコンテンツによって文脈化されるか説明されるテキス	定義リスト注記の項目の内容について、その文脈を示す、または内容によって説明される文字列。	「文脈化されるか説明される」が不自然
+common	instance.instance_type_tooltip	誤訳	記載されている材料の表記の指定。 ... この管理された値リストの値は	記述対象の資料の形態（実体）の区分。 ... この統制値リストの値は変更できます。	manifestation を「表記」と誤訳。用語方針（統制値リスト）にも反する
+common	digital_object.publish_tooltip	誤訳	パブリック（パトロン）インターフェイスに公開するか	公開画面（利用者向けの画面）に公開するか	patron（利用者）を「パトロン」と誤訳
+common	file_version.publish_tooltip	誤訳	パブリック（パトロン）インターフェイスに公開されるか	公開画面（利用者向けの画面）に公開されるか	patron（利用者）を「パトロン」と誤訳
+common	external_document.publish_tooltip	誤訳	パブリック（パトラン）インターフェイスに公開されるか	公開画面（利用者向けの画面）に公開されるか	patron を「パトラン」と誤記・誤訳
+common	file_version.use_statement_tooltip	用語	この管理された値リストの値は変更することができます。	この統制値リストの値は変更できます。	用語方針（統制値リスト）
+common	file_version.checksum_method_tooltip	用語	この管理された値リストの値は変更することができます。	この統制値リストの値は変更できます。	用語方針（統制値リスト）
+common	extent.extent_type_tooltip	誤訳	記載された材料の程度を測定するために使用されるユニットの種類 ... この管理さ	記述対象の資料の数量を測る単位の種類を示す用語。 ... この統制値リストの値は変更できます。	extent を「程度」と誤訳（Extent=数量）。用語方針（統制値リスト）にも反する
+common	accession.resource_type_tooltip	用語	この管理された値リストの値は変更することができます。	この統制値リストの値は変更できます。	用語方針（統制値リスト）
+common	file_version.xlink_actuate_attribute_tooltip	表記	使用​​されます / ユーザが要求しなければ	使用されます / ユーザーが要求しなければ	ゼロ幅スペース（U+200B）が混入。ユーザ→ユーザー（長音）
+common	file_version.xlink_show_attribute_tooltip	誤訳	エクスポートのターゲットをどのように表示するかを示すXLink属性。	エクスポートで使うXLink属性。リンク先をどのように表示するかを示します。 / 使用されます（ゼロ幅スペースを除く）	how the target of a link を「エクスポートのターゲット」と誤訳。ゼロ幅スペースも混入
+common	extent.container_summary_tooltip	欠落	DACS 2.5、ISAD(G) 3.1.5を参照</p><p>例：	（英語に無い「DACS…を参照」を削除し、「例：」へ続ける）	英語に無い参照が混入し、段落構成が英語と合わない
+common	language_and_script.script_tooltip	用語	説明されている資料に記載されているスクリプトの用語とコード ... スクリプトの	資料に用いられている文字体系の用語とコード … 文字体系の名前を表すためのコード	Script は項目名で「文字体系」と訳しており、説明文と不統一
+common	agent_name.script_tooltip	用語	名前フォームの記録に使用されるスクリプトを示します。	名前の記録に使用される文字体系を示します。	項目名の「文字体系」と不統一
+common	agent_record_control.script_tooltip	用語	エージェントの説明の準備に使用されるテキストスクリプト。	エージェントの記述の作成に使用される文字体系。	項目名の「文字体系」と不統一
+common	used_language.script_tooltip	用語	エージェントに関連付けられているテキストスクリプト。	エージェントに関連付けられている文字体系。	項目名の「文字体系」と不統一
+common	external_document.location_tooltip	表記	file：/// c：/path/to/the%20file.txt	file:///c:/path/to/the%20file.txt	URI の記号が全角・空白入りで、そのままでは使えない
+common	rights_statement.identifier_tooltip	用語	リポジトリ・ドメイン内の権利文を一意に識別します。権利ステートメント識別子は	リポジトリ内の権利表明を一意に識別します。権利表明の識別子は通常、アプリケーションが自動生成します。	用語方針（Rights Statement=権利表明）。「権利文」「権利ステートメント」が混在
+common	rights_statement.rights_type_tooltip	誤訳	リポジトリが好きな場合は、ドナーと購入契約にも使用できます。 / 他の拠点のため	リポジトリが望む場合は、寄贈者との契約や購入契約にも使えます。 / 著作権・ライセンス・法令以外の根拠のためのものです。 / 「法令」は	prefers を「好き」と誤訳。bases（根拠）を「拠点」と誤訳。英単語 Statute が残っている
+common	rights_statement.determination_date_tooltip	崩れ	法令：法律が認められた許可を認めたとの結論が下された日。	法令：その法令が、記載された許可を認めていると判断した日。	同語反復で意味が通らない
+common	rights_statement.start_date_tooltip	誤訳	権利行使の効力発生日。	権利表明の効力が生じた日。	rights statement went into effect を「権利行使」と誤訳
+common	rights_statement.end_date_tooltip	用語	権利説明書が終了する日付。	権利表明の効力が終わる日。	用語方針（Rights Statement=権利表明）
+common	rights_statement.other_rights_basis_tooltip	崩れ	権利法令、ライセンス、または著作権ではない他の権利ステートメントの種類。	法令・ライセンス・著作権のいずれにも当たらない、その他の権利表明の種類。	「権利法令」は誤り。用語方針（権利表明）にも反する
+common	rights_statement._plural	用語	権利ステートメント	権利表明	用語方針（Rights Statement=権利表明）
+common	date.expression_tooltip	誤訳	<li>死んだ</li>	<li>日付なし</li>	undated を「死んだ」と誤訳
+common	accession.content_description_tooltip	崩れ	フィールド注記、日記、地図の草案を含む10カートンの素材で、Smith氏の10年	野帳、日記、地図の草稿からなる10箱の資料。スミス氏がオタイ・メサ牧場に10年間住んだ記録。	documenting の係り方が崩れ、field notes（野帳）も誤訳
+common	accession.disposition_tooltip	誤訳	ウィリアム・コルトン（William Colton）の対応コレクションに追加され	ウィリアム・コルトン宛書簡は「ウィリアム・コルトン書簡コレクション」に、地元の小川の地図は「郡の河川コレクション」の記録に追加した。	correspondence collection を「対応コレクション」と誤訳
+common	accession.provenance_tooltip	誤訳	アクセスに関する情報を提供する注記	出所に関する情報（保管の履歴、詳細な入手情報など）を提供する注記	provenance information を「アクセスに関する情報」と誤訳
+common	accession.language_tooltip	用語	アクセッション記述から生成されたレコードに存在するすべての言語	受入の記述から生成されたレコードに含まれるすべての言語	用語方針（Accession=受入）。アクセッションは不可
+common	accession.access_restrictions_note_tooltip	用語	制限の権限は何か ... 権利サブ記録に記録することもできます。	制限の根拠となる権限 … 権利サブレコードにも記録できます。	「サブ記録」はサブレコードと不統一。statement を「声明」と訳しており不自然
+common	accession.use_restrictions_note_tooltip	用語	示す声明。追加情報は、権利サブ記録に記録することもできます。	示す記述。追加情報は、権利サブレコードにも記録できます。	「サブ記録」はサブレコードと不統一
+common	accession.acquisition_type_tooltip	誤訳	獲得の種類のためのカテゴリー記述子。 ... 贈り物 / 転送	入手方法の区分を表す語。 ... 寄贈 / 購入 / 移管	Gift/Transfer を「贈り物」「転送」と訳しており、受入の語として不自然
+common	accession_parts_relationship._singular	崩れ	関係の「一部」	「一部」関係	語順が崩れている（'Part of' Relationship）
+common	accession_parts_relationship.part	崩れ	関係の「一部」	「一部」関係	語順が崩れている（'Part of' Relationship）
+common	agent.names_tooltip	崩れ	各エージェントレコードには少なくとも1つのName Formサブレコードが必要で	各エージェントレコードには、名前フォームのサブレコードが少なくとも1つ必要です。	英語（Name Form）の取り残し。同じ画面の訳語は「名前フォーム」

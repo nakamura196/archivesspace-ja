@@ -1,0 +1,30 @@
+部品	キー	問題の種類	新しい訳(抜粋40字)	直し案(全文)	理由
+frontend	actions.unpublish_confirm_message	崩れ	このアクションを実行すると、…が非公開されます。	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層内のすべてのコンポーネントが非公開になります。</p>	「非公開されます」は日本語として不自然
+frontend	actions.unpublish_archival_object_confirm_message	崩れ	このアクションを実行すると、…が非公開されます。	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層の下位すべてのコンポーネントが非公開になります。</p>	「非公開されます」は日本語として不自然
+frontend	resource._frontend.messages.unpublished	崩れ	リソース<strong>%{resource_title}</strong> 、	リソース<strong>%{resource_title}</strong>、その子、サブレコード、コンポーネントを非公開にしました	「非公開されました」が不自然。英語の its children が欠けている
+frontend	search.agent.authority_id	用語	オーソリティID	典拠ID	Authority record=典拠レコードの方針に合わせる
+frontend	search.classification.has_classification_terms	用語	分類用語はありますか？	分類項目はありますか？	Classification Term=分類項目
+frontend	default_values.form_title.classification_term	用語	分類用語の既定値	分類項目の既定値	Classification Term=分類項目
+frontend	batch_delete.locations.error	用語	選択した場所は、以下の問題のため、いずれも削除されませんでした：	選択した所在は、以下の問題のため、いずれも削除されませんでした：	Location=所在
+frontend	agent._frontend.section.linked_via_rights_statement	用語	権利声明によるリンクされたレコード	権利表明からリンクされたレコード	Rights Statement=権利表明。「によるリンクされた」も不自然
+frontend	enumeration._frontend.messages.name_selector_tooltip	用語	<p>編集する制御値リスト。 </p>	<p>編集する統制値リスト。</p>	controlled value list=統制値リスト
+frontend	archival_object._frontend.messages.created	崩れ	リソース<strong>%{resource_title}</strong>アー	リソース<strong>%{resource_title}</strong>のアーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>を作成しました	助詞が無く「…が作成されました」の「が」も欠けている
+frontend	archival_object._frontend.messages.updated	崩れ	アーカイバルオブジェクト<strong>…</strong>更新されました	アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>を更新しました	</strong>の後ろに助詞が無い
+frontend	archival_object._frontend.messages.updated_with_parent	崩れ	アーカイバルオブジェクト<strong>…</strong>更新されました	アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>を更新しました	</strong>の後ろに助詞が無い
+frontend	archival_object._frontend.messages.deleted	崩れ	アーカイバルオブジェクト<strong>…</strong>削除されました	アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>を削除しました	</strong>の後ろに助詞が無い
+frontend	classification._frontend.messages.created	崩れ	分類<strong>%{classification_title}</stron	分類<strong>%{classification_title}</strong>を作成しました	</strong>の後ろに助詞が無い
+frontend	classification._frontend.messages.updated	崩れ	分類<strong>%{classification_title}</stron	分類<strong>%{classification_title}</strong>を更新しました	</strong>の後ろに助詞が無い
+frontend	classification._frontend.messages.deleted	崩れ	分類<strong>%{classification_title}</stron	分類<strong>%{classification_title}</strong>を削除しました	</strong>の後ろに助詞が無い
+frontend	digital_object_component._frontend.messages.updated_with_parent	崩れ	デジタルオブジェクトコンポーネント<strong>…</strong>更新されま	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>を更新しました	</strong>の後ろに助詞が無い
+frontend	digital_object_component._frontend.messages.updated	崩れ	デジタルオブジェクトコンポーネント<strong>…</strong>更新されま	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>を更新しました	</strong>の後ろに助詞が無い
+frontend	digital_object_component._frontend.messages.deleted	崩れ	デジタルオブジェクトコンポーネント<strong>…</strong>削除されま	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>を削除しました	</strong>の後ろに助詞が無い
+frontend	resource._frontend.messages.created	崩れ	リソース<strong>%{resource_title}</strong>作成	リソース<strong>%{resource_title}</strong>を作成しました	</strong>の後ろに助詞が無い
+frontend	resource._frontend.messages.updated	崩れ	リソース<strong>%{resource_title}</strong>更新	リソース<strong>%{resource_title}</strong>を更新しました	</strong>の後ろに助詞が無い
+frontend	resource._frontend.messages.deleted	崩れ	リソース<strong>%{resource_title}</strong>削除	リソース<strong>%{resource_title}</strong>を削除しました	</strong>の後ろに助詞が無い
+frontend	location._frontend.action.delete_confirm_message	崩れ	<p> <strong>この操作を元に戻す</strong>こと<strong>	<p>この操作は<strong>元に戻せません</strong>のでご注意ください。</p><p>この所在が現在1つ以上のインスタンスにリンクされている場合、削除できません。</p>	強調タグの位置が崩れ「ご注意ください。 。」と句点が重なる。「場所」は所在に
+frontend	location_batch._frontend.messages.created	用語	<strong>%{number_created} 件の場所</strong>を	<strong>%{number_created} 件の所在</strong>を作成しました	Location=所在
+frontend	location_batch._frontend.messages.updated	崩れ	<strong>%{number_created}場所が</strong>更新さ	<strong>%{number_created} 件の所在</strong>を更新しました	件数の単位が無く強調範囲もずれている。場所は所在に
+frontend	location_batch._frontend.messages.location_batch_info	用語	下の<strong>座標範囲</strong>から生成されたすべての場所に…	下の<strong>座標範囲</strong>から生成されるすべての所在に適用される基準値を定義します。	Location=所在
+frontend	location_batch._frontend.messages.ranges_info	崩れ	上記の<strong>ベース所在に</strong>入力された座標フィールドは…	上記の<strong>基準となる所在</strong>に入力された座標フィールドは、以下の範囲で生成された値に置き換えられます。最大%{max_range}件の所在が作成されます。	強調範囲がずれ「最大N場所」は不自然。見出しの訳（基準となる所在）とも不一致
+frontend	repository._frontend.messages.create_first_repository	崩れ	最初のリポジトリを作成するには、上記の「 <strong>システム」</stro	最初のリポジトリを作成するには、上の<strong>システム</strong>メニューをクリックし、続けて<strong>リポジトリの管理</strong>をクリックしてください。	強調タグの位置が「」とずれ、2つ目の強調が英語と合わない
+frontend	preference._frontend.messages.reset	崩れ	アプリケーションの既定値に設定されたプリファレンス	設定をアプリケーションの既定値に戻しました	文として終わっていない。「プリファレンス」は他の箇所の「設定」と不統一

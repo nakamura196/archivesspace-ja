@@ -1,0 +1,37 @@
+部品	キー	問題の種類	新しい訳(抜粋40字)	直し案(全文)	理由
+common	bulk_import.error.no_agent	崩れ	%{num}エージェントを作成できません：[%{why}]	エージェント %{num} を作成できません：[%{why}]	番号が語の前に付いて不自然
+common	bulk_import.error.no_tc	崩れ	%{number}トップコンテナを作成できません：[%{why}]	トップコンテナ %{number} を作成できません：[%{why}]	番号が語の前に付いて不自然
+common	bulk_import.error.missing_instance_type	崩れ	不足しているコンテナインスタンスの種類	コンテナインスタンスの種類がありません	名詞句になり、エラー文として意味が通らない
+common	bulk_import.error.no_ao_be	表記	アーカイブオブジェクトは作成されません	アーカイバルオブジェクトは作成されません	アーカイバル/アーカイブの揺れ（変更行はアーカイバルで統一）
+common	bulk_import.error.no_move	崩れ	（%{code}応答コード）リストの末尾からアーカイブオブジェクトを移動すること	リストの末尾からアーカイバルオブジェクトを移動できません（応答コード %{code}）	括弧が文頭に来て語順が崩れている
+common	bulk_import.error.has_dig_obj	表記	アーカイブ・オブジェクトが既に関連するデジタルオブジェクトを持ちます	アーカイバルオブジェクトには、すでに関連するデジタルオブジェクトがあります	中黒入りの表記揺れ、不自然な日本語
+common	bulk_import.error.second_save_error	用語	「インスタンス」付きでアーカイバルオブジェクト %{title}（位置：%{po	（全文のうち「最上位コンテナ」を「トップコンテナ」に直す）	Top Container の訳が他の行（トップコンテナ）と不一致
+common	top_container_linker.error.tc_indicator_and_record_no_exist	誤訳	行%{row_num}の%{ref_id}には、トップコンテナインジケータまたは	行%{row_num}の%{ref_id}には、トップコンテナインジケータとTCレコード番号のどちらか一方のみを指定できます。	can be present を「表示できます」と訳し、OR の意味も弱い
+common	top_container_linker.error.tc_ind_ct_exists	崩れ	トップコンテナインジケータとコンテナの種類のコンボ%{tc_type}%{ind	トップコンテナインジケータとコンテナの種類の組み合わせ %{tc_type} %{indicator} は、リソース%{ead_id}のアーカイバルオブジェクトとして、すでにデータベースに存在します（行%{row_num}の%{ref_id}を参照）。	「コンボ」「AO」の取り残し、語順も不自然
+common	top_container_linker.error.problem_adding_current_location	用語	現在の場所の追加で問題が発生しました（行%{row_num}の%{ref_id}	現在の所在の追加で問題が発生しました（行%{row_num}の%{ref_id}を参照）：[%{why}]	Location=所在
+common	top_container_linker.log_validate_only	用語	検証のみのオプションが有効になっているため、上位コンテナの作成とリンクをスキップ	検証のみのオプションが有効なため、トップコンテナの作成とリンクをスキップします。	上位コンテナ→トップコンテナ
+common	metadata_rights_declaration.license_tooltip	崩れ	このレコードは、Universal 1.0 Public Domain Dedi	（5か所の「CreativeCommons」を「Creative Commons」に直す）	固有名の空白が落ちている
+common	metadata_rights_declaration.descriptive_note_tooltip	崩れ	<p> i。 Copyright Smith College、1985 </p>	<p>i. Copyright Smith College, 1985</p>\n<p>ii. この検索手段は、あらゆる目的で複製できます。</p>\n<p>iii. …</p>\n<p>iv. 経歴注記の著作権は Ted Smith（2015年）にあります。その他のメタデータはすべて CC BY 4.0 でライセンスされています。</p>	「i。」の句点、Ted Smith / CC BY 4.0 の空白欠落、余計な空白
+common	metadata_rights_declaration.file_uri_tooltip	表記	例：https：//creativecommons.org/licenses/b	例：https://creativecommons.org/licenses/by/4.0/</p>	URL 中のコロンが全角になりリンクとして壊れる
+common	metadata_rights_declaration.last_verified_date_tooltip	崩れ	関連付けられたURIでリンクされたリンクされたリソースが検証された最後の日付また	関連付けられたURIでリンクされているリソースが最後に検証された日付、または日時。	「リンクされた」の重複
+common	resource_duplicate_job.archival_object_failure_message	表記	ID %{resource_id} のリソースから ID %{archival_	ID %{resource_id} のリソースから ID %{archival_object_id} のアーカイバルオブジェクトを複製できませんでした。検証エラー %{message}。	空白入りの表記・アーカイブ/アーカイバルの揺れ
+common	bulk_import.error.bad_accession_uri	用語	URI %{uri} のアクセッションが見つかりません	URI %{uri} の受入が見つかりません	Accession=受入
+common	importer.error.subject_mode_conflict	用語	主題グループ %{index} にレコードIDと…	件名グループ %{index} にレコードIDと新規作成用の値の両方を含めることはできません	Subject=件名
+common	bulk_import.error.subject_missing_identity	用語	主題 %{num} にはレコード ID または用語が必要です	件名 %{num} にはレコード ID または用語が必要です	Subject=件名
+common	bulk_import.error.invalid_event_type	用語	…は既存のイベント種別ではありません	イベントグループ %{group} のフィールド %{field} は既存のイベントの種類ではありません: '%{value}'	Type=種類（種別は不可）
+common	bulk_import.error.event_agent_unsupported_type	用語	…はサポートされているエージェント種別ではありません	イベントグループ %{group} のフィールド %{field} はサポートされているエージェントの種類ではありません。使用できる値: %{accepted}	Type=種類（種別は不可）
+common	defaults.top_container_mgmt_browse_section	用語	最上位コンテナ管理の一覧に表示する列	トップコンテナ管理の一覧に表示する列	Top Container の訳を統一
+enums	enumeration_names.agent_relationship_family_relator	崩れ	エージェント関係家族関係者	エージェント関係（家族）	区切りがなく意味が通らない
+enums	enumeration_names.agent_relationship_hierarchical_relator	崩れ	エージェント関係階層関係	エージェント関係（階層）	区切りがなく意味が通らない
+enums	enumeration_names.agent_relationship_identity_relator	崩れ	エージェント関係アイデンティティリレーター	エージェント関係（同一性）	区切りがなく英語音写のみ
+enums	enumeration_names.agent_relationship_specific_relator	崩れ	エージェント関係固有の関係者	エージェント関係（特定）	区切りがなく意味が通らない
+enums	enumeration_names.agent_relationship_temporal_relator	崩れ	エージェント関係時間的関係者	エージェント関係（時間的）	区切りがなく意味が通らない
+enums	enumeration_names.note_bibliography_type	崩れ	注参考文献の種類	注記の参考文献の種類	「注」が単独で残り不自然（注記に統一）
+enums	enumeration_names.note_rights_statement_act_type	用語	権利記述の行為の種類（注記）	注記の権利表明の行為の種類	Rights Statement=権利表明
+enums	enumeration_names.note_rights_statement_type	用語	注記の権利ステートメントの種類	注記の権利表明の種類	Rights Statement=権利表明
+enums	enumeration_names.rights_statement_act_restriction	用語	権利記述の行為の制限	権利表明の行為の制限	Rights Statement=権利表明
+enums	enumeration_names.rights_statement_act_type	用語	権利記述の行為の種類	権利表明の行為の種類	Rights Statement=権利表明
+enums	enumeration_names.rights_statement_external_document_identifier_type	崩れ	権利文書外部文書識別子の種類	権利表明の外部文書識別子の種類	語が重複し意味が通らない、用語も不一致
+enums	enumeration_names.rights_statement_ip_status	用語	権利ステートメントIPステータス	権利表明のIPステータス	Rights Statement=権利表明
+enums	enumeration_names.rights_statement_other_rights_basis	用語	権利声明その他の権利の基礎	権利表明のその他の権利の根拠	Rights Statement=権利表明、区切りなし
+enums	enumeration_names.rights_statement_rights_type	用語	権利ステートメント権利の種類	権利表明の権利の種類	Rights Statement=権利表明、区切りなし

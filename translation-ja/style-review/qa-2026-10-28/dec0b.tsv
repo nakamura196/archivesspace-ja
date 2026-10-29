@@ -1,0 +1,42 @@
+番号	部品	キー	判定	最終訳	理由
+41	common	agent_name.number_tooltip	直す	<p>名前を修飾する数字（語を伴うこともある）。個人名の場合は、ローマ数字、またはローマ数字とそれに続く名（ファーストネーム）の一部であることが多い。団体名の場合は、部・部会または会議の回次。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ヨハネ・パウロ2世の場合）</em> </li><li>97th, 2nd session <em>（United States Congress, 97th, 2nd session の場合）</em> </li></ul>	forename を「姓」と誤訳・for を「向け」と誤訳
+42	common	location.temporary_tooltip	直す	<p>この所在が、特定の種類の一時的な所在（例：展示エリア）であるかどうかを示すのに使用されます。 </p>	Location=所在の方針
+43	common	agent_record_identifiers.identifier_type_tooltip	直す	<p>典拠レコード識別子の種類または形式を示します。この統制値リストの値は変更できます。</p>	<p>欠落・統制値リストの方針
+44	common	agent_alternate_set.set_component_tooltip	直す	<p>同等の典拠レコードを識別し、そこへアクセスするためのキャプション。</p>	<p>タグの欠落
+45	common	agent_alternate_set.descriptive_note_tooltip	直す	<p>リンクされた典拠レコードの詳細を記す注記の内容。</p>	<p>タグの欠落
+46	common	agent_conventions_declaration.descriptive_note_tooltip	直す	<p>エージェントの記述の作成に使用した規約の詳細を記す注記の内容。例：経歴／沿革注記の内容の作成に使用（Describing Archives: A Content Standard の場合）。</p>	主語が崩れ意味が違う・標準名の誤訳
+47	common	agent_conventions_declaration.file_uri_tooltip	直す	<p>エージェントの記述の作成に使用した規約のオンライン上の場所のURI。例：http://www2.archivists.org/standards/DACS/（Describing Archives: A Content Standard の場合）。</p>	URL のコロンが全角で壊れている
+48	common	agent_sources.file_uri_tooltip	直す	<p>エージェントの記述の作成に使用した情報源のオンライン上の場所のURI。例：http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373（Robert W. Service の Find-A-Grave 項目の場合）。</p>	URL が全角記号と空白で壊れている
+49	common	structured_date_label.date_era_tooltip	直す	<p>BCやCEなど、年に番号が付けられ、日付が計算される期間。値「ce」が既定です。</p>	文の区切りが無く「期間値」と崩れている
+50	common	note.note_agent_rights_statement	直す	権利表明注記（使用しないでください）	Rights Statement=権利表明の方針
+51	common	extent.extent_type_tooltip	直す	<p>必須フィールド：記述対象の資料の数量を測る単位の種類を示す用語。 </p><p>この統制値リストの値は変更することができます。\n</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>\n	extent を「程度」と誤訳・統制値リスト
+52	common	accession.resource_type_tooltip	直す	<p>リポジトリがリソースを基本の種類に分類するために使用する用語のリスト。 </p><p>この統制値リストの値は変更することができます。 </p>	統制値リストの方針
+53	common	extent.container_summary_tooltip	直す	<p>コンポーネントレコードに記述されている資料を収納するコンテナとコンテナの種類のリスト。</p><p>例： </p><ul><li> 10個のレコードカートン、6個のアーカイブボックス、3個の特大フォルダー。 </li><li> 靴箱12個。 </li><li>アーカイブボックス4個、チューブ32個。 </li></ul>	英語に無い DACS 参照の混入・「12靴箱」
+54	common	rights_statement.rights_type_tooltip	直す	<p>権利表明の根拠。著作権、ライセンス、法令、その他の4つの根拠が認められています。ライセンスは、寄贈契約や購入契約などの正式・非公式のライセンスに使います。法令は、米国のフェアユースやFERPAなど成文化された法律に使います。その他は、機関の方針など、著作権・ライセンス・法令以外の根拠に使います。リポジトリが望む場合は、寄贈契約や購入契約にも使えます。 </p>	Statute 取り残し・拠点・「好きな場合」の誤訳
+55	common	rights_statement.other_rights_basis_tooltip	直す	<p>法令、ライセンス、著作権のいずれでもない、その他の権利表明の権利の種類。 </p>	「権利法令」の崩れ・権利表明の方針
+56	common	date.expression_tooltip	直す	<p>条件付き必須フィールド：資料の日付または日付範囲を自然言語で示す表記。正規化された日付を記録しない場合に必要です。 </p><p>DACS 2.4、ISAD(G) 3.1.3を参照</p><p>例： </p><ul><li> 1968 </li><li> 1979-1993 </li><li> 1785-1960、主要年代1916-1958 </li><li> 1827年、1952年〜1978年</li><li> 1870-1879年頃</li><li> 1906年3月17日</li><li>日付なし</li><li>不明<em>（イベントの場合）</em> </li></ul>	undated を「死んだ」と誤訳・「材料」
+57	common	accession.content_description_tooltip	直す	<p>受入資料の文書の種類と主題内容の説明。 </p><p>DACS 3.1.4-3.1.7、ISAD(G) 3.3.1を参照</p><p>例： </p><p>Smith氏がオテイメサ牧場に住んだ10年間を記録した、フィールドノート、日記、地図の草稿を含む10カートンの資料。 </p>	field notes を「注記」に誤置換・係り方の崩れ
+58	common	accession.disposition_tooltip	直す	<p>特定の受入資料がどのように異なるリソースに振り分けられたかを記述する注記。 </p><p>例： </p><p>写真は分離され、Photographs 025 に割り当てられた。 </p><p>ウィリアム・コルトン（William Colton）宛の書簡はウィリアム・コルトン書簡コレクションに追加し、地元の小川の地図は County River コレクションの記録に追加した。 </p>	correspondence を「対応」、streams を「流れ」と誤訳
+59	common	accession.acquisition_type_tooltip	直す	<p>受入方法の種類を示す区分。リポジトリはデータ値のリストをカスタマイズできます。 </p><p>例： </p><ul><li>寄贈</li><li>購入</li><li>移管</li></ul>	Gift/Transfer を「贈り物」「転送」と誤訳
+60	enums	enumerations.metadata_license.public_domain	直す	このレコードは、クリエイティブ・コモンズ CC0 1.0 全世界 パブリック・ドメイン提供のもとで利用できます。	「提供の下で提供」の反復・Creative Commons 欠落
+61	frontend	top_container._frontend.bulk_operations.batch_merge_container_profile_too_many_warning	直す	これらの最上位コンテナには、それぞれ異なるコンテナプロファイルが設定されています。これらのコンテナプロファイルは、いずれもマージ先のコンテナにはマージされません。	「有します」「ターゲットコンテナにマージしません」が不自然
+62	frontend	container_profile.extent_dimension_tooltip	直す	<p>コンテナ内の資料の数量を計算・記述するために使用する寸法。数量計算機がどの寸法を測るかを決めるのに役立ちます。</p>	「数量次元」「ディメンション」で意味が通らない
+63	frontend	space_calculator.message_total_containers	直す	これらの所在で見つかったこの種類のコンテナの合計数： %{total_containers}	Location=所在の方針
+64	frontend	assessment._frontend.section.format_attributes	直す	資料の種類/形式のリスト	同じ英語の訳語を「資料の種類/形式」に統一
+65	frontend	assessment._frontend.section.format_attributes_empty	直す	資料の種類/形式が入力されていません	「品目の種類/書式」は不適切・他行と統一
+66	frontend	assessment._frontend.section.format_attributes_additional	直す	追加の資料の種類/形式	「品目の種類/書式」を他行と統一
+67	frontend	assessment_attribute_definitions._frontend.action.remove_format	直す	資料の種類/形式「%{format_type}」を削除します	訳語を「資料の種類/形式」に統一
+68	common	top_container_linker.error.tc_ind_ct_exists	直す	最上位コンテナのインジケーターとコンテナの種類の組み合わせ %{tc_type} %{indicator} は、リソース %{ead_id} のアーカイバルオブジェクトについて、すでにデータベースに存在します（行 %{row_num} の %{ref_id} を参照）。	「コンボ」「AO」の取り残し・長音
+69	common	metadata_rights_declaration.descriptive_note_tooltip	直す	<p>メタデータを使用および再利用できる条件に関する非構造化情報。例：</p>\n<p>i. Copyright Smith College, 1985</p>\n<p>ii. この検索手段は、あらゆる目的で複製することができます。</p>\n<p>iii. この作品はパブリックドメインに提供されています。つまり、商業目的であっても、許可を求めることなく、作品をコピー、変更、配布、実演することができます。</p>\n<p>iv. 経歴注記の著作権は Ted Smith（2015年）にあります。他のすべてのメタデータは CC BY 4.0 でライセンスされています。</p>\n	「i。」の句点化・TedSmith 等の空白欠落・注記欠落
+70	common	metadata_rights_declaration.file_uri_tooltip	直す	<p>ライセンスのオンライン上の場所のURI、またはメタデータを使用および再利用できる条件に関するその他の公開情報。例：https://creativecommons.org/licenses/by/4.0/</p>\n	URL のコロンが全角で壊れている
+71	common	container_location.status_tooltip	直す	<p>必須フィールド。このレコードの所在の記述が、記述対象のインスタンスの現在の所在か、以前の所在かを示します。 </p>	REQUIRED を「必要な」・「場所」が残る
+72	common	agent_record_control.romanization_tooltip	直す	<p>統一形の名前がラテン文字以外の文字体系からローマ字化されたかどうかと、ローマ字化の方式の種類を示します。例：国立図書館または書誌機関の標準（ALA-LC ローマ字表記表の場合。例：Каспаров, Г. К. (Гарри Кимович) に対する Kasparov, G. K. (Garri Kimovich)）。</p>	for 取り残し・GK 等の崩れ・authorized の誤訳
+73	common	definedlist_item.label_tooltip	直す	定義リスト注記の項目の内容について、文脈を与える、またはその内容によって説明される文字列。	「文脈化されるか説明される」が不自然
+74	common	agent.names_tooltip	直す	<p>必須サブレコード：エージェントの名前の異なる形式を記録します。各エージェントレコードには少なくとも1つの名前フォームのサブレコードが必要です。 </p> <p>DACS 10.1、10.3.3、ISAAR (CPF) 5.1.2、5.1.5を参照</p>	英語 Name Form の取り残し
+75	enums	enumerations.name_rule.isaar	直す	団体・個人・家族に関するアーカイブズ典拠レコードの国際標準（ISAAR(CPF)）	Authority Record=典拠レコード
+76	enums	enumerations.restriction_type.RestrictedCurApprSpecColl	直す	2 - リポジトリによる利用制限	Repository=リポジトリの方針
+77	common	date.era_tooltip	直す	<p>BCまたはCEなどの、年が数えられ、日付が計算される期間。「ce」という値が既定です。 </p><p>EAD属性「era」を参照してください。 </p>	属性名 era を「時代」と訳している
+78	common	resource.resource_type_tooltip	直す	<p>リポジトリがリソースを基本の種類に分類するために使用する用語のリスト。 </p><p>この統制値リストの値は変更することができます。 </p>	統制値リストの方針
+79	common	repository.org_code_tooltip	直す	<p>ISO/DIS 15511（情報およびドキュメンテーション―図書館および関連組織の国際標準識別子（ISIL））に準拠するコード。米国の機関の場合は、MARC組織コードリストのコードも含みます。</p><p>例： </p><ul><li> NNU-TL <em>（Tamiment Library and Robert F. Wagner Labor Archives の場合）</em> </li><li> IU-Ar <em>（University of Illinois Archives の場合）</em> </li></ul>	英語に無い ISDIAH 参照の混入・機関名の誤り
+80	common	collection_management.processing_status_tooltip	直す	<p>アーカイブ単位（受入、リソース、またはデジタルオブジェクト）の整理の現在の状況を示すため。 </p><p>この統制値リストの値は変更することができます。 </p><p>例： </p><ul><li>新規</li><li>進行中</li><li>完了</li></ul>	統制値リスト・例の値が文になっている
+81	frontend	extent_calculator.no_profile	直す	<span class="text-error">プロファイルなし</span>	引用符の二重化で HTML が壊れている

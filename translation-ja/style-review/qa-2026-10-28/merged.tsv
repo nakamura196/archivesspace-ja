@@ -1,0 +1,350 @@
+部品	キー	区分	系統数	系統	種類	sonnet案	opus案	gemini案
+frontend	bulk_archival_object_update_spreadsheet.too_many_rows_warning	変わる	3	gemini+opus+sonnet	誤訳	行数を <strong>%{max_row_count} 行</strong>以下に減らす	警告: このスプレッドシートで生成される行数は、バックグラウンドジョブ「アーカイバルオブジェクト一括更新」で更新できる行数を超えています。このスプレッドシートでこのジョブを実行する場合は、取り込む前に行数を <strong>%{max_row_count} 行</strong>以下に減らす必要があります。今すぐ小さなスプレッドシートを生成することを検討してください。このデータでこのジョブを実行しない場合は、この警告を無視してかまいません。	警告: このスプレッドシートで生成される行数は、バックグラウンドジョブ「アーカイバルオブジェクト一括更新」で更新できる行数を超えています。このスプレッドシートでこのジョブを実行する場合は、取り込む前に行数を <strong>%{max_row_count} 行</strong>以下に減らす必要があります。今すぐ小さなスプレッドシートを生成することを検討してください。このデータでこのジョブを実行しない場合は、この警告を無視してかまいません。
+public	footer.archivesspace_home_html	変わる	3	gemini+opus+sonnet	誤訳	<a href='http://archivesspace.org'>ArchivesSpace</a> を使用しています	<a href='http://archivesspace.org'>ArchivesSpace</a> を使用しています	<a href='http://archivesspace.org'>ArchivesSpace</a> を使用しています
+enums	enumerations.rights_statement_external_document_identifier_type.rbmste	変わる	3	gemini+opus+sonnet	崩れ/誤訳	RBMS統制語彙：活字の証拠（ACRL稀覯書・手稿部会）	RBMS統制語彙：種類の証拠（ACRL稀覯書・手稿部会）	RBMS統制語彙：活字の証拠（ACRL稀覯書・手稿部会）
+enums	enumerations.note_rights_statement_type.type_note	変わる	3	gemini+opus+sonnet	用語	種類注記	種類の注記	種類の注記
+frontend	actions.unpublish_confirm_message	変わる	3	gemini+opus+sonnet	崩れ	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層内のすべてのコンポーネントが非公開になります。</p>	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層内のすべてのコンポーネントが非公開になります。</p>	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層内のすべてのコンポーネントが非公開になります。 </p>
+frontend	actions.unpublish_archival_object_confirm_message	変わる	3	gemini+opus+sonnet	崩れ	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層の下位すべてのコンポーネントが非公開になります。</p>	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層の下位すべてのコンポーネントが非公開になります。</p>	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層の下位すべてのコンポーネントが非公開になります。 </p>
+frontend	default_values.form_title.classification_term	変わる	3	gemini+opus+sonnet	用語	分類項目の既定値	分類項目の既定値	分類項目の既定値
+frontend	archival_object._frontend.messages.created	変わる	3	gemini+opus+sonnet	崩れ	リソース<strong>%{resource_title}</strong>のアーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>を作成しました	リソース <strong>%{resource_title}</strong> にアーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を作成しました	リソース <strong>%{resource_title}</strong> にアーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を作成しました
+frontend	archival_object._frontend.messages.updated	変わる	3	gemini+opus+sonnet	崩れ	アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>を更新しました	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を更新しました	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を更新しました
+frontend	archival_object._frontend.messages.updated_with_parent	変わる	3	gemini+opus+sonnet	崩れ	アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>を更新しました	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を更新しました	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を更新しました
+frontend	archival_object._frontend.messages.deleted	変わる	3	gemini+opus+sonnet	崩れ	アーカイバルオブジェクト<strong>%{archival_object_display_string}</strong>を削除しました	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を削除しました	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を削除しました
+frontend	location_batch._frontend.messages.created	変わる	3	gemini+opus+sonnet	用語	<strong>%{number_created} 件の所在</strong>を作成しました	<strong>%{number_created} 件の所在</strong>を作成しました	<strong>%{number_created} 件の所在</strong>を作成しました
+frontend	location_batch._frontend.messages.ranges_info	変わる	3	gemini+opus+sonnet	崩れ/用語	上記の<strong>基準となる所在</strong>に入力された座標フィールドは、以下の範囲で生成された値に置き換えられます。最大%{max_range}件の所在が作成されます。	上記の<strong>基準となる所在</strong>に入力された座標フィールドは、以下の範囲で生成された値に置き換えられます。最大 %{max_range} 件の所在が作成されます。	上記の<strong>基準となる所在</strong>に入力された座標フィールドは、以下の範囲で生成された値に置き換えられます。最大 %{max_range} 件の所在が作成されます。
+frontend	preference._frontend.messages.reset	変わる	3	gemini+opus+sonnet	崩れ	設定をアプリケーションの既定値に戻しました	設定をアプリケーションの既定値に戻しました	設定をアプリケーションの既定値にリセットしました
+frontend	bulk_import_templates.overview	変わる	3	gemini+opus+sonnet	欠落	末尾の段落を差し替え: <b>見出しの行は削除したり、既存の列を並べ替えたりしないでください。</b>列を追加できるのは、番号付きの列のまとまりを丸ごと複製し、番号を変えるときだけです（例: extent_1_* の列をすべてコピーして extent_2_* や extent_12_* にする。飛び番も可）。それ以外の列は追加しないでください。未知の見出し、綴りの誤り、廃止された見出しがあると、インポート全体が失敗します。	<p>これらは、バックグラウンドジョブの画面にあるさまざまなインポート機能を使って、スプレッドシートのデータを ArchivesSpace に取り込むためのテンプレートです。インポートに必要なデータは、作成するレコードの種類によって異なります。すべての行と列を埋める必要はありません。</p><p>各 CSV テンプレートには、サンプルデータの行が 1 行入っています。サンプルデータでレコードを作成するつもりがなければ、スプレッドシートをアップロードする前にサンプルデータを削除してください。<b>見出しの行を削除したり、既存の列を並べ替えたりしないでください。</b>列を追加できるのは、番号付きのグループをまるごと複製して番号を変える場合だけです（例：extent_1_* の列をすべて extent_2_* や extent_12_* として複製する。番号は飛んでもかまいません）。それ以外の列は追加しないでください。未知の見出し、綴りの誤った見出し、廃止された見出しがあると、インポート全体が失敗します。</p><p>Excel のテンプレートには、テンプレートの使い方を説明する追加の指示と、一部のセルの入力チェックが含まれています。指示と入力チェックは削除しないでください。</p>	<p>これらは、バックグラウンドジョブの画面にあるさまざまなインポート機能を使って、スプレッドシートのデータを ArchivesSpace に取り込むためのテンプレートです。インポートに必要なデータは、作成するレコードの種類によって異なります。すべての行と列を埋める必要はありません。</p><p>各 CSV テンプレートには、サンプルデータの行が 1 行入っています。サンプルデータでレコードを作成するつもりがなければ、スプレッドシートをアップロードする前にサンプルデータを削除してください。<b>見出しの行を削除したり、既存の列を並べ替えたりしないでください。</b>列を追加できるのは、番号付きのグループ一式を複製して番号を変える場合のみです（たとえば、すべての extent_1_* 列を extent_2_* や extent_12_* としてコピーします。番号が飛んでもかまいません）。それ以外の列は追加しないでください。未知の見出し、綴り間違いのある見出し、廃止された見出しがあると、インポート全体が失敗します。</p><p>Excel のテンプレートには、テンプレートの使い方を説明する追加の指示と、一部のセルの入力チェックが含まれています。指示と入力チェックは削除しないでください。</p>
+frontend	bulk_import_templates.aspace_accession_import_template_csv	変わる	3	gemini+opus+sonnet	欠落	訳が「URI を指定する場合」で途切れている。以降（任意であること、作成用項目との併用不可、最上位コンテナのリンク方法、バーコード単独指定の挙動と失敗条件）を英語どおりに補う	受入レコードに加えて、数量、外部文書、件名、エージェント、および最上位コンテナ付きのインスタンスを作成します。ダウンロードには、それぞれについて _1 グループが 1 つ含まれます。既存の件名をリンクするには、subject_1_record_id に 197 のような数値 ID、または /subjects/197 のような完全な URI を指定します。既存のエージェントも同じ方法で agent_1_record_id を使ってリンクします。agent_1_agent_type は、数値 ID を指定する場合は必須で、/agents/people/5 のような URI を指定する場合は任意です。同じグループ内でリンク用の項目と作成用の項目の両方を入力しないでください。既存の最上位コンテナをリンクするには、/repositories/2/top_containers/5 のような完全な URI を指定するか、バーコードのみを指定します。バーコードのみを指定した場合は、そのバーコードを持つ最上位コンテナ（既存のものでも、前の行で作成されたものでも）がリンクされ、リポジトリ内にそのバーコードを持つ最上位コンテナが存在しない場合、インポートは失敗します。バーコードとともに他の最上位コンテナの項目を入力した場合は、代わりにそのバーコードを持つ新しい最上位コンテナが作成され、番号が必須となります。そのバーコードがリポジトリ内ですでに使用されている場合、インポートは失敗します。	受入レコードに加えて、数量、外部文書、件名、エージェント、および最上位コンテナ付きのインスタンスを作成します。ダウンロードには、それぞれについて _1 グループが 1 つ含まれます。既存の件名をリンクするには、subject_1_record_id に 197 のような数値 ID、または /subjects/197 のような完全な URI を指定します。既存のエージェントも同じ方法で agent_1_record_id を使ってリンクします。agent_1_agent_type は、数値 ID を指定する場合は必須で、/agents/people/5 のような URI を指定する場合は任意です。同じグループ内でリンク用の項目と作成用の項目の両方を入力しないでください。既存の最上位コンテナをリンクするには、/repositories/2/top_containers/5 のような完全な URI を指定するか、バーコードのみを指定します。バーコードのみを指定した場合は、そのバーコードを持つ最上位コンテナ（既存のものでも、前の行で作成されたものでも）がリンクされ、リポジトリ内にそのバーコードを持つ最上位コンテナが存在しない場合、インポートは失敗します。バーコードとともに他の最上位コンテナ項目を入力した場合は、代わりにそのバーコードを持つ新しい最上位コンテナが作成され、番号（インジケーター）が必須となります。そのバーコードがリポジトリ内ですでに使用されている場合、インポートは失敗します。
+frontend	archival_object._frontend.messages.spawn_placeholder	変わる	3	gemini+opus+sonnet	欠落	生成されたコンポーネントがここに挿入されます	生成されたコンポーネントがここに挿入されます	生成されたコンポーネントがここに挿入されます
+frontend	top_container._frontend.bulk_operations.batch_merge_container_profile_mismatch_warning	変わる	3	gemini+opus+sonnet	崩れ	これらの最上位コンテナは、マージ先の最上位コンテナとは異なるコンテナプロファイルを持っています。このコンテナプロファイルは、マージ先のコンテナにはマージされません。	これらの最上位コンテナは、マージ先の最上位コンテナとは異なるコンテナプロファイルを持っています。コンテナプロファイルはマージ先のコンテナにはマージされません。	これらの最上位コンテナは、マージ先の最上位コンテナとは異なるコンテナプロファイルを持っています。コンテナプロファイルは、マージ先のコンテナにマージされません。
+frontend	top_container._frontend.bulk_operations.batch_merge_instructions	変わる	3	gemini+opus+sonnet	用語	（上の直し案に含む）所在	一覧の他のすべての最上位コンテナのマージ先となる最上位コンテナを選択します。リンクされた受入、リソース、リソースコンポーネント、およびイベントは、このコンテナに再リンクされます。コンテナプロファイルは、このコンテナにまだ無い場合にのみ、このコンテナに移動されます。他の最上位コンテナの所在とその他のすべての情報は削除されます。	リストされている他のすべての最上位コンテナをマージする最上位コンテナを選択します。リンクされた受入、リソース、リソースコンポーネント、およびイベントは、このコンテナに再リンクされます。コンテナプロファイルは、まだ持っていない場合にのみ、このコンテナに移動されます。他の最上位コンテナの所在とその他のすべての情報が削除されます。
+frontend	space_calculator.reason.container_is_bigger	変わる	3	gemini+opus+sonnet	用語	コンテナが、少なくとも1つの寸法で所在より大きい	コンテナが少なくとも1つの寸法で所在より大きい	コンテナが少なくとも1つの寸法で所在より大きい
+frontend	space_calculator.reason.location_cannot_fit_container	変わる	3	gemini+opus+sonnet	崩れ/用語	この所在には、現在この種類のコンテナを置く余地がありません	この所在には現在、この種類のコンテナを収納できません	所在は現在この種類のコンテナには適合しません
+common	bulk_import.error.missing_instance_type	変わる	3	gemini+opus+sonnet	崩れ	コンテナインスタンスの種類がありません	コンテナインスタンスの種類がありません	コンテナインスタンスの種類がありません
+enums	enumeration_names.note_bibliography_type	変わる	3	gemini+opus+sonnet	崩れ/用語	注記の参考文献の種類	参考文献注記の種類	参考文献の注記の種類
+enums	enumeration_names.note_rights_statement_act_type	変わる	3	gemini+opus+sonnet	用語	注記の権利表明の行為の種類	権利表明の行為の種類（注記）	権利表明の行為の種類（注記）
+enums	enumeration_names.note_rights_statement_type	変わる	3	gemini+opus+sonnet	用語	注記の権利表明の種類	注記の権利表明の種類	注記の権利表明の種類
+enums	enumeration_names.rights_statement_act_restriction	変わる	3	gemini+opus+sonnet	用語	権利表明の行為の制限	権利表明の行為の制限	権利表明の行為の制限
+enums	enumeration_names.rights_statement_act_type	変わる	3	gemini+opus+sonnet	用語	権利表明の行為の種類	権利表明の行為の種類	権利表明の行為の種類
+enums	enumeration_names.rights_statement_external_document_identifier_type	変わる	3	gemini+opus+sonnet	崩れ/用語	権利表明の外部文書識別子の種類	権利表明の外部文書識別子の種類	権利表明の外部文書識別子の種類
+enums	enumeration_names.rights_statement_rights_type	変わる	3	gemini+opus+sonnet	用語	権利表明の権利の種類	権利表明の権利の種類	権利表明の権利の種類
+common	archival_object.title_tooltip	変わる	3	gemini+opus+sonnet	欠落	<p>条件付き必須フィールド：記述対象の資料につけるタイトル。アーカイバルオブジェクトには、タイトルまたは日付のどちらかのサブレコードが必要です。</p><p>DACS 2.3、ISAD(G) 3.1.2を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>	<p>条件付き必須フィールド：記述対象の資料につけるタイトル。アーカイバルオブジェクトには、タイトルまたは日付のどちらかのサブレコードが必要です。</p><p>DACS 2.3、ISAD(G) 3.1.2を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>	<p>条件付き必須フィールド：記述対象の資料につけるタイトル。アーカイバルオブジェクトには、タイトルまたは日付のどちらかのサブレコードが必要です。</p><p>DACS 2.3、ISAD(G) 3.1.2を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>
+common	archival_object.level_tooltip	変わる	3	gemini+opus+sonnet	崩れ	<p>必須フィールド。記述対象の資料の階層レベルを示します。</p><p>DACS第1章、ISAD(G) 3.1.4を参照</p><p>値はEADスキーマによって規定されます。</p>	<p>必須フィールド。記述対象の資料の階層レベルを示します。 </p><p>DACS第1章、ISAD(G) 3.1.4を参照</p><p>値はEADスキーマによって規定されます。 </p>	<p>必須フィールド。記述対象の資料の階層レベルを示します。</p><p>DACS第1章、ISAD(G) 3.1.4を参照</p><p>値はEADスキーマによって規定されます。</p>
+common	archival_object.restrictions_apply_tooltip	変わる	3	gemini+opus+sonnet	欠落	<p>記述対象の資料に何らかの制限があるかどうかを示します。制限の詳しい説明は、制限が生じているレコードの、適切な注記または権利表明に記載してください。</p><p>DACS 4.1-4.4、ISAD(G) 3.4.1、3.4.2、3.4.4を参照</p>	<p>記述対象の資料に何らかの制限があるかどうかを示します。制限の詳しい説明は、制限が生じているレコードの、適切な注記または権利表明に記載してください。</p><p>DACS 4.1-4.4、ISAD(G) 3.4.1、3.4.2、3.4.4を参照</p>	<p>記述対象の資料に何らかの制限があるかどうかを示します。制限の詳しい説明は、制限が生じているレコードの、適切な注記または権利表明に記載してください。</p><p>DACS 4.1-4.4、ISAD(G) 3.4.1、3.4.2、3.4.4を参照</p>
+common	resource.finding_aid_author_tooltip	変わる	3	gemini+opus+sonnet	欠落	<p>検索手段の内容またはそのエンコードを作成する担当者の名前。</p>	<p>検索手段の内容またはそのエンコードの作成に責任を持つエージェントの名前。</p>	<p>検索手段の内容またはそのエンコードを作成するエージェントの名前。</p>
+common	revision_statement.date_tooltip	変わる	3	gemini+opus+sonnet	欠落	<p>検索手段が最後に改訂された日付を指定します。</p>	<p>検索手段が最後に改訂された日付を指定します。</p>	<p>検索手段が最後に改訂された日付を指定します。</p>
+common	subject.scope_note_tooltip	変わる	3	gemini+opus+sonnet	崩れ/誤訳	<p>用語の定義と、件名見出しとしての使い方について、何を意味し何を意味しないかを説明し明確にする注記。</p><p>例：</p><ul><li>ここには、細菌の生物学的研究に関する著作を入れる。この学問自体に関する著作は、Bacteriologyという見出しの下に入れる。</li><li>「住居における安全とプライバシーの権利」 - Black, Law dictionary, 4th ed., 1951.</li></ul>	<p>用語の定義と、件名見出しとしての使い方において、何を含み何を含まないかを説明し明確にする注記。 </p><p>例： </p><ul><li>ここには細菌の生物学的研究に関する著作を収める。細菌学という学問に関する著作は件名「Bacteriology」の下に収める。 </li><li> "The right of security and privacy in a man's home." - Black, Law dictionary, 4th ed., 1951.</li></ul>	<p>用語の定義および件名標目としての使用において、何が意味され、何が意味されないかを説明・明確化する注記。</p><p>例：</p><ul><li>ここには細菌の生物学的研究に関する著作を入力する。この科学分野に関する著作は「細菌学（Bacteriology）」の見出しの下に入力する。</li><li>「自宅における安全とプライバシーの権利」 - Black, Law dictionary, 4th ed., 1951.</li></ul>
+common	collection_management.processing_total_extent_type_tooltip	変わる	3	gemini+opus+sonnet	用語	<p>必須フィールド：記述対象の資料の数量を測定するために使用する単位の種類を示す用語。</p><p>この統制値リストの値は変更することができます。</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	<p>必須フィールド：記述対象の資料の数量を測る単位の種類を示す用語。 </p><p>この統制値リストの値は変更することができます。\n</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>\n	<p>必須フィールド：記述対象の資料の数量を測るために使用される単位の種類を示す用語。</p><p>この統制値リストの値は変更することができます。</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>
+common	assessment_attribute.rating.Housing Quality_values_tooltip	変わる	3	gemini+opus+sonnet	崩れ/誤訳	（該当語句のみ）オーバースタイル→詰め込みすぎ、アンダーフィル→余裕がありすぎ、公正な状態→並の状態、結合量→製本された冊子、酸を含まない→無酸	<ul><li> <b>評価1</b> ：アーカイブ用でない箱に収納され、棚に資料がばらのまま置かれていることもある。資料の大半がフォルダに入っておらず、箱が詰め込みすぎ、またはすかすかである。製本資料の場合、製本の状態が悪く、表紙板が欠けているか、本文の束を損なっている。 </li><li> <b>評価2</b> ：アーカイブ用でない箱とフォルダに収納されている。かなりの数の箱やフォルダで、入っている資料の量が適切でないか、収納する資料に合ったサイズ・種類ではない。製本資料の場合、製本の状態はまずまずである（表紙板が外れていることがある）。 </li><li> <b>評価3</b> ：アーカイブ用でない箱とフォルダに収納されているが、状態は良好。ほとんどの箱やフォルダに入っている資料の量は適切である。ほとんどの箱やフォルダは収納する資料に合ったサイズ・種類である。製本資料の場合、製本の状態は良好である（多少傷んでいるが損なわれてはいない）。 </li><li> <b>評価4</b> ：一部が状態の良い中性紙の箱とフォルダに収納されている。ほとんどの箱やフォルダに入っている資料の量は適切である。ほとんどの箱やフォルダは収納する資料に合ったサイズ・種類である。製本資料の場合、製本の状態は非常に良好である（通常の使用による傷み程度）。 </li><li> <b>評価5</b> ：全体が状態の良い中性紙の箱とフォルダに収納されている。箱やフォルダに入っている資料の量は適切である。箱やフォルダは収納する資料に合ったサイズ・種類である。製本資料の場合、製本の状態は極めて良好である。 </li></ul>	<ul><li><b>評価1</b>：アーカイブズ用ではない箱に収納されたコレクションで、棚に資料がばらばらのまま置かれている可能性がある。資料の大部分がフォルダーに入っておらず、かつ／または箱に詰め込みすぎ、あるいは隙間がありすぎる。製本された冊子の場合、装丁の状態が悪く、表紙ボードが欠けているか、本文ブロックが損なわれている。</li><li><b>評価2</b>：アーカイブズ用ではない箱およびフォルダーに収納されたコレクション。かなりの数の箱やフォルダーに不適切な量の資料が入っているか、収納されている資料に対して適切なサイズと種類ではない可能性がある。製本された冊子の場合、装丁はまずまずの状態である（表紙ボードが外れている可能性がある）。</li><li><b>評価3</b>：アーカイブズ用ではない箱やフォルダーに収納されたコレクションだが、良好な状態である。ほとんどの箱やフォルダーには適切な量の資料が入っている。ほとんどの箱やフォルダーは、収納されている資料に対して適切なサイズと種類である。製本された冊子の場合、装丁は良好な状態である（多少の摩耗はあるが破損していない）。</li><li><b>評価4</b>：部分的に中性紙の箱やフォルダーに良好な状態で収納されたコレクション。ほとんどの箱やフォルダーには適切な量の資料が入っている。ほとんどの箱やフォルダーは、収納されている資料に対して適切なサイズと種類である。製本された冊子の場合、装丁は非常に良好な状態である（通常の摩耗程度）。</li><li><b>評価5</b>：中性紙の箱やフォルダーに完全に収納された状態の良いコレクション。箱やフォルダーには適切な量の資料が入っている。箱とフォルダーは、収納されている資料に対して適切なサイズと種類である。製本された冊子の場合、装丁は極めて良好な状態である。</li></ul>
+common	assessment_attribute.rating.Intellectual Access (description)_values_tooltip	変わる	3	gemini+opus+sonnet	崩れ/用語	（該当語句のみ）援助→検索手段、「助けがない」→「検索手段がない」、検索支援→検索手段、「公平なアクセス」→「ある程度のアクセス」	<ul><li> <b>評価1</b> ：研究者はコレクションにアクセスできない。寄贈者／管理ファイルや、簡略な、または利用できない受入記録といった内部文書が、コレクションの唯一の記述となっている。こうした内部文書は量も質もさまざまだが、性質上、研究者は利用できない。 </li><li> <b>評価2</b> ：研究者のアクセスは不十分である。コレクションには検索手段がないか、標準に満たない検索手段しかない。印刷された目録カードなどオフラインのコレクションレベルの記述はあるが、OPACや全国書誌ユーティリティにコレクションレベルのMARCレコードはない。あるいは、検索手段がないか標準に満たないが、OPACや全国書誌ユーティリティにMARCレコードはある。ただし、大規模または複雑なコレクションのため、それでは十分なアクセスを提供できない。どちらの場合も、研究者が利用できる他のオンライン・オフラインの情報源にコレクションが記述されていることはあるが、コレクションの複雑さや情報源の不備のため、アクセスは不十分である。 </li><li> <b>評価3</b> ：研究者のアクセスはまずまずである。検索手段が標準に満たないか、検索手段がない。機関のOPACやOCLCなどの全国書誌ユーティリティに、コレクションレベルのMARCレコードがある。完全なMARCレコードがない場合は、別の形のオンラインのコレクションレベルの記述がある。小規模または単純なコレクションのため、研究者が利用できるオンライン・オフラインの情報源にあるコレクションレベルの記述で、十分なアクセスが得られる。 </li><li> <b>評価4</b> ：研究者のアクセスは良好である。良い検索手段があるが、オンラインでは公開されていない。機関のOPACやOCLCなどの全国書誌ユーティリティに、コレクションレベルのMARCレコードがある。あるいは、オンラインまたはオフラインで良い検索手段があるが、機関のOPACやOCLCなどの全国書誌ユーティリティにコレクションレベルのMARCレコードはない。検索手段の質から、検索手段だけで良好なアクセスが得られる。どちらの場合も、研究者が利用できる他のオンライン・オフラインの情報源にコレクションが記述されていることもある。 </li><li> <b>評価5</b> ：研究者のアクセスは非常に良好である。良いオンラインの検索手段（EAD、HTML、PDFなどの形式）がある。機関のOPACやOCLCなどの全国書誌ユーティリティに、コレクションレベルのMARCレコードがある。研究者が利用できる他のオンライン・オフラインの情報源（印刷版やオンライン版の所蔵案内など）にもコレクションが記述されていることがある。 </li></ul>	<ul><li><b>評価1</b>：研究者はコレクションにアクセスできない：寄贈者／管理ファイルや、簡略または非公開の受入レコードなどの内部文書のみがコレクションの記述となっている。このような内部文書は量や質にばらつきがあるものの、その性質上、研究者はアクセスできない。</li><li><b>評価2</b>：研究者のコレクションへのアクセスは不十分である：コレクションに検索手段がないか、水準以下の検索手段しかない。印刷された目録カードや他の種類のオフラインのコレクションレベル記述はあるが、OPACや全国書誌ユーティリティにコレクションレベルのMARCレコードがない。または、OPACや全国書誌ユーティリティにMARCレコードはあるが、大規模または複雑なコレクションであるため十分なアクセスを提供していない。いずれの場合も、研究者が利用できる他のオンラインまたはオフラインの情報源にコレクションが記述されていることはあるが、コレクションの複雑さや情報源の不十分さにより、十分なアクセスが提供されていない。</li><li><b>評価3</b>：研究者はコレクションにある程度アクセスできる：検索手段が水準以下であるか、検索手段がない。機関のOPACおよび／またはOCLCなどの全国書誌ユーティリティにコレクションレベルのMARCレコードがある。完全なMARCレコードがない場合でも、別の種類のオンラインのコレクションレベル記述がある。小規模または単純なコレクションであるため、研究者が利用できるオンラインまたはオフラインの情報源にあるコレクションレベル記述で十分なアクセスが提供されている。</li><li><b>評価4</b>：研究者はコレクションに良好にアクセスできる：良質な検索手段があるが、オンラインでは利用できない。機関のOPACおよび／またはOCLCなどの全国書誌ユーティリティにコレクションレベルのMARCレコードがある。あるいは、オンラインまたはオフラインに良質な検索手段があるが、機関のOPACやOCLCなどの全国書誌ユーティリティにコレクションレベルのMARCレコードがない。検索手段の質が高いため、検索手段だけで良好なアクセスが提供されている。いずれの場合も、研究者が利用できる他のオンラインまたはオフラインの情報源にもコレクションが記述されていることがある。</li><li><b>評価5</b>：研究者はコレクションに極めて良好にアクセスできる：良質なオンラインの検索手段（EAD、HTML、PDF、またはその他の形式）がある。機関のOPACおよび／またはOCLCなどの全国書誌ユーティリティにコレクションレベルのMARCレコードがある。研究者が利用できる他のオンラインまたはオフラインの情報源（印刷版またはオンライン版のコレクションガイドなど）にもコレクションが記述されていることがある。</li></ul>
+common	assessment_attribute.rating.Physical Access (arrangement)_values_tooltip	変わる	3	gemini+opus+sonnet	崩れ/誤訳	（該当語句のみ）直列に配置→シリーズ単位でファイルレベルまで排列、勘定科目→会計帳簿、格付け2→評価2	<ul><li> <b>評価1</b> ：まったく未編成。多くの、ときには大半の文書が、まだ封筒から出されておらず、広げられず、平らにされていない。研究者はまったく利用できない。 </li><li> <b>評価2</b> ：部分的または表面的な編成、標準的でない収納や表示のため、職員の特別な支援がなければ利用しにくい。 </li><li> <b>評価3</b> ：日付、文書の種類、機能、出所などの特性による大まかな編成。文書は十分に選別されていないが、広げて平らにされている。シリーズもファイルも十分に確立されていない。研究者は、目的の資料を見つけるために、関係のない大量の資料に目を通さなければならないことが多い。冊子体の資料は、複数の用途に使われていたり、資料が貼り込まれていたりして、やや乱雑なことがある。 </li><li> <b>評価4</b> ：ファイルレベルまでシリーズに編成されている。ファイル内はおおむね整然としている。冊子体の資料は整然としている（例：アルファベット順の会計簿、主題順にきれいにまとめたスクラップブック）。 </li><li> <b>評価5</b> ：シリーズと、必要に応じてサブシリーズの中で、アイテムレベルまで完全に編成されている。冊子体の資料は整然としており、索引がある（例：人名索引付きの年代順の会計記録）。 </li></ul>	<ul><li><b>評価1</b>：全く未編成。多くの（時には大部分の）文書がまだ封筒から取り出されておらず、広げられても平らにされてもいない。研究者は全くアクセスできない。</li><li><b>評価2</b>：部分的または表面的な編成、および／または非標準的な収納やラベル付けにより、スタッフの特別な補助なしでは利用が困難である。</li><li><b>評価3</b>：日付、文書の種類、機能、出所、またはその他の特性による大まかな編成。資料は徹底的には精査されていないが、広げられて平らにされている。シリーズは完全には確立されていない。ファイルも完全には確立されていない。研究者は目的のアイテムを見つけるために、無関係な大量の資料を調べなければならないことが多い。単冊の資料は複数の用途に使われていたり、資料が貼り付けられていたり、やや乱雑であったりする可能性がある。</li><li><b>評価4</b>：シリーズからファイルレベルまで編成されている。ファイル内の順序はおおむね良好である。単冊の資料は整然としている（例：アルファベット順の帳簿や、主題順に整理されたスクラップブック）。</li><li><b>評価5</b>：シリーズおよび（必要に応じて）サブシリーズにおいてアイテムレベルまで完全に編成されている。単冊の資料は整然としており、索引が付いている（例：人名索引付きの年代順の帳簿）。</li></ul>
+common	bulk_import.error.extent_type	変わる	3	gemini+opus+sonnet	用語	数量の種類がありません	数量の種類がありません	数量の種類がありません
+common	event.outcome_tooltip	変わる	3	gemini+opus+sonnet	用語	システムが自動的に処理できる統制語彙を使うことをお勧めします。 ... この統制値リストの値は変更できます。	<p>成功、部分的な成功、または失敗の観点からのイベントの全体的な結果の分類。システムが自動的に処理できる統制語彙を使用することをお勧めします。結果についての詳細は結果注記に記録することができます。各イベントが単一の結果を持つよう、十分な粒度でイベントを定義することをお勧めします。 </p><p>この統制値リストの値は変更することができます。 </p>	<p>成功、部分的な成功、または失敗の観点からのイベントの全体的な結果の分類。システムが自動的に処理できる統制語彙を使用することをお勧めします。結果についての詳細は結果注記に記録することができます。推奨されるプラクティスは、各イベントが単一の結果を持つ十分な粒度でイベントを定義することです。</p><p>この統制値リストの値は変更することができます。</p>
+common	agent_name.number_tooltip	変わる	3	gemini+opus+sonnet	誤訳	個人名の場合は、ローマ数字、またはローマ数字とそれに続く名の一部であることが多い。	<p>名前を修飾する数字（語を伴うこともある）。個人名の場合は、ローマ数字、またはローマ数字と名の後続部分であることが多い。団体名の場合は、部・部会または会議の回次。 </p><p>例： </p><ul><li> II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合</em></li><li> II <em>（ヨハネ・パウロ2世の場合）</em> </li><li>97th, 2nd session <em>（United States Congress, 97th, 2nd session の場合）</em> </li></ul>	<p>名前を修飾する、時には用語を伴う番号。個人名の場合は、ローマ数字、またはローマ数字とそれに続く名（ファーストネーム）の一部がよく使われます。団体名の場合は、部・課や会議の回次などの番号です。</p><p>例：</p><ul><li>II Comnenus <em>（東ローマ皇帝ヨハネス2世コムネノスの場合）</em></li><li>II <em>（ヨハネ・パウロ2世の場合）</em></li><li>97th, 2nd session <em>（米国議会第97回第2会期の場合）</em></li></ul>
+common	location.temporary_tooltip	変わる	3	gemini+opus+sonnet	用語	この所在が一時的な所在の特定の種類（例：展示エリア）であるかどうか	<p>この所在が、特定の種類の一時的な所在（例：展示エリア）であるかどうかを示すのに使用されます。 </p>	<p>この所在が一時的な所在の特定の種類（例：展示エリア）であるかどうかを示すのに使用されます。</p>
+common	agent_record_identifiers.identifier_type_tooltip	変わる	3	gemini+opus+sonnet	欠落/用語	<p>典拠レコード識別子の種類または形式を示します。この統制値リストの値は変更できます。</p>	<p>典拠レコード識別子の種類または形式を示します。この統制値リストの値は変更できます。</p>	<p>典拠レコード識別子の種類または形式を示します。この統制値リストの値は変更できます。</p>
+common	agent_alternate_set.set_component_tooltip	変わる	3	gemini+opus+sonnet	欠落	<p>同等の典拠レコードを識別し、そこへアクセスするためのキャプション。</p>	<p>同等の典拠レコードを識別し、そこへアクセスするためのキャプション。</p>	<p>同等の典拠レコードを識別し、そこへアクセスするためのキャプション。</p>
+common	agent_alternate_set.descriptive_note_tooltip	変わる	3	gemini+opus+sonnet	欠落	<p>リンクされた典拠レコードの詳細を記す注記の内容。</p>	<p>リンクされた典拠レコードの詳細を記す注記の内容。</p>	<p>リンクされた典拠レコードの詳細を記す注記の内容。</p>
+common	agent_conventions_declaration.descriptive_note_tooltip	変わる	3	gemini+opus+sonnet	崩れ/誤訳	<p>エージェントの記述の作成に使用した規約について、詳細を記す注記の内容。例：…</p>	<p>エージェントの記述の作成に使用した規約の詳細を記す注記の内容。例：経歴／沿革注記の内容の作成に使用（Describing Archives: A Content Standard の場合）。</p>	<p>エージェントの記述の作成に使用された規約に関する詳細を提供する注記の内容。例：経歴／沿革注記の内容を作成するために使用。（Describing Archives: A Content Standard の場合）</p>
+common	agent_conventions_declaration.file_uri_tooltip	変わる	3	gemini+opus+sonnet	表記	http://www2.archivists.org/standards/DACS/	<p>エージェントの記述の作成に使用した規約のオンライン上の場所のURI。例：http://www2.archivists.org/standards/DACS/（Describing Archives: A Content Standard の場合）。</p>	<p>エージェント記述の準備に使用される規約のオンライン上の場所のURI。例：http://www2.archivists.org/standards/DACS/（Describing Archives: A Content Standard の場合）。</p>
+common	agent_sources.file_uri_tooltip	変わる	3	gemini+opus+sonnet	表記	http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373	<p>エージェントの記述の作成に使用した情報源のオンライン上の場所のURI。例：http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373（Find-A-Grave の Robert W. Service の項目）。</p>	<p>エージェント記述の準備に使用された情報源のオンライン上の場所のURI。例：http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373（Robert W. ServiceのFind-A-Graveエントリの場合）。</p>
+common	structured_date_label.date_era_tooltip	変わる	3	gemini+opus+sonnet	崩れ	紀元前（BC）や西暦（CE）など、年を数え日付を計算する際の紀元。値「ce」が既定です。	<p>BCやCEなど、年に番号が付けられ、日付が計算される期間。値「ce」が既定です。</p>	<p>紀元前（B.C.）や西暦（C.E.）など、年に番号が付けられ日付が計算される期間。値「ce」が既定です。</p>
+common	note.note_agent_rights_statement	変わる	3	gemini+opus+sonnet	用語	権利表明注記（使用しないでください）	権利表明注記（使用しないでください）	権利表明注記（使用しないでください）
+common	extent.extent_type_tooltip	変わる	3	gemini+opus+sonnet	用語/誤訳	記述対象の資料の数量を測る単位の種類を示す用語。 ... この統制値リストの値は変更できます。	<p>必須フィールド：記述対象の資料の数量を測る単位の種類を示す用語。 </p><p>この統制値リストの値は変更することができます。\n</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>\n	<p>必須フィールド：記述対象の資料の数量を測るために使用される単位の種類を示す用語。</p><p>この統制値リストの値は変更することができます。</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>
+common	accession.resource_type_tooltip	変わる	3	gemini+opus+sonnet	用語	この統制値リストの値は変更できます。	<p>リポジトリがリソースを基本の種類に分類するために使用する用語のリスト。 </p><p>この統制値リストの値は変更することができます。 </p>	<p>リポジトリがリソースを基本の種類に分類するために使用する用語のリスト。</p><p>この統制値リストの値は変更することができます。</p>
+common	extent.container_summary_tooltip	変わる	3	gemini+opus+sonnet	欠落/表記	（英語に無い「DACS…を参照」を削除し、「例：」へ続ける）	<p>コンポーネントレコードに記述されている資料を収納するコンテナとコンテナの種類のリスト。</p><p>例： </p><ul><li> 10個のレコードカートン、6個のアーカイブボックス、3個の特大フォルダ。 </li><li> 靴箱12個。 </li><li>アーカイブボックス4個、チューブ32個。 </li></ul>	<p>コンポーネントレコードに記述されている資料を格納するコンテナおよびコンテナの種類のリスト。</p><p>例：</p><ul><li>レコードカートン10個、アーカイブズボックス6個、特大フォルダ3個。</li><li>靴箱12個。</li><li>アーカイブズボックス4個、チューブ32本。</li></ul>
+common	rights_statement.rights_type_tooltip	変わる	3	gemini+opus+sonnet	崩れ/誤訳	リポジトリが望む場合は、寄贈者との契約や購入契約にも使えます。 / 著作権・ライセンス・法令以外の根拠のためのものです。 / 「法令」は	<p>権利表明の根拠。著作権、ライセンス、法令、その他の4つの根拠が認められています。ライセンスは、寄贈契約や購入契約などの正式・非公式のライセンスに使います。法令は、米国のフェアユースやFERPAなど成文化された法律に使います。その他は、機関の方針など、著作権・ライセンス・法令以外の根拠に使います。リポジトリの方針によっては、寄贈契約や購入契約にも使えます。 </p>	<p>行われる権利表明の根拠。著作権（Copyright）、ライセンス（License）、法令（Statute）、その他（Other）の4つの根拠が認められています。ライセンスは、寄贈契約や購入契約などの正式および非公式のライセンス用です。法令は、米国におけるフェアユースやFERPAなどの成文法のためのものです。その他は、機関の方針、または著作権、ライセンス、法令以外の根拠のためのものです。リポジトリが望む場合は、寄贈契約や購入契約にも使用できます。</p>
+common	rights_statement.other_rights_basis_tooltip	変わる	3	gemini+opus+sonnet	崩れ/用語	法令・ライセンス・著作権のいずれにも当たらない、その他の権利表明の種類。	<p>法令、ライセンス、著作権のいずれでもない、その他の権利表明の権利の種類。 </p>	<p>法令、ライセンス、または著作権ではない他の権利表明の権利の種類。</p>
+common	date.expression_tooltip	変わる	3	gemini+opus+sonnet	誤訳	<li>日付なし</li>	<p>条件付き必須フィールド：資料の日付または日付範囲を自然言語で示す表記。正規化された日付を記録しない場合に必要です。 </p><p>DACS 2.4、ISAD(G) 3.1.3を参照</p><p>例： </p><ul><li> 1968 </li><li> 1979-1993 </li><li> 1785-1960、主要年代1916-1958 </li><li> 1827年、1952年〜1978年</li><li> 1870-1879年頃</li><li> 1906年3月17日</li><li>日付なし</li><li>不明<em>（イベントの場合）</em> </li></ul>	<p>条件付き必須フィールド：資料の日付または日付範囲を指定する自然言語表現。正規化された日付が記録されていない場合に必須です。</p><p>DACS 2.4、ISAD(G) 3.1.3を参照</p><p>例：</p><ul><li>1968</li><li>1979-1993</li><li>1785-1960, bulk 1916-1958</li><li>1827, 1952-1978</li><li>circa 1870-1879</li><li>1906 March 17</li><li>undated</li><li>unknown <em>（イベントの場合）</em></li></ul>
+common	accession.content_description_tooltip	変わる	3	gemini+opus+sonnet	崩れ/誤訳	野帳、日記、地図の草稿からなる10箱の資料。スミス氏がオタイ・メサ牧場に10年間住んだ記録。	<p>受入資料の文書の種類と主題内容の説明。 </p><p>DACS 3.1.4-3.1.7、ISAD(G) 3.3.1を参照</p><p>例： </p><p>フィールドノート、日記、地図の草稿を含む10カートンの資料。Smith氏がオテイメサ牧場に住んだ10年間を記録している。 </p>	<p>受入資料の文書の種類と主題内容の説明。</p><p>DACS 3.1.4-3.1.7、ISAD(G) 3.3.1を参照</p><p>例：</p><p>スミス氏がオテイ・メサ牧場に10年間居住していたことを記録したフィールドノート、日記、地図の下書きを含む資料10箱。</p>
+common	accession.disposition_tooltip	変わる	3	gemini+opus+sonnet	誤訳	ウィリアム・コルトン宛書簡は「ウィリアム・コルトン書簡コレクション」に、地元の小川の地図は「郡の河川コレクション」の記録に追加した。	<p>特定の受入資料がどのように複数のリソースに振り分けられたかを記述する注記。 </p><p>例： </p><p>写真は分離され、Photographs 025 に割り当てられた。 </p><p>ウィリアム・コルトン（William Colton）宛の書簡はウィリアム・コルトン書簡コレクションに加え、地元の河川の地図は郡河川コレクションの記録に加えた。 </p>	<p>特定の受入資料がどのように異なるリソースに割り当てられたかを記述する注記。</p><p>例：</p><p>写真は分離され、Photographs 025に割り当てられた。</p><p>ウィリアム・コルトンへの手紙はWilliam Colton書簡コレクションに追加され、地元の小川の地図はCounty Riverコレクションの記録に追加された。</p>
+common	accession.acquisition_type_tooltip	変わる	3	gemini+opus+sonnet	用語/誤訳	入手方法の区分を表す語。 ... 寄贈 / 購入 / 移管	<p>受入方法の種類を示す区分。リポジトリはデータ値のリストをカスタマイズできます。 </p><p>例： </p><ul><li>寄贈</li><li>購入</li><li>移管</li></ul>	<p>受入方法のカテゴリー記述子。リポジトリは、データ値のリストをカスタマイズすることができます。</p><p>例：</p><ul><li>寄贈</li><li>購入</li><li>移管</li></ul>
+enums	enumerations.metadata_license.public_domain	変わる	2	opus+sonnet	崩れ	このレコードは、クリエイティブ・コモンズ CC0 1.0 全世界 パブリック・ドメイン提供のもとで利用できます。	このレコードはCC0 1.0 全世界 パブリック・ドメイン提供により公開されています。	
+frontend	top_container._frontend.bulk_operations.batch_merge_container_profile_too_many_warning	変わる	2	opus+sonnet	崩れ	これらの最上位コンテナには、それぞれ異なるコンテナプロファイルが設定されています。これらのコンテナプロファイルは、いずれもマージ先のコンテナにはマージされません。	これらの最上位コンテナはそれぞれ異なるコンテナプロファイルを持っています。どのコンテナプロファイルもマージ先のコンテナにはマージされません。	
+frontend	container_profile.extent_dimension_tooltip	変わる	2	opus+sonnet	崩れ	<p>コンテナ内の資料の数量を計算し、記述するときに使う寸法。数量計算機がどの寸法を測るかを決めるのに役立ちます。</p>	<p>コンテナ内の資料の数量を計算・記述するために使用する寸法。数量計算機がどの寸法を測るかを決めるのに役立ちます。</p>	
+frontend	space_calculator.message_total_containers	変わる	2	gemini+sonnet	用語	これらの所在で見つかった、この種類のコンテナの合計数： %{total_containers}		これらの所在で見つかったこの種類のコンテナの合計数： %{total_containers}
+frontend	assessment._frontend.section.format_attributes	変わる	2	opus+sonnet	用語	資料の種類/形式の一覧	資料の種類/形式のリスト	
+frontend	assessment._frontend.section.format_attributes_empty	変わる	2	opus+sonnet	崩れ/用語	資料の種類/形式が入力されていません	資料の種類/形式が入力されていません	
+frontend	assessment._frontend.section.format_attributes_additional	変わる	2	opus+sonnet	崩れ/用語	追加の資料の種類/形式	追加の資料の種類/形式	
+frontend	assessment_attribute_definitions._frontend.action.remove_format	変わる	2	opus+sonnet	用語	資料の種類・形式「%{format_type}」を削除	資料の種類・形式「%{format_type}」を削除	
+common	top_container_linker.error.tc_ind_ct_exists	変わる	2	gemini+sonnet	崩れ/表記	トップコンテナインジケータとコンテナの種類の組み合わせ %{tc_type} %{indicator} は、リソース%{ead_id}のアーカイバルオブジェクトとして、すでにデータベースに存在します（行%{row_num}の%{ref_id}を参照）。		トップコンテナインジケーターとコンテナの種類のコンボ%{tc_type}%{indicator}は、リソース%{ead_id}のAOのデータベースにすでに存在します（行%{row_num}の%{ref_id}を参照）。
+common	metadata_rights_declaration.descriptive_note_tooltip	変わる	2	gemini+sonnet	崩れ	<p>i. Copyright Smith College, 1985</p>\n<p>ii. この検索手段は、あらゆる目的で複製できます。</p>\n<p>iii. …</p>\n<p>iv. 経歴注記の著作権は Ted Smith（2015年）にあります。その他のメタデータはすべて CC BY 4.0 でライセンスされています。</p>		<p>メタデータを使用および再利用できる条件に関する非構造化情報。例：</p>\n<p>i. Copyright Smith College, 1985</p>\n<p>ii. この検索手段は、あらゆる目的で複製することができます。</p>\n<p>iii. この作品はパブリックドメインに捧げられています。つまり、商業目的であっても、許可を求めることなく、作品をコピー、変更、配布、実行することができます。</p>\n<p>iv. 経歴注記の著作権は Ted Smith（2015年）にあります。他のすべてのメタデータは CC BY 4.0 でライセンスされています。</p>\n
+common	metadata_rights_declaration.file_uri_tooltip	変わる	2	gemini+sonnet	表記	例：https://creativecommons.org/licenses/by/4.0/</p>		<p>ライセンスのオンライン上の場所のURI、またはメタデータを使用および再利用できる条件に関するその他の公開情報。例：https://creativecommons.org/licenses/by/4.0/</p>\n
+common	container_location.status_tooltip	変わる	2	opus+sonnet	用語/表記	必須フィールド。このレコードの所在の記述が、	<p>必須フィールド。このレコードの所在の記述が、記述対象のインスタンスの現在の所在か、以前の所在かを示します。 </p>	
+common	agent_record_control.romanization_tooltip	変わる	2	opus+sonnet	崩れ	（ALA-LC ローマ字化表の例：Каспаров, Г. К. (Гарри Кимович) に対する Kasparov, G. K. (Garri Kimovich)）	<p>統一形の名前がラテン文字以外の文字体系からローマ字化されたかどうかと、ローマ字化の方式の種類を示します。例：National library or bibliographic agency standard（ALA-LC ローマ字表記表の場合。例：Каспаров, Г. К. (Гарри Кимович) に対する Kasparov, G. K. (Garri Kimovich)）。</p>	
+common	definedlist_item.label_tooltip	変わる	2	gemini+sonnet	崩れ/表記	定義リスト注記の項目の内容について、その文脈を示す、または内容によって説明される文字列。		定義されたリストの注記項目内のコンテンツによって文脈化されるか、または説明されるテキスト文字列。
+common	agent.names_tooltip	変わる	2	opus+sonnet	崩れ	各エージェントレコードには、名前フォームのサブレコードが少なくとも1つ必要です。	<p>必須サブレコード：エージェントの名前の異なる形式を記録します。各エージェントレコードには少なくとも1つの名前の形式サブレコードが必要です。 </p> <p>DACS 10.1、10.3.3、ISAAR (CPF) 5.1.2、5.1.5を参照</p>	
+enums	enumerations.name_rule.isaar	変わる	2	gemini+opus	用語		団体・個人・家族に関するアーカイブズ典拠レコードの国際標準（ISAAR(CPF)）	団体・個人・家族に関するアーカイブズ典拠レコードの国際標準（ISAAR(CPF)）
+enums	enumerations.restriction_type.RestrictedCurApprSpecColl	変わる	2	gemini+opus	用語		2 - リポジトリによる利用制限	2 - リポジトリによる利用制限
+common	date.era_tooltip	変わる	2	gemini+opus	誤訳		<p>BCまたはCEなどの、年が数えられ、日付が計算される期間。「ce」という値が既定です。 </p><p>EAD属性「era」を参照してください。 </p>	<p>B.C.またはC.E.などの、年が数えられ、日付が計算される期間。「ce」という値が既定です。</p><p>EAD属性「era」を参照してください。</p>
+common	resource.resource_type_tooltip	変わる	2	gemini+opus	用語		<p>リポジトリがリソースを基本の種類に分類するために使用する用語のリスト。 </p><p>この統制値リストの値は変更することができます。 </p>	<p>リポジトリがリソースを基本の種類に分類するために使用する用語のリスト。</p><p>この統制値リストの値は変更することができます。</p>
+common	repository.org_code_tooltip	変わる	2	gemini+opus	欠落		<p>ISO/DIS 15511（情報およびドキュメンテーション―図書館および関連組織の国際標準識別子（ISIL））に準拠するコード。米国の機関の場合は、MARC組織コードリストのコードも含みます。</p><p>例： </p><ul><li> NNU-TL <em>（Tamiment Library and Robert F. Wagner Labor Archives の場合）</em> </li><li> IU-Ar <em>（University of Illinois Archives の場合）</em> </li></ul>	<p>ISO/DIS 15511（情報およびドキュメンテーション—図書館および関連組織のための国際標準識別子（ISIL））に準拠するコード。米国の機関には、MARC組織コードリストのコードが含まれます。</p><p>例：</p><ul><li>NNU-TL <em>（タミメント図書館およびロバート・F・ワグナー労働アーカイブズの場合）</em></li><li>IU-Ar <em>（イリノイ大学アーカイブズの場合）</em></li></ul>
+common	collection_management.processing_status_tooltip	変わる	2	gemini+opus	用語		<p>アーカイブ単位（受入、リソース、またはデジタルオブジェクト）の整理の現在の状況を示すため。 </p><p>この統制値リストの値は変更することができます。 </p><p>例： </p><ul><li>新規</li><li>進行中</li><li>完了</li></ul>	<p>アーカイブ単位（受入、リソース、またはデジタルオブジェクト）の現在の整理状況を示すため。</p><p>この統制値リストの値は変更することができます。</p><p>例：</p><ul><li>新規</li><li>進行中</li><li>完了</li></ul>
+frontend	extent_calculator.no_profile	変わる	2	gemini+opus	欠落/表記		<span class="text-error">プロファイルなし</span>	<span class="text-error">プロファイルなし</span>
+frontend_help	help.topics.resource_finding_aid	そのまま	1	sonnet	崩れ	検索手段データのヘルプ		
+frontend_help	help.topics.archival_object_finding_aid	そのまま	1	sonnet	崩れ	検索手段のヘルプ		
+frontend_help	help.topics.digital_object_finding_aid	そのまま	1	sonnet	崩れ	検索手段のヘルプ		
+frontend_help	help.topics.digital_object_component_finding_aid	そのまま	1	sonnet	崩れ	検索手段のヘルプ		
+frontend_help	help.topics.agent_person_dates_of_existence	そのまま	1	sonnet	崩れ	存在期間のヘルプ		
+frontend_help	help.topics.agent_family_dates_of_existence	そのまま	1	sonnet	崩れ	存在期間のヘルプ		
+frontend_help	help.topics.agent_corporate_entity_dates_of_existence	そのまま	1	sonnet	崩れ	存在期間のヘルプ		
+frontend_help	help.topics.agent_software_dates_of_existence	そのまま	1	sonnet	崩れ	存在期間のヘルプ		
+frontend_help	help.topics.accession	そのまま	1	sonnet	誤訳	受入のヘルプ		
+frontend_help	help.topics.resource_related_accessions	そのまま	1	sonnet	誤訳	関連する受入のヘルプ		
+frontend_help	help.topics.archival_object_related_accessions	そのまま	1	sonnet	誤訳	関連する受入のヘルプ		
+frontend_help	help.topics.digital_object_related_accessions	そのまま	1	sonnet	誤訳	関連する受入のヘルプ		
+frontend_help	help.topics.digital_object_component_related_accessions	そのまま	1	sonnet	誤訳	関連する受入のヘルプ		
+frontend_help	help.topics.agent_function	そのまま	1	sonnet	誤訳	機能のヘルプ		
+frontend_help	help.topics.bulk_archival_object_updater_job	そのまま	1	sonnet	誤訳	アーカイバルオブジェクトの一括更新に関するヘルプ		
+frontend_help	help.topics.subject_terms	そのまま	1	sonnet	誤訳	語句と細目に関するヘルプ		
+frontend	bulk_archival_object_update_spreadsheet.download_spreadsheet_modal_message	そのまま	1	sonnet	誤訳	このスプレッドシートの生成には少し時間がかかる場合があります。		
+public	search_results.filter.to	そのまま	1	sonnet	誤訳	まで		
+frontend_help	help.topics.accession_extents	そのまま	1	sonnet	用語	数量のヘルプ		
+frontend_help	help.topics.resource_extents	そのまま	1	sonnet	用語	数量のヘルプ		
+frontend_help	help.topics.archival_object_extents	そのまま	1	sonnet	用語	数量のヘルプ		
+frontend_help	help.topics.digital_object_extents	そのまま	1	sonnet	用語	数量のヘルプ		
+frontend_help	help.topics.digital_object_component_extents	そのまま	1	sonnet	用語	数量のヘルプ		
+frontend_help	help.topics.accession_subjects	そのまま	1	sonnet	用語	件名のヘルプ		
+frontend_help	help.topics.resource_subjects	そのまま	1	sonnet	用語	件名のヘルプ		
+frontend_help	help.topics.archival_object_subjects	そのまま	1	sonnet	用語	件名のヘルプ		
+frontend_help	help.topics.digital_object_subjects	そのまま	1	sonnet	用語	件名のヘルプ		
+frontend_help	help.topics.digital_object_component_subjects	そのまま	1	sonnet	用語	件名のヘルプ		
+frontend_help	help.topics.subject	そのまま	1	sonnet	用語	件名のヘルプ		
+frontend_help	help.topics.accession_deaccessions	そのまま	1	sonnet	用語	除籍に関するヘルプ		
+frontend_help	help.topics.resource_deaccessions	そのまま	1	sonnet	用語	除籍に関するヘルプ		
+frontend_help	help.topics.archival_object_deaccessions	そのまま	1	sonnet	用語	除籍に関するヘルプ		
+frontend_help	help.topics.digital_object_deaccessions	そのまま	1	sonnet	用語	除籍に関するヘルプ		
+frontend_help	help.topics.digital_object_component_deaccessions	そのまま	1	sonnet	用語	除籍に関するヘルプ		
+frontend_help	help.topics.accession_rights_statements	そのまま	1	sonnet	用語	権利表明に関するヘルプ		
+frontend_help	help.topics.resource_rights_statements	そのまま	1	sonnet	用語	権利表明に関するヘルプ		
+frontend_help	help.topics.archival_object_rights_statements	そのまま	1	sonnet	用語	権利表明に関するヘルプ		
+frontend_help	help.topics.digital_object_rights_statements	そのまま	1	sonnet	用語	権利表明に関するヘルプ		
+frontend_help	help.topics.digital_object_component_rights_statements	そのまま	1	sonnet	用語	権利表明に関するヘルプ		
+frontend_help	help.topics.enumeration	そのまま	1	sonnet	用語	統制値リストのヘルプ		
+public	record._singular	そのまま	1	sonnet	用語	レコード		
+frontend	actions.digital_object_template	そのまま	1	sonnet	表記	デジタルオブジェクトテンプレートをダウンロード		
+public	metadata_rights_declaration.descriptive_note	変わる	1	sonnet	欠落	記述注記		
+enums	enumerations.rights_statement_external_document_identifier_type.viaf	そのまま	1	sonnet	誤訳	バーチャル国際典拠ファイル番号		
+enums	enumerations.rights_statement_external_document_identifier_type.gnd	そのまま	1	sonnet	誤訳	共通典拠ファイル（GND）（ライプチヒ、フランクフルト：ドイツ国立図書館）		
+enums	enumerations.rights_statement_external_document_identifier_type.gettytgn	そのまま	1	sonnet	崩れ	ゲッティ地名シソーラス・オンライン（J・ポール・ゲッティ・トラスト）		
+enums	enumerations.rights_statement_external_document_identifier_type.gettyulan	そのまま	1	sonnet	崩れ	ゲッティ芸術家名統合リスト・オンライン（J・ポール・ゲッティ・トラスト）		
+enums	enumerations.rights_statement_external_document_identifier_type.rbmsbt	そのまま	1	sonnet	崩れ	RBMS統制語彙：装丁用語（ACRL稀覯書・手稿部会）		
+enums	enumerations.rights_statement_external_document_identifier_type.rbmsgt	そのまま	1	sonnet	崩れ	RBMS統制語彙：ジャンル用語（ACRL稀覯書・手稿部会）		
+enums	enumerations.rights_statement_external_document_identifier_type.rbmsppe	そのまま	1	sonnet	崩れ	RBMS統制語彙：印刷・出版の証拠（ACRL稀覯書・手稿部会）		
+enums	enumerations.rights_statement_external_document_identifier_type.bfi	そのまま	1	sonnet	表記	BFI - 英国映画協会		
+enums	enumerations.rights_statement_external_document_identifier_type.ibdb	そのまま	1	sonnet	表記	IBDB - インターネット・ブロードウェイ・データベース		
+enums	enumerations.rights_statement_external_document_identifier_type.imdb	そのまま	1	sonnet	表記	IMDb - インターネット・ムービー・データベース		
+enums	enumerations.script_iso15924.Cirt	変わる	1	sonnet	誤訳	キルス文字		
+enums	enumerations.linked_agent_archival_record_relators.mod	そのまま	1	sonnet	表記	モデレーター		
+enums	enumerations.linked_agent_archival_record_relators.mrk	そのまま	1	sonnet	表記	マークアップエディター		
+enums	enumerations.linked_agent_archival_record_relators.red	そのまま	1	sonnet	表記	編集者		
+enums	enumerations.linked_agent_archival_record_relators.prv	そのまま	1	sonnet	表記	プロバイダー		
+enums	enumerations.linked_agent_archival_record_relators.rev	そのまま	1	sonnet	表記	レビュアー		
+frontend	actions.merge_from_browse_confirm_title	そのまま	1	sonnet	表記	選択したレコードをマージしますか？		
+frontend	actions.merge_agent_from_browse_confirm_message	そのまま	1	sonnet	表記	…選択された最初のエージェントに付け替えられます。		
+frontend	actions.transfer_failed_digital_objects_linked_to_records	そのまま	1	sonnet	崩れ	このデジタルオブジェクトは、このリポジトリ内の他のレコードにリンクしています。転送を続けるには、次のレコードのリンクを削除してください。		
+frontend	actions.delete_repository_confirm_message	そのまま	1	sonnet	欠落	<p><strong>この操作を元に戻すことはできませんので</strong>ご注意ください。</p><p>この操作は、<strong>リポジトリ</strong>と関連するすべてのレコードを、他のレコードへの参照も含めてデータベースから削除します。</p><p>続行するには、下に '%{repository}' と入力してください：</p><p><input id='deleteRepoConfim' data-confirm-answer='%{repository}'></input></p>		
+enums	enumerations.linked_agent_archival_record_relators.cou	そのまま	1	sonnet	誤訳	規則の適用を受ける裁判所		
+enums	enumerations.linked_agent_archival_record_relators.app	そのまま	1	sonnet	誤訳	申請者		
+enums	enumerations.level_of_detail.fully_established	変わる	1	sonnet	崩れ	完全確立		
+frontend	resource._frontend.messages.unpublished	そのまま	1	sonnet	崩れ	リソース<strong>%{resource_title}</strong>、その子、サブレコード、コンポーネントを非公開にしました		
+frontend	search.agent.authority_id	そのまま	1	sonnet	用語	典拠ID		
+frontend	search.classification.has_classification_terms	そのまま	1	sonnet	用語	分類項目はありますか？		
+frontend	batch_delete.locations.error	そのまま	1	sonnet	用語	選択した所在は、以下の問題のため、いずれも削除されませんでした：		
+frontend	agent._frontend.section.linked_via_rights_statement	そのまま	1	sonnet	用語	権利表明からリンクされたレコード		
+frontend	enumeration._frontend.messages.name_selector_tooltip	そのまま	1	sonnet	用語	<p>編集する統制値リスト。</p>		
+frontend	classification._frontend.messages.created	そのまま	1	sonnet	崩れ	分類<strong>%{classification_title}</strong>を作成しました		
+frontend	classification._frontend.messages.updated	そのまま	1	sonnet	崩れ	分類<strong>%{classification_title}</strong>を更新しました		
+frontend	classification._frontend.messages.deleted	そのまま	1	sonnet	崩れ	分類<strong>%{classification_title}</strong>を削除しました		
+frontend	digital_object_component._frontend.messages.updated_with_parent	そのまま	1	sonnet	崩れ	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>を更新しました		
+frontend	digital_object_component._frontend.messages.updated	そのまま	1	sonnet	崩れ	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>を更新しました		
+frontend	digital_object_component._frontend.messages.deleted	そのまま	1	sonnet	崩れ	デジタルオブジェクトコンポーネント<strong>%{digital_object_component_display_string}</strong>を削除しました		
+frontend	resource._frontend.messages.created	そのまま	1	sonnet	崩れ	リソース<strong>%{resource_title}</strong>を作成しました		
+frontend	resource._frontend.messages.updated	そのまま	1	sonnet	崩れ	リソース<strong>%{resource_title}</strong>を更新しました		
+frontend	resource._frontend.messages.deleted	そのまま	1	sonnet	崩れ	リソース<strong>%{resource_title}</strong>を削除しました		
+frontend	location._frontend.action.delete_confirm_message	そのまま	1	sonnet	崩れ	<p>この操作は<strong>元に戻せません</strong>のでご注意ください。</p><p>この所在が現在1つ以上のインスタンスにリンクされている場合、削除できません。</p>		
+frontend	location_batch._frontend.messages.updated	そのまま	1	sonnet	崩れ	<strong>%{number_created} 件の所在</strong>を更新しました		
+frontend	location_batch._frontend.messages.location_batch_info	そのまま	1	sonnet	用語	下の<strong>座標範囲</strong>から生成されるすべての所在に適用される基準値を定義します。		
+frontend	repository._frontend.messages.create_first_repository	そのまま	1	sonnet	崩れ	最初のリポジトリを作成するには、上の<strong>システム</strong>メニューをクリックし、続けて<strong>リポジトリの管理</strong>をクリックしてください。		
+frontend	rights_restriction.end_tooltip	変わる	1	sonnet	崩れ	<p>期間を限った制限の場合、アクセス制限の終了日。YYYY-MM-DD の形式の単一の日付にしてください。期限が切れると、コンテナとの関連付けは解除されます。精度の低い日付や期間を示したいときは、注記のテキストを使ってください。</p>		
+frontend	rights_restriction.begin_tooltip	変わる	1	sonnet	用語	…期限が切れると、コンテナとの関連付けは解除されます。…		
+frontend	space_calculator.count	変わる	1	sonnet	崩れ	空きスペース（このコンテナの種類で）		
+frontend	agent_record_control.name_type	変わる	1	sonnet	用語	レコード管理：名前の種類		
+frontend	agent_record_control.modified_record	変わる	1	sonnet	用語	レコード管理：変更の種類		
+frontend	agent_maintenance_history.maintenance_event_type	変わる	1	sonnet	用語	レコード管理：維持管理イベントの種類		
+frontend	agent_maintenance_history.maintenance_agent_type	変わる	1	sonnet	用語	レコード管理：維持管理エージェントの種類		
+frontend	agent_record_identifier.identifier_type	変わる	1	sonnet	用語	レコード管理：識別子の種類		
+frontend	job._frontend.messages.slug_generation	変わる	1	sonnet	崩れ	…各レコードの「スラッグを自動生成」にチェックを入れて置き換えを指定していない限り、変更されません。		
+frontend	top_container._frontend.bulk_operations.current_location	そのまま	1	sonnet	用語	現在の所在		
+frontend	top_container._frontend.bulk_operations.update_locations_current_location	そのまま	1	sonnet	用語	現在の所在		
+common	bulk_import.error.no_agent	そのまま	1	sonnet	崩れ	エージェント %{num} を作成できません：[%{why}]		
+common	bulk_import.error.no_tc	そのまま	1	sonnet	崩れ	トップコンテナ %{number} を作成できません：[%{why}]		
+common	bulk_import.error.no_ao_be	そのまま	1	sonnet	表記	アーカイバルオブジェクトは作成されません		
+common	bulk_import.error.no_move	そのまま	1	sonnet	崩れ	リストの末尾からアーカイバルオブジェクトを移動できません（応答コード %{code}）		
+common	bulk_import.error.has_dig_obj	そのまま	1	sonnet	表記	アーカイバルオブジェクトには、すでに関連するデジタルオブジェクトがあります		
+common	bulk_import.error.second_save_error	変わる	1	sonnet	用語	（全文のうち「最上位コンテナ」を「トップコンテナ」に直す）		
+common	top_container_linker.error.tc_indicator_and_record_no_exist	そのまま	1	sonnet	誤訳	行%{row_num}の%{ref_id}には、トップコンテナインジケータとTCレコード番号のどちらか一方のみを指定できます。		
+common	top_container_linker.error.problem_adding_current_location	そのまま	1	sonnet	用語	現在の所在の追加で問題が発生しました（行%{row_num}の%{ref_id}を参照）：[%{why}]		
+common	top_container_linker.log_validate_only	そのまま	1	sonnet	用語	検証のみのオプションが有効なため、トップコンテナの作成とリンクをスキップします。		
+common	metadata_rights_declaration.license_tooltip	そのまま	1	sonnet	崩れ	（5か所の「CreativeCommons」を「Creative Commons」に直す）		
+common	metadata_rights_declaration.last_verified_date_tooltip	そのまま	1	sonnet	崩れ	関連付けられたURIでリンクされているリソースが最後に検証された日付、または日時。		
+common	resource_duplicate_job.archival_object_failure_message	変わる	1	sonnet	表記	ID %{resource_id} のリソースから ID %{archival_object_id} のアーカイバルオブジェクトを複製できませんでした。検証エラー %{message}。		
+common	bulk_import.error.bad_accession_uri	そのまま	1	sonnet	用語	URI %{uri} の受入が見つかりません		
+common	importer.error.subject_mode_conflict	そのまま	1	sonnet	用語	件名グループ %{index} にレコードIDと新規作成用の値の両方を含めることはできません		
+common	bulk_import.error.subject_missing_identity	そのまま	1	sonnet	用語	件名 %{num} にはレコード ID または用語が必要です		
+common	bulk_import.error.invalid_event_type	そのまま	1	sonnet	用語	イベントグループ %{group} のフィールド %{field} は既存のイベントの種類ではありません: '%{value}'		
+common	bulk_import.error.event_agent_unsupported_type	そのまま	1	sonnet	用語	イベントグループ %{group} のフィールド %{field} はサポートされているエージェントの種類ではありません。使用できる値: %{accepted}		
+common	defaults.top_container_mgmt_browse_section	変わる	1	sonnet	用語	トップコンテナ管理の一覧に表示する列		
+enums	enumeration_names.agent_relationship_family_relator	そのまま	1	sonnet	崩れ	エージェント関係（家族）		
+enums	enumeration_names.agent_relationship_hierarchical_relator	そのまま	1	sonnet	崩れ	エージェント関係（階層）		
+enums	enumeration_names.agent_relationship_identity_relator	そのまま	1	sonnet	崩れ	エージェント関係（同一性）		
+enums	enumeration_names.agent_relationship_specific_relator	そのまま	1	sonnet	崩れ	エージェント関係（特定）		
+enums	enumeration_names.agent_relationship_temporal_relator	そのまま	1	sonnet	崩れ	エージェント関係（時間的）		
+enums	enumeration_names.rights_statement_ip_status	そのまま	1	sonnet	用語	権利表明のIPステータス		
+enums	enumeration_names.rights_statement_other_rights_basis	そのまま	1	sonnet	用語	権利表明のその他の権利の根拠		
+common	agent.external_documents_tooltip	そのまま	1	sonnet	誤訳	<p>このエージェントに関する外部の文書（例えば、経歴ファイル、参考文献など）へのリンクを許可します。 DACS 14.1、ISAAR (CPF) 6.1を参照</p>		
+common	agent.agent_alternate_sets_tooltip	そのまま	1	sonnet	用語	<p>同じエンティティの2つ以上のレコードが2つ以上の典拠システムから派生した場合に、リンクされた典拠レコードを指すために使用されます。</p>		
+common	archival_object.component_id_tooltip	そのまま	1	sonnet	誤訳	<p>コンポーネントの部品について、リソース記述のコンテキスト内で一意のIDを表します。</p><p>例：</p><ul><li>シリーズI</li><li>サブシリーズ8</li><li>受入2005-M-078</li></ul>		
+common	archival_object.container_summary_tooltip	そのまま	1	sonnet	用語	<p>リソース記述を構成するコンテナの数と種類を記録するため。これはテキストによる要約であり、数量サブレコードと同一ではありません。</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p><p>例：</p><ul><li>10個のレコードカートン、6個のアーカイブボックス、3個の特大のフォルダ。</li><li>12個の靴箱。</li><li>4個のアーカイブボックス、32本のチューブ。</li></ul>		
+common	group.permission_types.manage_subject_record	そのまま	1	sonnet	用語	<b>件名</b>の作成/更新/削除 (システム全体)		
+common	resource.id_0_tooltip	そのまま	1	sonnet	欠落	<p>必須フィールド。リポジトリ内の各個別リソースに割り当てられた識別番号。</p><p>DACS 2.1、ISAD(g) 3.1.1を参照。ISAD(g) 規則では、国際交換のためには国コード（ISO 3166 規格に準拠）、リポジトリ コード、および特定のローカル参照コード、管理番号、またはその他の固有識別子が必要であると規定されています。国コードとリポジトリ コードは、ここで追加することも、リポジトリ レコード（国コードと組織/機関コード フィールド）に追加することもできます。</p><p>例</p><ul><li>R.001（2つの要素「R」+「001」）</li><li>MSS 025（単一要素）</li><li>Archives.RSS.0333（3つの要素「Archives」+「RSS」+「0333」）</li><li>CA.OTY.F0453（3つの要素「CA」+「OTY」+「F0453」）</li></ul>		
+common	resource.title_tooltip	そのまま	1	sonnet	誤訳	<p>必須フィールド。リソースに割り当てられたタイトル。</p><p>DACS 2.3、ISAD(G) 3.1.2を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>		
+common	resource.restrictions_tooltip	そのまま	1	sonnet	用語	<p>記載されている資料が何らかの形で制限されているかどうかを示します。制限の詳しい説明は、制限が生じているレコードの適切な注記または権利表明に記載してください。</p><p>DACS 4.1-4.4、ISAD(G) 3.4.1、3.4.2、3.4.4を参照</p>		
+common	resource.finding_aid_script_tooltip	変わる	1	sonnet	誤訳	<p>リソース記述から生成された検索手段で使われているすべての文字体系を示します。</p>		
+common	revision_statement.publish_tooltip	そのまま	1	sonnet	崩れ	<p>この改訂ステートメントが公開画面（閲覧者向け画面）に公開されるかどうかを指定します。</p>		
+common	repository.repo_code_tooltip	そのまま	1	sonnet	崩れ	<p>必須フィールド。リポジトリ名の略語または頭字語で、ユーザーインターフェイスに収まりやすいもの。</p><p>例：</p><ul><li>YNHSCL <em>（Your Name Here Special Collections Library の略）</em></li><li>MSCL <em>（Mandeville Special Collections Library の略）</em></li><li>Tamwag <em>（Tamiment Library and Robert F. Wagner Labor Archives の略）</em></li></ul>		
+common	repository.name_tooltip	そのまま	1	sonnet	誤訳	<p>必須フィールド。アプリケーションの受入、リソース、およびデジタルオブジェクトの各モジュールで説明されている資料について、管理責任と保管の権限を持つリポジトリの名前。</p><p>DACS 2.2を参照</p><p>例：</p><ul><li>Your Name Here Special Collections Library</li><li>Mandeville Special Collections Library</li><li>Tamiment Library and Robert F. Wagner Labor Archives</li></ul>		
+common	repository.parent_institution_name_tooltip	そのまま	1	sonnet	崩れ	<p>リポジトリが属する親機関の名前。</p><p>例：</p><ul><li>University of Illinois <em>(University of Illinois Archives の場合)</em></li><li>New York University <em>(Tamiment Library and Robert F. Wagner Labor Archives の場合)</em></li></ul>		
+common	repository.image_url_tooltip	変わる	1	sonnet	誤訳	<p>リポジトリのオンライン検索手段で使用するブランド画像（ロゴや印章など）の、リモートURL、またはローカルファイルへのパス。この画像は、公開側のPDF、スタッフ側のPDF、およびリポジトリページに表示されます。</p>		
+common	subject.authority_id	そのまま	1	sonnet	用語	典拠ID		
+common	subject.source_tooltip	そのまま	1	sonnet	崩れ	<p>確立された用語の出典となる語彙。</p><p>この統制値リストの値は変更することができます。</p><p>例：</p><ul><li>Medical Subject Headings (mesh)</li><li>Library of Congress Subject Headings (lcsh)</li></ul>		
+common	collection_management.processing_hours_per_foot_estimate_tooltip	そのまま	1	sonnet	崩れ	<p>リポジトリが、アーカイブ資料の1単位（例えば1リニアフィート、デジタルオブジェクトの場合は1点）の整理に必要と見積もった時間。見積もりには、検索手段、目録レコード、その他の利用手段の作成を含める場合も含めない場合もあります。</p>		
+common	collection_management.processing_hours_total_tooltip	そのまま	1	sonnet	誤訳	<p>「単位あたり整理時間（見積）」に「整理済み総数量」を掛けた数値。実際の整理時間を反映するよう値を上書きすることもでき、その場合は見積もりの値に基づきません。</p>		
+common	collection_management.processing_plan_tooltip	そのまま	1	sonnet	用語	<p>... <ul><li>主題ファイルをアルファベット順に、プロジェクトファイルを時系列に排列する。</li><li>マーガレットの学生が記述レコードを作成する。</li><li>プロジェクトマネージャーが、エンコードした検索手段を確認し、出力し、読み込む。</li></ul>		
+common	enumeration.name_tooltip	そのまま	1	sonnet	用語	<p>値を追加したい統制値リストの名前。</p>		
+common	enumeration.value_tooltip	そのまま	1	sonnet	用語	<p>追加または編集する統制値リストの値。</p><p>可能な限り、値は小文字で、スペースの代わりにアンダースコア（_）を使用してください。値の翻訳は、ロケールファイルに追加する必要があります。</p>		
+common	preference.global_message	変わる	1	sonnet	用語	これらの値を編集して、システム全体のユーザー設定の既定値を設定します。これらの値は、リポジトリの既定値やユーザー自身の設定で上書きできます。		
+common	validation_errors.must_contain_at_least_one_subnote	そのまま	1	sonnet	崩れ	少なくとも1つの下位注記を含む必要があります		
+common	validation_errors.is_required_when__source__is_blank	そのまま	1	sonnet	崩れ	「ソース」が空白の場合は必須です		
+common	validation_errors.is_required_when__rules__is_blank	そのまま	1	sonnet	崩れ	「ルール」が空白の場合は必須です		
+common	validation_errors.is_required_if_there_is_an_authority_id	そのまま	1	sonnet	崩れ	「典拠ID」がある場合は必須です		
+common	validation_errors.is_required_if_status_is_previous	そのまま	1	sonnet	崩れ	「状態」が「以前」の場合は必須です		
+common	validation_errors.you_must_provide_a_label__title_or_date	そのまま	1	sonnet	崩れ	ラベル、タイトル、日付のいずれかを入力してください		
+common	validation_errors.cannot_be_previous_if_location_is_not_temporary	そのまま	1	sonnet	用語	所在が一時的でない場合、前の所在へ戻すことはできません。		
+common	import_job.import_type_marcxml	そのまま	1	sonnet	欠落	MarcXML書誌（リソース）		
+common	import_job.import_type_marcxml_accession	そのまま	1	sonnet	用語	MarcXML書誌（受入）		
+common	advanced_search.type.controlled_value	そのまま	1	sonnet	用語	統制値		
+common	rights_statement_act.restriction_tooltip	そのまま	1	sonnet	誤訳	権利者に、行為の完了後に通知しなければならない		
+common	assessment.monetary_value_note_tooltip	そのまま	1	sonnet	誤訳	金銭価値を誰が提供したか、評価日、その他の関連情報を示します。		
+common	assessment.surveyed_by_tooltip	そのまま	1	sonnet	表記	<p>必須フィールド：評価を行った人の名前。このフィールドは、ArchivesSpaceのユーザーレコードを持つユーザーに限定されます。</p>		
+common	assessment.reviewer_tooltip	そのまま	1	sonnet	表記	<p>レビューを行う必要がある人を示します。このフィールドは、ArchivesSpaceのユーザーレコードを持つユーザーに限定されます。</p>		
+common	assessment.surveyed_extent_tooltip	そのまま	1	sonnet	用語	<p>調査した資料の数量。立方フィートやリニアフィートなどの単位で記入します。</p>		
+common	assessment.research_value_tooltip	そのまま	1	sonnet	用語	<p>この値は、「ドキュメントの品質」フィールドの値と「関心度」フィールドの値を足して自動的に計算されます。</p>		
+common	assessment_attribute.rating.Reformatting Readiness_tooltip	そのまま	1	sonnet	崩れ	<p>資料をどの程度容易に再フォーマットできるかを示す、1から5の評価。</p>		
+common	assessment_attribute.rating.Physical Access (arrangement)_tooltip	そのまま	1	sonnet	崩れ	<p>コレクションの複雑さと規模を考慮した、コレクションの物理的な排列に対する1〜5の評価。…（以下、「順序は粗い」「均質／異質」「アイテム単位までの排列」等に直す）</p>		
+common	assessment_attribute.rating.Interest_tooltip	そのまま	1	sonnet	用語	<p>研究者、寄贈者、または地元の関心の高さを示す1から5の評価。「関心度」と「ドキュメントの品質」を合わせて「研究価値」のスコアになります。</p>		
+common	assessment_attribute.rating.Documentation Quality_tooltip	そのまま	1	sonnet	用語	<p>コレクションにある文書の豊富さと深さに対する1から5の評価。「関心度」と「ドキュメントの品質」を合わせて「研究価値」のスコアになります。</p>		
+common	assessment_attribute.rating.Physical Condition_values_tooltip	そのまま	1	sonnet	崩れ	（該当語句のみ）公平→まあまあ、収集→コレクション		
+common	assessment_attribute.rating.Reformatting Readiness_values_tooltip	そのまま	1	sonnet	崩れ	評価3：…知的財産に関する懸念がわずかにあるかもしれない。…		
+common	bulk_import.could_be	そのまま	1	sonnet	崩れ	%{what}が作成されます		
+common	bulk_import.error.below_bad_ao	そのまま	1	sonnet	崩れ	エラーのあるアーカイブオブジェクトの子のため、処理できません		
+common	bulk_import.error.res_ead	そのまま	1	sonnet	誤訳	このフォームのリソースにEAD IDがありません		
+common	bulk_import.error.ead_mismatch	そのまま	1	sonnet	誤訳	フォームのEAD ID [%{res_ead}]が、行のEAD ID [%{row_ead}]と一致しません		
+common	bulk_import.error.uri_mismatch	そのまま	1	sonnet	崩れ	入力リソースのURI [%{res_uri}]が、行のURI [%{row_uri}]と一致しません		
+common	bulk_import.error.hier_wrong_resource	そのまま	1	sonnet	崩れ	アーカイブオブジェクトを選択した状態で処理を開始するつもりでしたか？		
+common	bulk_import.error.number	そのまま	1	sonnet	用語	数量の数値がありません		
+common	section_tooltips.linked_agents_tooltip	そのまま	1	sonnet	崩れ	<p>エージェントを、記述対象の資料の作成者・出所・主題として関連付け、その背景に関する情報を提供します。</p>		
+common	section_tooltips.instances_tooltip	そのまま	1	sonnet	崩れ	<p>記述を、資料の物理的な実体またはデジタルの実体に関する情報に関連付けます。</p>		
+common	digital_object.title_tooltip	そのまま	1	sonnet	欠落	<li>Cedar Fire <em>（「Cedar Fire」というタイトルのリソースコンポーネントレコードにリンクされている）</em></li>		
+common	digital_object_component.label_tooltip	そのまま	1	sonnet	崩れ	画像：画像1、写真1など / テキスト：1ページ、1葉、最初の葉、第1章、第1節など		
+common	linked_agent.relator_tooltip	そのまま	1	sonnet	誤訳	DACS 14.3、ISAAR (CPF) 6.3、MARCリレーターコード一覧（https://www.loc.gov/marc/relators/）を参照してください。		
+common	linked_agent.ref_tooltip	そのまま	1	sonnet	崩れ	エージェントは、自動補完やブラウズ機能で検索できるほか、必要に応じてその場で作成することもできます。		
+common	event.date_tooltip	そのまま	1	sonnet	崩れ	<p>イベントが発生した単一の日時、または日時の範囲。</p>		
+common	agent_name.authority_id_tooltip	そのまま	1	sonnet	崩れ	<li>500115393 <em>（ULAN の名称見出しの場合）</em></li><li>http://viaf.org/viaf/134138653 <em>（VIAF の名称見出しの場合）</em></li>		
+common	agent_name.source_tooltip	そのまま	1	sonnet	用語	この統制値リストの値は変更できます。		
+common	agent_name.rules_tooltip	そのまま	1	sonnet	用語	この統制値リストの値は変更できます。		
+common	agent_name.prefix_tooltip	そのまま	1	sonnet	崩れ	通常の用法で名前全体の前に置かれる語。		
+common	agent_name.primary_name_tooltip	そのまま	1	sonnet	崩れ	国際ビジネス機械 <em>（International Business Machines. Microelectronics Division [団体]の場合）</em>		
+common	agent_name.rest_of_name_tooltip	そのまま	1	sonnet	崩れ	名（ファーストネーム）と、追加の名（ミドルネームなど）。レコードで指定された人物のもの。		
+common	name_family.family_name_tooltip	そのまま	1	sonnet	崩れ	<p>家族の姓（名字）。通常は「家族」という語を添えます。</p>		
+common	name_family.family_type_tooltip	変わる	1	sonnet	用語	類似の名前の項目を区別するための修飾語として使う家族の種類。		
+common	name_family.location_tooltip	そのまま	1	sonnet	誤訳	日加姉妹提携会議（1991年：在日カナダ大使館）		
+common	name_corporate_entity.subordinate_name_2_tooltip	そのまま	1	sonnet	崩れ	<p>「プライマリ名」フィールドの団体に属し、「従属名1」の組織単位よりも下位にある組織単位。</p>		
+common	name_corporate_entity.conference_meeting_tooltip	そのまま	1	sonnet	崩れ	エンティティが通常の団体であるか、会議・集会などの名称を持つ催しであるか		
+common	name_software.version_tooltip	そのまま	1	sonnet	崩れ	2.1.2 <em>（Library of Congress Bagger 2.1.2 の場合）</em>		
+common	name_software.manufacturer_tooltip	そのまま	1	sonnet	崩れ	議会図書館 <em>（Library of Congress Bagger 2.1.2 の場合）</em>		
+common	agent_record_identifiers.source_tooltip	そのまま	1	sonnet	用語	この統制値リストの値は変更できます。		
+common	agent_alternate_set.last_verified_date_tooltip	そのまま	1	sonnet	崩れ	関連付けられた URI でリンクされたリソースを最後に検証した日付、または日時。		
+common	agent_conventions_declaration.last_verified_date_tooltip	そのまま	1	sonnet	崩れ	関連付けられた URI でリンクされたリソースを最後に検証した日付、または日時。		
+common	agent_sources.source_entry_tooltip	そのまま	1	sonnet	崩れ	Lockhart, G. W. On the trail of Robert Service (Edinburgh : Luath Press, 1991).		
+common	agent_sources.last_verified_date_tooltip	そのまま	1	sonnet	崩れ	関連付けられた URI でリンクされたリソースを最後に検証した日付、または日時。		
+common	agent_resource.last_verified_date_tooltip	そのまま	1	sonnet	崩れ	関連付けられた URI でリンクされたリソースを最後に検証した日付、または日時。		
+common	agent_gender.gender_tooltip	そのまま	1	sonnet	用語	[システム] → [統制値リストの管理]メニュー		
+common	subrecord_subject_agent_topic.subjects_tooltip	そのまま	1	sonnet	用語	エージェントに関連付けられている件名。		
+common	agent_contact.name_tooltip	そのまま	1	sonnet	欠落	<p>メインレコードのエンティティの連絡先担当者の名前。</p><p>リポジトリを表す団体エージェントでは、空欄の場合にシステムが名前を自動生成します。</p>		
+common	agent_contact.salutation_tooltip	そのまま	1	sonnet	用語	<p>連絡担当者の敬称。</p><p>この統制値リストの値は変更できます。</p>		
+common	note_index_item.value_tooltip	変わる	1	sonnet	用語	索引の各項目の内容。索引注記には最低1つ必要です。		
+common	note_index_item.type_tooltip	変わる	1	sonnet	用語	索引の項目の種類。		
+common	note_index_item.reference_text_tooltip	そのまま	1	sonnet	崩れ	必要に応じて付ける、参照についての説明。		
+common	instance.instance_type_tooltip	そのまま	1	sonnet	誤訳	記述対象の資料の形態（実体）の区分。 ... この統制値リストの値は変更できます。		
+common	digital_object.publish_tooltip	そのまま	1	sonnet	誤訳	公開画面（利用者向けの画面）に公開するか		
+common	file_version.publish_tooltip	そのまま	1	sonnet	誤訳	公開画面（利用者向けの画面）に公開されるか		
+common	external_document.publish_tooltip	そのまま	1	sonnet	誤訳	公開画面（利用者向けの画面）に公開されるか		
+common	file_version.use_statement_tooltip	そのまま	1	sonnet	用語	この統制値リストの値は変更できます。		
+common	file_version.checksum_method_tooltip	そのまま	1	sonnet	用語	この統制値リストの値は変更できます。		
+common	file_version.xlink_actuate_attribute_tooltip	そのまま	1	sonnet	表記	使用されます / ユーザーが要求しなければ		
+common	file_version.xlink_show_attribute_tooltip	そのまま	1	sonnet	誤訳	エクスポートで使うXLink属性。リンク先をどのように表示するかを示します。 / 使用されます（ゼロ幅スペースを除く）		
+common	language_and_script.script_tooltip	そのまま	1	sonnet	用語	資料に用いられている文字体系の用語とコード … 文字体系の名前を表すためのコード		
+common	agent_name.script_tooltip	そのまま	1	sonnet	用語	名前の記録に使用される文字体系を示します。		
+common	agent_record_control.script_tooltip	そのまま	1	sonnet	用語	エージェントの記述の作成に使用される文字体系。		
+common	used_language.script_tooltip	そのまま	1	sonnet	用語	エージェントに関連付けられている文字体系。		
+common	external_document.location_tooltip	そのまま	1	sonnet	表記	file:///c:/path/to/the%20file.txt		
+common	rights_statement.identifier_tooltip	そのまま	1	sonnet	用語	リポジトリ内の権利表明を一意に識別します。権利表明の識別子は通常、アプリケーションが自動生成します。		
+common	rights_statement.determination_date_tooltip	そのまま	1	sonnet	崩れ	法令：その法令が、記載された許可を認めていると判断した日。		
+common	rights_statement.start_date_tooltip	そのまま	1	sonnet	誤訳	権利表明の効力が生じた日。		
+common	rights_statement.end_date_tooltip	そのまま	1	sonnet	用語	権利表明の効力が終わる日。		
+common	rights_statement._plural	そのまま	1	sonnet	用語	権利表明		
+common	accession.provenance_tooltip	そのまま	1	sonnet	誤訳	出所に関する情報（保管の履歴、詳細な入手情報など）を提供する注記		
+common	accession.language_tooltip	そのまま	1	sonnet	用語	受入の記述から生成されたレコードに含まれるすべての言語		
+common	accession.access_restrictions_note_tooltip	変わる	1	sonnet	用語	制限の根拠となる権限 … 権利サブレコードにも記録できます。		
+common	accession.use_restrictions_note_tooltip	そのまま	1	sonnet	用語	示す記述。追加情報は、権利サブレコードにも記録できます。		
+common	accession_parts_relationship._singular	そのまま	1	sonnet	崩れ	「一部」関係		
+common	accession_parts_relationship.part	そのまま	1	sonnet	崩れ	「一部」関係		
+frontend	location._frontend.messages.created	変わる	1	opus	崩れ		所在を作成しました	
+frontend	name._frontend.action.make_primary	変わる	1	opus	崩れ		主たる名前にする	
+frontend	actions.unsuppress_confirm_message	変わる	1	opus	誤訳		非表示を解除すると、このレコードは再びユーザーに表示され、各機能で使用できるようになります。	
+frontend	archival_object._frontend.messages.transfer_error	変わる	1	opus	表記		エラーまたは競合のためアーカイバルオブジェクトを転送できません：<pre>%{exception}</pre>	
+frontend	archival_object._frontend.messages.delete_conflict	変わる	1	opus	表記		アーカイバルオブジェクトを削除できませんでした：<pre>%{error}</pre>	
+frontend	actions.transfer_successful	変わる	1	opus	用語		転送しました。索引の作り直しが終わるまで、転送先のリポジトリにレコードが表示されるのに少し時間がかかることがあります。	
+frontend	default_values.form_title.event	変わる	1	opus	用語		イベントレコードの既定値	
+enums	enumerations.script_iso15924.Zinh	変わる	1	opus	崩れ		継承文字用コード	
+common	defaults.digital_object_spawn	変わる	1	opus	誤訳		リンク元レコードの記述をデジタルオブジェクトのインスタンスに引き継ぐ	
+enums	enumerations._note_types.accessrestrict	変わる	1	opus	誤訳		アクセス条件	
+enums	enumeration_names.agency_code_type	変わる	1	opus	欠落		レコード管理：機関コードの種類	
+common	user_defined.enum_1	変わる	1	opus	用語		統制値1	
+common	resource.finding_aid_title_tooltip	変わる	1	opus	誤訳		<p>このリソースに関連する検索手段の（書誌的な）タイトル。 </p><p>例： </p><ul><li> Jason Twirlyコレクション目録</li><li>リース家文書目録</li><li> Simon and Simon建築事務所 図面・模型リスト</li></ul>	
+common	resource.finding_aid_filing_title_tooltip	変わる	1	opus	誤訳		<p>検索手段の正式タイトルを修正したもの。検索手段タイトルの一覧の閲覧と並べ替えを助けるためのもの。 </p><p>例： </p><ul><li>ウェイン（ブルース M.）文書</li><li>ルーニー家文書</li><li>アメリカ共産党記録</li></ul>	
+common	defaults.sort_column_tooltip	変わる	1	opus	崩れ		結果をソートするための既定のフィールド。	
+common	assessment_attribute.rating.Physical Condition_tooltip	変わる	1	opus	誤訳		<p>コレクション内の資料の全体的な状態を表すための1から5までの評価。特に懸念される資料や資料群は保存修復の注記に示されます。 </p>	
+common	assessment_attribute.rating.Documentation Quality_values_tooltip	変わる	1	opus	誤訳		<ul><li> <b>評価1</b> ：わずか</li><li> <b>評価2</b> ：付随的に有用</li><li> <b>評価3</b> ：やや豊富</li><li> <b>評価4</b> ：豊富</li><li> <b>評価5</b> ：非常に豊富</li></ul>	
+public	footer.feedback_html	変わる	1	opus	誤訳		<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>ご意見・ご質問</a>	
+common	agent_record_control.language_note_tooltip	変わる	1	gemini	用語			<p>注記の内容。エージェントの記述の作成に使用された言語と文字体系に関する詳細を提供します。</p>
+common	structured_date_label.date_calendar_tooltip	変わる	1	gemini	誤訳			<p>グレゴリオ暦やユリウス暦などの時間の計算システム。値「gregorian」が既定です。</p>
+common	structured_date_single.date_role_tooltip	変わる	1	gemini	誤訳			<p>単一の日付について、その日付を開始日として扱うか、終了日として扱うかを示すために使います。既定は「Begin」です。</p>
+common	file_version.file_format_name_tooltip	変わる	1	gemini	表記			<p>ファイル形式の名前。</p><p>この統制値リストの値は変更することができます。</p><p>例：</p><ul><li>Audio Interchange File Format (aiff)</li><li>Audio/Video Interleaved Format (avi)</li><li>JPEG File Interchange Format (jpeg)</li><li>MPEG-Audio Layer 3 (mp3)</li><li>Portable Document Format (pdf)</li></ul>
+common	extent.number	変わる	1	gemini	誤訳			数値
+common	date.calendar_tooltip	変わる	1	gemini	誤訳			<p>グレゴリオ暦やユリウス暦などの時間計算システム。値「gregorian」が既定です。</p><p>EAD属性「calendar」とDACS 2.4.5を参照してください。</p>
+common	agent.agent_places_tooltip	変わる	1	gemini	欠落			エージェントに関連する場所の情報。</p><p>DACS 11.3、ISAAR (CPF) 5.2.3を参照
+common	resource.ead_location_tooltip	変わる	1	gemini	誤訳			<p>リソース記述から生成されたEADの置き場所（Web URLまたはファイルディレクトリの記述）。通常、この場所が最終的な参照先となります。</p>
+common	resource.finding_aid_note_tooltip	変わる	1	gemini	用語			<p>他の検索手段データ要素によってカバーされていない検索手段に関する追加情報（記述されたリソースではない）を記録するため。</p>
+common	term.term_type_tooltip	変わる	1	gemini	表記			<p>必須フィールド。件名の語の種類または区分を示すインジケーター。</p>
+common	bulk_import.unfound_id	変わる	1	gemini	表記			%{type} ID %{id} が見つかりません。これはプレースホルダーです
+common	bulk_import.date_type_default	変わる	1	gemini	誤訳			日付の種類が指定されていません。既定の 'inclusive' を使用します。
+enums	enumeration_names.accession_resource_type	変わる	1	gemini	用語			受入リソースの種類
+enums	enumeration_names.note_index_item_type	変わる	1	gemini	欠落			索引項目の注記の種類
+enums	enumeration_names.note_index_type	変わる	1	gemini	欠落			インデックスの注記の種類
+enums	enumeration_names.note_multipart_type	変わる	1	gemini	欠落			マルチパートの注記の種類
+enums	enumeration_names.note_orderedlist_enumeration	変わる	1	gemini	欠落			順序付きリストの番号の種類（注記）
+enums	enumeration_names.note_singlepart_type	変わる	1	gemini	欠落			シングルパートの注記の種類
+enums	enumerations.language_iso639_2.him	変わる	1	gemini	欠落			ヒマーチャル諸語；西パハール諸語
+enums	enumerations.language_iso639_2.zxx	変わる	1	gemini	欠落			言語的内容なし；該当なし

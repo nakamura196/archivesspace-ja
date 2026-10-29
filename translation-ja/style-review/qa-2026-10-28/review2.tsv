@@ -1,0 +1,63 @@
+部品	キー	問題の種類	新しい訳(抜粋40字)	直し案(全文)	理由
+common	agent.external_documents_tooltip	誤訳	このエージェントに関する外部の文書（例えば、経歴ファイル、参照作業など）	<p>このエージェントに関する外部の文書（例えば、経歴ファイル、参考文献など）へのリンクを許可します。 DACS 14.1、ISAAR (CPF) 6.1を参照</p>	reference works は「参照作業」ではなく参考文献・参考図書
+common	agent.agent_alternate_sets_tooltip	用語	リンクされた権限レコードを指すために使用されます	<p>同じエンティティの2つ以上のレコードが2つ以上の典拠システムから派生した場合に、リンクされた典拠レコードを指すために使用されます。</p>	authority record は典拠レコード（権限は誤り）
+common	archival_object.title_tooltip	欠落	<p>DACS 2.3を参照</p>	<p>条件付き必須フィールド：記述対象の資料につけるタイトル。アーカイバルオブジェクトには、タイトルまたは日付のどちらかのサブレコードが必要です。</p><p>DACS 2.3、ISAD(G) 3.1.2を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>	英語の See DACS 2.3, ISAD(G) 3.1.2 のうち ISAD(G) 3.1.2 が抜けている
+common	archival_object.component_id_tooltip	誤訳	アクセシビリティ2005-M-078	<p>コンポーネントの部品について、リソース記述のコンテキスト内で一意のIDを表します。</p><p>例：</p><ul><li>シリーズI</li><li>サブシリーズ8</li><li>受入2005-M-078</li></ul>	Accession を「アクセシビリティ」と誤訳。受入
+common	archival_object.container_summary_tooltip	用語	エクステントサブレコードと同一ではありません	<p>リソース記述を構成するコンテナの数と種類を記録するため。これはテキストによる要約であり、数量サブレコードと同一ではありません。</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p><p>例：</p><ul><li>10個のレコードカートン、6個のアーカイブボックス、3個の特大のフォルダ。</li><li>12個の靴箱。</li><li>4個のアーカイブボックス、32本のチューブ。</li></ul>	Extent=数量の方針。「12靴箱」も不自然
+common	archival_object.level_tooltip	崩れ	DACS第1、ISAD(G) 3.1.4章を参照	<p>必須フィールド。記述対象の資料の階層レベルを示します。</p><p>DACS第1章、ISAD(G) 3.1.4を参照</p><p>値はEADスキーマによって規定されます。</p>	「章」の位置が誤り（Chapter 1 は DACS 第1章）
+common	archival_object.restrictions_apply_tooltip	欠落	<p>DACS 4.1-4.4を参照</p>	<p>記述対象の資料に何らかの制限があるかどうかを示します。制限の詳しい説明は、制限が生じているレコードの、適切な注記または権利表明に記載してください。</p><p>DACS 4.1-4.4、ISAD(G) 3.4.1、3.4.2、3.4.4を参照</p>	ISAD(G) 3.4.1, 3.4.2, 3.4.4 の参照先が抜けている
+common	group.permission_types.manage_subject_record	用語	<b>サブジェクト</b>の作成/更新/削除	<b>件名</b>の作成/更新/削除 (システム全体)	Subject=件名の方針
+common	resource.id_0_tooltip	欠落	<li> Archives.RSS.0333（3つの要素 ... </ul>	<p>必須フィールド。リポジトリ内の各個別リソースに割り当てられた識別番号。</p><p>DACS 2.1、ISAD(g) 3.1.1を参照。ISAD(g) 規則では、国際交換のためには国コード（ISO 3166 規格に準拠）、リポジトリ コード、および特定のローカル参照コード、管理番号、またはその他の固有識別子が必要であると規定されています。国コードとリポジトリ コードは、ここで追加することも、リポジトリ レコード（国コードと組織/機関コード フィールド）に追加することもできます。</p><p>例</p><ul><li>R.001（2つの要素「R」+「001」）</li><li>MSS 025（単一要素）</li><li>Archives.RSS.0333（3つの要素「Archives」+「RSS」+「0333」）</li><li>CA.OTY.F0453（3つの要素「CA」+「OTY」+「F0453」）</li></ul>	最後の例 CA.OTY.F0453 が欠落。英語に無い DACS 2.1.3 の記載もある
+common	resource.title_tooltip	誤訳	例：Graciany Miranda Archillaの論文 ... 国立科学ア	<p>必須フィールド。リソースに割り当てられたタイトル。</p><p>DACS 2.3、ISAD(G) 3.1.2を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>	固有の資料名を直訳して崩れている（correspondence を「対応」等）。archival_object.title_tooltip と同様に原文のまま残す
+common	resource.restrictions_tooltip	用語	適切なNotesまたはRights Statementsに記載する	<p>記載されている資料が何らかの形で制限されているかどうかを示します。制限の詳しい説明は、制限が生じているレコードの適切な注記または権利表明に記載してください。</p><p>DACS 4.1-4.4、ISAD(G) 3.4.1、3.4.2、3.4.4を参照</p>	Notes・Rights Statements が英語のまま（注記・権利表明）
+common	resource.finding_aid_author_tooltip	欠落	<p>DACS 8.1.5、ISAD(g) 3.7.1を参照</p>	<p>検索手段の内容またはそのエンコードを作成する担当者の名前。</p>	英語に無い参照先を追加している（英語と合わない）。DACS 等を残す方針なら他の項目と揃える
+common	resource.finding_aid_script_tooltip	誤訳	すべてのスクリプトを示します	<p>リソース記述から生成された検索手段で使われているすべての文字体系を示します。</p>	script は文字体系（ラベルの「記述の文字体系」とも不一致）
+common	revision_statement.date_tooltip	欠落	<p>DACS 8.1.5、ISAD(g) 3.7.3を参照</p>	<p>検索手段が最後に改訂された日付を指定します。</p>	英語に無い参照先を追加している（英語と合わない）
+common	revision_statement.publish_tooltip	崩れ	パブリック（パトラン）インターフェース	<p>この改訂ステートメントが公開画面（閲覧者向け画面）に公開されるかどうかを指定します。</p>	patron の誤記「パトラン」
+common	repository.repo_code_tooltip	崩れ	YNHSCL <em>（あなたの名前のために特別なコレクションライブラリ）</e	<p>必須フィールド。リポジトリ名の略語または頭字語で、ユーザーインターフェイスに収まりやすいもの。</p><p>例：</p><ul><li>YNHSCL <em>（Your Name Here Special Collections Library の略）</em></li><li>MSCL <em>（Mandeville Special Collections Library の略）</em></li><li>Tamwag <em>（Tamiment Library and Robert F. Wagner Labor Archives の略）</em></li></ul>	機関名を直訳して意味不明。<em> タグの位置も崩れている
+common	repository.name_tooltip	誤訳	アプリケーションのアクセス、リソース、およびデジタルオブジェクトモジュール ..	<p>必須フィールド。アプリケーションの受入、リソース、およびデジタルオブジェクトの各モジュールで説明されている資料について、管理責任と保管の権限を持つリポジトリの名前。</p><p>DACS 2.2を参照</p><p>例：</p><ul><li>Your Name Here Special Collections Library</li><li>Mandeville Special Collections Library</li><li>Tamiment Library and Robert F. Wagner Labor Archives</li></ul>	accession を「アクセス」と誤訳。例の機関名が崩れている。英語に無い ISDIAH 5.1.2 も付いている
+common	repository.parent_institution_name_tooltip	崩れ	イリノイ大学（イリノイ<em>大学アーカイブス）</em>	<p>リポジトリが属する親機関の名前。</p><p>例：</p><ul><li>University of Illinois <em>(University of Illinois Archives の場合)</em></li><li>New York University <em>(Tamiment Library and Robert F. Wagner Labor Archives の場合)</em></li></ul>	<em> タグの位置が括弧の中に入り込み、HTML の組が崩れている
+common	repository.image_url_tooltip	誤訳	ローカルファイルへのリモートURLまたはパス	<p>リポジトリのオンライン検索手段で使用するブランド画像（ロゴや印章など）の、リモートURL、またはローカルファイルへのパス。この画像は、公開側のPDF、スタッフ側のPDF、およびリポジトリページに表示されます。</p>	「リモートURLまたはパス」と「ローカルファイルへのパス」の並列を誤って結んでいる
+common	subject.authority_id	用語	オーソリティID	典拠ID	Authority=典拠の方針（validation_errors.authority_id_must_be_unique は「典拠ID」で不統一）
+common	subject.source_tooltip	崩れ	医療対象見出し（メッシュ）／議会図書館の見出し見出し（lcsh）	<p>確立された用語の出典となる語彙。</p><p>この統制値リストの値は変更することができます。</p><p>例：</p><ul><li>Medical Subject Headings (mesh)</li><li>Library of Congress Subject Headings (lcsh)</li></ul>	固有の件名標目名の直訳で同語反復。「管理された値リスト」も統制値リストに
+common	subject.scope_note_tooltip	崩れ	「男の家での安全とプライバシーの権利」 - 黒、法律辞書	<p>用語の定義と、件名見出しとしての使い方について、何を意味し何を意味しないかを説明し明確にする注記。</p><p>例：</p><ul><li>ここには、細菌の生物学的研究に関する著作を入れる。この学問自体に関する著作は、Bacteriologyという見出しの下に入れる。</li><li>「住居における安全とプライバシーの権利」 - Black, Law dictionary, 4th ed., 1951.</li></ul>	Black は人名（黒と訳している）。第1例も意味が通らない
+common	collection_management.processing_hours_per_foot_estimate_tooltip	崩れ	線形の足またはアイテム ... 調査援助、カタログ記録、およびその他のアクセス製	<p>リポジトリが、アーカイブ資料の1単位（例えば1リニアフィート、デジタルオブジェクトの場合は1点）の整理に必要と見積もった時間。見積もりには、検索手段、目録レコード、その他の利用手段の作成を含める場合も含めない場合もあります。</p>	linear foot の直訳、Finding Aid を「調査援助」としている（検索手段）、「レポジトリ」の表記
+common	collection_management.processing_total_extent_type_tooltip	用語	記載された材料の程度を測定するために使用されるユニットの種類	<p>必須フィールド：記述対象の資料の数量を測定するために使用する単位の種類を示す用語。</p><p>この統制値リストの値は変更することができます。</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p>	extent の訳が「程度」（数量の方針）。管理された値リスト→統制値リスト
+common	collection_management.processing_hours_total_tooltip	誤訳	「1フート当たりの処理時間」に「処理総面積」を掛けた数値結果	<p>「単位あたり整理時間（見積）」に「整理済み総数量」を掛けた数値。実際の整理時間を反映するよう値を上書きすることもでき、その場合は見積もりの値に基づきません。</p>	Total extent を「総面積」と誤訳。ラベルの訳（整理済み総数量）とも不一致
+common	collection_management.processing_plan_tooltip	用語	サブジェクトファイル ... コード化された検索支援	<p>... <ul><li>主題ファイルをアルファベット順に、プロジェクトファイルを時系列に排列する。</li><li>マーガレットの学生が記述レコードを作成する。</li><li>プロジェクトマネージャーが、エンコードした検索手段を確認し、出力し、読み込む。</li></ul>	Finding Aid=検索手段（検索支援は不可）。subject files は件名ではなく主題別ファイル
+common	enumeration.name_tooltip	用語	コントロール対象値リスト	<p>値を追加したい統制値リストの名前。</p>	controlled value list=統制値リスト
+common	enumeration.value_tooltip	用語	制御値リスト	<p>追加または編集する統制値リストの値。</p><p>可能な限り、値は小文字で、スペースの代わりにアンダースコア（_）を使用してください。値の翻訳は、ロケールファイルに追加する必要があります。</p>	controlled value list=統制値リスト
+common	preference.global_message	用語	リポジトリーの既定またはユーザー自身のプリファレンス	これらの値を編集して、システム全体のユーザー設定の既定値を設定します。これらの値は、リポジトリの既定値やユーザー自身の設定で上書きできます。	リポジトリー（方針はリポジトリ）、プリファレンス（他の項目は設定）
+common	validation_errors.must_contain_at_least_one_subnote	崩れ	少なくとも1つのSub Noteを含む必要があります	少なくとも1つの下位注記を含む必要があります	Sub Note が英語のまま
+common	validation_errors.is_required_when__source__is_blank	崩れ	'Source'が空白の場合に必要です	「ソース」が空白の場合は必須です	項目名が英語のまま（画面ラベルは ソース）
+common	validation_errors.is_required_when__rules__is_blank	崩れ	'Rules'が空白の場合に必要です	「ルール」が空白の場合は必須です	項目名が英語のまま
+common	validation_errors.is_required_if_there_is_an_authority_id	崩れ	'Authority ID'がある場合は必須です。	「典拠ID」がある場合は必須です	項目名が英語のまま
+common	validation_errors.is_required_if_status_is_previous	崩れ	'Status'が'Previous'の場合​​は必須です	「状態」が「以前」の場合は必須です	項目名・値が英語のまま。「場合」と「は」の間にゼロ幅文字が2つ混入
+common	validation_errors.you_must_provide_a_label__title_or_date	崩れ	あなたはラベル、タイトルまたは日付を提供する必要があります	ラベル、タイトル、日付のいずれかを入力してください	「あなたは…提供する」は機械翻訳調
+common	validation_errors.cannot_be_previous_if_location_is_not_temporary	用語	その場所が一時的でない場合、前へ転送できません。	所在が一時的でない場合、前の所在へ戻すことはできません。	location=所在の方針
+common	import_job.import_type_marcxml	欠落	MarcXML（リソース）	MarcXML書誌（リソース）	Bibliographic（書誌）が抜けている。他の項目（MarcXML書誌（件名とエージェントのみ））と不統一
+common	import_job.import_type_marcxml_accession	用語	MarcXML（アクセッション）	MarcXML書誌（受入）	Accession=受入。Bibliographic も抜けている
+common	advanced_search.type.controlled_value	用語	制御された値	統制値	controlled value=統制値
+common	rights_statement_act.restriction_tooltip	誤訳	権利行使は、行為の完了後に通知されなければならない	権利者に、行為の完了後に通知しなければならない	Rightsholder は権利者。「権利行使」は誤り
+common	assessment.monetary_value_note_tooltip	誤訳	金銭的価値、評価日、その他の関連情報を誰が提供したかを示します。	金銭価値を誰が提供したか、評価日、その他の関連情報を示します。	「誰が」が価値だけにかかるのに、評価日・関連情報にまでかかる読みになっている
+common	assessment.surveyed_by_tooltip	表記	ArchivesSpaceのユーザレコードを持つユーザに限定されます	<p>必須フィールド：評価を行った人の名前。このフィールドは、ArchivesSpaceのユーザーレコードを持つユーザーに限定されます。</p>	長音（ユーザー）
+common	assessment.reviewer_tooltip	表記	ArchivesSpaceのユーザレコードを持つユーザに限定されます	<p>レビューを行う必要がある人を示します。このフィールドは、ArchivesSpaceのユーザーレコードを持つユーザーに限定されます。</p>	長音（ユーザー）
+common	assessment.surveyed_extent_tooltip	用語	測量された材料の範囲	<p>調査した資料の数量。立方フィートやリニアフィートなどの単位で記入します。</p>	extent=数量。「線フィート」「測量」も不自然
+common	assessment.research_value_tooltip	用語	[ドキュメントの品質]フィールドに[興味]フィールドの値	<p>この値は、「ドキュメントの品質」フィールドの値と「関心度」フィールドの値を足して自動的に計算されます。</p>	ラベルの訳（関心度）と不一致
+common	assessment_attribute.rating.Reformatting Readiness_tooltip	崩れ	1から5の定格	<p>資料をどの程度容易に再フォーマットできるかを示す、1から5の評価。</p>	rating の訳「定格」は誤り（評価）
+common	assessment_attribute.rating.Physical Access (arrangement)_tooltip	崩れ	収集の複雑さ ... 大まかなオーダー ... アレンジ	<p>コレクションの複雑さと規模を考慮した、コレクションの物理的な排列に対する1〜5の評価。…（以下、「順序は粗い」「均質／異質」「アイテム単位までの排列」等に直す）</p>	collection を「収集」、arrangement を「アレンジ」、in rough order を「大まかなオーダー」等、意味が通らない。排列に統一
+common	assessment_attribute.rating.Interest_tooltip	用語	インタレスト+ドキュメンテーションの品質	<p>研究者、寄贈者、または地元の関心の高さを示す1から5の評価。「関心度」と「ドキュメントの品質」を合わせて「研究価値」のスコアになります。</p>	ラベル（関心度）と不一致。donor を「ドナー」とするのは可だが用語を揃える
+common	assessment_attribute.rating.Documentation Quality_tooltip	用語	インタレスト+ドキュメンテーションの品質	<p>コレクションにある文書の豊富さと深さに対する1から5の評価。「関心度」と「ドキュメントの品質」を合わせて「研究価値」のスコアになります。</p>	ラベル（関心度）と不一致
+common	assessment_attribute.rating.Housing Quality_values_tooltip	崩れ	オーバースタイルまたはアンダーフィル／公正な状態／結合量については／酸を含まない	（該当語句のみ）オーバースタイル→詰め込みすぎ、アンダーフィル→余裕がありすぎ、公正な状態→並の状態、結合量→製本された冊子、酸を含まない→無酸	overstuffed/understuffed、fair、bound volumes、acid-free を誤訳または崩れた訳にしている。評価4の「期待摩耗」「摩耗はまだ損なわれていません」も意味不明
+common	assessment_attribute.rating.Intellectual Access (description)_values_tooltip	崩れ	援助援助が標準以下であるか／良い援助がありますが／検索支援	（該当語句のみ）援助→検索手段、「助けがない」→「検索手段がない」、検索支援→検索手段、「公平なアクセス」→「ある程度のアクセス」	Finding aid が「援助」「助け」になり、同語反復（援助援助）もある。方針は検索手段
+common	assessment_attribute.rating.Physical Access (arrangement)_values_tooltip	崩れ	直列に配置／アルファベット順の勘定科目または主題順／格付け2	（該当語句のみ）直列に配置→シリーズ単位でファイルレベルまで排列、勘定科目→会計帳簿、格付け2→評価2	series を「直列」、account book を「勘定科目」、評価と格付けの混在。論文→文書、など
+common	assessment_attribute.rating.Physical Condition_values_tooltip	崩れ	公平：予想される劣化よりやや悪化し／収集を使用するのを困難にする	（該当語句のみ）公平→まあまあ、収集→コレクション	Fair を「公平」、collection を「収集」と誤訳
+common	assessment_attribute.rating.Reformatting Readiness_values_tooltip	崩れ	知的財産に関する知的財産権を持っているかもしれない／レーティング3	評価3：…知的財産に関する懸念がわずかにあるかもしれない。…	monimal（minimal）の部分が同語反復で意味不明。「レーティング3」は他の行（評価N）と不統一
+common	bulk_import.could_be	崩れ	%{what}作成されるだろう	%{what}が作成されます	文として不完全（助詞なし、「だろう」）。log_created_be は「作成されます」
+common	bulk_import.error.below_bad_ao	崩れ	それが悪いアーカイブオブジェクトの子なので処理できません	エラーのあるアーカイブオブジェクトの子のため、処理できません	bad の直訳「悪い」
+common	bulk_import.error.res_ead	誤訳	この形式のリソースは、EAD IDが欠落しています	このフォームのリソースにEAD IDがありません	form は「形式」ではなくフォーム（画面の入力フォーム）
+common	bulk_import.error.ead_mismatch	誤訳	フォームのEAD ID [%{res_ead}]は[%{row_ead}]行のE	フォームのEAD ID [%{res_ead}]が、行のEAD ID [%{row_ead}]と一致しません	プレースホルダの位置が誤り（[%{row_ead}]行のEAD ID と読めてしまう）
+common	bulk_import.error.uri_mismatch	崩れ	行のURI [%{row_uri}]を一致しません	入力リソースのURI [%{res_uri}]が、行のURI [%{row_uri}]と一致しません	助詞の誤り（を一致しません）
+common	bulk_import.error.hier_wrong_resource	崩れ	選択したアーカイブオブジェクトに処理を開始することを意味したのですか？	アーカイブオブジェクトを選択した状態で処理を開始するつもりでしたか？	意味が通らない機械翻訳
+common	bulk_import.error.number	用語	不足しているエクステント数	数量の数値がありません	Extent=数量。「不足している」も不自然
+common	bulk_import.error.extent_type	用語	不足しているエクステントの種類	数量の種類がありません	Extent=数量。直前の error.extent_validation は「数量」で不統一

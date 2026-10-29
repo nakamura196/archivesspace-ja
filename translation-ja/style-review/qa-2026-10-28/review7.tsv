@@ -1,0 +1,27 @@
+部品	キー	問題の種類	新しい訳(抜粋40字)	直し案(全文)	理由(短く)
+frontend	bulk_import_templates.overview	欠落	<p>これらは、バックグラウンドジョブの画面にあるさまざまなインポート機能を使って、スプ	末尾の段落を差し替え: <b>見出しの行は削除したり、既存の列を並べ替えたりしないでください。</b>列を追加できるのは、番号付きの列のまとまりを丸ごと複製し、番号を変えるときだけです（例: extent_1_* の列をすべてコピーして extent_2_* や extent_12_* にする。飛び番も可）。それ以外の列は追加しないでください。未知の見出し、綴りの誤り、廃止された見出しがあると、インポート全体が失敗します。	英語の「番号付きグループの複製による列追加は可」「不明な見出しで全体失敗」の文が無く、「列の追加もしないでください」と英語と逆の指示になっている
+frontend	bulk_import_templates.aspace_accession_import_template_csv	欠落	...agent_1_agent_type は、数値 ID を指定する場合は必須で、/agents/people/5 のような URI を指定する場合	訳が「URI を指定する場合」で途切れている。以降（任意であること、作成用項目との併用不可、最上位コンテナのリンク方法、バーコード単独指定の挙動と失敗条件）を英語どおりに補う	文の途中で終わっており、後半約半分が無い
+frontend	archival_object._frontend.messages.spawn_placeholder	欠落	<em>生成されたコンポーネントがここに挿入されます</em>	生成されたコンポーネントがここに挿入されます	英語に無い <em> タグが訳にだけある（タグ不一致）
+frontend	top_container._frontend.bulk_operations.batch_merge_container_profile_mismatch_warning	崩れ	これらの最上位コンテナは、ターゲットトップ容器とは異なるコンテナプロファイルを持っています。コン	これらの最上位コンテナは、マージ先の最上位コンテナとは異なるコンテナプロファイルを持っています。このコンテナプロファイルは、マージ先のコンテナにはマージされません。	「ターゲットトップ容器」は機械翻訳の崩れ。merge destination はマージ先
+frontend	top_container._frontend.bulk_operations.batch_merge_container_profile_too_many_warning	崩れ	これらの最上位コンテナが別のコンテナプロファイルを有します。これらのコンテナプロファイルはいずれ	これらの最上位コンテナには、それぞれ異なるコンテナプロファイルが設定されています。これらのコンテナプロファイルは、いずれもマージ先のコンテナにはマージされません。	「有します」「ターゲットコンテナ」が不自然。他の行の「マージ先」と揃える
+frontend	top_container._frontend.bulk_operations.batch_merge_instructions	崩れ	リストされている他のすべての最上位コンテナーをマージする最上位コンテナーを選択します。 リンクされた	一覧にある他の最上位コンテナを、すべてマージする先の最上位コンテナを選択します。リンクされた受入、リソース、リソースコンポーネント、イベントは、このコンテナに付け替えられます。コンテナプロファイルは、このコンテナにまだ無い場合にのみ移されます。他の最上位コンテナの所在とその他のすべての情報は削除されます。	「コンテナー」と「コンテナ」が混在、1文目が読みにくい、「場所」は所在にする
+frontend	top_container._frontend.bulk_operations.batch_merge_instructions	用語	他の最上位コンテナの場所とその他のすべての情報が削除されます。	（上の直し案に含む）所在	Location=所在
+frontend	container_profile.extent_dimension_tooltip	崩れ	<p>コンテナ内のマテリアルの数量次元を計算および記述するために使用されるディメンション。これは、数量計算機に	<p>コンテナ内の資料の数量を計算し、記述するときに使う寸法。数量計算機がどの寸法を測るかを決めるのに役立ちます。</p>	「マテリアルの数量次元」「ディメンション」が機械翻訳調で意味が通りにくい
+frontend	rights_restriction.end_tooltip	崩れ	<p>時間制限の制限の場合、アクセス制限の終了日。 YYYY-MM-DDの形式で単一の日付である必要があ	<p>期間を限った制限の場合、アクセス制限の終了日。YYYY-MM-DD の形式の単一の日付にしてください。期限が切れると、コンテナとの関連付けは解除されます。精度の低い日付や期間を示したいときは、注記のテキストを使ってください。</p>	「時間制限の制限」は同語反復。「容器」はコンテナに統一
+frontend	rights_restriction.begin_tooltip	用語	…期限切れになったら容器から切り離されます。…	…期限が切れると、コンテナとの関連付けは解除されます。…	container は「コンテナ」で統一（「容器」が混在）
+frontend	space_calculator.reason.container_is_bigger	用語	コンテナが少なくとも1つの寸法で場所より大きい	コンテナが、少なくとも1つの寸法で所在より大きい	Location=所在
+frontend	space_calculator.reason.location_cannot_fit_container	崩れ	場所は現在この種類のコンテナには適合しません	この所在には、現在この種類のコンテナを置く余地がありません	「場所」は所在に。「適合しません」だと意味が曖昧（収まらないの意）
+frontend	space_calculator.message_total_containers	用語	これらの場所で見つかったこの種類のコンテナの合計数： %{total_containers}	これらの所在で見つかった、この種類のコンテナの合計数： %{total_containers}	Location=所在
+frontend	space_calculator.count	崩れ	使用可能なスペース（コンテナの種類の）	空きスペース（このコンテナの種類で）	括弧の位置が不自然で意味が取りにくい
+frontend	assessment._frontend.section.format_attributes	用語	マテリアルの種類/フォーマットのリスト	資料の種類/形式の一覧	同じ英語「Material Types / Formats」が資料/マテリアル/品目と揺れている
+frontend	assessment._frontend.section.format_attributes_empty	用語	品目の種類/書式が入力されていません	資料の種類/形式が入力されていません	同上（他行は「資料の種類/形式」）
+frontend	assessment._frontend.section.format_attributes_additional	用語	追加の品目の種類/書式	追加の資料の種類/形式	同上
+frontend	assessment_attribute_definitions._frontend.action.remove_format	用語	%{format_type} マテリアルの種類/フォーマットを削除します	資料の種類・形式「%{format_type}」を削除	同上。他の行（find_format）と文体も揃える
+frontend	agent_record_control.name_type	用語	レコードコントロール名の種類	レコード管理：名前の種類	Record Control の訳が管理/コントロール/制御/記録管理と揺れている
+frontend	agent_record_control.modified_record	用語	レコード制御変更の種類	レコード管理：変更の種類	同上
+frontend	agent_maintenance_history.maintenance_event_type	用語	レコード制御保守イベントの種類	レコード管理：維持管理イベントの種類	同上（maintenance は他行で「維持管理」）
+frontend	agent_maintenance_history.maintenance_agent_type	用語	レコード制御保守エージェントの種類	レコード管理：維持管理エージェントの種類	同上
+frontend	agent_record_identifier.identifier_type	用語	レコード制御識別子の種類	レコード管理：識別子の種類	同上
+frontend	job._frontend.messages.slug_generation	崩れ	…各レコードで自動生成ボックスをオンにして置き換えを指定しない限り変更されません。	…各レコードの「スラッグを自動生成」にチェックを入れて置き換えを指定していない限り、変更されません。	「自動生成ボックス」では何を自動生成するのか不明（Slug が落ちている）
+frontend	top_container._frontend.bulk_operations.current_location	用語	現在位置	現在の所在	Location=所在（同じ画面の新しい所在と不統一）
+frontend	top_container._frontend.bulk_operations.update_locations_current_location	用語	現在位置	現在の所在	同上

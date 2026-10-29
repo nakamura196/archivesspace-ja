@@ -1,0 +1,46 @@
+部品	キー	問題の種類	新しい訳(抜粋40字)	直し案(全文)	理由
+frontend_help	help.topics.resource_finding_aid	崩れ	援助データの検索ヘルプ	検索手段データのヘルプ	Finding Aid の誤訳。語順も不自然
+frontend_help	help.topics.archival_object_finding_aid	崩れ	援助の援助	検索手段のヘルプ	同語反復。Finding Aid=検索手段
+frontend_help	help.topics.digital_object_finding_aid	崩れ	援助の援助	検索手段のヘルプ	同語反復。Finding Aid=検索手段
+frontend_help	help.topics.digital_object_component_finding_aid	崩れ	援助の援助	検索手段のヘルプ	同語反復。Finding Aid=検索手段
+frontend_help	help.topics.agent_person_dates_of_existence	崩れ	存在の日の助け	存在期間のヘルプ	Help を「助け」と直訳し意味が通らない
+frontend_help	help.topics.agent_family_dates_of_existence	崩れ	存在の日の助け	存在期間のヘルプ	Help を「助け」と直訳し意味が通らない
+frontend_help	help.topics.agent_corporate_entity_dates_of_existence	崩れ	存在の日の助け	存在期間のヘルプ	Help を「助け」と直訳し意味が通らない
+frontend_help	help.topics.agent_software_dates_of_existence	崩れ	存在の日の助け	存在期間のヘルプ	Help を「助け」と直訳し意味が通らない
+frontend_help	help.topics.accession	誤訳	アクセスのヘルプ	受入のヘルプ	Accession=受入。「アクセス」は誤訳
+frontend_help	help.topics.resource_related_accessions	誤訳	関連するアクセスのヘルプ	関連する受入のヘルプ	Accession=受入。「アクセス」は誤訳
+frontend_help	help.topics.archival_object_related_accessions	誤訳	関連するアクセスのヘルプ	関連する受入のヘルプ	Accession=受入。「アクセス」は誤訳
+frontend_help	help.topics.digital_object_related_accessions	誤訳	関連するアクセスのヘルプ	関連する受入のヘルプ	Accession=受入。「アクセス」は誤訳
+frontend_help	help.topics.digital_object_component_related_accessions	誤訳	関連するアクセスのヘルプ	関連する受入のヘルプ	Accession=受入。「アクセス」は誤訳
+frontend_help	help.topics.agent_function	誤訳	関数に関するヘルプ	機能のヘルプ	Function は関数ではなく、エージェントの機能（agent_function=機能）
+frontend_help	help.topics.bulk_archival_object_updater_job	誤訳	アーカイブオブジェクトのマージに関するヘルプ	アーカイバルオブジェクトの一括更新に関するヘルプ	英語は Bulk Update。マージは誤り
+frontend_help	help.topics.subject_terms	誤訳	条件と細分に関するヘルプ	語句と細目に関するヘルプ	Terms は条件ではなく件名の語句（term）
+frontend	bulk_archival_object_update_spreadsheet.too_many_rows_warning	誤訳	行数を <strong>%{max_row_count} 行</strong>未満に減らす	行数を <strong>%{max_row_count} 行</strong>以下に減らす	英語は less than or equal to（以下）
+frontend	bulk_archival_object_update_spreadsheet.download_spreadsheet_modal_message	誤訳	このスプレッドシートの生成には数分かかる場合があります。	このスプレッドシートの生成には少し時間がかかる場合があります。	a few moments を「数分」とすると過大
+public	footer.archivesspace_home_html	誤訳	<a href='http://archivesspace.org'>ArchivesSpace.org</a> を見る	<a href='http://archivesspace.org'>ArchivesSpace</a> を使用しています	英語は Powered by。frontend 側の訳と不一致
+public	search_results.filter.to	誤訳	に	まで	From に対する to は範囲の終点（まで）
+frontend_help	help.topics.accession_extents	用語	エクステントのヘルプ	数量のヘルプ	Extent=数量
+frontend_help	help.topics.resource_extents	用語	エクステントのヘルプ	数量のヘルプ	Extent=数量
+frontend_help	help.topics.archival_object_extents	用語	エクステントのヘルプ	数量のヘルプ	Extent=数量
+frontend_help	help.topics.digital_object_extents	用語	エクステントのヘルプ	数量のヘルプ	Extent=数量
+frontend_help	help.topics.digital_object_component_extents	用語	エクステントのヘルプ	数量のヘルプ	Extent=数量
+frontend_help	help.topics.accession_subjects	用語	科目のヘルプ	件名のヘルプ	Subject=件名。「科目」は不可
+frontend_help	help.topics.resource_subjects	用語	科目のヘルプ	件名のヘルプ	Subject=件名。「科目」は不可
+frontend_help	help.topics.archival_object_subjects	用語	科目のヘルプ	件名のヘルプ	Subject=件名。「科目」は不可
+frontend_help	help.topics.digital_object_subjects	用語	科目のヘルプ	件名のヘルプ	Subject=件名。「科目」は不可
+frontend_help	help.topics.digital_object_component_subjects	用語	科目のヘルプ	件名のヘルプ	Subject=件名。「科目」は不可
+frontend_help	help.topics.subject	用語	科目のヘルプ	件名のヘルプ	Subject=件名。「科目」は不可
+frontend_help	help.topics.accession_deaccessions	用語	デアクセスに関するヘルプ	除籍に関するヘルプ	Deaccession=除籍
+frontend_help	help.topics.resource_deaccessions	用語	デアクセスに関するヘルプ	除籍に関するヘルプ	Deaccession=除籍
+frontend_help	help.topics.archival_object_deaccessions	用語	デアクセスに関するヘルプ	除籍に関するヘルプ	Deaccession=除籍
+frontend_help	help.topics.digital_object_deaccessions	用語	デアクセスに関するヘルプ	除籍に関するヘルプ	Deaccession=除籍
+frontend_help	help.topics.digital_object_component_deaccessions	用語	デアクセスに関するヘルプ	除籍に関するヘルプ	Deaccession=除籍
+frontend_help	help.topics.accession_rights_statements	用語	権利声明に関するヘルプ	権利表明に関するヘルプ	Rights Statement=権利表明
+frontend_help	help.topics.resource_rights_statements	用語	権利声明に関するヘルプ	権利表明に関するヘルプ	Rights Statement=権利表明
+frontend_help	help.topics.archival_object_rights_statements	用語	権利声明に関するヘルプ	権利表明に関するヘルプ	Rights Statement=権利表明
+frontend_help	help.topics.digital_object_rights_statements	用語	権利声明に関するヘルプ	権利表明に関するヘルプ	Rights Statement=権利表明
+frontend_help	help.topics.digital_object_component_rights_statements	用語	権利声明に関するヘルプ	権利表明に関するヘルプ	Rights Statement=権利表明
+frontend_help	help.topics.enumeration	用語	制御された値リストのヘルプ	統制値リストのヘルプ	controlled value list=統制値リスト
+public	record._singular	用語	記録	レコード	同画面の record._plural（レコード）と不統一
+frontend	actions.digital_object_template	表記	デジタル オブジェクト テンプレートをダウンロード	デジタルオブジェクトテンプレートをダウンロード	不要な空白。用語は「デジタルオブジェクト」
+public	metadata_rights_declaration.descriptive_note	欠落	注記	記述注記	Descriptive の意味が落ちている

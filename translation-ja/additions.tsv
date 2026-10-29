@@ -225,7 +225,7 @@ frontend/config/locales/ja.yml	agent._frontend.section.events	Events		イベン�
 frontend/config/locales/ja.yml	archival_object.new_title	New Archival Object		新規アーカイバルオブジェクト	missing	
 frontend/config/locales/ja.yml	archival_object._frontend.messages.transfer_description	Select a resource to transfer this archival object into		このアーカイバルオブジェクトの転送先のリソースを選択してください	missing	
 frontend/config/locales/ja.yml	archival_object._frontend.messages.spawned	This Archival Object has been spawned from Accession <strong>%{accession_display_string}</strong>. This record is unsaved. You must click Save for the record to be created in the system.		このアーカイバルオブジェクトは、受入 <strong>%{accession_display_string}</strong> から生成されました。このレコードは未保存です。システムにレコードを作成するには「保存」をクリックしてください。	missing	
-frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_placeholder	<em>Spawned component will be inserted here</em>		<em>生成されたコンポーネントがここに挿入されます</em>	missing	
+frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_placeholder	<em>Spawned component will be inserted here</em>		生成されたコンポーネントがここに挿入されます	missing	
 frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_menu_before	Insert spawned component before		生成されたコンポーネントを前に挿入	missing	
 frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_menu_child	Insert spawned component as child		生成されたコンポーネントを子として挿入	missing	
 frontend/config/locales/ja.yml	archival_object._frontend.messages.spawn_menu_after	Insert spawned component after		生成されたコンポーネントを後ろに挿入	missing	
@@ -234,13 +234,13 @@ frontend/config/locales/ja.yml	archival_object._frontend.action.select_parent_an
 frontend/config/locales/ja.yml	archival_object._frontend.action.leave_parent_empty	Close / Do not Assign Parent		閉じる / 親を割り当てない	missing	
 frontend/config/locales/ja.yml	structured_date_label_existence.date_label	Label	ラベル	ラベル	missing	
 frontend/config/locales/ja.yml	structured_date_label_existence.date_type_structured	Date Type	日付タイプ	日付の種類	missing	
-frontend/config/locales/ja.yml	structured_date_label_existence.date_certainty	Certainty	確実	確からしさ	missing	
-frontend/config/locales/ja.yml	structured_date_label_existence.date_era	Era	時代	時代区分	missing	
+frontend/config/locales/ja.yml	structured_date_label_existence.date_certainty	Certainty	確実	確実性	missing	
+frontend/config/locales/ja.yml	structured_date_label_existence.date_era	Era	時代	年代区分	missing	
 frontend/config/locales/ja.yml	structured_date_label_existence.date_calendar	Calendar	カレンダー	暦	missing	
 frontend/config/locales/ja.yml	structured_date_label_usage.date_label	Label	ラベル	ラベル	missing	
 frontend/config/locales/ja.yml	structured_date_label_usage.date_type_structured	Date Type	日付タイプ	日付の種類	missing	
-frontend/config/locales/ja.yml	structured_date_label_usage.date_certainty	Certainty	確実	確からしさ	missing	
-frontend/config/locales/ja.yml	structured_date_label_usage.date_era	Era	時代	時代区分	missing	
+frontend/config/locales/ja.yml	structured_date_label_usage.date_certainty	Certainty	確実	確実性	missing	
+frontend/config/locales/ja.yml	structured_date_label_usage.date_era	Era	時代	年代区分	missing	
 frontend/config/locales/ja.yml	structured_date_label_usage.date_calendar	Calendar	カレンダー	暦	missing	
 frontend/config/locales/ja.yml	enumeration._frontend.messages.not_used	Not Used.		使用されていません。	missing	
 frontend/config/locales/ja.yml	enumeration._frontend.messages.one_related_item	1 related item.		関連項目 1 件。	missing	
@@ -252,7 +252,7 @@ frontend/config/locales/ja.yml	name._frontend.section.function_subject	Function 
 frontend/config/locales/ja.yml	name._frontend.section.occupation_subject	Occupation Subject		職業の件名	missing	
 frontend/config/locales/ja.yml	name._frontend.action.make_authorized_tooltip	Use to indicate the name form is the authorized version of the name by authoritative sources such as LCNAF.		LCNAF などの典拠機関が示す、この名前の形式が統一形（典拠形）であることを示すときに使います。	missing	
 frontend/config/locales/ja.yml	name._frontend.action.make_display_name_tooltip	Use to indicate that this form of the name should be used for displays when there are multiple name forms associated with the agent record.		エージェントレコードに複数の名前の形式がある場合に、表示でこの名前の形式を使うことを示すときに使います。	missing	
-frontend/config/locales/ja.yml	name._frontend.action.make_primary	Make Primary		主にする	missing	
+frontend/config/locales/ja.yml	name._frontend.action.make_primary	Make Primary		主たる名前にする	missing	
 frontend/config/locales/ja.yml	name._frontend.action.make_primary_tooltip	Make Primary Tooltip		この名前の形式を主なものにします。	missing	
 frontend/config/locales/ja.yml	repository._frontend.action.order_for_pui	Set Order in Public Interface		公開画面での並び順を設定	missing	
 frontend/config/locales/ja.yml	resource._frontend.remove_subrecord	Remove sub-record		サブレコードを削除	missing	
@@ -313,75 +313,75 @@ frontend/config/locales/ja.yml	custom_report_template._frontend.action.search_us
 frontend/config/locales/ja.yml	agent_record_controls._plural	Record Info	記録情報	記録情報	missing	
 frontend/config/locales/ja.yml	agent_record_controls._singular	Record Info	記録情報	記録情報	missing	
 frontend/config/locales/ja.yml	agent_record_controls._frontend.action.add	Add Record Info	レコード情報を追加	記録情報を追加	missing	
-frontend/config/locales/ja.yml	agent_record_controls.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持ステータス	missing	
-frontend/config/locales/ja.yml	agent_record_controls.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_controls.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持管理の状態	missing	
+frontend/config/locales/ja.yml	agent_record_controls.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開状況	missing	
 frontend/config/locales/ja.yml	agent_record_controls.romanization	Romanization	ローマ字	ローマ字化	missing	
-frontend/config/locales/ja.yml	agent_record_controls.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理：政府機関の種類	missing	
-frontend/config/locales/ja.yml	agent_record_controls.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照の評価	missing	
+frontend/config/locales/ja.yml	agent_record_controls.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理政府機関の種類	missing	
+frontend/config/locales/ja.yml	agent_record_controls.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照評価	missing	
 frontend/config/locales/ja.yml	agent_record_controls.name_type	Record Control Name Type	レコードコントロール名タイプ	レコード管理：名前の種類	missing	
 frontend/config/locales/ja.yml	agent_record_controls.level_of_detail	Record Control Level of Detail	記録管理の詳細レベル	レコード管理：詳細レベル	missing	
 frontend/config/locales/ja.yml	agent_record_controls.modified_record	Record Control Modified Type	レコード制御変更タイプ	レコード管理：変更の種類	missing	
-frontend/config/locales/ja.yml	agent_record_controls.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成の情報源	missing	
+frontend/config/locales/ja.yml	agent_record_controls.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成元	missing	
 frontend/config/locales/ja.yml	agent_record_controls.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
 frontend/config/locales/ja.yml	agent_record_controls.agency_name	Agency Name	代理店名	機関名	missing	
 frontend/config/locales/ja.yml	agent_record_controls.maintenance_agency_note	Maintenance Agency Note	メンテナンスエージェンシーノート	維持管理機関の注記	missing	
 frontend/config/locales/ja.yml	agent_record_controls.language	Language	言語	言語	missing	
 frontend/config/locales/ja.yml	agent_record_controls.script	Script	脚本	文字体系	missing	
-frontend/config/locales/ja.yml	agent_record_controls.language_note	Language Note	言語ノート	言語の注記	missing	
+frontend/config/locales/ja.yml	agent_record_controls.language_note	Language Note	言語ノート	言語注記	missing	
 frontend/config/locales/ja.yml	agent_record_control_required._plural	Record Info	記録情報	記録情報	missing	
 frontend/config/locales/ja.yml	agent_record_control_required._singular	Record Info	記録情報	記録情報	missing	
 frontend/config/locales/ja.yml	agent_record_control_required._frontend.action.add	Add Record Info	レコード情報を追加	記録情報を追加	missing	
-frontend/config/locales/ja.yml	agent_record_control_required.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持ステータス	missing	
-frontend/config/locales/ja.yml	agent_record_control_required.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持管理の状態	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開状況	missing	
 frontend/config/locales/ja.yml	agent_record_control_required.romanization	Romanization	ローマ字	ローマ字化	missing	
-frontend/config/locales/ja.yml	agent_record_control_required.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理：政府機関の種類	missing	
-frontend/config/locales/ja.yml	agent_record_control_required.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照の評価	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理政府機関の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照評価	missing	
 frontend/config/locales/ja.yml	agent_record_control_required.name_type	Record Control Name Type	レコードコントロール名タイプ	レコード管理：名前の種類	missing	
 frontend/config/locales/ja.yml	agent_record_control_required.level_of_detail	Record Control Level of Detail	記録管理の詳細レベル	レコード管理：詳細レベル	missing	
 frontend/config/locales/ja.yml	agent_record_control_required.modified_record	Record Control Modified Type	レコード制御変更タイプ	レコード管理：変更の種類	missing	
-frontend/config/locales/ja.yml	agent_record_control_required.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成の情報源	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成元	missing	
 frontend/config/locales/ja.yml	agent_record_control_required.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
 frontend/config/locales/ja.yml	agent_record_control_required.agency_name	Agency Name	代理店名	機関名	missing	
 frontend/config/locales/ja.yml	agent_record_control_required.maintenance_agency_note	Maintenance Agency Note	メンテナンスエージェンシーノート	維持管理機関の注記	missing	
 frontend/config/locales/ja.yml	agent_record_control_required.language	Language	言語	言語	missing	
 frontend/config/locales/ja.yml	agent_record_control_required.script	Script	脚本	文字体系	missing	
-frontend/config/locales/ja.yml	agent_record_control_required.language_note	Language Note	言語ノート	言語の注記	missing	
+frontend/config/locales/ja.yml	agent_record_control_required.language_note	Language Note	言語ノート	言語注記	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination._plural	Record Info	記録情報	記録情報	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination._singular	Record Info	記録情報	記録情報	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination._frontend.action.add	Add Record Info	レコード情報を追加	記録情報を追加	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持ステータス	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_destination.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持管理の状態	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開状況	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination.romanization	Romanization	ローマ字	ローマ字化	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_destination.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理：政府機関の種類	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_destination.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照の評価	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理政府機関の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照評価	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination.name_type	Record Control Name Type	レコードコントロール名タイプ	レコード管理：名前の種類	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination.level_of_detail	Record Control Level of Detail	記録管理の詳細レベル	レコード管理：詳細レベル	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination.modified_record	Record Control Modified Type	レコード制御変更タイプ	レコード管理：変更の種類	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_destination.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成の情報源	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成元	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination.agency_name	Agency Name	代理店名	機関名	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination.maintenance_agency_note	Maintenance Agency Note	メンテナンスエージェンシーノート	維持管理機関の注記	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination.language	Language	言語	言語	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_destination.script	Script	脚本	文字体系	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_destination.language_note	Language Note	言語ノート	言語の注記	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_destination.language_note	Language Note	言語ノート	言語注記	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate._plural	Record Info	記録情報	記録情報	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate._singular	Record Info	記録情報	記録情報	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate._frontend.action.add	Add Record Info	レコード情報を追加	記録情報を追加	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持ステータス	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_candidate.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開ステータス	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_status	Record Control Maintenance Status	制御保守ステータスの記録	レコード管理：維持管理の状態	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.publication_status	Record Control Publication Status	レコード管理の公開ステータス	レコード管理：公開状況	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate.romanization	Romanization	ローマ字	ローマ字化	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_candidate.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理：政府機関の種類	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_candidate.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照の評価	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.government_agency_type	Record Control Government Agency Type	レコード管理政府機関タイプ	レコード管理政府機関の種類	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.reference_evaluation	Record Control Reference Evaluation	記録管理参照評価	レコード管理：参照評価	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate.name_type	Record Control Name Type	レコードコントロール名タイプ	レコード管理：名前の種類	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate.level_of_detail	Record Control Level of Detail	記録管理の詳細レベル	レコード管理：詳細レベル	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate.modified_record	Record Control Modified Type	レコード制御変更タイプ	レコード管理：変更の種類	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_candidate.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成の情報源	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.cataloging_source	Record Control Cataloging Source	レコード管理目録ソース	レコード管理：目録作成元	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_agency	Maintenance Agency	整備庁	維持管理機関	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate.agency_name	Agency Name	代理店名	機関名	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate.maintenance_agency_note	Maintenance Agency Note	メンテナンスエージェンシーノート	維持管理機関の注記	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate.language	Language	言語	言語	missing	
 frontend/config/locales/ja.yml	agent_record_control_merge_candidate.script	Script	脚本	文字体系	missing	
-frontend/config/locales/ja.yml	agent_record_control_merge_candidate.language_note	Language Note	言語ノート	言語の注記	missing	
+frontend/config/locales/ja.yml	agent_record_control_merge_candidate.language_note	Language Note	言語ノート	言語注記	missing	
 frontend/config/locales/ja.yml	agent_genders._plural	Genders	性別	性別	missing	
 frontend/config/locales/ja.yml	agent_genders._singular	Gender	性別	性別	missing	
 frontend/config/locales/ja.yml	agent_genders._frontend.action.add	Add Gender	性別を追加	性別を追加	missing	
@@ -594,7 +594,7 @@ frontend/config/locales/ja.yml	agent_alternate_sets._plural	Alternate Sets	代�
 frontend/config/locales/ja.yml	agent_alternate_sets._singular	Alternate Set	代替セット	代替セット	missing	
 frontend/config/locales/ja.yml	agent_alternate_sets._frontend.action.add	Add Alternative Set	代替セットを追加	代替セットを追加	missing	
 frontend/config/locales/ja.yml	agent_alternate_sets.set_component	Set Component	コンポーネントの設定	セットの構成要素	missing	
-frontend/config/locales/ja.yml	agent_alternate_sets.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_alternate_sets.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_alternate_sets.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_alternate_sets.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_alternate_sets.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -606,7 +606,7 @@ frontend/config/locales/ja.yml	agent_alternate_set_required._plural	Alternate Se
 frontend/config/locales/ja.yml	agent_alternate_set_required._singular	Alternate Set	代替セット	代替セット	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_required._frontend.action.add	Add Alternative Set	代替セットを追加	代替セットを追加	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_required.set_component	Set Component	コンポーネントの設定	セットの構成要素	missing	
-frontend/config/locales/ja.yml	agent_alternate_set_required.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_required.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_required.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_required.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_required.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -618,7 +618,7 @@ frontend/config/locales/ja.yml	agent_alternate_set_merge_destination._plural	Alt
 frontend/config/locales/ja.yml	agent_alternate_set_merge_destination._singular	Alternate Set	代替セット	代替セット	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_destination._frontend.action.add	Add Alternative Set	代替セットを追加	代替セットを追加	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.set_component	Set Component	コンポーネントの設定	セットの構成要素	missing	
-frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_destination.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -630,7 +630,7 @@ frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate._plural	Alter
 frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate._singular	Alternate Set	代替セット	代替セット	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate._frontend.action.add	Add Alternative Set	代替セットを追加	代替セットを追加	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.set_component	Set Component	コンポーネントの設定	セットの構成要素	missing	
-frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_alternate_set_merge_candidate.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -643,7 +643,7 @@ frontend/config/locales/ja.yml	agent_conventions_declarations._singular	Conventi
 frontend/config/locales/ja.yml	agent_conventions_declarations._frontend.action.add	Add Convention Declaration	条約宣言を追加する	準拠規則の宣言を追加	missing	
 frontend/config/locales/ja.yml	agent_conventions_declarations.name_rule	Convention	コンベンション	規則	missing	
 frontend/config/locales/ja.yml	agent_conventions_declarations.citation	Citation	引用	引用	missing	
-frontend/config/locales/ja.yml	agent_conventions_declarations.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_conventions_declarations.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_conventions_declarations.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_conventions_declarations.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_conventions_declarations.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -656,7 +656,7 @@ frontend/config/locales/ja.yml	agent_conventions_declaration_required._singular	
 frontend/config/locales/ja.yml	agent_conventions_declaration_required._frontend.action.add	Add Convention Declaration	条約宣言を追加する	準拠規則の宣言を追加	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_required.name_rule	Convention	コンベンション	規則	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_required.citation	Citation	引用	引用	missing	
-frontend/config/locales/ja.yml	agent_conventions_declaration_required.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_required.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_required.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_required.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_required.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -669,7 +669,7 @@ frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination._
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination._frontend.action.add	Add Convention Declaration	条約宣言を追加する	準拠規則の宣言を追加	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.name_rule	Convention	コンベンション	規則	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.citation	Citation	引用	引用	missing	
-frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_destination.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -682,7 +682,7 @@ frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate._si
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate._frontend.action.add	Add Convention Declaration	条約宣言を追加する	準拠規則の宣言を追加	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.name_rule	Convention	コンベンション	規則	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.citation	Citation	引用	引用	missing	
-frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_conventions_declaration_merge_candidate.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -716,7 +716,7 @@ frontend/config/locales/ja.yml	agent_maintenance_histories._frontend.action.add	
 frontend/config/locales/ja.yml	agent_maintenance_histories.maintenance_event_type	Record Control Maintenance Event Type	レコード制御保守イベントタイプ	レコード管理：維持管理イベントの種類	missing	
 frontend/config/locales/ja.yml	agent_maintenance_histories.maintenance_agent_type	Record Control Maintenance Agent Type	レコード制御保守エージェントタイプ	レコード管理：維持管理担当者の種類	missing	
 frontend/config/locales/ja.yml	agent_maintenance_histories.agent	Agent	エージェント	エージェント	missing	
-frontend/config/locales/ja.yml	agent_maintenance_histories.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_maintenance_histories.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_maintenance_histories.event_date	Event Date	開催日	イベントの日付	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_required._plural	Maintenance History	メンテナンス履歴	維持管理履歴	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_required._singular	Agent Maintenance History	エージェントのメンテナンス履歴	エージェントの維持管理履歴	missing	
@@ -724,7 +724,7 @@ frontend/config/locales/ja.yml	agent_maintenance_history_required._frontend.acti
 frontend/config/locales/ja.yml	agent_maintenance_history_required.maintenance_event_type	Record Control Maintenance Event Type	レコード制御保守イベントタイプ	レコード管理：維持管理イベントの種類	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_required.maintenance_agent_type	Record Control Maintenance Agent Type	レコード制御保守エージェントタイプ	レコード管理：維持管理担当者の種類	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_required.agent	Agent	エージェント	エージェント	missing	
-frontend/config/locales/ja.yml	agent_maintenance_history_required.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_required.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_required.event_date	Event Date	開催日	イベントの日付	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination._plural	Maintenance History	メンテナンス履歴	維持管理履歴	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination._singular	Agent Maintenance History	エージェントのメンテナンス履歴	エージェントの維持管理履歴	missing	
@@ -732,7 +732,7 @@ frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination._fron
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.maintenance_event_type	Record Control Maintenance Event Type	レコード制御保守イベントタイプ	レコード管理：維持管理イベントの種類	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.maintenance_agent_type	Record Control Maintenance Agent Type	レコード制御保守エージェントタイプ	レコード管理：維持管理担当者の種類	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.agent	Agent	エージェント	エージェント	missing	
-frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_destination.event_date	Event Date	開催日	イベントの日付	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate._plural	Maintenance History	メンテナンス履歴	維持管理履歴	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate._singular	Agent Maintenance History	エージェントのメンテナンス履歴	エージェントの維持管理履歴	missing	
@@ -740,7 +740,7 @@ frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate._fronte
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.maintenance_event_type	Record Control Maintenance Event Type	レコード制御保守イベントタイプ	レコード管理：維持管理イベントの種類	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.maintenance_agent_type	Record Control Maintenance Agent Type	レコード制御保守エージェントタイプ	レコード管理：維持管理担当者の種類	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.agent	Agent	エージェント	エージェント	missing	
-frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_maintenance_history_merge_candidate.event_date	Event Date	開催日	イベントの日付	missing	
 frontend/config/locales/ja.yml	agent_record_identifiers._plural	Record IDs	レコードID	レコードID	missing	
 frontend/config/locales/ja.yml	agent_record_identifiers._singular	Record ID	レコードID	レコードID	missing	
@@ -778,7 +778,7 @@ frontend/config/locales/ja.yml	agent_sources._plural	Sources	ソース	情報源
 frontend/config/locales/ja.yml	agent_sources._singular	Agent Source	エージェントソース	エージェントの情報源	missing	
 frontend/config/locales/ja.yml	agent_sources._frontend.action.add	Add Source	ソースを追加	情報源を追加	missing	
 frontend/config/locales/ja.yml	agent_sources.source_entry	Source Entry	ソースエントリ	情報源の記載	missing	
-frontend/config/locales/ja.yml	agent_sources.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_sources.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_sources.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_sources.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_sources.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -790,7 +790,7 @@ frontend/config/locales/ja.yml	agent_source_required._plural	Sources	ソース	�
 frontend/config/locales/ja.yml	agent_source_required._singular	Agent Source	エージェントソース	エージェントの情報源	missing	
 frontend/config/locales/ja.yml	agent_source_required._frontend.action.add	Add Source	ソースを追加	情報源を追加	missing	
 frontend/config/locales/ja.yml	agent_source_required.source_entry	Source Entry	ソースエントリ	情報源の記載	missing	
-frontend/config/locales/ja.yml	agent_source_required.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_source_required.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_source_required.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_source_required.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_source_required.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -802,7 +802,7 @@ frontend/config/locales/ja.yml	agent_source_merge_destination._plural	Sources	�
 frontend/config/locales/ja.yml	agent_source_merge_destination._singular	Agent Source	エージェントソース	エージェントの情報源	missing	
 frontend/config/locales/ja.yml	agent_source_merge_destination._frontend.action.add	Add Source	ソースを追加	情報源を追加	missing	
 frontend/config/locales/ja.yml	agent_source_merge_destination.source_entry	Source Entry	ソースエントリ	情報源の記載	missing	
-frontend/config/locales/ja.yml	agent_source_merge_destination.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_source_merge_destination.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_source_merge_destination.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_source_merge_destination.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_source_merge_destination.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -814,7 +814,7 @@ frontend/config/locales/ja.yml	agent_source_merge_candidate._plural	Sources	ソ�
 frontend/config/locales/ja.yml	agent_source_merge_candidate._singular	Agent Source	エージェントソース	エージェントの情報源	missing	
 frontend/config/locales/ja.yml	agent_source_merge_candidate._frontend.action.add	Add Source	ソースを追加	情報源を追加	missing	
 frontend/config/locales/ja.yml	agent_source_merge_candidate.source_entry	Source Entry	ソースエントリ	情報源の記載	missing	
-frontend/config/locales/ja.yml	agent_source_merge_candidate.descriptive_note	Descriptive Note	注釈	記述注記	missing	
+frontend/config/locales/ja.yml	agent_source_merge_candidate.descriptive_note	Descriptive Note	注釈	注記	missing	
 frontend/config/locales/ja.yml	agent_source_merge_candidate.file_uri	File URI	ファイルURI	ファイルURI	missing	
 frontend/config/locales/ja.yml	agent_source_merge_candidate.xlink_title_attribute	Xlink Title Attribute	Xlinkタイトル属性	Xlink Title 属性	missing	
 frontend/config/locales/ja.yml	agent_source_merge_candidate.xlink_role_attribute	Xlink Role Attribute	Xlinkロール属性	Xlink Role 属性	missing	
@@ -830,7 +830,7 @@ frontend/config/locales/ja.yml	agent_resources._singular	Related External Resour
 frontend/config/locales/ja.yml	agent_resources.dates	Dates	日付	日付	missing	
 frontend/config/locales/ja.yml	agent_resources.places	Places	場所	場所	missing	
 frontend/config/locales/ja.yml	agent_resources.publish	Published	公開済み	公開済み	missing	
-frontend/config/locales/ja.yml	agent_resources.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソースとの関係の種類	missing	
+frontend/config/locales/ja.yml	agent_resources.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソース関係の種類	missing	
 frontend/config/locales/ja.yml	agent_resources.linked_resource	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
 frontend/config/locales/ja.yml	agent_resources.linked_resource_description	Description	説明	説明	missing	
 frontend/config/locales/ja.yml	agent_resources.file_uri	File URI	ファイルURI	ファイルURI	missing	
@@ -848,7 +848,7 @@ frontend/config/locales/ja.yml	agent_resource_required._singular	Related Externa
 frontend/config/locales/ja.yml	agent_resource_required.dates	Dates	日付	日付	missing	
 frontend/config/locales/ja.yml	agent_resource_required.places	Places	場所	場所	missing	
 frontend/config/locales/ja.yml	agent_resource_required.publish	Published	公開済み	公開済み	missing	
-frontend/config/locales/ja.yml	agent_resource_required.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソースとの関係の種類	missing	
+frontend/config/locales/ja.yml	agent_resource_required.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソース関係の種類	missing	
 frontend/config/locales/ja.yml	agent_resource_required.linked_resource	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
 frontend/config/locales/ja.yml	agent_resource_required.linked_resource_description	Description	説明	説明	missing	
 frontend/config/locales/ja.yml	agent_resource_required.file_uri	File URI	ファイルURI	ファイルURI	missing	
@@ -866,7 +866,7 @@ frontend/config/locales/ja.yml	agent_resource_merge_candidate._singular	Related 
 frontend/config/locales/ja.yml	agent_resource_merge_candidate.dates	Dates	日付	日付	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_candidate.places	Places	場所	場所	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_candidate.publish	Published	公開済み	公開済み	missing	
-frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソースとの関係の種類	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソース関係の種類	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_resource	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_candidate.linked_resource_description	Description	説明	説明	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_candidate.file_uri	File URI	ファイルURI	ファイルURI	missing	
@@ -884,7 +884,7 @@ frontend/config/locales/ja.yml	agent_resource_merge_destination._singular	Relate
 frontend/config/locales/ja.yml	agent_resource_merge_destination.dates	Dates	日付	日付	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_destination.places	Places	場所	場所	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_destination.publish	Published	公開済み	公開済み	missing	
-frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソースとの関係の種類	missing	
+frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_agent_role	Resource Relation Type	リソース関係タイプ	リソース関係の種類	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_resource	Related External Resource	関連する外部リソース	関連する外部リソース	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_destination.linked_resource_description	Description	説明	説明	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_destination.file_uri	File URI	ファイルURI	ファイルURI	missing	
@@ -894,7 +894,7 @@ frontend/config/locales/ja.yml	agent_resource_merge_destination.xlink_arcrole_at
 frontend/config/locales/ja.yml	agent_resource_merge_destination.file_version_xlink_actuate_attribute	Xlink Actuate Attribute	XlinkActuate属性	Xlink Actuate 属性	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_destination.file_version_xlink_show_attribute	Xlink Show Attribute	Xlinkの属性を表示	Xlink Show 属性	missing	
 frontend/config/locales/ja.yml	agent_resource_merge_destination.last_verified_date	Last Verified Date	最終確認日	最終確認日	missing	
-frontend/config/locales/ja.yml	bulk_import_templates.overview	<p>These are templates for uploading spreadsheet data into ArchivesSpace using the different import options in the Background Jobs area. The data required for a successful import depends on the type of record being created. You do not have to fill out every row and column.</p><p>Each CSV template includes a row of sample data. Unless you want to create a record with the sample data, please delete the sample data before uploading your spreadsheet. <b>Do not delete the header row, add additional columns or rearrange existing columns.</b></p><p>The Excel templates include additional instructions for using the templates and validations for certain cells. Do not delete the instructions or validations.</p>\n		<p>これらは、バックグラウンドジョブの画面にあるさまざまなインポート機能を使って、スプレッドシートのデータを ArchivesSpace に取り込むためのテンプレートです。インポートに必要なデータは、作成するレコードの種類によって異なります。すべての行と列を埋める必要はありません。</p><p>各 CSV テンプレートには、サンプルデータの行が 1 行入っています。サンプルデータでレコードを作成するつもりがなければ、スプレッドシートをアップロードする前にサンプルデータを削除してください。<b>見出しの行は削除せず、列の追加や既存の列の並べ替えもしないでください。</b></p><p>Excel のテンプレートには、テンプレートの使い方を説明する追加の指示と、一部のセルの入力チェックが含まれています。指示と入力チェックは削除しないでください。</p>	missing	
+frontend/config/locales/ja.yml	bulk_import_templates.overview	<p>These are templates for uploading spreadsheet data into ArchivesSpace using the different import options in the Background Jobs area. The data required for a successful import depends on the type of record being created. You do not have to fill out every row and column.</p><p>Each CSV template includes a row of sample data. Unless you want to create a record with the sample data, please delete the sample data before uploading your spreadsheet. <b>Do not delete the header row, add additional columns or rearrange existing columns.</b></p><p>The Excel templates include additional instructions for using the templates and validations for certain cells. Do not delete the instructions or validations.</p>\n		<p>これらは、バックグラウンドジョブの画面にあるさまざまなインポート機能を使って、スプレッドシートのデータを ArchivesSpace に取り込むためのテンプレートです。インポートに必要なデータは、作成するレコードの種類によって異なります。すべての行と列を埋める必要はありません。</p><p>各 CSV テンプレートには、サンプルデータの行が 1 行入っています。サンプルデータでレコードを作成するつもりがなければ、スプレッドシートをアップロードする前にサンプルデータを削除してください。<b>見出しの行を削除したり、既存の列を並べ替えたりしないでください。</b>列を追加できるのは、番号付きのグループをまるごと複製して番号を変える場合だけです（例：extent_1_* の列をすべて extent_2_* や extent_12_* として複製する。番号は飛んでもかまいません）。それ以外の列は追加しないでください。未知の見出し、綴りの誤った見出し、廃止された見出しがあると、インポート全体が失敗します。</p><p>Excel のテンプレートには、テンプレートの使い方を説明する追加の指示と、一部のセルの入力チェックが含まれています。指示と入力チェックは削除しないでください。</p>	missing	
 frontend/config/locales/ja.yml	bulk_import_templates.aspace_digital_object_import_template_csv	Create digital object records and records linked to digital objects like agents, subjects, and events.		デジタルオブジェクトのレコードと、デジタルオブジェクトにリンクされるエージェント、件名、イベントなどのレコードを作成します。	missing	
 frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_template_csv	Create archival objects attached to an existing resource. Includes option to create many different sub-records and linked records including dates, extents, notes, containers, and digital objects. The CSV format is for people who do not have access to Microsoft Excel.		既存のリソースに属するアーカイバルオブジェクトを作成します。日付、数量、注記、コンテナ、デジタルオブジェクトなど、さまざまなサブレコードやリンクされたレコードを一緒に作成することもできます。CSV 形式は、Microsoft Excel を使えない人向けです。	missing	
 frontend/config/locales/ja.yml	bulk_import_templates.bulk_import_template_xlsx	Create archival objects attached to an existing resource. Includes option to create many different sub-records and linked records including dates, extents, notes, containers, and digital objects. The XLSX format is for those who have access to Microsoft Excel.		既存のリソースに属するアーカイバルオブジェクトを作成します。日付、数量、注記、コンテナ、デジタルオブジェクトなど、さまざまなサブレコードやリンクされたレコードを一緒に作成することもできます。XLSX 形式は、Microsoft Excel を使える人向けです。	missing	
@@ -958,7 +958,7 @@ frontend/config/locales/ja.yml	top_container.exported_to_ils	Exported to ILS	ILS
 frontend/config/locales/ja.yml	top_container.has_location	Has Location	場所がある	所在あり	audit	
 frontend/config/locales/ja.yml	resource._frontend.messages.transfer_description	Transfer this resource to...	このリソースを転送する...	このリソースの転送先：	audit	
 frontend/config/locales/ja.yml	agent._frontend.messages.merge_description	Select the agent to merge into	マージするエージェントを選択する	マージ先のエージェントを選択：	audit	語順
-frontend/config/locales/ja.yml	search.accession.audit_info	Audit Information	監査データ	監査情報	audit	
+frontend/config/locales/ja.yml	search.accession.audit_info	Audit Information	監査データ	監査データ	audit	
 frontend/config/locales/ja.yml	repository._frontend.messages.selected_short	Selected	選択された	選択中	audit	
 frontend/config/locales/ja.yml	pagination.last	Last	最終	最後	audit	
 frontend/config/locales/ja.yml	linked_agent.is_primary	Primary	主要な	主	audit	
@@ -1006,8 +1006,8 @@ common/locales/ja.yml	accession.publish_tooltip	<p>Determines whether this Acces
 common/locales/ja.yml	resource.publish_tooltip	<p>Determines whether this Resource will be published to public (patron) interfaces.</p>\n	<p>このリソースをパブリック（パトラン）インターフェイスに公開するかどうかを決定します。 </p>	<p>このリソースを公開画面（閲覧者向け画面）に公開するかどうかを指定します。</p>	audit	同上
 common/locales/ja.yml	accession.related_resources_tooltip	<p>Used for linking associated Resources with this Accession.</p>\n	<p>関連付けられたリソースをこのアクセッションにリンクするために使用されます。 </p>	<p>関連するリソースをこの受入にリンクするために使います。</p>	audit	
 common/locales/ja.yml	collection_management.processing_total_extent_tooltip	<p>A numerical expression for the total extent (cubic feet, linear feet, items, etc) processed. An Extent Type must be provided in conjunction with this field.</p>\n	<p>処理された全範囲（立方フィート、線形フィート、アイテムなど）の数値式。 このフィールドと一緒にエクステントタイプを入力する必要があります。</p>	<p>処理した全体の数量（立方フィート、直線フィート、点数など）を示す数値。このフィールドとあわせて、数量の種類を入力する必要があります。</p>	audit	
-common/locales/ja.yml	archival_object.title_tooltip	<p>CONDITIONALLY REQUIRED FIELD: The title assigned to the materials described. An Archival Object must have either a Title or a Date subrecord.</p>\n<p>See DACS 2.3</p>\n<p>Examples:</p>\n<ul>\n<li>Graciany Miranda Archilla papers</li>\n<li>Love Makes a Family records</li>\n<li>Cameron family account book</li>\n<li>Caroline and Erwin Swann collection of caricatures and cartoons</li>\n<li>National Academy of Sciences correspondence</li>\n<li>Audio and video recordings</li>\n</ul>\n	<p>条件付き必須フィールド：説明されたマテリアルに割り当てられたタイトル。アーカイブオブジェクトには、TitleまたはDateのいずれかのサブレコードが必要です。 </p><p>DACS 2.3を参照</p><p>例： </p><ul><li> Graciany Miranda Archillaの論文</li><li>愛は家族の記録を作る</li><li>キャメロンファミリーアカウントブック</li><li>キャロラインとアーウィンスワンの漫画と漫画のコレクション</li><li>国立科学アカデミーの対応</li><li>オーディオとビデオの録音</li></ul>	<p>条件付き必須フィールド：記述対象の資料につけるタイトル。アーカイバルオブジェクトには、タイトルまたは日付のどちらかのサブレコードが必要です。</p><p>DACS 2.3を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>	audit	Title or Date が未訳だった。例は英語の文献名のため原文のまま
-common/locales/ja.yml	archival_object.restrictions_apply_tooltip	<p>Indicates whether the materials described are restricted in any way. Additional description of the restriction should be provided in appropriate Notes or Rights Statements for the record where the restriction occurs.</p>\n<p>See DACS 4.1-4.4</p>\n	<p>記載されている資料が何らかの形で制限されているかどうかを示します。制限の追加の説明は、制限が発生したレコードの適切なNotesまたはRights Statementsに記載する必要があります。 </p><p>DACS 4.1-4.4を参照</p>	<p>記述対象の資料に何らかの制限があるかどうかを示します。制限の詳しい説明は、制限が生じているレコードの、適切な注記または権利表明に記載してください。</p><p>DACS 4.1-4.4を参照</p>	audit	Notes / Rights Statements が未訳だった
+common/locales/ja.yml	archival_object.title_tooltip	<p>CONDITIONALLY REQUIRED FIELD: The title assigned to the materials described. An Archival Object must have either a Title or a Date subrecord.</p>\n<p>See DACS 2.3</p>\n<p>Examples:</p>\n<ul>\n<li>Graciany Miranda Archilla papers</li>\n<li>Love Makes a Family records</li>\n<li>Cameron family account book</li>\n<li>Caroline and Erwin Swann collection of caricatures and cartoons</li>\n<li>National Academy of Sciences correspondence</li>\n<li>Audio and video recordings</li>\n</ul>\n	<p>条件付き必須フィールド：説明されたマテリアルに割り当てられたタイトル。アーカイブオブジェクトには、TitleまたはDateのいずれかのサブレコードが必要です。 </p><p>DACS 2.3を参照</p><p>例： </p><ul><li> Graciany Miranda Archillaの論文</li><li>愛は家族の記録を作る</li><li>キャメロンファミリーアカウントブック</li><li>キャロラインとアーウィンスワンの漫画と漫画のコレクション</li><li>国立科学アカデミーの対応</li><li>オーディオとビデオの録音</li></ul>	<p>条件付き必須フィールド：記述対象の資料につけるタイトル。アーカイバルオブジェクトには、タイトルまたは日付のどちらかのサブレコードが必要です。</p><p>DACS 2.3、ISAD(G) 3.1.2を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>	audit	Title or Date が未訳だった。例は英語の文献名のため原文のまま
+common/locales/ja.yml	archival_object.restrictions_apply_tooltip	<p>Indicates whether the materials described are restricted in any way. Additional description of the restriction should be provided in appropriate Notes or Rights Statements for the record where the restriction occurs.</p>\n<p>See DACS 4.1-4.4</p>\n	<p>記載されている資料が何らかの形で制限されているかどうかを示します。制限の追加の説明は、制限が発生したレコードの適切なNotesまたはRights Statementsに記載する必要があります。 </p><p>DACS 4.1-4.4を参照</p>	<p>記述対象の資料に何らかの制限があるかどうかを示します。制限の詳しい説明は、制限が生じているレコードの、適切な注記または権利表明に記載してください。</p><p>DACS 4.1-4.4、ISAD(G) 3.4.1、3.4.2、3.4.4を参照</p>	audit	Notes / Rights Statements が未訳だった
 common/locales/ja.yml	structured_date_single.date_role_tooltip	<p>For a single date, used to indicate whether the date should be understood as a beginning date or an ending date. The default is Begin.</p>\n	<p>単一の日付の場合、日付を開始日または終了日として理解する必要があるかどうかを示すために使用されます。デフォルトはBeginです。</p>	<p>単一の日付について、その日付を開始日として扱うか、終了日として扱うかを示すために使います。既定は「開始」です。</p>	audit	「Begin」が未訳だった
 common/locales/ja.yml	rights_statement.status_tooltip	<p>A coded designation for the copyright status of the object at the time the rights statement is recorded.</p>\n<ul>\n  <li>Copyrighted = Under copyright.</li>\n  <li>Public domain = In the public domain.</li>\n  <li>Unknown = Copyright status of the resource is unknown</li>\n</ul>\n	<p>権利明細書が記録された時点でのオブジェクトの著作権ステータスのコード化された指定。 </p><ul><li> Copyrighted =著作権で保護されています。 </li><li>パブリックドメイン=パブリックドメイン。 </li><li>不明=リソースの著作権ステータスが不明です</li></ul>	<p>権利表明を記録した時点での、対象の著作権ステータスを示すコード化された区分。</p><ul><li>著作権あり：著作権で保護されている。</li><li>パブリックドメイン：パブリックドメインである。</li><li>不明：資料の著作権ステータスが不明である。</li></ul>	audit	
 common/locales/ja.yml	rights_statement.statute_citation_tooltip	<p>A citation, URI, or other reference to the statute related to this Rights Statement.</p>\n<p>Examples:</p>\n<ul>\n<li>Freedom of Information and Protection of Privacy Act [RSBC 1996] Chapter 165</li>\n</ul>\n	<p>この権利声明に関連する法令への引用、URI、または他の言及。 </p><p>例： </p><ul><li>情報の自由とプライバシー保護法[RSBC 1996] Chapter 165 </li></ul>	<p>この権利表明に関係する法令の引用、URI、その他の参照情報。</p><p>例：</p><ul><li>Freedom of Information and Protection of Privacy Act [RSBC 1996] Chapter 165</li></ul>	audit	法令名は原文のまま
@@ -1050,9 +1050,9 @@ common/locales/enums/ja.yml	enumeration_names.instance_instance_type	Instance In
 common/locales/enums/ja.yml	enumeration_names.digital_object_digital_object_type	Digital Object Digital Object Type	デジタルオブジェクトデジタルオブジェクトタイプ	デジタルオブジェクトの種類	audit	
 common/locales/enums/ja.yml	enumeration_names.resource_resource_type	Resource Resource Type	リソースリソースタイプ	リソースの種類	audit	
 common/locales/enums/ja.yml	enumeration_names.note_digital_object_type	Note Digital Object Type	メモデジタルオブジェクトタイプ	デジタルオブジェクトの注記の種類	audit	
-common/locales/enums/ja.yml	enumeration_names.agency_code_type	Record Control Agency Code Type	代理店コード	機関コードの種類	audit	
+common/locales/enums/ja.yml	enumeration_names.agency_code_type	Record Control Agency Code Type	代理店コード	レコード管理：機関コードの種類	audit	
 common/locales/enums/ja.yml	enumeration_names.linked_event_archival_record_roles	Linked Event Archival Record Roles	リンクされたイベントアーカイブのレコードの役割	リンクされたイベントにおけるアーカイブ記録の役割	audit	
-common/locales/enums/ja.yml	enumeration_names.note_orderedlist_enumeration	Note Orderedlist Enumeration	メモオーダーリストの列挙	順序付きリストの番号の種類	audit	
+common/locales/enums/ja.yml	enumeration_names.note_orderedlist_enumeration	Note Orderedlist Enumeration	メモオーダーリストの列挙	注記の順序付きリストの番号の種類	audit	
 common/locales/enums/ja.yml	enumeration_names.user_defined_enum_1	User Defined Enum 1	ユーザー定義列挙型1	ユーザー定義の選択肢1	audit	
 common/locales/enums/ja.yml	enumeration_names.user_defined_enum_2	User Defined Enum 2	ユーザー定義列挙型2	ユーザー定義の選択肢2	audit	
 common/locales/enums/ja.yml	enumeration_names.user_defined_enum_3	User Defined Enum 3	ユーザー定義列挙型3	ユーザー定義の選択肢3	audit	
@@ -1069,7 +1069,7 @@ common/locales/enums/ja.yml	enumeration_names.maintenance_agent_type	Record Cont
 common/locales/enums/ja.yml	enumeration_names.maintenance_event_type	Record Control Maintenance Event Type		レコード管理：維持管理の処理の種類	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 common/locales/enums/ja.yml	enumeration_names.maintenance_status	Record Control Maintenance Status		レコード管理：維持管理の状態	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 common/locales/enums/ja.yml	enumerations.country_iso_3166.PR	Puerto Rico		プエルトリコ	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
-frontend/config/locales/ja.yml	actions.transfer_successful	Transfer Successful. Records may take a moment to appear in the target repository while re-indexing takes place.		移管しました。索引の作り直しが終わるまで、移管先のリポジトリにレコードが表示されるのに少し時間がかかることがあります。	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
+frontend/config/locales/ja.yml	actions.transfer_successful	Transfer Successful. Records may take a moment to appear in the target repository while re-indexing takes place.		転送しました。索引の作り直しが終わるまで、転送先のリポジトリにレコードが表示されるのに少し時間がかかることがあります。	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 frontend/config/locales/ja.yml	search_results.help.row_selection	Click a row to select it for bulk operations. Hold alt/option while clicking a checkbox to select, or unselect, multiple previous rows.		行をクリックすると、一括操作の対象として選択できます。Alt（Option）キーを押しながらチェックボックスをクリックすると、それより前の複数の行をまとめて選択、または選択解除できます。	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 frontend/config/locales/ja.yml	digital_object._frontend.messages.created	Digital Object <strong>%{digital_object_title}</strong> created		デジタルオブジェクト <strong>%{digital_object_title}</strong> を作成しました	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 frontend/config/locales/ja.yml	digital_object._frontend.messages.updated	Digital Object <strong>%{digital_object_title}</strong> updated		デジタルオブジェクト <strong>%{digital_object_title}</strong> を更新しました	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
@@ -1090,7 +1090,7 @@ common/locales/ja.yml	event_linked_agent.relator_tooltip	<p>An indication of wha
 common/locales/ja.yml	event_linked_agent.ref	Agent		エージェント	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 common/locales/ja.yml	event_linked_agent.title	Title		タイトル	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 common/locales/ja.yml	event_linked_agent.title_tooltip	<p>Optional field: Record here the authoritative title of a work in order to make a Name / Title heading for an agent linked as a creator or a subject:</p>\n<p>For example,</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>\n		<p>任意の項目：作成者または件名としてリンクされたエージェントについて「名前／タイトル」形式の見出しを作るために、著作の典拠形タイトルをここに記録します。</p><p>例：</p><ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
-common/locales/ja.yml	event_linked_agent._singular	Agent Link		エージェントのリンク	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
+common/locales/ja.yml	event_linked_agent._singular	Agent Link		エージェントリンク	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 common/locales/ja.yml	event_linked_agent._plural	Agent Links		エージェントのリンク	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 frontend/config/locales/help/ja.yml	help.topics.accession_metadata_rights_declarations	Help on Metadata Rights Declarations		メタデータの権利宣言のヘルプ	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
 frontend/config/locales/help/ja.yml	help.topics.resource_metadata_rights_declarations	Help on Metadata Rights Declarations		メタデータの権利宣言のヘルプ	weblate	Weblate で未訳・要修正だったもの（2026-10-28）
@@ -1108,5 +1108,5 @@ frontend/config/locales/ja.yml	search.archival_object.representative_file_versio
 frontend/config/locales/ja.yml	search.digital_object.representative_file_version	Thumbnail Image		サムネイル画像	missing	
 frontend/config/locales/ja.yml	search.digital_object_component.representative_file_version	Thumbnail Image		サムネイル画像	missing	
 frontend/config/locales/ja.yml	search.multi.representative_file_version	Thumbnail Image		サムネイル画像	missing	
-public/config/locales/ja.yml	footer.archivesspace_home_html	Visit <a href='http://archivesspace.org'>ArchivesSpace.org</a>		<a href='http://archivesspace.org'>ArchivesSpace.org</a> を見る	missing	
-public/config/locales/ja.yml	footer.feedback_html	<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>Send Feedback or Report a Problem</a>		<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>ご意見の送信・問題の報告</a>	missing	
+public/config/locales/ja.yml	footer.archivesspace_home_html	Visit <a href='http://archivesspace.org'>ArchivesSpace.org</a>		<a href='http://archivesspace.org'>ArchivesSpace</a> を使用しています	missing	
+public/config/locales/ja.yml	footer.feedback_html	<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>Send Feedback or Report a Problem</a>		<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>ご意見・ご質問</a>	missing	

@@ -1,0 +1,4 @@
+部品	キー	問題の種類	新しい訳(抜粋40字)	直し案(全文)	理由(短く)
+enums	enumerations.linked_agent_archival_record_relators.cou	誤訳	裁判所が管轄する	規則の適用を受ける裁判所	英語は「(規則等に)支配される裁判所」を表す名詞。訳は能動で意味が逆
+enums	enumerations.linked_agent_archival_record_relators.app	誤訳	応募者	申請者	Applicant(MARC relator)は申請を行う者。応募者は求人等の語感で不適
+enums	enumerations.level_of_detail.fully_established	崩れ	完全レベル	完全確立	英語にないレベルが付き不自然。Fully established=確立済みの意

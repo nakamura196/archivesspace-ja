@@ -1,0 +1,24 @@
+部品	キー	問題の種類	新しい訳(抜粋40字)	直し案(全文)	理由
+enums	enumerations.metadata_license.public_domain	崩れ	このレコードはCC0 1.0 全世界 パブリック・ドメイン提供の下で提供されてい	このレコードは、クリエイティブ・コモンズ CC0 1.0 全世界 パブリック・ドメイン提供のもとで利用できます。	「提供」が重なる。Creative Commonsも落ちている
+enums	enumerations.rights_statement_external_document_identifier_type.viaf	誤訳	仮想国際機関ファイル番号	バーチャル国際典拠ファイル番号	Authority File は「典拠ファイル」。「機関」は誤り
+enums	enumerations.rights_statement_external_document_identifier_type.gnd	誤訳	共通標準ファイル（ライプチヒ、フランクフルト：ドイツ国立図書館）	共通典拠ファイル（GND）（ライプチヒ、フランクフルト：ドイツ国立図書館）	Normdatei は典拠ファイル。「標準ファイル」は誤り
+enums	enumerations.rights_statement_external_document_identifier_type.gettytgn	崩れ	Geographic Names OnlineのGetty Thesaurus（	ゲッティ地名シソーラス・オンライン（J・ポール・ゲッティ・トラスト）	語順が崩れ、英語が取り残されている
+enums	enumerations.rights_statement_external_document_identifier_type.gettyulan	崩れ	ユニオン・リストのアーティスト名オンライン（J.ポール・ゲッティ・トラスト）	ゲッティ芸術家名統合リスト・オンライン（J・ポール・ゲッティ・トラスト）	直訳で不自然。name_source.ulan の訳と不一致
+enums	enumerations.rights_statement_external_document_identifier_type.rbmsbt	崩れ	RBMS制御語彙：バインディング用語（レアブックと原稿セクション、大学図書館協会	RBMS統制語彙：装丁用語（ACRL稀覯書・手稿部会）	「制御」は統制の誤り。Rare Books and Manuscripts は稀覯書・手稿。同系の rbmspe 等と不統一
+enums	enumerations.rights_statement_external_document_identifier_type.rbmsgt	崩れ	RBMS制御語彙：ジャンル用語（レアブックと原稿部門、大学図書館協会）	RBMS統制語彙：ジャンル用語（ACRL稀覯書・手稿部会）	同上。部門/セクションの訳もぶれている
+enums	enumerations.rights_statement_external_document_identifier_type.rbmsppe	崩れ	RBMS制御語彙：印刷と出版の証拠（レアブックと原稿部、大学図書館協会）	RBMS統制語彙：印刷・出版の証拠（ACRL稀覯書・手稿部会）	同上
+enums	enumerations.rights_statement_external_document_identifier_type.rbmste	崩れ	RBMS制御語彙：種類エビデンス（レアブックと写本セクション、大学図書館協会）	RBMS統制語彙：活字の証拠（ACRL稀覯書・手稿部会）	Type Evidence は活字の証拠。「制御」は統制の誤り。他のRBMS項目と表記不統一
+enums	enumerations.rights_statement_external_document_identifier_type.bfi	表記	BFI  - イギリス映​​画協会	BFI - 英国映画協会	半角スペースが2つ、「映画」の間にゼロ幅文字が混入
+enums	enumerations.rights_statement_external_document_identifier_type.ibdb	表記	IBDB  - インターネットブロードウェイデータベース	IBDB - インターネット・ブロードウェイ・データベース	半角スペースが2つ
+enums	enumerations.rights_statement_external_document_identifier_type.imdb	表記	IMDb  - インターネット映画データベース	IMDb - インターネット・ムービー・データベース	半角スペースが2つ
+enums	enumerations.script_iso15924.Cirt	誤訳	キアス文字	キルス文字	Cirth（トールキンのルーン）の通用表記はキルス文字。「キアス」は根拠が見当たらない
+enums	enumerations.note_rights_statement_type.type_note	用語	種別注記	種類注記	Type=種類 の方針
+enums	enumerations.linked_agent_archival_record_relators.mod	表記	モデレータ	モデレーター	長音を付ける方針
+enums	enumerations.linked_agent_archival_record_relators.mrk	表記	マークアップエディタ	マークアップエディター	長音を付ける方針
+enums	enumerations.linked_agent_archival_record_relators.red	表記	エディタ	編集者	長音の方針。Redaktor は編集者（文書の編集に関わる人）
+enums	enumerations.linked_agent_archival_record_relators.prv	表記	プロバイダ	プロバイダー	長音を付ける方針
+enums	enumerations.linked_agent_archival_record_relators.rev	表記	レビューア	レビュアー	長音の方針。一般的な表記に合わせる
+frontend	actions.merge_from_browse_confirm_title	表記	選択したレコードをマージしますか?	選択したレコードをマージしますか？	全角文の中に半角の ? が混在。他の確認タイトルは全角
+frontend	actions.merge_agent_from_browse_confirm_message	表記	…選択された最初のエージェントに再リンクされます.	…選択された最初のエージェントに付け替えられます。	文末が半角ピリオド。「再リンク」も他の merge 文言（付け替え）と不統一
+frontend	actions.transfer_failed_digital_objects_linked_to_records	崩れ	「このデジタルオブジェクトは、このリポジトリに保持されている他のレコー…	このデジタルオブジェクトは、このリポジトリ内の他のレコードにリンクしています。転送を続けるには、次のレコードのリンクを削除してください。	英語に無い鉤括弧が付いている
+frontend	actions.delete_repository_confirm_message	欠落	…データベースから削除し<strong>ます</strong>。…	<p><strong>この操作を元に戻すことはできませんので</strong>ご注意ください。</p><p>この操作は、<strong>リポジトリ</strong>と関連するすべてのレコードを、他のレコードへの参照も含めてデータベースから削除します。</p><p>続行するには、下に '%{repository}' と入力してください：</p><p><input id='deleteRepoConfim' data-confirm-answer='%{repository}'></input></p>	strong タグが英語は2組なのに訳は3組（「ます」だけ太字になる）

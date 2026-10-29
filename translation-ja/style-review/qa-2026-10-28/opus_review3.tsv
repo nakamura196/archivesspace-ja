@@ -1,0 +1,19 @@
+部品	キー	問題の種類	直し案(全文)	理由(短く)
+frontend	archival_object._frontend.messages.created	崩れ	リソース <strong>%{resource_title}</strong> にアーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を作成しました	助詞が抜けてリソース名とオブジェクト名が直結している
+frontend	archival_object._frontend.messages.updated	崩れ	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を更新しました	「を」が抜けている（名前の直後に「更新されました」）
+frontend	archival_object._frontend.messages.updated_with_parent	崩れ	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を更新しました	「を」が抜けている
+frontend	archival_object._frontend.messages.deleted	崩れ	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を削除しました	「を」が抜けている
+frontend	actions.unpublish_confirm_message	崩れ	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層内のすべてのコンポーネントが非公開になります。</p>	「非公開されます」は文法的に不自然
+frontend	actions.unpublish_archival_object_confirm_message	崩れ	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層の下位すべてのコンポーネントが非公開になります。</p>	「非公開されます」は文法的に不自然
+frontend	location_batch._frontend.messages.ranges_info	崩れ	上記の<strong>基準となる所在</strong>に入力された座標フィールドは、以下の範囲で生成された値に置き換えられます。最大 %{max_range} 件の所在が作成されます。	「ベース所在」は 560 の「基準となる所在」と不一致、「最大N場所」は不自然、助詞がstrong内
+frontend	location_batch._frontend.messages.created	用語	<strong>%{number_created} 件の所在</strong>を作成しました	Location=所在（他の所在系メッセージと不一致）
+frontend	default_values.form_title.classification_term	用語	分類項目の既定値	Classification Term=分類項目
+frontend	preference._frontend.messages.reset	崩れ	設定をアプリケーションの既定値に戻しました	名詞止めで完了の通知になっていない・「プリファレンス」が 595 の「設定」と不一致
+frontend	location._frontend.messages.created	崩れ	所在を作成しました	「Location Created」は完了通知。「所在の作成」は操作名に読める
+frontend	name._frontend.action.make_primary	崩れ	主たる名前にする	「主にする」は「主として行う」と読めて意味が通らない
+frontend	actions.unsuppress_confirm_message	誤訳	非表示を解除すると、このレコードは再びユーザーに表示され、各機能で使用できるようになります。	英語の値は「false」（原文側の不具合と思われる）。文を補ったのが意図的なら可、要判断
+frontend	archival_object._frontend.messages.transfer_error	表記	エラーまたは競合のためアーカイバルオブジェクトを転送できません：<pre>%{exception}</pre>	<pre> 内の前後の空白がそのまま表示される（英語は空白なし）
+frontend	archival_object._frontend.messages.delete_conflict	表記	アーカイバルオブジェクトを削除できませんでした：<pre>%{error}</pre>	<pre> 内の前後の空白がそのまま表示される（英語は空白なし）
+frontend	actions.transfer_successful	用語	転送しました。索引の作り直しが終わるまで、転送先のリポジトリにレコードが表示されるのに少し時間がかかることがあります。	Transfer を他の行（257・473・491・584・587）はすべて「転送」、ここだけ「移管」
+frontend	default_values.form_title.event	用語	イベントレコードの既定値	Record は他の行ですべて「レコード」、ここだけ「記録」
+enums	enumerations.script_iso15924.Zinh	崩れ	継承文字用コード	inherited script（継承文字）のためのコード。「継承用文字コード」では意味が変わる

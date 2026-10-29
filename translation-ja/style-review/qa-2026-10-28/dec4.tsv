@@ -1,0 +1,119 @@
+番号	部品	キー	判定	最終訳	理由
+3	common	accession.user_mtime	直す	更新日時	日時の列。frontend の更新日時に揃える
+3	common	resource.user_mtime	直す	更新日時	日時の列。frontend の更新日時に揃える
+3	common	user_mtime	直す	更新日時	日時の列。frontend の更新日時に揃える
+5	frontend	search.accession.audit_info	直す	監査データ	他の17件に揃える
+9	common	enumeration.name	直す	名前	「名」単独は不自然。名前に揃える
+9	common	custom_report_template.name	直す	名前	同上
+9	frontend	search.agent.title	直す	名前	検索結果の列名。名前フォームは別語(Name Forms)
+11	public	metadata_rights_declaration.descriptive_note	直す	注記	frontend 側の注記に揃える
+12	frontend	agent_alternate_set.xlink_title_attribute	直す	Xlink Title 属性	Xlink 属性名の表記規則
+12	frontend	agent_conventions_declaration.xlink_title_attribute	直す	Xlink Title 属性	Xlink 属性名の表記規則
+12	frontend	agent_source.xlink_title_attribute	直す	Xlink Title 属性	Xlink 属性名の表記規則
+12	frontend	agent_resource.xlink_title_attribute	直す	Xlink Title 属性	Xlink 属性名の表記規則
+13	frontend	agent_alternate_set.xlink_role_attribute	直す	Xlink Role 属性	Xlink 属性名の表記規則
+13	frontend	agent_conventions_declaration.xlink_role_attribute	直す	Xlink Role 属性	Xlink 属性名の表記規則
+13	frontend	agent_source.xlink_role_attribute	直す	Xlink Role 属性	Xlink 属性名の表記規則
+13	frontend	agent_resource.xlink_role_attribute	直す	Xlink Role 属性	Xlink 属性名の表記規則
+14	frontend	agent_alternate_set.xlink_arcrole_attribute	直す	Xlink Arcrole 属性	Xlink 属性名の表記規則
+14	frontend	agent_conventions_declaration.xlink_arcrole_attribute	直す	Xlink Arcrole 属性	Xlink 属性名の表記規則
+14	frontend	agent_source.xlink_arcrole_attribute	直す	Xlink Arcrole 属性	Xlink 属性名の表記規則
+14	frontend	agent_resource.xlink_arcrole_attribute	直す	Xlink Arcrole 属性	Xlink 属性名の表記規則
+15	frontend	agent_alternate_set.file_version_xlink_actuate_attribute	直す	Xlink Actuate 属性	Xlink 属性名の表記規則
+15	frontend	agent_conventions_declaration.file_version_xlink_actuate_attribute	直す	Xlink Actuate 属性	Xlink 属性名の表記規則
+15	frontend	agent_source.file_version_xlink_actuate_attribute	直す	Xlink Actuate 属性	Xlink 属性名の表記規則
+15	frontend	agent_resource.file_version_xlink_actuate_attribute	直す	Xlink Actuate 属性	Xlink 属性名の表記規則
+16	common	assessment.records	直す	レコード	評価に紐づくシステム上のレコード
+17	frontend	search.subject.title	直す	用語	件名の Terms は用語（細目はエージェント側）
+18	common	agent_name._plural	直す	名前フォーム	多数派(名前フォーム16件)に揃える
+20	common	job.types.bulk_import_job	直す	スプレッドシートで読み込む	他の4件に揃える
+22	public	agent_person._singular	直す	個人	staff 側の個人に揃える
+23	frontend	search.accession.processing_priority	直す	整理の優先度	Processing=整理
+23	frontend	search.resource.processing_priority	直す	整理の優先度	Processing=整理
+23	frontend	search.collection_management.processing_priority	直す	整理の優先度	Processing=整理
+24	common	reports.headings.indicator	直す	番号	コンテナの Indicator は検索・一括更新で「番号」
+24	frontend	top_container.indicator	直す	番号	同上
+27	public	inherit.recordgrp	直す	記録群	Record Group は記録物のまとまり(アーカイブズ学の用語)でシステムの1件ではないため記録群に統一。plural/Term は同系の兄弟
+27	public	classification._singular	直す	記録群	Record Group は記録物のまとまり(アーカイブズ学の用語)でシステムの1件ではないため記録群に統一。plural/Term は同系の兄弟
+27	public	record_group._singular	直す	記録群	Record Group は記録物のまとまり(アーカイブズ学の用語)でシステムの1件ではないため記録群に統一。plural/Term は同系の兄弟
+27	public	classification._plural	直す	記録群	Record Group は記録物のまとまり(アーカイブズ学の用語)でシステムの1件ではないため記録群に統一。plural/Term は同系の兄弟
+27	public	record_group._plural	直す	記録群	Record Group は記録物のまとまり(アーカイブズ学の用語)でシステムの1件ではないため記録群に統一。plural/Term は同系の兄弟
+27	public	classification_term._singular	直す	記録群の項目	Record Group は記録物のまとまり(アーカイブズ学の用語)でシステムの1件ではないため記録群に統一。plural/Term は同系の兄弟
+27	public	classification_term._plural	直す	記録群の項目	Record Group は記録物のまとまり(アーカイブズ学の用語)でシステムの1件ではないため記録群に統一。plural/Term は同系の兄弟
+28	common	archival_object.has_unpublished_ancestor	直す	未公開の上位階層あり	他の2件に揃える
+29	frontend	search.assessment.assessment_records	直す	レコード	システム上の1件
+29	public	record._singular	直す	レコード	record._plural(レコード)に揃える
+32	common	agent_name.authority_id	直す	典拠ID	Authority ID=典拠ID
+32	frontend	search.agent.authority_id	直す	典拠ID	同上
+33	common	agent_record_identifiers.is_primary	直す	主	Primary は「主」に統一
+33	frontend	agent_record_identifier.primary	直す	主	同上
+34	public	agent_contact.city	直す	市区町村	staff 側に揃える
+35	enums	enumerations._note_types.abstract	直す	要約	注記の種類名を note.note_abstract に揃える
+36	common	note.note_general_context	直す	全般的背景	カタカナ語より訳語。enums に揃える
+36	public	agent_notes.note_general_context	直す	全般的背景	同上
+37	public	agent_notes.note_mandate	直す	権限の根拠	staff 側に揃える
+38	common	agent.agent_type.agent_corporate_entity	直す	団体	Corporate Entity=団体（_plural は同系の兄弟）
+38	common	agent_corporate_entity._singular	直す	団体	Corporate Entity=団体（_plural は同系の兄弟）
+38	common	agent_corporate_entity._plural	直す	団体	Corporate Entity=団体（_plural は同系の兄弟）
+40	enums	enumerations.container_location_status.previous	直す	以前	所在の状態（現在／以前）。「前」だけでは意味が取れない
+42	frontend	top_container.ils_holding_id	直す	ILS 所蔵ID	検索側に揃える
+43	common	owner_repo._plural	直す	予約先リポジトリ	Reserved For は予約先。予約済みは誤り
+44	common	function._frontend.action.add	直す	機能を追加	ボタンは「〜を追加」が多数
+44	frontend	agent_function._frontend.action.add	直す	機能を追加	同上
+46	common	event_linked_agent._singular	直す	エージェントリンク	linked_agent に揃える
+47	enums	enumerations.event_event_type.accumulation	直す	集積	同じイベント種類。common に揃える
+48	common	event.types.acknowledgement_sent	直す	受領通知の送付	enums に揃える
+49	common	event.types.agreement_received	直す	契約書の受領	enums に揃える
+50	common	event.types.agreement_sent	直す	契約書の送付	enums に揃える
+51	common	event.types.cataloged	直す	目録作成済み	送り仮名「み」まで
+51	enums	enumerations.event_event_type.cataloged	直す	目録作成済み	Cataloged は完了。common に揃える
+52	common	event.types.decompression	直す	解凍	enums に揃える
+53	common	event.types.fixity_check	直す	固定性検査	enums に揃える
+54	common	event.types.processed	直す	整理済み	Processed=整理済み
+54	enums	enumerations.event_event_type.processed	直す	整理済み	同上
+55	common	deaccession.scope	直す	全体/一部	値は whole/part。extent.portion に揃える
+56	common	agent_name._singular	直す	名前フォーム	G18 と同じく名前フォームに統一
+57	public	agent_contact.name	直す	担当者名	連絡先は誤り。staff 側に揃える
+58	public	agent_contact.salutation	直す	敬称	あいさつは誤訳
+59	common	note_attributes.persistent_id	直す	永続ID	public に揃える
+60	common	note.note_contact_note	直す	連絡先注記	enums に揃える
+63	frontend	structured_date_label_common_fields.date_era	直す	年代区分	date.era に揃える
+64	common	accession.provenance	直す	来歴	説明文が保管履歴・取得情報なので来歴。public に揃える
+65	common	accession_parts_relationship.has_part	直す	構成部分を持つ	enums に揃える
+66	public	agent_person._plural	直す	個人	staff 側に揃える
+68	common	subject.scope_note	直す	範囲注記	カタカナ語より訳語。public に揃える
+71	common	reports.parameters.to	直す	まで	「に」は誤訳。期間の終わり
+73	common	advanced_search.type.boolean	直す	ブール値	frontend に揃える
+74	common	formats._plural	直す	形式	frontend に揃える
+75	frontend	actions.remove	直す	削除	ボタンは「する」なしが多数(actions 184件中165件)
+76	frontend	job._frontend.actions.new	直す	新規バックグラウンドジョブ	common に揃える
+77	frontend	digital_object._frontend.action.create	直す	デジタルオブジェクトを作成	作成ボタンは「〜を作成」が多数
+79	frontend	location._frontend.action.create	直す	所在を作成	作成ボタンは「〜を作成」が多数
+80	frontend	agent._frontend.action.create	直す	エージェントを作成	作成ボタンは「〜を作成」が多数
+81	frontend	repository._frontend.action.create	直す	リポジトリを作成	作成ボタンは「〜を作成」が多数
+82	frontend	subject._frontend.action.create	直す	件名を作成	作成ボタンは「〜を作成」が多数
+83	frontend	classification._frontend.action.create	直す	分類を作成	作成ボタンは「〜を作成」が多数
+143	frontend	resource._frontend.action.create	直す	リソースを作成	作成ボタンは「〜を作成」が多数
+144	frontend	container_profile._frontend.action.create	直す	コンテナプロファイルを作成	作成ボタンは「〜を作成」が多数
+145	frontend	location_profile._frontend.action.create	直す	所在プロファイルを作成	作成ボタンは「〜を作成」が多数
+86	enums	enumeration_names.cataloging_source	直す	レコード管理：目録作成元	英語同一。frontend と同じ形に揃える
+86	frontend	agent_record_control.cataloging_source	直す	レコード管理：目録作成元	同上
+87	enums	enumeration_names.identifier_type	直す	レコード管理：識別子の種類	frontend に揃える
+88	frontend	agent_record_control.maintenance_status	直す	レコード管理：維持管理の状態	enums に揃える
+89	enums	enumeration_names.modified_record	直す	レコード管理：変更の種類	frontend に揃える
+90	enums	enumeration_names.name_type	直す	レコード管理：名前の種類	frontend に揃える
+91	enums	enumeration_names.publication_status	直す	レコード管理：公開状況	同じ英語。形を揃える
+91	frontend	agent_record_control.publication_status	直す	レコード管理：公開状況	同上
+92	enums	enumeration_names.reference_evaluation	直す	レコード管理：参照評価	同じ英語。形を揃える
+92	frontend	agent_record_control.reference_evaluation	直す	レコード管理：参照評価	Record=レコード
+93	frontend	agent_record_control.romanization	直す	ローマ字化	enums に揃える
+94	enums	enumerations.linked_agent_archival_record_relators.med	要判断	霊媒	MARC 関係コード med は降霊の媒介者の意味の可能性あり。原典の定義を確かめてから決める
+98	enums	enumerations.date_label.existence	直す	存続期間	日付ラベル。public に揃える
+99	enums	enumerations.date_label.usage	直す	使用期間	日付ラベル。public に揃える
+131	frontend	search.assessment.assessment_reviewers	直す	レビュアー	長音・relator 側に揃える
+133	enums	enumerations._note_types.userestrict	直す	利用条件	アクセス条件と対で利用条件
+136	frontend	actions.unsuppress_confirm_message	要判断	非表示を解除すると、このレコードは再びユーザーに表示され、各機能で使用できるようになります。	英語が "false" なのに長文の訳。英語側の誤りか確認
+139	frontend	archival_object._frontend.tree.new_record_title	直す	新規アーカイバルオブジェクト	new_title に揃える
+140	frontend	used_language._frontend.action.add	直す	言語を追加	ボタンは「〜を追加」が多数
+141	frontend	linked_agent._frontend.action.make_primary	直す	主たるエージェントにする	Primary=主。名前側の「主たる名前にする」に揃える
+146	public	login.password_aria_label	直す	ユーザーのパスワード	frontend に揃える

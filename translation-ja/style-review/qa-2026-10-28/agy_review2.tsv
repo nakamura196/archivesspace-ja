@@ -1,0 +1,25 @@
+部品	キー	問題の種類	直し案(全文)	理由(短く)
+common	bulk_import.error.extent_type	用語	数量の種類がありません	Extent=数量の方針に反し、「不足している〜」も不自然
+common	bulk_import.error.missing_instance_type	崩れ	コンテナインスタンスの種類がありません	機械翻訳調の「不足している〜」が残っている
+common	top_container_linker.error.tc_ind_ct_exists	表記	トップコンテナインジケーターとコンテナの種類のコンボ%{tc_type}%{indicator}は、リソース%{ead_id}のAOのデータベースにすでに存在します（行%{row_num}の%{ref_id}を参照）。	「インジケーター」に長音が必要
+common	metadata_rights_declaration.descriptive_note_tooltip	崩れ	<p>メタデータを使用および再利用できる条件に関する非構造化情報。例：</p>\n<p>i. Copyright Smith College, 1985</p>\n<p>ii. この検索手段は、あらゆる目的で複製することができます。</p>\n<p>iii. この作品はパブリックドメインに捧げられています。つまり、商業目的であっても、許可を求めることなく、作品をコピー、変更、配布、実行することができます。</p>\n<p>iv. 経歴注記の著作権は Ted Smith（2015年）にあります。他のすべてのメタデータは CC BY 4.0 でライセンスされています。</p>\n	「i。」等の句点化、biographical noteの「注記」欠落、「TedSmith、2015年にあります」の崩れ
+common	metadata_rights_declaration.file_uri_tooltip	表記	<p>ライセンスのオンライン上の場所のURI、またはメタデータを使用および再利用できる条件に関するその他の公開情報。例：https://creativecommons.org/licenses/by/4.0/</p>\n	URL内のコロンが全角「：」になっている
+enums	enumeration_names.accession_resource_type	用語	受入リソースの種類	Resource=リソースの方針に反する
+enums	enumeration_names.note_bibliography_type	用語	参考文献の注記の種類	Note=注記の方針に反し、「注参考文献」と崩れている
+enums	enumeration_names.note_index_item_type	欠落	索引項目の注記の種類	Note（注記）が訳出されていない
+enums	enumeration_names.note_index_type	欠落	インデックスの注記の種類	Note（注記）が訳出されていない
+enums	enumeration_names.note_multipart_type	欠落	マルチパートの注記の種類	Note（注記）が訳出されていない
+enums	enumeration_names.note_orderedlist_enumeration	欠落	順序付きリストの番号の種類（注記）	Note（注記）が訳出されていない
+enums	enumeration_names.note_rights_statement_act_type	用語	権利表明の行為の種類（注記）	Rights Statement=権利表明の方針に反する
+enums	enumeration_names.note_rights_statement_type	用語	注記の権利表明の種類	Rights Statement=権利表明の方針に反する
+enums	enumeration_names.note_singlepart_type	欠落	シングルパートの注記の種類	Note（注記）が訳出されていない
+enums	enumeration_names.rights_statement_act_restriction	用語	権利表明の行為の制限	Rights Statement=権利表明の方針に反する
+enums	enumeration_names.rights_statement_act_type	用語	権利表明の行為の種類	Rights Statement=権利表明の方針に反する
+enums	enumeration_names.rights_statement_external_document_identifier_type	用語	権利表明の外部文書識別子の種類	Rights Statement=権利表明の方針に反する
+enums	enumeration_names.rights_statement_rights_type	用語	権利表明の権利の種類	Rights Statement=権利表明の方針に反する
+enums	enumerations.language_iso639_2.him	欠落	ヒマーチャル諸語；西パハール諸語	後半の「Western Pahari languages」が脱落している
+enums	enumerations.language_iso639_2.zxx	欠落	言語的内容なし；該当なし	後半の「Not applicable」が脱落している
+enums	enumerations.name_rule.isaar	用語	団体・個人・家族に関するアーカイブズ典拠レコードの国際標準（ISAAR(CPF)）	Authority record=典拠レコードの方針に反する
+enums	enumerations.note_rights_statement_type.type_note	用語	種類の注記	Type=種類の方針に反する
+enums	enumerations.restriction_type.RestrictedCurApprSpecColl	用語	2 - リポジトリによる利用制限	Repository=リポジトリの方針に反する
+enums	enumerations.rights_statement_external_document_identifier_type.rbmste	誤訳	RBMS統制語彙：活字の証拠（ACRL稀覯書・手稿部会）	ここでのTypeは「活字」の意味であり、全体の機械翻訳も残っている

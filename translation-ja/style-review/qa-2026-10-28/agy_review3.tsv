@@ -1,0 +1,11 @@
+部品	キー	問題の種類	直し案(全文)	理由(短く)
+frontend	actions.unpublish_confirm_message	崩れ	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層内のすべてのコンポーネントが非公開になります。 </p>	「非公開されます」は文法的に不自然
+frontend	actions.unpublish_archival_object_confirm_message	崩れ	<p>このアクションを実行すると、このレコード、サブレコード（外部文書、注記など）および階層の下位すべてのコンポーネントが非公開になります。 </p>	「非公開されます」は文法的に不自然
+frontend	default_values.form_title.classification_term	用語	分類項目の既定値	Classification Term=分類項目
+frontend	archival_object._frontend.messages.created	崩れ	リソース <strong>%{resource_title}</strong> にアーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を作成しました	「リソース～」の後に助詞が欠落
+frontend	archival_object._frontend.messages.updated	崩れ	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を更新しました	目的語・主語の助詞（を／が）が欠落
+frontend	archival_object._frontend.messages.updated_with_parent	崩れ	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を更新しました	目的語・主語の助詞（を／が）が欠落
+frontend	archival_object._frontend.messages.deleted	崩れ	アーカイバルオブジェクト <strong>%{archival_object_display_string}</strong> を削除しました	目的語・主語の助詞（を／が）が欠落
+frontend	location_batch._frontend.messages.created	用語	<strong>%{number_created} 件の所在</strong>を作成しました	Location=所在（「場所」になっている）
+frontend	location_batch._frontend.messages.ranges_info	用語	上記の<strong>基準となる所在</strong>に入力された座標フィールドは、以下の範囲で生成された値に置き換えられます。最大 %{max_range} 件の所在が作成されます。	Location=所在（「最大%{max_range}場所」で用語違反・助数詞欠落、タグ内の助詞も不自然）
+frontend	preference._frontend.messages.reset	崩れ	設定をアプリケーションの既定値にリセットしました	完了通知文が直訳の体言止め（「～されたプリファレンス」）で不自然

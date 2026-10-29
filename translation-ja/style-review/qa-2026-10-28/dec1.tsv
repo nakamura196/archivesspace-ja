@@ -1,0 +1,61 @@
+番号	部品	キー	判定	最終訳	理由
+82	public	metadata_rights_declaration.descriptive_note	直す	記述注記	Descriptive の意味が落ちている
+83	enums	enumerations.script_iso15924.Cirt	直さない		指輪物語の邦訳でキアスが通用。誤指摘
+84	enums	enumerations.level_of_detail.fully_established	直さない		完全レベルは詳細度の訳として成立。好みの差
+85	frontend	rights_restriction.end_tooltip	直す	<p>期間を限った制限の場合の、アクセス制限の終了日。YYYY-MM-DD の形式の単一の日付にしてください。期限が切れると、コンテナとの関連付けは解除されます。精度の低い日付や期間を示すには、注記のテキストを使ってください。</p>\n	「時間制限の制限」の重複・容器→コンテナ
+86	frontend	rights_restriction.begin_tooltip	直す	<p>期間を限った制限の場合の、アクセス制限の開始日。YYYY-MM-DD の形式の単一の日付にしてください。期限が切れると、コンテナとの関連付けは解除されます。精度の低い日付や期間を示すには、注記のテキストを使ってください。</p>\n	容器→コンテナ・文を自然に
+87	frontend	space_calculator.count	直す	空きスペース（このコンテナの種類で）	括弧内が不自然で意味が取りにくい
+88	frontend	agent_record_control.name_type	直す	レコード管理：名前の種類	Record Control の訳を統一
+89	frontend	agent_record_control.modified_record	直す	レコード管理：変更の種類	Record Control の訳を統一（制御→管理）
+90	frontend	agent_maintenance_history.maintenance_event_type	直す	レコード管理：維持管理イベントの種類	Record Control・maintenance の訳を統一
+91	frontend	agent_maintenance_history.maintenance_agent_type	直す	レコード管理：維持管理エージェントの種類	Record Control・maintenance の訳を統一
+92	frontend	agent_record_identifier.identifier_type	直す	レコード管理：識別子の種類	Record Control の訳を統一
+93	frontend	job._frontend.messages.slug_generation	直す	このジョブは、手動で追加されたスラッグをまだ持たないすべての<b>リソース</b>、<b>アーカイバルオブジェクト</b>、<b>デジタルオブジェクト</b>、<b>デジタルオブジェクトコンポーネント</b>、<b>受入</b>、<b>分類</b>、<b>エージェント</b>、<b>件名</b>、<b>リポジトリ</b>のスラッグを生成します。<br /><br /><em>手動で追加されたスラッグは、各レコードの「スラッグを自動生成」にチェックを入れて置き換えを指定していない限り、変更されません。</em>	「自動生成ボックス」では何の生成か不明
+94	common	bulk_import.error.second_save_error	直す	「インスタンス」付きでアーカイバルオブジェクト %{title}（位置：%{pos}）を再保存しようとしてエラーが発生しました。アーカイバルオブジェクトは作成されていますが、関連するインスタンス（デジタルオブジェクト、トップコンテナ、件名など）にリンクされていない可能性があります [%{what}]	Top Container をトップコンテナに統一
+95	common	resource_duplicate_job.archival_object_failure_message	直す	ID %{resource_id} のリソースから ID %{archival_object_id} のアーカイバルオブジェクトを複製できませんでした。検証エラー %{message}。	アーカイブ オブジェクト→アーカイバルオブジェクト
+96	common	defaults.top_container_mgmt_browse_section	直す	トップコンテナ管理の一覧に表示する列	Top Container をトップコンテナに統一
+97	common	resource.finding_aid_script_tooltip	直す	<p>リソース記述から生成された検索手段で使われているすべての文字体系を示します。</p>\n	script は文字体系（ラベルと統一）
+98	common	repository.image_url_tooltip	直す	<p>リポジトリのオンライン検索手段で使用するブランド画像（ロゴや印章など）の、リモートURL、またはローカルファイルへのパス。この画像は、公開側のPDF、スタッフ側のPDF、およびリポジトリページに表示されます。</p>\n	「URLまたはパス」の並列を誤って結んでいる
+99	common	preference.global_message	直す	これらの値を編集して、システム全体のユーザー設定の既定値を設定します。これらの値は、リポジトリの既定値やユーザー自身の設定で上書きできます。	リポジトリー→リポジトリ・プリファレンス→設定
+100	common	name_family.family_type_tooltip	直す	<p>類似の名前の項目を区別するための修飾語として使う家族の種類。例：家族、王朝、王家。</p>\n	「ファミリ」が例の「家族」と不統一
+101	common	note_index_item.value_tooltip	直す	参考文献の各項目の内容。索引注記には最低1つ必要です。	インデックス→索引に統一（英語の bibliography は原文どおり）
+102	common	note_index_item.type_tooltip	直す	索引項目の種類。	インデックスエントリ→索引項目に統一
+103	common	accession.access_restrictions_note_tooltip	直す	<p>受入資料のうちどの資料へのアクセスが制限されているか、制限の根拠となる権限は何か、制限がいつまで有効かを示す記述。追加情報は、権利サブレコードに記録することもできます。</p>\n<p>DACS 4.1-4.3、ISAD(G) 3.4.1、3.4.4 を参照</p>\n<p>例：</p>\n<ul>\n<li>ボックス10の日記は、寄贈者により2030年まで制限されています。</li>\n</ul>\n	「声明」「サブ記録」が不自然・不統一
+104	frontend	location._frontend.messages.created	直す	所在を作成しました	完了通知なのに操作名に読める
+105	frontend	name._frontend.action.make_primary	直す	主たる名前にする	「主にする」では意味が通らない
+106	frontend	actions.unsuppress_confirm_message	直さない		要判断:英語の値が false のみ。訳文は補った文
+107	frontend	archival_object._frontend.messages.transfer_error	直す	エラーまたは競合のためアーカイバルオブジェクトを転送できません：<pre>%{exception}</pre>	<pre> 内の余分な空白が表示される
+108	frontend	archival_object._frontend.messages.delete_conflict	直す	アーカイバルオブジェクトを削除できませんでした：<pre>%{error}</pre>	<pre> 内の余分な空白が表示される
+109	frontend	actions.transfer_successful	直す	転送しました。索引の作り直しが終わるまで、転送先のリポジトリにレコードが表示されるのに少し時間がかかることがあります。	Transfer は他の行で「転送」。ここだけ移管
+110	frontend	default_values.form_title.event	直す	イベントレコードの既定値	Record は他でレコード
+111	enums	enumerations.script_iso15924.Zinh	直す	継承文字用コード	「継承用文字コード」では意味が変わる
+112	common	defaults.digital_object_spawn	直す	リンク元レコードの記述をデジタルオブジェクトのインスタンスに引き継ぐ	生成するのは記述でインスタンスではない
+113	enums	enumerations._note_types.accessrestrict	直す	アクセス条件	方針（accessrestrict=アクセス条件）。利用条件と混同
+114	enums	enumeration_names.agency_code_type	直す	レコード管理：機関コードの種類	Record Control が落ちている
+115	common	user_defined.enum_1	直す	統制値1	Controlled Value は統制値（方針）
+116	common	resource.finding_aid_title_tooltip	直す	<p>このリソースに関連する検索手段の（書誌的な）タイトル。</p>\n<p>例：</p>\n<ul>\n<li>Jason Twirly コレクション目録</li>\n<li>リース家文書目録</li>\n<li>Simon and Simon 建築事務所 図面・模型リスト</li>\n</ul>\n	Papers を論文、Register を登録と誤訳
+117	common	resource.finding_aid_filing_title_tooltip	直す	<p>検索手段の正式タイトルを修正したもの。検索手段タイトルの一覧の閲覧と並べ替えを助けるためのものです。</p>\n<p>例：</p>\n<ul>\n<li>ウェイン（ブルース M.）文書</li>\n<li>ルーニー家文書</li>\n<li>アメリカ共産党記録</li>\n</ul>\n	Papers を論文と誤訳・browsing を検索と誤訳
+118	common	defaults.sort_column_tooltip	直す	結果をソートするための既定のフィールド。	「既定値のフィールド」は意味が通らない
+119	common	assessment_attribute.rating.Physical Condition_tooltip	直す	<p>コレクション内の資料の全体的な状態を表すための1から5までの評価。特に懸念される資料や資料群は、保存修復の注記に示します。</p>	materials を材料と誤訳・注記名の不一致
+120	common	assessment_attribute.rating.Documentation Quality_values_tooltip	直す	<ul><li><b>評価1</b>：わずか</li><li><b>評価2</b>：付随的に有用</li><li><b>評価3</b>：やや豊富</li><li><b>評価4</b>：豊富</li><li><b>評価5</b>：非常に豊富</li></ul>	Slight を軽い、Rich をリッチと訳している
+121	public	footer.feedback_html	直す	<a id='aspaceFeedbackLink' href='%{feedback_url}' target='_blank'>ご意見・ご質問</a>	「問題の報告」は原文に無く questions が欠落
+122	common	agent_record_control.language_note_tooltip	直す	<p>注記の内容。エージェントの記述の作成に使用された言語と文字体系に関する詳細を示します。</p>\n	scripts=文字体系・preparation の訳を自然に
+123	common	structured_date_label.date_calendar_tooltip	直さない		画面の選択肢は訳語で出るので訳語で示してよい
+124	common	structured_date_single.date_role_tooltip	直さない		選択肢は「開始」と表示されるので一致。誤指摘
+125	common	file_version.file_format_name_tooltip	直す	<p>ファイル形式の名前。</p>\n<p>この統制値リストの値は変更することができます。</p>\n<p>例：</p>\n<ul>\n<li>オーディオ交換ファイル形式（aiff）</li>\n<li>オーディオ/ビデオインターリーブ形式（avi）</li>\n<li>JPEGファイル交換形式（jpeg）</li>\n<li>MPEG-Audioレイヤー3（mp3）</li>\n<li>ポータブルドキュメントフォーマット（pdf）</li>\n</ul>\n	長音（レイヤ→レイヤー）。英語名への戻しはしない
+126	common	extent.number	直す	数	数量の「数」であり番号ではない
+127	common	date.calendar_tooltip	直す	<p>グレゴリオ暦やユリウス暦などの時間計算システム。値「グレゴリオ暦」が既定です。</p>\n<p>EAD属性「calendar」とDACS 2.4.5を参照してください。</p>\n	グレゴリアン→選択肢の表示名グレゴリオ暦に
+128	common	agent.agent_places_tooltip	直す	エージェントに関連する場所の情報。</p><p>DACS 11.3、ISAAR (CPF) 5.2.3を参照	原文の </p><p> タグが欠落
+129	common	resource.ead_location_tooltip	直さない		要判断:英語 The location typically terminates の意味が不明
+130	common	resource.finding_aid_note_tooltip	直す	<p>他の検索手段データ要素では扱わない、検索手段（記述対象のリソースではない）に関する追加情報を記録するためのもの。</p>\n	資源→リソース（方針）
+131	common	term.term_type_tooltip	直さない		「指標」で長音の問題なし。誤指摘
+132	common	bulk_import.unfound_id	直す	%{type} ID %{id} が見つかりません。これはプレースホルダーです	長音（プレースホルダ→プレースホルダー）
+133	common	bulk_import.date_type_default	直さない		選択肢の表示名で示すのは可。意味も通る
+134	enums	enumeration_names.accession_resource_type	直す	受入リソースの種類	方針 Resource=リソース
+135	enums	enumeration_names.note_index_item_type	直す	索引注記の項目の種類	Note（注記）が落ちている
+136	enums	enumeration_names.note_index_type	直す	索引注記の種類	Note が落ちている・インデックス→索引に統一
+137	enums	enumeration_names.note_multipart_type	直す	マルチパート注記の種類	Note（注記）が落ちている
+138	enums	enumeration_names.note_orderedlist_enumeration	直す	注記の順序付きリストの番号の種類	Note（注記）が落ちている
+139	enums	enumeration_names.note_singlepart_type	直す	シングルパート注記の種類	Note（注記）が落ちている
+140	enums	enumerations.language_iso639_2.him	直す	ヒマーチャル諸語；西パハール諸語	後半 Western Pahari languages が欠落
+141	enums	enumerations.language_iso639_2.zxx	直す	言語的内容なし；該当なし	後半 Not applicable が欠落

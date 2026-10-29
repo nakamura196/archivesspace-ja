@@ -1,0 +1,105 @@
+番号	部品	キー	判定	最終訳	理由
+245	enums	enumeration_names.agent_relationship_temporal_relator	直す	エージェント関係の時間的関係	「関係者」は誤訳
+246	enums	enumeration_names.rights_statement_ip_status	直す	権利表明のIPステータス	Rights Statement=権利表明
+247	enums	enumeration_names.rights_statement_other_rights_basis	直す	権利表明のその他の権利の根拠	Rights Statement=権利表明・区切りなし
+248	common	agent.external_documents_tooltip	直す	<p>このエージェントに関する外部の文書（例えば、経歴ファイル、参考図書など）へのリンクを許可します。</p><p>DACS 14.1、ISAAR (CPF) 6.1を参照</p>	reference works の誤訳・段落が結合
+249	common	agent.agent_alternate_sets_tooltip	直す	<p>同じエンティティの2つ以上のレコードが2つ以上の典拠システムから派生した場合に、リンクされた典拠レコードを指すために使用されます。</p>	authority=典拠（権限は誤り）
+250	common	archival_object.component_id_tooltip	直す	<p>コンポーネントの部品について、リソース記述のコンテキスト内で一意のIDを表します。</p><p>例：</p><ul><li>シリーズI</li><li>サブシリーズ8</li><li>受入2005-M-078</li></ul>	Accession を「アクセシビリティ」と誤訳
+251	common	archival_object.container_summary_tooltip	直す	<p>リソース記述を構成するコンテナの数と種類を記録するため。これはテキストによる要約であり、数量サブレコードと同一ではありません。</p><p>DACS 2.5、ISAD(G) 3.1.5を参照</p><p>例：</p><ul><li>10個のレコードカートン、6個のアーカイブボックス、3個の特大のフォルダ。</li><li>12個の靴箱。</li><li>4個のアーカイブボックス、32本のチューブ。</li></ul>	Extent=数量・例の数が崩れ
+252	common	group.permission_types.manage_subject_record	直す	<b>件名</b>の作成/更新/削除 (システム全体)	Subject=件名
+253	common	resource.id_0_tooltip	直す	<p>必須フィールド。リポジトリ内の各個別リソースに割り当てられた識別番号。ISAD(g) 規則では、国際交換のためには国コード（ISO 3166 規格に準拠）、リポジトリコード、および特定のローカル参照コード、管理番号、またはその他の固有識別子が必要であると規定されています。国コードとリポジトリコードは、ここで追加することも、リポジトリレコード（「国」および「組織/機関コード」フィールド）に追加することもできます。</p><p>DACS 2.1、ISAD(G) 3.1.1を参照</p><p>例</p><ul><li>R.001（2つの要素「R」+「001」）</li><li>MSS 025（単一要素）</li><li>Archives.RSS.0333（3つの要素「Archives」+「RSS」+「0333」）</li><li>CA.OTY.F0453（3つの要素「CA」+「OTY」+「F0453」）</li></ul>	最後の例が欠落・英語に無い DACS 2.1.3
+254	common	resource.title_tooltip	直す	<p>必須フィールド。リソースに割り当てられたタイトル。</p><p>DACS 2.3、ISAD(G) 3.1.2を参照</p><p>例：</p><ul><li>Graciany Miranda Archilla papers</li><li>Love Makes a Family records</li><li>Cameron family account book</li><li>Caroline and Erwin Swann collection of caricatures and cartoons</li><li>National Academy of Sciences correspondence</li><li>Audio and video recordings</li></ul>	資料名の直訳が崩れ（原文のまま残す）
+255	common	resource.restrictions_tooltip	直す	<p>記載されている資料が何らかの形で制限されているかどうかを示します。制限の詳しい説明は、制限が生じているレコードの適切な注記または権利表明に記載してください。</p><p>DACS 4.1-4.4、ISAD(G) 3.4.1、3.4.2、3.4.4を参照</p>	Notes・Rights Statements が英語のまま
+256	common	revision_statement.publish_tooltip	直す	<p>この改訂ステートメントを公開画面（利用者向けの画面）に公開するかどうかを決定します。</p>	「パトラン」誤記
+257	common	repository.repo_code_tooltip	直す	<p>必須フィールド。リポジトリ名の略語または頭字語で、ユーザーインターフェイスに収まりやすいもの。</p><p>例：</p><ul><li>YNHSCL <em>（Your Name Here Special Collections Library の略）</em></li><li>MSCL <em>（Mandeville Special Collections Library の略）</em></li><li>Tamwag <em>（Tamiment Library and Robert F. Wagner Labor Archives の略）</em></li></ul>	機関名の直訳が崩れ・em の位置崩れ
+258	common	repository.name_tooltip	直す	<p>必須フィールド。アプリケーションの受入、リソース、およびデジタルオブジェクトの各モジュールで記述される資料について、管理責任を負い保管しているリポジトリの名前。</p><p>DACS 2.2を参照</p><p>例：</p><ul><li>Your Name Here Special Collections Library</li><li>Mandeville Special Collections Library</li><li>Tamiment Library and Robert F. Wagner Labor Archives</li></ul>	accession を「アクセス」と誤訳・例が崩れ・ISDIAH 追加
+259	common	repository.parent_institution_name_tooltip	直す	<p>リポジトリが属する親機関の名前。</p><p>例：</p><ul><li>University of Illinois <em>（University of Illinois Archives の場合）</em></li><li>New York University <em>（Tamiment Library and Robert F. Wagner Labor Archives の場合）</em></li></ul>	em の範囲が崩れている
+260	common	subject.authority_id	直す	典拠ID	Authority=典拠（他キーと統一）
+261	common	subject.source_tooltip	直す	<p>確立された用語の出典となる語彙。</p><p>この統制値リストの値は変更することができます。</p><p>例：</p><ul><li>Medical Subject Headings (mesh)</li><li>Library of Congress Subject Headings (lcsh)</li></ul>	件名標目名の直訳が崩れ・統制値リスト
+262	common	collection_management.processing_hours_per_foot_estimate_tooltip	直す	<p>リポジトリが、アーカイブ資料の1単位（例えば1リニアフィート、デジタルオブジェクトの場合は1点）の整理に必要と見積もった時間。見積もりには、検索手段、目録レコード、その他の利用のための成果物の作成を含める場合も含めない場合もあります。</p>	Finding Aid=検索手段・「線形の足」崩れ
+263	common	collection_management.processing_hours_total_tooltip	直す	<p>「単位あたり整理時間（見積）」に「整理済み総数量」を掛けた数値。見積もりの単位あたり時間に基づく値ではなく、実際の整理時間を反映するよう値を上書きすることもできます。</p>	extent を「総面積」と誤訳・意味が逆
+264	common	collection_management.processing_plan_tooltip	直す	<p>アーカイブユニットの処理計画を記録するため。計画には、アーカイブユニットの排列の概要と、アーカイブユニット内の特定のオブジェクトをどのように扱うかについての指示を含めることができます。また、リポジトリのスタッフごとに異なる担当を指定することもできます。</p><p>例：</p><ul><li>主題ファイルをアルファベット順に、プロジェクトファイルを時系列に排列する。</li><li>マーガレットの学生が記述レコードを作成する。</li><li>プロジェクトマネージャーが、エンコードした検索手段を確認し、出力し、読み込む。</li></ul>	Finding Aid=検索手段（検索支援は不可）
+265	common	enumeration.name_tooltip	直す	<p>値を追加したい統制値リストの名前。</p>	統制値リスト
+266	common	enumeration.value_tooltip	直す	<p>追加または編集する統制値リストの値。</p><p>可能な限り、値は小文字で、スペースの代わりにアンダースコア（_）を使用してください。値の翻訳は、ロケールファイルに追加する必要があります。</p>	統制値リスト
+267	common	validation_errors.must_contain_at_least_one_subnote	直す	少なくとも1つの下位注記を含む必要があります	Sub Note が英語のまま
+268	common	validation_errors.is_required_when__source__is_blank	直す	「ソース」が空白の場合は必須です	項目名が英語のまま
+269	common	validation_errors.is_required_when__rules__is_blank	直す	「規則」が空白の場合は必須です	項目名が英語のまま（説明文の「名前規則」に合わせた）
+270	common	validation_errors.is_required_if_there_is_an_authority_id	直す	「典拠ID」がある場合は必須です	項目名が英語のまま
+271	common	validation_errors.is_required_if_status_is_previous	直す	「状態」が「以前」の場合は必須です	英語のまま・ゼロ幅文字混入
+272	common	validation_errors.you_must_provide_a_label__title_or_date	直す	ラベル、タイトル、日付のいずれかを入力してください	機械翻訳調
+273	common	validation_errors.cannot_be_previous_if_location_is_not_temporary	直す	所在が一時的でない場合、以前の所在に移すことはできません。	location=所在・意味が不明
+274	common	import_job.import_type_marcxml	直す	MarcXML書誌（リソース）	Bibliographic が欠落
+275	common	import_job.import_type_marcxml_accession	直す	MarcXML書誌（受入）	Accession=受入・Bibliographic 欠落
+276	common	advanced_search.type.controlled_value	直す	統制値	controlled value=統制値
+277	common	rights_statement_act.restriction_tooltip	直す	<p>行為の条件または制限。</p><p>例：</p><ul><li>3回まで</li><li>アーカイブでの保存期間が1年経過した後にのみ許可</li><li>行為の完了後に権利者に通知しなければならない</li></ul>	Rightsholder を「権利行使」と誤訳
+278	common	assessment.monetary_value_note_tooltip	直さない		誤指摘。英語も同じ読みが可能
+279	common	assessment.surveyed_by_tooltip	直す	<p>必須フィールド：評価を行った人の名前。このフィールドは、ArchivesSpaceのユーザーレコードを持つユーザーに限定されます。</p>	長音（ユーザー）
+280	common	assessment.reviewer_tooltip	直す	<p>レビューを行う必要がある人を示します。このフィールドは、ArchivesSpaceのユーザーレコードを持つユーザーに限定されます。</p>	長音（ユーザー）
+281	common	assessment.surveyed_extent_tooltip	直す	<p>調査した資料の数量。立方フィートやリニアフィートなどの単位で記入します。</p>	extent=数量・「材料」「測量」崩れ
+282	common	assessment.research_value_tooltip	直す	<p>この値は、「ドキュメントの品質」フィールドの値と「関心度」フィールドの値を足して自動的に計算されます。</p>	ラベル（関心度）と不一致
+283	common	assessment_attribute.rating.Reformatting Readiness_tooltip	直す	<p>資料をどの程度容易に再フォーマットできるかを示す、1から5の評価。</p>	rating を「定格」と誤訳
+284	common	assessment_attribute.rating.Physical Access (arrangement)_tooltip	直す	<p>コレクションの複雑さと規模を考慮した、コレクションの物理的な排列に対する1〜5の評価。例えば、大まかに排列された小規模で比較的均質なコレクションは、大まかに排列された大規模で異質なコレクションよりも、一般に物理的に利用しやすく、評価にもその点が反映されます。（多くのコレクションではアイテム単位までの排列は望ましくない場合があり、評価4がそのコレクションにとって望ましい最高の評価となることもあります。）</p>	「収集」「大まかなオーダー」等で意味不通
+285	common	assessment_attribute.rating.Interest_tooltip	直す	<p>研究者、寄贈者、または地元の関心の高さを示す1から5の評価。「関心度」と「ドキュメントの品質」を合わせて「研究価値」のスコアになります。</p>	崩れ・ラベルと不一致
+286	common	assessment_attribute.rating.Documentation Quality_tooltip	直す	<p>コレクションで利用できる文書の豊富さと深さに対する1から5の評価。「関心度」と「ドキュメントの品質」を合わせて「研究価値」のスコアになります。</p>	崩れ・ラベルと不一致
+287	common	assessment_attribute.rating.Physical Condition_values_tooltip	直す	<ul><li><b>評価1</b>：悪い：コレクションの利用を困難にする著しい損傷・劣化。</li><li><b>評価2</b>：まあまあ：予想よりやや悪い劣化があり、さらに劣化する可能性がある。</li><li><b>評価3</b>：良好：予想どおりの劣化があり、さらに劣化する可能性がある。</li><li><b>評価4</b>：非常に良い：損傷はほとんどないが、資料の品質が混在しているため、さらに劣化する可能性がある。</li><li><b>評価5</b>：優秀：資料の品質が高いため、損傷はほとんどなく、これ以上の劣化も予想されない。</li></ul>	Fair=公平・collection=収集の誤訳、評価4の意味も違う
+288	common	assessment_attribute.rating.Reformatting Readiness_values_tooltip	直す	<ul><li><b>評価1</b>：資料の再フォーマットは極めて困難です。深刻な保存上の問題がある、極めて古い形式である、または再フォーマットを制限する知的財産上の懸念がある可能性があります。メタデータが欠けているか不完全な可能性があります。</li><li><b>評価2</b>：資料の再フォーマットは困難です。保存上の問題がある、古い形式である、または知的財産上の懸念がある可能性があります。メタデータが欠けているか不完全な可能性があります。</li><li><b>評価3</b>：資料の再フォーマットはある程度容易です。いくらかの保存上の問題がある、古い形式である、または知的財産上の懸念がわずかにある可能性があります。メタデータがあるか、容易に作成できます。</li><li><b>評価4</b>：資料の再フォーマットは比較的容易です。保存上の問題は軽微で、形式は完全には廃れておらず、知的財産上の懸念もわずかです。メタデータがあります。</li><li><b>評価5</b>：資料は問題なく再フォーマットできます。保存上の問題はなく、形式は新しく、知的財産上の懸念もありません。メタデータがあり、完全です。</li></ul>	評価3が同語反復で崩れ・表記不統一
+289	common	bulk_import.could_be	直す	%{what}が作成されます	文として不完全
+290	common	bulk_import.error.below_bad_ao	直す	エラーのあるアーカイブオブジェクトの子のため、処理できません	bad の直訳「悪い」
+291	common	bulk_import.error.res_ead	直す	このフォームのリソースにEAD IDがありません	form を「形式」と誤訳
+292	common	bulk_import.error.ead_mismatch	直す	フォームのEAD ID [%{res_ead}]が、行のEAD ID [%{row_ead}]と一致しません	差し込みの位置が誤り
+293	common	bulk_import.error.uri_mismatch	直す	入力リソースのURI [%{res_uri}]が、行のURI [%{row_uri}]と一致しません	助詞の誤り
+294	common	bulk_import.error.hier_wrong_resource	直す	アーカイブオブジェクトを選択した状態で処理を開始するつもりでしたか？	意味が通らない
+295	common	bulk_import.error.number	直す	数量の数値がありません	Extent=数量
+296	common	section_tooltips.linked_agents_tooltip	直す	<p>エージェントを、記述対象の資料の作成者・出所・主題として関連付け、その背景に関する情報を提供します。</p>	主語と目的語が重複し意味不通
+297	common	section_tooltips.instances_tooltip	直す	<p>記述を、資料の物理的な実体またはデジタルの実体に関する情報に関連付けます。</p>	「インスタンス化」等で意味不明瞭
+298	common	digital_object.title_tooltip	直す	<p>デジタルオブジェクトのタイトル表現。オブジェクトから転記されるか、ソースリソース/リソースコンポーネントレコードから継承されるか、またはリポジトリによって提供される可能性があります。</p><p>デジタルオブジェクト全体のタイトルは、デジタルオブジェクトレコードがリンクされているリソースまたはリソースコンポーネントレコードのタイトルと同じであってもよい。ただし、リンクされたリソースレコードで表示されているものと異なる場合があります。</p><p>例：</p><ul><li>祖父のスタンリー・エルキンス<em>（「家族の肖像」というタイトルのリソース・コンポーネント・レコードにリンクされている）</em></li><li>ニュー・アトランティックへの手紙<em>（「ニュー・アトランティックへの手紙」というタイトルのリソース・コンポーネント・レコードにリンクされている）</em></li><li>Cedar Fire <em>（「Cedar Fire」というタイトルのリソース・コンポーネント・レコードにリンクされている）</em></li></ul>	3番目の例の em が崩れ
+299	common	digital_object_component.label_tooltip	直す	<p>記述対象のデジタルオブジェクト内のパーツとその位置を記述するために使用される用語。トップレベルのデジタルオブジェクトレコードよりも、デジタルオブジェクトのコンポーネントで使われることが多い。</p><p>例：</p><ul><li>オーディオ：テープ1、トラック1、セクション1など</li><li>画像：画像1、写真1など</li><li>テキスト：1ページ、1葉、最初の葉、第1章、第1節など</li><li>ビデオ：テープ1、パート1、セクション1など</li></ul>	例が重複・First leaf 欠落
+300	common	linked_agent.relator_tooltip	直す	<p>特定の記述レコードにどのようにリンクされているか（例えば、作成者、ソース、またはサブジェクト）に示される機能に関して、エージェントがどのような役割を持つかの表示。たとえば、エージェントはレコードの作成者としてリンクされつつ、「イラストレーター」というより具体的な役割を持つことがあります。</p><p>DACS 14.3、ISAAR (CPF) 6.3、MARCリレーターコード一覧（https://www.loc.gov/marc/relators/）を参照してください。</p>	Code List for Relators を誤訳
+301	common	linked_agent.ref_tooltip	直す	<p>レコードに記述されている資料に関連するエージェント。</p><p>エージェントは、自動補完やブラウズ機能で検索できるほか、必要に応じてその場で作成することもできます。</p>	「使用して」が重なり意味不明瞭
+302	common	event.date_tooltip	直す	<p>イベントが発生した単一の日時、または日時の範囲。</p><p>単一の日時、または開始・終了の日時が不明な場合は、「日付式」フィールドに「不明」と入力します。</p>	同語反復で意味不通
+303	common	agent_name.authority_id_tooltip	直す	<p>取得元における、エージェントの名前形式の一意の識別子（MADSレコード識別子やEACレコード識別子など）。識別子はURIで表すこともできます。</p><p>例：</p><ul><li>nr92045078 <em>（LCNAF の名前見出しの場合）</em></li><li>500115393 <em>（ULAN の名前見出しの場合）</em></li><li>http://viaf.org/viaf/134138653 <em>（VIAF の名前見出しの場合）</em></li></ul>	語順崩れ・英語に無い DACS 追加
+304	common	agent_name.source_tooltip	直す	<p>名前規則が使用されていない場合は、条件付き必須フィールド。名前の由来となった信頼できるソースのインジケータ。</p><p>この統制値リストの値は変更できます。</p>	統制値リスト
+305	common	agent_name.rules_tooltip	直す	<p>名前ソースが使用されていない場合は、条件付き必須フィールド。名前の入力を定式化するために使用される規則の指示。</p><p>この統制値リストの値は変更できます。</p><p>DACS 13.3、ISAAR (CPF) 5.4.3を参照</p>	統制値リスト
+306	common	agent_name.prefix_tooltip	直す	<p>通常の用法で名前全体の前に置かれる、名前に関連する語。</p><p>例：</p><ul><li>夫人</li></ul>	文として成立していない
+307	common	agent_name.primary_name_tooltip	直す	<p>名前の形式の主要部分（例：人の姓）。</p><p>例：</p><ul><li>Churchill <em>（Churchill, Winston, Sir, 1874-1965 [人物] の場合）</em></li><li>Black Foot <em>（Black Foot, Chief, d. 1877 [人物] の場合）</em></li><li>International Business Machines <em>（International Business Machines. Microelectronics Division [団体] の場合）</em></li></ul>	em の範囲崩れ・直訳で意味不明
+308	common	agent_name.rest_of_name_tooltip	直す	<p>レコードで指定された人物の名（ファーストネーム）と、追加の名（ミドルネームなど）。</p><p>例：</p><ul><li>Winston <em>（Churchill, Winston, Sir, 1874-1965 の場合）</em></li><li>Humphrey <em>（Ward, Humphrey, Mrs., 1851-1920 の場合）</em></li></ul>	forename が英語のまま
+309	common	name_family.family_name_tooltip	直す	<p>家族の姓（名字）。通常は「家族」という語を添えます。</p>	「姓または姓」同語反復
+310	common	name_family.location_tooltip	直す	<p>類似の名前エントリを区別するための修飾子として使用される場所。例：Trigg County, Ky.（Cunningham (Family : 1795- : Trigg County, Ky.) の場合）、Canadian Embassy, Tokyo（Canada-Japan Twinning Conference (1991 : Canadian Embassy, Tokyo) の場合）</p>	「双子会議」誤訳（典拠形は原文のまま）
+311	common	name_corporate_entity.subordinate_name_2_tooltip	直す	<p>「プライマリ名」フィールドの団体に属し、「従属名1」フィールドの組織単位よりも下位にある組織単位。</p>	修飾関係が崩れ意味不通
+312	common	name_corporate_entity.conference_meeting_tooltip	直す	<p>エンティティが通常の団体であるか、会議・集会などの名称を持つ催しであるかを示します。</p>	「会議、会議」同語反復
+313	common	name_software.version_tooltip	直す	<p>特定のバージョンのソフトウェアパッケージのバージョン番号またはその他の識別表示。</p><p>例</p><ul><li>CS3 <em>（Adobe Photoshop CS3 の場合）</em></li><li>2.1.2 <em>（Library of Congress Bagger 2.1.2 の場合）</em></li></ul>	em の範囲崩れ
+314	common	name_software.manufacturer_tooltip	直す	<p>ソフトウェアパッケージの配布、開発、またはメンテナンスに関する製造元、作成者、またはその他の責任当事者。</p><p>例</p><ul><li>Adobe <em>（Adobe Photoshop CS3 の場合）</em></li><li>Library of Congress <em>（Library of Congress Bagger 2.1.2 の場合）</em></li></ul>	em の範囲崩れ
+315	common	agent_record_identifiers.source_tooltip	直す	<p>関連する識別子の発信元の典拠ファイルを示します。例：NAF（nr2003017069の場合）。この統制値リストの値は変更できます。</p>	統制値リスト・「変更される」は意味違い
+316	common	agent_alternate_set.last_verified_date_tooltip	直す	<p>関連付けられたURIでリンクされたリソースを最後に検証した日付または日時。</p>	「リンクされた」同語反復
+317	common	agent_conventions_declaration.last_verified_date_tooltip	直す	<p>関連付けられたURIでリンクされたリソースを最後に検証した日付または日時。</p>	「リンクされた」同語反復
+318	common	agent_sources.source_entry_tooltip	直す	<p>エージェントレコードの内容の作成に使用した情報源の書誌引用。例：Lockhart, G. W. On the trail of Robert Service (Edinburgh : Luath Press, 1991).</p>	書誌引用を部分訳して崩れ
+319	common	agent_sources.last_verified_date_tooltip	直す	<p>関連付けられたURIでリンクされたリソースを最後に検証した日付または日時。</p>	「リンクされた」同語反復
+320	common	agent_resource.last_verified_date_tooltip	直す	<p>関連付けられたURIでリンクされたリソースを最後に検証した日付または日時。</p>	「リンクされた」同語反復
+321	common	agent_gender.gender_tooltip	直す	<p>主題の性別。</p></br><p>このリストの値は、[システム]-> [統制値リストの管理]メニューから追加または変更できます。</p>	統制値リスト
+322	common	subrecord_subject_agent_topic.subjects_tooltip	直す	<p>エージェントに関連付けられている件名。</p>	Subject=件名
+323	common	agent_contact.name_tooltip	直す	<p>メインレコードのエンティティの連絡先担当者の名前。</p><p>リポジトリを表す団体エージェントでは、空欄の場合にアプリケーションが名前を自動生成します。</p>	2段落目が欠落
+324	common	agent_contact.salutation_tooltip	直す	<p>連絡担当者の敬称。</p><p>この統制値リストの値は変更できます。</p>	統制値リスト・「挨拶」誤訳
+325	common	note_index_item.reference_text_tooltip	直す	必要に応じて付ける、参照の説明。	「説明書」は誤り
+326	common	instance.instance_type_tooltip	直す	<p>記述対象の資料の形態（実体）の区分。インスタンスの指定は任意ですが、記述対象の資料のコンテナレコードを作成して完成させるには必要です。</p><p>この統制値リストの値は変更できます。</p>	manifestation を「表記」と誤訳・統制値リスト
+327	common	digital_object.publish_tooltip	直す	<p>このデジタルオブジェクトまたはコンポーネントを公開画面（利用者向けの画面）に公開するかどうかを決定します。</p>	patron を「パトロン」
+328	common	file_version.publish_tooltip	直す	<p>このファイルバージョンを公開画面（利用者向けの画面）に公開するかどうかを決定します。</p>	patron を「パトロン」
+329	common	external_document.publish_tooltip	直す	<p>この外部ドキュメントを公開画面（利用者向けの画面）に公開するかどうかを決定します。</p>	「パトラン」誤記
+330	common	file_version.use_statement_tooltip	直す	<p>デジタルファイルの使用目的を示す記述子（サムネイルなど）。</p><p>この統制値リストの値は変更できます。</p>	統制値リスト
+331	common	file_version.checksum_method_tooltip	直す	<p>チェックサムの生成に使用されるアルゴリズム。</p><p>この統制値リストの値は変更できます。</p><p>例：</p><ul><li>MD5</li><li>CRC-32</li><li>SHA-1</li><li>SHA-256</li></ul>	統制値リスト
+332	common	file_version.xlink_actuate_attribute_tooltip	直す	<p>デジタルオブジェクトをどのように表示するか（リンクが自動的に実行されるか、ユーザーが要求する必要があるかなど）を示す、エクスポートで使うXLink属性。これは、XLink Show属性と組み合わせて使用されます。</p>	ゼロ幅スペース混入・長音
+333	common	file_version.xlink_show_attribute_tooltip	直す	<p>リンク先をどのように表示するかを示す、エクスポートで使うXLink属性。これは、XLink Actuate属性と組み合わせて使用されます。</p>	link の target を誤訳・ゼロ幅スペース
+334	common	language_and_script.script_tooltip	直す	<p>記述対象の資料に用いられている文字体系の用語とコード。コードは ISO 15924（文字体系の名前を表すためのコード）によります。</p>\n<p>DACS 4.5、ISAD(G) 3.4.3を参照</p>\n	「スクリプト」は項目名（文字体系）と不統一
+335	common	agent_name.script_tooltip	直す	<p>名前の記録に使用される文字体系を示します。</p><p>DACS 13.7、ISAAR (CPF) 5.4.7を参照。例：キリル文字（Каспаров, Г. К. (Гарри Кимович) の場合）</p>	文字体系に統一・キリル文字の例が崩れ
+336	common	agent_record_control.script_tooltip	直す	<p>エージェントの記述の作成に使用される文字体系。</p><p>DACS 13.7、ISAAR (CPF) 5.4.7を参照。</p><p>例：ラテン文字。</p>	文字体系に統一・Latin はラテン文字
+337	common	used_language.script_tooltip	直す	<p>エージェントに関連付けられている文字体系。例：ラテン文字。</p>	文字体系に統一・Latin はラテン文字
+338	common	external_document.location_tooltip	直す	<p>ファイルの場所。理想的には解決可能なURI。</p><p>例：</p><ul><li>http://www.archivesspace.org/</li><li>file:///c:/path/to/the%20file.txt</li></ul>	URI が全角・空白入りで壊れている
+339	common	rights_statement.identifier_tooltip	直す	<p>リポジトリ内の権利表明を一意に識別します。権利表明の識別子は通常、アプリケーションによって自動生成されます。</p>	Rights Statement=権利表明
+340	common	rights_statement.determination_date_tooltip	直す	<p>著作権：「著作権の状況」に記録された著作権の状況が判断された日付。</p><p>法令：その法令が、記載された許可を認めていると判断した日付。</p>	同語反復で意味不通
+341	common	rights_statement.start_date_tooltip	直す	<p>権利表明の効力が生じた日付。</p>	「権利行使」と誤訳
+342	common	rights_statement.end_date_tooltip	直す	<p>権利表明の効力が終わる日付。</p>	Rights Statement=権利表明
+343	common	rights_statement._plural	直す	権利表明	Rights Statement=権利表明
+344	common	accession.provenance_tooltip	直す	<p>保管の履歴、詳細な入手情報など、受入の出所に関する情報を提供する注記。</p><p>DACS 5.1-5.2、ISAD(G) 3.2.3-3.2.4を参照</p>	provenance を「アクセス」と誤訳
+345	common	accession.language_tooltip	直す	<p>受入の記述から生成されたレコードに含まれるすべての言語を示します。</p>\n	Accession=受入
+346	common	accession.use_restrictions_note_tooltip	直す	<p>どの資料に利用制限があるか、資料をどのように利用できるか、制限の根拠は何か、制限がいつまで有効かを示す記述。追加情報は、権利サブレコードにも記録できます。</p><p>DACS 4.4、ISAD(G) 3.4.2を参照</p><p>例：</p><p>ボックス33の手稿は壊れやすいため、代わりに複写を使用してください。</p>	「材料」「サブ記録」・authority の誤訳
+347	common	accession_parts_relationship._singular	直す	「一部」関係	語順が崩れ
+348	common	accession_parts_relationship.part	直す	「一部」関係	語順が崩れ

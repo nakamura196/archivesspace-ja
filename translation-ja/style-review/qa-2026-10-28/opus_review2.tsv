@@ -1,0 +1,18 @@
+部品	キー	問題の種類	直し案(全文)	理由(短く)
+common	defaults.digital_object_spawn	誤訳	リンク元レコードの記述をデジタルオブジェクトのインスタンスに引き継ぐ	生成するのは記述であってインスタンスではない
+enums	enumerations._note_types.accessrestrict	誤訳	アクセス条件	Access と Use(利用規則)の区別が消える
+common	bulk_import.error.extent_type	用語	数量の種類がありません	Extent=数量・語順も不自然
+common	bulk_import.error.missing_instance_type	崩れ	コンテナインスタンスの種類がありません	直訳調で不自然・他の Missing と不統一
+enums	enumeration_names.agency_code_type	欠落	レコード管理：機関コードの種類	Record Control が落ちている(他3件は付いている)
+enums	enumeration_names.note_bibliography_type	用語	参考文献注記の種類	Note=注記
+enums	enumeration_names.note_rights_statement_act_type	用語	権利表明の行為の種類（注記）	Rights Statement=権利表明
+enums	enumeration_names.note_rights_statement_type	用語	注記の権利表明の種類	Rights Statement=権利表明
+enums	enumeration_names.rights_statement_act_restriction	用語	権利表明の行為の制限	Rights Statement=権利表明
+enums	enumeration_names.rights_statement_act_type	用語	権利表明の行為の種類	Rights Statement=権利表明
+enums	enumeration_names.rights_statement_external_document_identifier_type	用語	権利表明の外部文書識別子の種類	Rights Statement=権利表明・「文書」の反復
+enums	enumeration_names.rights_statement_rights_type	用語	権利表明の権利の種類	Rights Statement=権利表明
+enums	enumerations.name_rule.isaar	用語	団体・個人・家族に関するアーカイブズ典拠レコードの国際標準（ISAAR(CPF)）	Authority record=典拠レコード
+enums	enumerations.note_rights_statement_type.type_note	用語	種類の注記	Type=種類
+enums	enumerations.restriction_type.RestrictedCurApprSpecColl	用語	2 - リポジトリによる利用制限	Repository=リポジトリ
+enums	enumerations.rights_statement_external_document_identifier_type.rbmste	崩れ	RBMS統制語彙：種類の証拠（ACRL稀覯書・手稿部会）	制御語彙・機関名が隣接3件と不統一で直訳調
+enums	enumerations.metadata_license.public_domain	崩れ	このレコードはCC0 1.0 全世界 パブリック・ドメイン提供により公開されています。	「提供の下で提供」の同語反復
