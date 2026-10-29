@@ -18,3 +18,6 @@ ja:
       NOT: 次を含まない
   japanese:
     alert_close: 閉じる
+  # 件名のページの見出し。本体は t('subject_term_type') を呼ぶが、どの言語にも鍵が無い。
+  # 選択肢の名前（enumeration_names.subject_term_type）の訳に合わせる。
+  subject_term_type: 件名の種類
