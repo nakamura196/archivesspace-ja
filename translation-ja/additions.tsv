@@ -18,7 +18,7 @@ common/locales/ja.yml	linked_record.linker_ref.create	Create Record		レコー�
 common/locales/ja.yml	linked_record.linker_ref.link_title	Link to record		レコードにリンク	missing	
 common/locales/ja.yml	event.new_title	New Event		新規イベント	missing	
 common/locales/ja.yml	linked_event.new_title	New Event		新規イベント	missing	
-common/locales/ja.yml	agent_resource.file_uri_tooltip	<p>A URI for the online location of the source used in the preparation of the Agent description. Example: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (for Find-A-Grave entry for Robert W. Service).</p>\n	<p>エージェント記述の準備に使用されたソースのオンラインロケーションのURI。例：http：//www.findagrave.com/cgi-bin/fg.cgi？page = gr＆GRid = 8373（Robert W. ServiceのFind-A-Graveエントリの場合）。</p>	<p>エージェントの記述を作成する際に使った情報源の、オンライン上の所在を示す URI。例：http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373（Find-A-Grave の Robert W. Service の項目）。</p>	missing	
+common/locales/ja.yml	agent_resource.file_uri_tooltip	<p>A URI for the online location of the source used in the preparation of the Agent description. Example: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (for Find-A-Grave entry for Robert W. Service).</p>\n	<p>エージェント記述の準備に使用されたソースのオンラインロケーションのURI。例：http：//www.findagrave.com/cgi-bin/fg.cgi？page = gr＆GRid = 8373（Robert W. ServiceのFind-A-Graveエントリの場合）。</p>	<p>エージェントの記述を作成する際に使った情報源の、オンライン上の場所を示す URI。例：http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373（Find-A-Grave の Robert W. Service の項目）。</p>	missing	
 common/locales/ja.yml	accession.new_title	New Accession		新規受入	missing	
 common/locales/ja.yml	accession.linker.browse	Browse Accessions		受入を参照	missing	
 common/locales/ja.yml	accession.linker.create	Create Accession		受入を作成	missing	

@@ -412,7 +412,7 @@ ja:
     relator_tooltip: 一般的な関係の種類が向きを持つ対（親子など）の場合に、関係の向きを示す制御語。
     specific_relator: 特定の関係の種類
   agent_resource:
-    file_uri_tooltip: <p>エージェントの記述を作成する際に使った情報源の、オンライン上の所在を示す URI。例：http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373（Find-A-Grave の Robert W. Service の項目）。</p>
+    file_uri_tooltip: <p>エージェントの記述を作成する際に使った情報源の、オンライン上の場所を示す URI。例：http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373（Find-A-Grave の Robert W. Service の項目）。</p>
     last_verified_date_tooltip: <p>関連付けられたURIでリンクされたリソースを最後に検証した日付または日時。</p>
     linked_agent_role_tooltip: <p>必須フィールド：リソースに記述されているエンティティの関係の種類。</p><p>DACS 14.3、ISAAR (CPF) 6.3を参照</p>
     linked_resource_description_tooltip: <p>書誌情報や関連するコレクションの情報などを記録する自由記述欄。</p>
