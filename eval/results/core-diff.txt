@@ -1,0 +1,37 @@
+# 2026-10-28 に eval_core_unchanged.zsh で作った記録。公開にあたり (1') から、本稿と関係のない別のサイト用の外観のプラグイン 1 行を除いた
+# (1) 配布物と作業ツリーの違い（diff -rq。プラグインの中身・控え・backups を除く）
+Files archivesspace/.env and archivesspace/.env differ
+Files archivesspace/config/config.rb and archivesspace/config/config.rb differ
+Only in archivesspace: docker-compose.override.yml
+Files archivesspace/docker-compose.yml and archivesspace/docker-compose.yml differ
+Files archivesspace/proxy-config/default.conf and archivesspace/proxy-config/default.conf differ
+
+# (1') 加えたプラグイン（plugins/ の直下で配布物に無いもの）
+Only in archivesspace/plugins: iiif_manifest
+Only in archivesspace/plugins: ja_theme
+Only in archivesspace/plugins: japanese
+
+# (2) コンテナ archivesspace がイメージから変えたファイル（docker diff。/tmp と実行時のキャッシュを除く）
+image: archivesspace/archivesspace:4.2.1 sha256:f46223c4e3fe5f32384779b0796f777b83db3ce878f76c727adf5aa96d88f4de
+C /home
+C /home/ubuntu
+C /srv
+A /srv/dip
+
+# (3) Solr のスキーマ（イメージ archivesspace/solr:4.2.1 の元のものと、動いているコアのもの）
+--- schema.orig.xml	2026-10-28 13:02:09
++++ schema.now.xml	2026-10-28 13:02:09
+@@ -200,7 +200,9 @@
+       <analyzer type="query">
+         <tokenizer class="solr.StandardTokenizerFactory" />
+         <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
+-        <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true" />
++        <!-- japanese プラグイン: 旧字・異体字の言い換え。REST API（/schema/analysis/synonyms/ja_itaiji）で更新し、コアを読み直すと効く。
++             元の synonyms.txt は空だったので置き換えた（同義語グラフのフィルタは重ねられない）。 -->
++        <filter class="solr.ManagedSynonymGraphFilterFactory" managed="ja_itaiji" />
+         <filter class="solr.LowerCaseFilterFactory" />
+         <filter class="solr.ASCIIFoldingFilterFactory" />
+       </analyzer>
+
+# 判定: 本体のプログラム（/archivesspace/ の下で、マウントしていない場所）の変更
+changed_program_files: 0

@@ -1,0 +1,35 @@
+# 設定 (d) の Solr のスキーマの変更（2026-10-29）
+# 元: イメージ archivesspace/solr:4.2.1 の configsets/archivesspace/conf/schema.xml
+# 後: archivesspace-ja の scripts/solr-bigram.zsh setup と同じ処理（text_general の定義を solr/bigram-text_general.xml に置き換え）を元に当てたもの
+# ほかに conf/ へ itaiji-mapping.txt（366 行）を足す。text_general を使う欄は 21。本体のプログラムには触れない
+
+--- schema.orig.xml
++++ schema.d.xml
+@@ -190,19 +190,25 @@
+       </analyzer>
+     </fieldType>
+     <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
++      <!-- 旧字を今の字に置き換え（索引・検索の両方）、全角半角をそろえ、漢字・かなを 2 字ずつに切る。索引には 1 字単位も入れ、1 字の検索語も見つかるようにする（論文の設定 (d)） -->
+       <analyzer type="index">
+-        <tokenizer class="solr.StandardTokenizerFactory" />
+         <charFilter class="solr.HTMLStripCharFilterFactory" />
++        <charFilter class="solr.MappingCharFilterFactory" mapping="itaiji-mapping.txt" />
++        <tokenizer class="solr.StandardTokenizerFactory" />
++        <filter class="solr.CJKWidthFilterFactory" />
+         <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
+         <filter class="solr.LowerCaseFilterFactory" />
+         <filter class="solr.ASCIIFoldingFilterFactory" />
++        <filter class="solr.CJKBigramFilterFactory" outputUnigrams="true" />
+       </analyzer>
+       <analyzer type="query">
++        <charFilter class="solr.MappingCharFilterFactory" mapping="itaiji-mapping.txt" />
+         <tokenizer class="solr.StandardTokenizerFactory" />
++        <filter class="solr.CJKWidthFilterFactory" />
+         <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
+-        <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true" />
+         <filter class="solr.LowerCaseFilterFactory" />
+         <filter class="solr.ASCIIFoldingFilterFactory" />
++        <filter class="solr.CJKBigramFilterFactory" />
+       </analyzer>
+     </fieldType>
+     <fieldType name="sort_icu" class="solr.ICUCollationField" locale="" strength="primary" numeric="true" />

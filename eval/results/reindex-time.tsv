@@ -1,3 +1,4 @@
-setting	core	docs	sent	seconds	index_bytes
-default	eval_full_default	102532	102532	22.8	131589187
-bigram	eval_full_bigram	102532	102532	31.4	134820421
+setting	core	docs	sent	seconds	index_bytes	machine	docker_cpus	docker_mem_gb	solr
+default	eval_full_default	102532	102532	22.4	131390918	Apple M4 Max	16	15.6	9.9.0
+bigram	eval_full_bigram	102532	102532	25.3	135795040	Apple M4 Max	16	15.6	9.9.0
+bigram-uni	eval_full_bigram_uni	102532	102532	27.9	191150983	Apple M4 Max	16	15.6	9.9.0

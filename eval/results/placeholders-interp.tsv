@@ -1,0 +1,23 @@
+OK	accession._frontend.messages.spawned			このアクセッションはAccession <strong><accession_display_string></strong>から生成されました<strong><accession_display_string></strong>
+OK	archival_object._frontend.messages.created_with_parent			リソース<strong><resource_title></strong>上の<strong><parent_display_string></strong>子として作成されたアーカイブオブジェクト<strong><archival_object_display_string></strong> <strong><resource_title></strong>
+OK	archival_object._frontend.messages.published	archival_object.title	archival_object_title	アーカイブオブジェクト<strong>%{archival_object.title}</strong> 、そのサブレコードとコンポーネントが公開されました
+OK	archival_object._frontend.messages.suppressed	archival_object.title	archival_object_title	アーカイブオブジェクト<strong>%{archival_object.title}</strong>され<strong>%{archival_object.title}</strong>
+OK	archival_object._frontend.messages.transfer_success			アーカイブオブジェクト<strong><archival_object_display_string></strong>をリソース<strong><resource_title></strong>転送しました<strong><resource_title></strong>
+OK	archival_object._frontend.messages.unpublished	archival_object.title	archival_object_title	アーカイブオブジェクト<strong>%{archival_object.title}</strong> 、そのサブレコードとコンポーネントが非公開されました
+OK	archival_object._frontend.messages.unsuppressed	archival_object.title	archival_object_title	アーカイブオブジェクト<strong>%{archival_object.title}</strong>抑制されていません
+OK	assessment._frontend.messages.attributes_hint			<attribute_type>を追加するには管理者に連絡してください<attribute_type>
+OK	bulk_import.error.no_container_instance		number	コンテナインスタンスを作成できません：[<why>]
+OK	bulk_import.error.validation_error		err	：<what>検証できません
+OK	classification_term._frontend.messages.created	classification_term.title	classification_term_title	分類用語<strong>%{classification_term.title}</strong>作成されました
+OK	classification_term._frontend.messages.created_with_parent	classification_term.title	classification_term_title	分類用語<strong>%{classification_term.title}</strong>作成されました
+OK	classification_term._frontend.messages.deleted	classification_term.title	classification_term_title	分類用語<strong>%{classification_term.title}</strong>削除されました
+OK	classification_term._frontend.messages.updated	classification_term.title	classification_term_title	分類用語<strong>%{classification_term.title}</strong>更新されました
+OK	classification_term._frontend.messages.updated_with_parent	classification_term.title	classification_term_title	分類用語<strong>%{classification_term.title}</strong>更新されました
+OK	contains			<count> <type>含みます<type>
+OK	digital_object_component._frontend.messages.created			デジタルオブジェクト<strong><digital_object_component_display_string></strong>作成されたデジタルオブジェクトコンポーネント<strong><digital_object_component_display_string></strong> <strong><digital_object_title></strong>
+OK	digital_object_component._frontend.messages.created_with_parent	parent.display_string	parent_display_string	デジタルオブジェクト<strong><digital_object_component_display_string></strong>の<strong>%{parent.display_string}</strong>子として作成されたデジタルオブジェクトコンポーネント<strong><digital_object_title></strong>
+OK	digital_object._frontend.messages.suppressed			デジタルオブジェクト<strong><digital_object_title></strong>され<strong><digital_object_title></strong>
+OK	login.login_expired_link		link	サインインしてください。
+OK	resource_duplicate_job.archival_object_failure_message	メッセージ	message	ID <resource_id> のリソースから ID <archival_object_id> のアーカイブ オブジェクトを複製できませんでした。 検証エラー %{メッセージ}。
+OK	resource._frontend.messages.spawned			アクセシビリティ<strong><accession_display_string></strong>から新しいリソースが生成されました<strong><accession_display_string></strong>
+OK	top_container._frontend.messages.max_results_limit_details			<strong><num_found></strong>一致する結果の<strong><visible></strong>を<strong><visible></strong>ます

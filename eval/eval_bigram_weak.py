@@ -26,7 +26,7 @@ import eval_search as ev
 
 OUT = ev.OUT
 REPO = "/repositories/999"
-CORES = {"default": "eval_default", "itaiji": "eval_itaiji", "bigram": "eval_bigram"}
+CORES = {"default": "eval_default", "itaiji": "eval_itaiji", "bigram": "eval_bigram", "bigram-uni": "eval_bigram_uni"}
 
 # 1 字の検索語と、その字を含む題名（続いている字の中にあるもの、1 字で立っているもの、旧字で書いたもの）
 SINGLE = {

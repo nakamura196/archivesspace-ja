@@ -1,0 +1,10 @@
+run	setting	core	docs	sent	seconds	index_bytes	machine	docker_cpus	docker_mem_gb	solr
+1	default	eval_full_default	102532	102532	22.4	131335942	Apple M4 Max	16	15.6	9.9.0
+1	bigram	eval_full_bigram	102532	102532	25.4	134641893	Apple M4 Max	16	15.6	9.9.0
+1	bigram-uni	eval_full_bigram_uni	102532	102532	27.2	173063677	Apple M4 Max	16	15.6	9.9.0
+2	default	eval_full_default	102532	102532	22.2	131160458	Apple M4 Max	16	15.6	9.9.0
+2	bigram	eval_full_bigram	102532	102532	25.3	134552520	Apple M4 Max	16	15.6	9.9.0
+2	bigram-uni	eval_full_bigram_uni	102532	102532	27.2	171499902	Apple M4 Max	16	15.6	9.9.0
+3	default	eval_full_default	102532	102532	22.4	131390918	Apple M4 Max	16	15.6	9.9.0
+3	bigram	eval_full_bigram	102532	102532	25.3	135795040	Apple M4 Max	16	15.6	9.9.0
+3	bigram-uni	eval_full_bigram_uni	102532	102532	27.9	191150983	Apple M4 Max	16	15.6	9.9.0

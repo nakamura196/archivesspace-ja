@@ -3,3 +3,6 @@
 __pycache__/
 .env
 .env.*
+
+# 国立公文書館の目録の取得先（eval/naj_fetch.py）と、取り込みで弾かれた記録
+data/

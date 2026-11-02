@@ -35,3 +35,15 @@ bigram	日本史	scatter3	2	4	2	1.0	0.5	W0038 W0039
 bigram	中学校	scatter3	2	4	2	1.0	0.5	W0042 W0043	
 bigram	大学院	scatter3	2	4	2	1.0	0.5	W0046 W0047	
 bigram	京都大学	scatter3	2	4	2	1.0	0.5	W0050 W0051	
+bigram-uni	写	single	7	7	7	1.0	1.0		
+bigram-uni	図	single	5	5	5	1.0	1.0		
+bigram-uni	橋	single	4	4	4	1.0	1.0		
+bigram-uni	寺	single	4	4	4	1.0	1.0		
+bigram-uni	駅	single	5	5	5	1.0	1.0		
+bigram-uni	港	single	4	4	4	1.0	1.0		
+bigram-uni	北海道	scatter3	2	4	2	1.0	0.5	W0030 W0031	
+bigram-uni	東京都	scatter3	2	4	2	1.0	0.5	W0034 W0035	
+bigram-uni	日本史	scatter3	2	4	2	1.0	0.5	W0038 W0039	
+bigram-uni	中学校	scatter3	2	4	2	1.0	0.5	W0042 W0043	
+bigram-uni	大学院	scatter3	2	4	2	1.0	0.5	W0046 W0047	
+bigram-uni	京都大学	scatter3	2	4	2	1.0	0.5	W0050 W0051	

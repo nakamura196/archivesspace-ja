@@ -2,9 +2,11 @@
 
 画面ごとに、英語の訳ファイルにあるキーを母数として数える:
   - 日本語のキーが無いもの（画面には英語がそのまま出る）
-  - 差し込み部分 %{…} の名前が英語と食い違うもの（Rails が例外を出し、画面が表示できなくなる）
+  - 差し込み部分 %{…} の名前が英語と食い違うもの。うち、英語に無い名前が日本語にあるもの
+    （Rails が例外を出し、画面が表示できなくなる）と、名前が抜けているだけのもの（値が表示から抜ける）を分ける
   - 点検で見つけた誤り（ja-fixes-all.tsv）のうち、修正案どおりの訳になったもの
-プラグインありは、上流の日本語にプラグインの ja*.yml を後から重ねたもの（ArchivesSpace が読み込む順と同じく、後のものが勝つ）。
+プラグインありは、上流の日本語にプラグインの ja*.yml を後から重ねたもの。重ねる順は config.rb の
+AppConfig[:plugins] の順（local, iiif_manifest, japanese, ja_theme）で、後のものが勝つ。
 
 使い方: python3 eval/eval_l10n.py   → 表を出し、eval/results/l10n.tsv に書く
 """
@@ -51,11 +53,13 @@ def strings(lang, slugs):
     return m
 
 
+# config.rb の AppConfig[:plugins] の順。本稿の拡張に要る 4 つだけを重ねる
+PLUGINS = ["local", "iiif_manifest", "japanese", "ja_theme"]
+
+
 def plugin_strings(screen):
     m = {}
-    for f in sorted(PLUG.glob(f"*/{screen}/locales/*.yml")):
-        if f.parent.parent.parent.name not in ("local", "japanese", "ja_theme", "iiif_manifest"):
-            continue
+    for f in [f for name in PLUGINS for f in sorted((PLUG / name / screen / "locales").glob("*.yml"))]:
         d = load(f) or {}
         if "ja" in d:
             m.update(flat(d["ja"]))
@@ -66,8 +70,9 @@ def unquote(v):
     """値全体が " で囲まれ、中の " がすべて "" に二重化されている場合だけ、CSV の引用符を外す（build_overrides.py と同じ）。"""
     v = v.strip()
     if len(v) >= 2 and v[0] == '"' and v[-1] == '"' and '"' not in v[1:-1].replace('""', ""):
-        return v[1:-1].replace('""', '"')
-    return v
+        v = v[1:-1].replace('""', '"')
+    # TSV では改行を \\n の 2 文字で書いている（build_overrides.py と同じく改行に戻す）
+    return v.replace("\\n", "\n")
 
 
 def is_text(v):
@@ -78,10 +83,11 @@ def measure(screen, en, ja, fixes):
     keys = [k for k, v in en.items() if is_text(v)]
     missing = [k for k in keys if not is_text(ja.get(k))]
     ph = [k for k in keys if is_text(ja.get(k)) and sorted(PH.findall(en[k])) != sorted(PH.findall(ja[k]))]
+    ph_extra = [k for k in ph if set(PH.findall(ja[k])) - set(PH.findall(en[k]))]
     fx = [r for r in fixes if r["key"] in en]
     applied = [r for r in fx if ja.get(r["key"]) == r["fix"]]
     high = [r for r in fx if r["weight"] == "高"]
-    return {"screen": screen, "keys": len(keys), "missing": len(missing), "placeholder": len(ph),
+    return {"screen": screen, "keys": len(keys), "missing": len(missing), "placeholder": len(ph), "placeholder_extra": len(ph_extra),
             "fixes": len(fx), "fixes_applied": len(applied), "high": len(high),
             "high_applied": sum(1 for r in high if ja.get(r["key"]) == r["fix"])}
 
@@ -109,7 +115,7 @@ def main():
         w.writeheader()
         w.writerows(out)
     for r in out:
-        print("\t".join(str(r[k]) for k in ["state", "screen", "keys", "missing", "placeholder",
+        print("\t".join(str(r[k]) for k in ["state", "screen", "keys", "missing", "placeholder", "placeholder_extra",
                                              "fixes", "fixes_applied", "high", "high_applied"]))
 
 

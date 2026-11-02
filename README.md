@@ -26,7 +26,7 @@ No changes to the ArchivesSpace core code are needed.
 | `scripts/solr-bigram.zsh` | Solr を文字バイグラムの設定に替える |
 | `scripts/make_itaiji_mapping.py` | 対応表から文字バイグラム用の置き換え表を作る |
 | `eval/` | 論文の評価の道具と結果（`eval/README.md`） |
-| `translation-ja/` | 同梱の日本語訳の点検結果と、それを作る道具（修正案は AI の下訳を人が確かめたもの） |
+| `translation-ja/` | 同梱の日本語訳の点検結果と、それを作る道具（修正案の作成と採否の判定は生成 AI が行った。下の「作成」を参照） |
 | `config/config.rb.example` | `config.rb` に足す行の例 |
 
 ## 導入
@@ -58,7 +58,7 @@ zsh <このリポジトリ>/scripts/solr-bigram.zsh setup
 
 そのあと、公式の手順（https://docs.archivesspace.org/administration/indexes/ ）で全件の索引を作り直す。
 ArchivesSpace を止め、`data/indexer_state/` と `data/indexer_pui_state/` を消し、Solr の文書をすべて消してから、再起動する。
-索引には 1 字単位も入れるので、1 字の検索語も見つかる。索引の大きさは約 1.3 倍になる（論文の測定）。
+索引には 1 字単位も入れるので、1 字の検索語も見つかる。索引の大きさは 1.2〜1.3 倍になる（論文の測定）。
 
 ## ライセンス
 
@@ -69,3 +69,6 @@ Educational Community License 2.0（ArchivesSpace と同じ。`LICENSE`）。
 ## 作成
 
 中村 覚（東京大学）、金 甫榮（人間文化研究機構）
+
+訳の点検と修正案の作成には生成 AI（Claude Code。再点検では Gemini も）を、評価の道具とプラグインのコードの作成には Claude Code を用いた。
+著者は用語の方針と判断の割れた訳を決めたが、修正案の全件は読み直していない。

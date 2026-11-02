@@ -6,9 +6,10 @@
 検索の条件は ArchivesSpace が Solr に送るもの（2026-10-28 に Solr の記録から写した）と同じにする。
 
 使い方（このリポジトリの直下で。Solr のコンテナ名は solr とする）:
-  python3 eval/eval_bigram_core.py setup         # コア eval_itaiji（今の設定の写し）と eval_bigram を作り、資料を入れる
+  python3 eval/eval_bigram_core.py setup         # コア eval_itaiji（今の設定の写し）と eval_bigram、eval_bigram_uni を作り、資料を入れる
   python3 eval/eval_bigram_core.py run itaiji-core eval_itaiji   # 本体経由の results-itaiji.tsv と一致するか確かめる用
   python3 eval/eval_bigram_core.py run bigram eval_bigram
+  python3 eval/eval_bigram_core.py run bigram-uni eval_bigram_uni   # (d) 1 字単位の索引を併用
   python3 eval/eval_bigram_core.py drop          # 評価用のコアを消す
 """
 
@@ -68,6 +69,11 @@ def http(url, body=None):
         req.add_header("Content-Type", "application/json")
     with urllib.request.urlopen(req) as r:
         return json.loads(r.read())
+
+# (d) 文字バイグラムに 1 字単位の索引を併せる。索引にだけ 1 字も入れ、検索語は (c) と同じく 2 字ずつに切る
+# （前後に漢字・かなの続かない 1 字の検索語は 1 字のまま残るので、索引の 1 字と照合される）
+BIGRAM_UNI_TYPE = BIGRAM_TYPE.replace('<filter class="solr.CJKBigramFilterFactory" />',
+                                      '<filter class="solr.CJKBigramFilterFactory" outputUnigrams="true" />', 1)
 
 
 def write_mapping():
@@ -129,8 +135,10 @@ def setup():
     bigram = original[:start] + BIGRAM_TYPE + original[end:]
     make_core("eval_itaiji", current, {"_schema_analysis_synonyms_ja_itaiji.json": managed})
     make_core("eval_bigram", bigram, {"itaiji-mapping.txt": MAPPING.read_text(encoding="utf-8")})
+    bigram_uni = original[:start] + BIGRAM_UNI_TYPE + original[end:]
+    make_core("eval_bigram_uni", bigram_uni, {"itaiji-mapping.txt": MAPPING.read_text(encoding="utf-8")})
     docs = source_docs()
-    for core in ("eval_itaiji", "eval_bigram"):
+    for core in ("eval_itaiji", "eval_bigram", "eval_bigram_uni"):
         t0 = time.perf_counter()
         http(f"{SOLR}/{core}/update?commit=true", json.dumps(docs).encode())
         print(f"{core}: {len(docs)} 件を入れた（{time.perf_counter() - t0:.1f} 秒）")
@@ -152,7 +160,7 @@ def run(setting, core):
 
 
 def drop():
-    for core in ("eval_itaiji", "eval_bigram"):
+    for core in ("eval_itaiji", "eval_bigram", "eval_bigram_uni"):
         q = urllib.parse.urlencode({"action": "UNLOAD", "core": core, "deleteInstanceDir": "true", "wt": "json"})
         http(f"{SOLR}/admin/cores?{q}")
         print("dropped", core)

@@ -1,16 +1,18 @@
 """論文 5.3 節: 全件の索引を文字バイグラムの設定で作り直すと、Solr の側でどれだけ時間がかかるかを測る。
 
 本番のコア（archivesspace）は他の作業でも使っているので作り直さない。読み出すだけにする。
-本番のコアに保存されている全件を書き出し、評価用のコアを 2 つ作って入れ直し、時間を比べる。
+本番のコアに保存されている全件を書き出し、評価用のコアを 3 つ作って入れ直し、時間を比べる。
   - eval_full_default: 既定の設定（同義語を入れる前の schema.xml.bak-itaiji）
   - eval_full_bigram : 5.3 節の設定（eval_bigram_core.py と同じ text_general）
+  - eval_full_bigram_uni: (d) 5.3 節の設定に、索引側だけ 1 字単位の索引を併せたもの（eval_bigram_core.py の BIGRAM_UNI_TYPE）
+各行に測った環境（機械・Docker に割り当てた CPU とメモリ・Solr の版）を書く。
 保存されていない欄（fullrecord など）は、保存されている記録（json 欄）の中の文字列をつないで作る（eval_bigram_core.py と同じ）。
 ArchivesSpace の索引作成処理（データベースから記録を組み立てる部分）の時間は含まない。測るのは Solr の解析と書き込みだけ。
 
 使い方（このリポジトリの直下で）:
   python3 eval/eval_reindex_time.py export <出力.jsonl>   # 本番のコアから全件を書き出す（読み出しのみ）
-  python3 eval/eval_reindex_time.py run <出力.jsonl>      # 2 つのコアを作って入れ直し、時間を測る → eval/results/reindex-time.tsv
-  python3 eval/eval_reindex_time.py drop                  # 2 つのコアを消す
+  python3 eval/eval_reindex_time.py run <出力.jsonl>      # 3 つのコアを作って入れ直し、時間を測る → eval/results/reindex-time.tsv
+  python3 eval/eval_reindex_time.py drop                  # 3 つのコアを消す
 """
 
 import csv
@@ -22,7 +24,7 @@ import urllib.parse
 import eval_bigram_core as core
 import eval_search as ev
 
-CORES = {"default": "eval_full_default", "bigram": "eval_full_bigram"}
+CORES = {"default": "eval_full_default", "bigram": "eval_full_bigram", "bigram-uni": "eval_full_bigram_uni"}
 BATCH = 2000
 
 
@@ -51,12 +53,23 @@ def schemas():
     end = original.index("</fieldType>", start) + len("</fieldType>\n")
     mapping = core.MAPPING.read_text(encoding="utf-8")
     return {"default": (original, {}),
-            "bigram": (original[:start] + core.BIGRAM_TYPE + original[end:], {"itaiji-mapping.txt": mapping})}
+            "bigram": (original[:start] + core.BIGRAM_TYPE + original[end:], {"itaiji-mapping.txt": mapping}),
+            "bigram-uni": (original[:start] + core.BIGRAM_UNI_TYPE + original[end:], {"itaiji-mapping.txt": mapping})}
+
+
+def environment():
+    """測った環境。機械の型番、Docker に割り当てた CPU とメモリ、Solr の版。"""
+    model = core.sh("sysctl", "-n", "machdep.cpu.brand_string").strip()
+    info = json.loads(core.sh("docker", "info", "--format", "{{json .}}"))
+    solr = core.http(f"{core.SOLR}/admin/info/system?wt=json")["lucene"]["solr-spec-version"]
+    return {"machine": model, "docker_cpus": info["NCPU"], "docker_mem_gb": round(info["MemTotal"] / 2**30, 1),
+            "solr": solr}
 
 
 def run(path):
     names = [c["name"] for c in core.http(f"{core.SOLR}/admin/cores?action=STATUS&wt=json")["status"].values()]
     rows = []
+    env = environment()
     for setting, (schema, extra) in schemas().items():
         c = CORES[setting]
         if c not in names:
@@ -78,7 +91,7 @@ def run(path):
         sec = time.perf_counter() - t0
         st = core.http(f"{core.SOLR}/admin/cores?action=STATUS&core={c}&wt=json")["status"][c]["index"]
         rows.append({"setting": setting, "core": c, "docs": st["numDocs"], "sent": n, "seconds": round(sec, 1),
-                     "index_bytes": st["sizeInBytes"]})
+                     "index_bytes": st["sizeInBytes"], **env})
         print(rows[-1])
     with open(ev.OUT / "reindex-time.tsv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]), delimiter="\t", lineterminator="\n")
