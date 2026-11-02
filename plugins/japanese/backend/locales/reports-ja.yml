@@ -172,3 +172,13 @@ ja:
       end_standardized_type: 終了日の標準化の種類
       select: 選択
       back: 戻る
+    # 本体の reports/users/user_groups_report/ja.yml は最上位が「jp:」の誤りで読まれない。ここで ja として足す。
+    user_groups_report:
+      title: ユーザーグループレポート
+      description: ユーザーと、リポジトリへのアクセス権のグループを表示します。
+      name: 名前
+      department: 部門
+      user_title: 肩書き
+      groups: グループ
+      email: Eメール
+      telephone: 電話

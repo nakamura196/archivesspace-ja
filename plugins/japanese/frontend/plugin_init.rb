@@ -2,6 +2,11 @@
 # ひな形（erb）と違い、helper はプラグインで丸ごと差し替えられないので、出力の英語部分だけを後から置き換える。
 #  - ヘルプ欄の読み上げ用の「Visit the …」
 #  - 作成者・最終更新者の行の「URI:」と語順
+#
+# レポートの項目名の訳（backend/locales/reports-ja.yml）は、スタッフ画面の「新しいジョブ → レポート」の
+# 入力欄（「選択」やレポート名）でも使われる。backend だけに読ませると、この画面で translation missing になる。
+I18n.load_path += [File.join(File.dirname(__FILE__), '..', 'backend', 'locales', 'reports-ja.yml')]
+
 Rails.application.config.to_prepare do
   module JapaneseHelperPatch
     def link_to_help(opts = {})
